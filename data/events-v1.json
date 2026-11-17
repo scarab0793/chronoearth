@@ -3080,6 +3080,368 @@
       "month": 7,
       "day": 20,
       "datePrecision": "day"
+    },
+    {
+      "y": -2600,
+      "lat": 30.2,
+      "lng": 31.2,
+      "region": "Afrika",
+      "title": "Old Kingdom of Egypt",
+      "desc": "Egypt's Old Kingdom developed a highly centralized monarchy and monumental pyramid-building traditions.",
+      "src": "https://www.britannica.com/place/ancient-Egypt/The-Old-Kingdom-c-2575-c-2130-bce",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Old Kingdom of Egypt",
+          "desc": "Egypt's Old Kingdom developed a highly centralized monarchy and monumental pyramid-building traditions."
+        },
+        "hu": {
+          "title": "Az egyiptomi Óbirodalom",
+          "desc": "Az egyiptomi Óbirodalomban megerősödött a központosított királyság, és kibontakozott a monumentális piramisépítés."
+        },
+        "de": {
+          "title": "Old Kingdom of Egypt",
+          "desc": "Egypt's Old Kingdom developed a highly centralized monarchy and monumental pyramid-building traditions."
+        },
+        "es": {
+          "title": "Old Kingdom of Egypt",
+          "desc": "Egypt's Old Kingdom developed a highly centralized monarchy and monumental pyramid-building traditions."
+        },
+        "fr": {
+          "title": "Old Kingdom of Egypt",
+          "desc": "Egypt's Old Kingdom developed a highly centralized monarchy and monumental pyramid-building traditions."
+        },
+        "it": {
+          "title": "Old Kingdom of Egypt",
+          "desc": "Egypt's Old Kingdom developed a highly centralized monarchy and monumental pyramid-building traditions."
+        },
+        "pl": {
+          "title": "Old Kingdom of Egypt",
+          "desc": "Egypt's Old Kingdom developed a highly centralized monarchy and monumental pyramid-building traditions."
+        }
+      }
+    },
+    {
+      "y": -1200,
+      "lat": 15.6,
+      "lng": 32.5,
+      "region": "Afrika",
+      "title": "Rise of the Kingdom of Kush",
+      "desc": "The Nile region south of Egypt saw the development of Kushite political power; the dating represents a broad historical process.",
+      "src": "https://www.britannica.com/place/Kush-ancient-kingdom-Africa",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Rise of the Kingdom of Kush",
+          "desc": "The Nile region south of Egypt saw the development of Kushite political power; the dating represents a broad historical process."
+        },
+        "hu": {
+          "title": "A Kúsita Királyság felemelkedése",
+          "desc": "Egyiptomtól délre, a Nílus mentén fokozatosan kialakult a kusita politikai hatalom. A dátum egy hosszabb történelmi folyamatot jelöl."
+        },
+        "de": {
+          "title": "Rise of the Kingdom of Kush",
+          "desc": "The Nile region south of Egypt saw the development of Kushite political power; the dating represents a broad historical process."
+        },
+        "es": {
+          "title": "Rise of the Kingdom of Kush",
+          "desc": "The Nile region south of Egypt saw the development of Kushite political power; the dating represents a broad historical process."
+        },
+        "fr": {
+          "title": "Rise of the Kingdom of Kush",
+          "desc": "The Nile region south of Egypt saw the development of Kushite political power; the dating represents a broad historical process."
+        },
+        "it": {
+          "title": "Rise of the Kingdom of Kush",
+          "desc": "The Nile region south of Egypt saw the development of Kushite political power; the dating represents a broad historical process."
+        },
+        "pl": {
+          "title": "Rise of the Kingdom of Kush",
+          "desc": "The Nile region south of Egypt saw the development of Kushite political power; the dating represents a broad historical process."
+        }
+      }
+    },
+    {
+      "y": -221,
+      "lat": 34.26,
+      "lng": 108.95,
+      "region": "Ázsia",
+      "title": "Qin unification of China",
+      "desc": "Qin Shi Huang completed the conquest of rival states and established China's first unified imperial dynasty.",
+      "src": "https://www.britannica.com/topic/Qin-dynasty",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Qin unification of China",
+          "desc": "Qin Shi Huang completed the conquest of rival states and established China's first unified imperial dynasty."
+        },
+        "hu": {
+          "title": "Kína egyesítése a Csin-dinasztia alatt",
+          "desc": "Csin Si Huang-ti legyőzte a rivális államokat, és létrehozta Kína első egységes császári dinasztiáját."
+        },
+        "de": {
+          "title": "Qin unification of China",
+          "desc": "Qin Shi Huang completed the conquest of rival states and established China's first unified imperial dynasty."
+        },
+        "es": {
+          "title": "Qin unification of China",
+          "desc": "Qin Shi Huang completed the conquest of rival states and established China's first unified imperial dynasty."
+        },
+        "fr": {
+          "title": "Qin unification of China",
+          "desc": "Qin Shi Huang completed the conquest of rival states and established China's first unified imperial dynasty."
+        },
+        "it": {
+          "title": "Qin unification of China",
+          "desc": "Qin Shi Huang completed the conquest of rival states and established China's first unified imperial dynasty."
+        },
+        "pl": {
+          "title": "Qin unification of China",
+          "desc": "Qin Shi Huang completed the conquest of rival states and established China's first unified imperial dynasty."
+        }
+      }
+    },
+    {
+      "y": 618,
+      "lat": 34.27,
+      "lng": 108.95,
+      "region": "Ázsia",
+      "title": "Founding of the Tang dynasty",
+      "desc": "Li Yuan founded the Tang dynasty, which went on to preside over a major period of Chinese cultural and political influence.",
+      "src": "https://www.britannica.com/topic/Tang-dynasty",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Founding of the Tang dynasty",
+          "desc": "Li Yuan founded the Tang dynasty, which went on to preside over a major period of Chinese cultural and political influence."
+        },
+        "hu": {
+          "title": "A Tang-dinasztia megalapítása",
+          "desc": "Li Jüan megalapította a Tang-dinasztiát, amely később Kína politikai és kulturális történetének meghatározó korszakát hozta el."
+        },
+        "de": {
+          "title": "Founding of the Tang dynasty",
+          "desc": "Li Yuan founded the Tang dynasty, which went on to preside over a major period of Chinese cultural and political influence."
+        },
+        "es": {
+          "title": "Founding of the Tang dynasty",
+          "desc": "Li Yuan founded the Tang dynasty, which went on to preside over a major period of Chinese cultural and political influence."
+        },
+        "fr": {
+          "title": "Founding of the Tang dynasty",
+          "desc": "Li Yuan founded the Tang dynasty, which went on to preside over a major period of Chinese cultural and political influence."
+        },
+        "it": {
+          "title": "Founding of the Tang dynasty",
+          "desc": "Li Yuan founded the Tang dynasty, which went on to preside over a major period of Chinese cultural and political influence."
+        },
+        "pl": {
+          "title": "Founding of the Tang dynasty",
+          "desc": "Li Yuan founded the Tang dynasty, which went on to preside over a major period of Chinese cultural and political influence."
+        }
+      }
+    },
+    {
+      "y": 1235,
+      "lat": 12.65,
+      "lng": -8,
+      "region": "Afrika",
+      "title": "Emergence of the Mali Empire",
+      "desc": "The Mali Empire expanded in West Africa in the thirteenth century; accounts associate its founding with Sundiata Keita.",
+      "src": "https://www.britannica.com/place/Mali-historical-empire-Africa",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Emergence of the Mali Empire",
+          "desc": "The Mali Empire expanded in West Africa in the thirteenth century; accounts associate its founding with Sundiata Keita."
+        },
+        "hu": {
+          "title": "A Mali Birodalom kialakulása",
+          "desc": "A Mali Birodalom a 13. században erősödött meg Nyugat-Afrikában; alapítását a hagyomány Szundjata Keitához köti."
+        },
+        "de": {
+          "title": "Emergence of the Mali Empire",
+          "desc": "The Mali Empire expanded in West Africa in the thirteenth century; accounts associate its founding with Sundiata Keita."
+        },
+        "es": {
+          "title": "Emergence of the Mali Empire",
+          "desc": "The Mali Empire expanded in West Africa in the thirteenth century; accounts associate its founding with Sundiata Keita."
+        },
+        "fr": {
+          "title": "Emergence of the Mali Empire",
+          "desc": "The Mali Empire expanded in West Africa in the thirteenth century; accounts associate its founding with Sundiata Keita."
+        },
+        "it": {
+          "title": "Emergence of the Mali Empire",
+          "desc": "The Mali Empire expanded in West Africa in the thirteenth century; accounts associate its founding with Sundiata Keita."
+        },
+        "pl": {
+          "title": "Emergence of the Mali Empire",
+          "desc": "The Mali Empire expanded in West Africa in the thirteenth century; accounts associate its founding with Sundiata Keita."
+        }
+      }
+    },
+    {
+      "y": 1325,
+      "lat": 19.43,
+      "lng": -99.13,
+      "region": "Amerika",
+      "title": "Traditional founding of Tenochtitlan",
+      "desc": "Aztec tradition dates the founding of Tenochtitlan to 1325; the city became the center of the Mexica state.",
+      "src": "https://www.britannica.com/place/Tenochtitlan",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Traditional founding of Tenochtitlan",
+          "desc": "Aztec tradition dates the founding of Tenochtitlan to 1325; the city became the center of the Mexica state."
+        },
+        "hu": {
+          "title": "Tenochtitlan hagyományos alapítása",
+          "desc": "Az azték hagyomány Tenochtitlan alapítását 1325-re teszi; a város később a mexikák államának központja lett."
+        },
+        "de": {
+          "title": "Traditional founding of Tenochtitlan",
+          "desc": "Aztec tradition dates the founding of Tenochtitlan to 1325; the city became the center of the Mexica state."
+        },
+        "es": {
+          "title": "Traditional founding of Tenochtitlan",
+          "desc": "Aztec tradition dates the founding of Tenochtitlan to 1325; the city became the center of the Mexica state."
+        },
+        "fr": {
+          "title": "Traditional founding of Tenochtitlan",
+          "desc": "Aztec tradition dates the founding of Tenochtitlan to 1325; the city became the center of the Mexica state."
+        },
+        "it": {
+          "title": "Traditional founding of Tenochtitlan",
+          "desc": "Aztec tradition dates the founding of Tenochtitlan to 1325; the city became the center of the Mexica state."
+        },
+        "pl": {
+          "title": "Traditional founding of Tenochtitlan",
+          "desc": "Aztec tradition dates the founding of Tenochtitlan to 1325; the city became the center of the Mexica state."
+        }
+      }
+    },
+    {
+      "y": 1438,
+      "lat": -13.52,
+      "lng": -71.97,
+      "region": "Amerika",
+      "title": "Expansion of the Inca Empire",
+      "desc": "The reign of Pachacuti marked a period of major Inca expansion in the Andes; the year is an approximate historical marker.",
+      "src": "https://www.britannica.com/topic/Inca",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Expansion of the Inca Empire",
+          "desc": "The reign of Pachacuti marked a period of major Inca expansion in the Andes; the year is an approximate historical marker."
+        },
+        "hu": {
+          "title": "Az Inka Birodalom terjeszkedése",
+          "desc": "Pachacuti uralkodása idején jelentősen felgyorsult az inkák andoki terjeszkedése; az évszám közelítő történelmi jelölő."
+        },
+        "de": {
+          "title": "Expansion of the Inca Empire",
+          "desc": "The reign of Pachacuti marked a period of major Inca expansion in the Andes; the year is an approximate historical marker."
+        },
+        "es": {
+          "title": "Expansion of the Inca Empire",
+          "desc": "The reign of Pachacuti marked a period of major Inca expansion in the Andes; the year is an approximate historical marker."
+        },
+        "fr": {
+          "title": "Expansion of the Inca Empire",
+          "desc": "The reign of Pachacuti marked a period of major Inca expansion in the Andes; the year is an approximate historical marker."
+        },
+        "it": {
+          "title": "Expansion of the Inca Empire",
+          "desc": "The reign of Pachacuti marked a period of major Inca expansion in the Andes; the year is an approximate historical marker."
+        },
+        "pl": {
+          "title": "Expansion of the Inca Empire",
+          "desc": "The reign of Pachacuti marked a period of major Inca expansion in the Andes; the year is an approximate historical marker."
+        }
+      }
+    },
+    {
+      "y": 1804,
+      "lat": 18.54,
+      "lng": -72.34,
+      "region": "Amerika",
+      "title": "Independence of Haiti",
+      "desc": "Haiti declared independence from France after a successful revolution against colonial rule and slavery.",
+      "src": "https://www.britannica.com/place/Haiti/Independence",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Independence of Haiti",
+          "desc": "Haiti declared independence from France after a successful revolution against colonial rule and slavery."
+        },
+        "hu": {
+          "title": "Haiti függetlensége",
+          "desc": "Haiti a gyarmati uralom és a rabszolgaság elleni forradalom győzelme után kikiáltotta függetlenségét Franciaországtól."
+        },
+        "de": {
+          "title": "Independence of Haiti",
+          "desc": "Haiti declared independence from France after a successful revolution against colonial rule and slavery."
+        },
+        "es": {
+          "title": "Independence of Haiti",
+          "desc": "Haiti declared independence from France after a successful revolution against colonial rule and slavery."
+        },
+        "fr": {
+          "title": "Independence of Haiti",
+          "desc": "Haiti declared independence from France after a successful revolution against colonial rule and slavery."
+        },
+        "it": {
+          "title": "Independence of Haiti",
+          "desc": "Haiti declared independence from France after a successful revolution against colonial rule and slavery."
+        },
+        "pl": {
+          "title": "Independence of Haiti",
+          "desc": "Haiti declared independence from France after a successful revolution against colonial rule and slavery."
+        }
+      }
+    },
+    {
+      "y": 1957,
+      "lat": 5.56,
+      "lng": -0.2,
+      "region": "Afrika",
+      "title": "Ghana gains independence",
+      "desc": "Ghana became independent from Britain on 6 March 1957, an important milestone in African decolonization.",
+      "src": "https://www.britannica.com/place/Ghana/Independence",
+      "i18n": {
+        "en": {
+          "title": "Ghana gains independence",
+          "desc": "Ghana became independent from Britain on 6 March 1957, an important milestone in African decolonization."
+        },
+        "hu": {
+          "title": "Ghána függetlenné válik",
+          "desc": "Ghána 1957. március 6-án elnyerte függetlenségét Nagy-Britanniától; ez fontos mérföldkő volt Afrika dekolonizációjában."
+        },
+        "de": {
+          "title": "Ghana gains independence",
+          "desc": "Ghana became independent from Britain on 6 March 1957, an important milestone in African decolonization."
+        },
+        "es": {
+          "title": "Ghana gains independence",
+          "desc": "Ghana became independent from Britain on 6 March 1957, an important milestone in African decolonization."
+        },
+        "fr": {
+          "title": "Ghana gains independence",
+          "desc": "Ghana became independent from Britain on 6 March 1957, an important milestone in African decolonization."
+        },
+        "it": {
+          "title": "Ghana gains independence",
+          "desc": "Ghana became independent from Britain on 6 March 1957, an important milestone in African decolonization."
+        },
+        "pl": {
+          "title": "Ghana gains independence",
+          "desc": "Ghana became independent from Britain on 6 March 1957, an important milestone in African decolonization."
+        }
+      },
+      "month": 3,
+      "day": 6,
+      "datePrecision": "day"
     }
   ],
   "schemaVersion": 2,
