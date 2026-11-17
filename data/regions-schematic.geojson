@@ -1057,6 +1057,238 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mongol-early",
+        "name": "Mongol Empire — schematic early steppe core",
+        "from": 1215,
+        "to": 1225,
+        "snapshotYear": 1220,
+        "entityKey": "mongol",
+        "geometryStatus": "illustrative-not-verified",
+        "source": "https://www.britannica.com/place/Mongol-empire",
+        "confidence": "schematic",
+        "note": "Highly simplified illustrative region; not a verified historical boundary, and not a continuous territorial reconstruction.",
+        "regions": [
+          "Ázsia"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88,
+              43
+            ],
+            [
+              88,
+              51
+            ],
+            [
+              100,
+              54
+            ],
+            [
+              111,
+              52
+            ],
+            [
+              116,
+              47
+            ],
+            [
+              110,
+              42
+            ],
+            [
+              99,
+              41
+            ],
+            [
+              88,
+              43
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mongol-late",
+        "name": "Mongol successor realms — schematic eastern steppe core",
+        "from": 1350,
+        "to": 1360,
+        "snapshotYear": 1355,
+        "entityKey": "mongol",
+        "geometryStatus": "illustrative-not-verified",
+        "source": "https://www.britannica.com/place/Mongol-empire",
+        "confidence": "schematic",
+        "note": "Highly simplified illustrative region; not a verified historical boundary, and not a continuous territorial reconstruction.",
+        "regions": [
+          "Ázsia"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95,
+              40
+            ],
+            [
+              95,
+              49
+            ],
+            [
+              105,
+              51
+            ],
+            [
+              116,
+              48
+            ],
+            [
+              120,
+              43
+            ],
+            [
+              112,
+              40
+            ],
+            [
+              103,
+              39
+            ],
+            [
+              95,
+              40
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "inca-early",
+        "name": "Inca state — schematic Cusco highlands core",
+        "from": 1440,
+        "to": 1450,
+        "snapshotYear": 1445,
+        "entityKey": "inca",
+        "geometryStatus": "illustrative-not-verified",
+        "source": "https://www.britannica.com/topic/Inca",
+        "confidence": "schematic",
+        "note": "Highly simplified illustrative region; not a verified historical boundary, and not a continuous territorial reconstruction.",
+        "regions": [
+          "Amerika"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74,
+              -11
+            ],
+            [
+              -74,
+              -16
+            ],
+            [
+              -70,
+              -17
+            ],
+            [
+              -69,
+              -12
+            ],
+            [
+              -72,
+              -10
+            ],
+            [
+              -74,
+              -11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "inca-late",
+        "name": "Inca Empire — schematic Andean corridor",
+        "from": 1520,
+        "to": 1530,
+        "snapshotYear": 1525,
+        "entityKey": "inca",
+        "geometryStatus": "illustrative-not-verified",
+        "source": "https://www.britannica.com/topic/Inca",
+        "confidence": "schematic",
+        "note": "Highly simplified illustrative region; not a verified historical boundary, and not a continuous territorial reconstruction.",
+        "regions": [
+          "Amerika"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79,
+              1
+            ],
+            [
+              -80,
+              -6
+            ],
+            [
+              -77,
+              -14
+            ],
+            [
+              -73,
+              -22
+            ],
+            [
+              -70,
+              -29
+            ],
+            [
+              -69,
+              -34
+            ],
+            [
+              -72,
+              -34
+            ],
+            [
+              -76,
+              -23
+            ],
+            [
+              -79,
+              -12
+            ],
+            [
+              -81,
+              -3
+            ],
+            [
+              -79,
+              1
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
