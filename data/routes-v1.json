@@ -43,7 +43,11 @@
       ],
       "source": "https://www.britannica.com/topic/Silk-Road-trade-route",
       "precision": "schematic",
-      "note": "Representative waypoints only; not a reconstructed exact historical route."
+      "note": "Representative waypoints only; not a reconstructed exact historical route.",
+      "regions": [
+        "Ázsia",
+        "Európa"
+      ]
     },
     {
       "id": "route-2",
@@ -74,7 +78,10 @@
       ],
       "source": "https://www.britannica.com/topic/incense-route",
       "precision": "schematic",
-      "note": "Representative waypoints only; not a reconstructed exact historical route."
+      "note": "Representative waypoints only; not a reconstructed exact historical route.",
+      "regions": [
+        "Ázsia"
+      ]
     },
     {
       "id": "route-3",
@@ -105,7 +112,10 @@
       ],
       "source": "https://www.britannica.com/topic/Appian-Way",
       "precision": "schematic",
-      "note": "Representative waypoints only; not a reconstructed exact historical route."
+      "note": "Representative waypoints only; not a reconstructed exact historical route.",
+      "regions": [
+        "Európa"
+      ]
     },
     {
       "id": "route-4",
@@ -136,7 +146,10 @@
       ],
       "source": "https://www.britannica.com/topic/trans-Saharan-trade",
       "precision": "schematic",
-      "note": "Representative waypoints only; not a reconstructed exact historical route."
+      "note": "Representative waypoints only; not a reconstructed exact historical route.",
+      "regions": [
+        "Afrika"
+      ]
     },
     {
       "id": "route-5",
@@ -171,7 +184,11 @@
       ],
       "source": "https://www.britannica.com/place/Indian-Ocean",
       "precision": "schematic",
-      "note": "Representative waypoints only; not a reconstructed exact historical route."
+      "note": "Representative waypoints only; not a reconstructed exact historical route.",
+      "regions": [
+        "Ázsia",
+        "Afrika"
+      ]
     },
     {
       "id": "route-6",
@@ -202,7 +219,11 @@
       ],
       "source": "https://www.britannica.com/topic/Viking-people",
       "precision": "schematic",
-      "note": "Representative waypoints only; not a reconstructed exact historical route."
+      "note": "Representative waypoints only; not a reconstructed exact historical route.",
+      "regions": [
+        "Európa",
+        "Amerika"
+      ]
     },
     {
       "id": "route-7",
@@ -241,7 +262,12 @@
       ],
       "source": "https://www.britannica.com/topic/triangular-trade",
       "precision": "schematic",
-      "note": "Representative waypoints only; not a reconstructed exact historical route."
+      "note": "Representative waypoints only; not a reconstructed exact historical route.",
+      "regions": [
+        "Európa",
+        "Afrika",
+        "Amerika"
+      ]
     },
     {
       "id": "route-8",
@@ -268,7 +294,11 @@
       ],
       "source": "https://www.britannica.com/biography/Christopher-Columbus",
       "precision": "schematic",
-      "note": "Representative waypoints only; not a reconstructed exact historical route."
+      "note": "Representative waypoints only; not a reconstructed exact historical route.",
+      "regions": [
+        "Európa",
+        "Amerika"
+      ]
     }
   ]
 }
