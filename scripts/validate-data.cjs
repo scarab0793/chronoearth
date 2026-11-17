@@ -1,0 +1,24 @@
+const fs=require('node:fs');
+const assert=require('node:assert/strict');
+const load=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const events=load('data/events-v1.json').events;
+const cities=load('data/cities-v1.json').cities;
+const routes=load('data/routes-v1.json').routes;
+const regions=load('data/regions-schematic.geojson').features;
+const errors=[];
+const check=(ok,msg)=>{if(!ok)errors.push(msg)};
+const year=n=>Number.isInteger(n)&&n>=-10000&&n<=2100;
+const lat=n=>typeof n==='number'&&Number.isFinite(n)&&n>=-90&&n<=90;
+const lng=n=>typeof n==='number'&&Number.isFinite(n)&&n>=-180&&n<=180;
+const link=u=>typeof u==='string'&&/^https:\/\//.test(u);
+events.forEach((e,i)=>{const k='event '+i;check(year(e.y),k+' invalid year');check(lat(e.lat)&&lng(e.lng),k+' invalid coordinates');check(typeof e.title==='string'&&e.title.length>3,k+' missing title');check(link(e.src),k+' missing source');check(['Afrika','Amerika','Ázsia','Európa'].includes(e.region),k+' invalid region')});
+cities.forEach((c,i)=>{const k='city '+i;check(year(c.from)&&year(c.to)&&c.from<=c.to,k+' invalid date range');check(lat(c.lat)&&lng(c.lng),k+' invalid coordinates');check(link(c.source),k+' missing source')});
+routes.forEach((r,i)=>{const k='route '+i;check(year(r.from)&&year(r.to)&&r.from<=r.to,k+' invalid dates');check(Array.isArray(r.coords)&&r.coords.length>=2&&r.coords.every(p=>Array.isArray(p)&&p.length===2&&lat(p[0])&&lng(p[1])),k+' invalid route geometry');check(link(r.source),k+' missing source')});
+regions.forEach((f,i)=>{const k='region '+i;const p=f.properties||{};check(year(p.from)&&year(p.to)&&p.from<=p.to,k+' invalid dates');check(link(p.source),k+' missing source');const ring=f.geometry?.coordinates?.[0];check(f.geometry?.type==='Polygon'&&Array.isArray(ring)&&ring.length>=4&&ring.every(p=>Array.isArray(p)&&p.length===2&&lng(p[0])&&lat(p[1]))&&JSON.stringify(ring[0])===JSON.stringify(ring[ring.length-1]),k+' invalid polygon')});
+const html=fs.readFileSync('index.html','utf8');
+const inline=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]).filter(x=>x.trim());
+const vm=require('node:vm');
+inline.forEach((code,i)=>{try{new vm.Script(code,{filename:'inline-'+i+'.js'})}catch(e){errors.push('JavaScript syntax: '+e.message)}});
+for(const p of ['data/events-v1.json','data/cities-v1.json','data/routes-v1.json','data/regions-schematic.geojson'])check(html.includes(p),'Page does not reference '+p);
+if(errors.length){console.error(errors.join('\n'));process.exit(1)}
+console.log('PASS: '+events.length+' events, '+cities.length+' cities, '+routes.length+' routes, '+regions.length+' regions; inline JavaScript syntax OK');
