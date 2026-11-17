@@ -11,7 +11,12 @@
       "desc": "Early Neolithic communities. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Neolithic",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Early Neolithic communities",
+          "desc": "Early Neolithic communities. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": -9600,
@@ -22,7 +27,12 @@
       "desc": "Göbekli Tepe monumental enclosures. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/place/Gobekli-Tepe",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Göbekli Tepe monumental enclosures",
+          "desc": "Göbekli Tepe monumental enclosures. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": -3500,
@@ -33,7 +43,12 @@
       "desc": "Early urbanisation in Mesopotamia. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/Mesopotamia-historical-region-Asia",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Early urbanisation in Mesopotamia",
+          "desc": "Early urbanisation in Mesopotamia. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": -3200,
@@ -44,7 +59,12 @@
       "desc": "Stonehenge's early construction phases. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/topic/Stonehenge",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Stonehenge's early construction phases",
+          "desc": "Stonehenge's early construction phases. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": -2600,
@@ -55,7 +75,12 @@
       "desc": "Indus civilisation urban centres. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Indus-civilization",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Indus civilisation urban centres",
+          "desc": "Indus civilisation urban centres. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": -2334,
@@ -66,7 +91,12 @@
       "desc": "Rise of the Akkadian Empire. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/place/Akkad",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Rise of the Akkadian Empire",
+          "desc": "Rise of the Akkadian Empire. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": -1750,
@@ -77,7 +107,12 @@
       "desc": "Old Babylonian period. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Old Babylonian period",
+          "desc": "Old Babylonian period. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": -1600,
@@ -88,7 +123,12 @@
       "desc": "Shang dynasty emerges in China. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/topic/Shang-dynasty",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Shang dynasty emerges in China",
+          "desc": "Shang dynasty emerges in China. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": -1200,
@@ -99,7 +139,12 @@
       "desc": "Late Bronze Age collapse in the eastern Mediterranean. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Bronze-Age",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Late Bronze Age collapse in the eastern Mediterranean",
+          "desc": "Late Bronze Age collapse in the eastern Mediterranean. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": -800,
@@ -110,7 +155,12 @@
       "desc": "Kingdom of Dʿmt in the Horn of Africa. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/place/Ethiopia",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Kingdom of Dʿmt in the Horn of Africa",
+          "desc": "Kingdom of Dʿmt in the Horn of Africa. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": -776,
@@ -121,7 +171,12 @@
       "desc": "Traditional date of the first Olympic Games. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/sports/Olympic-Games",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Traditional date of the first Olympic Games",
+          "desc": "Traditional date of the first Olympic Games. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": -600,
@@ -132,7 +187,12 @@
       "desc": "Maya centre of El Mirador grows. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/topic/Maya-people",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Maya centre of El Mirador grows",
+          "desc": "Maya centre of El Mirador grows. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": -550,
@@ -143,7 +203,12 @@
       "desc": "Rise of the Achaemenid Persian Empire. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/Achaemenian-Dynasty",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Rise of the Achaemenid Persian Empire",
+          "desc": "Rise of the Achaemenid Persian Empire. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": -509,
@@ -154,7 +219,12 @@
       "desc": "Traditional founding of the Roman Republic. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/place/Roman-Republic",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Traditional founding of the Roman Republic",
+          "desc": "Traditional founding of the Roman Republic. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": -336,
@@ -165,7 +235,12 @@
       "desc": "Alexander becomes king of Macedon. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/biography/Alexander-the-Great",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Alexander becomes king of Macedon",
+          "desc": "Alexander becomes king of Macedon. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": -332,
@@ -176,7 +251,12 @@
       "desc": "Foundation of Alexandria. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/place/Alexandria-Egypt",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Foundation of Alexandria",
+          "desc": "Foundation of Alexandria. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": -206,
@@ -187,7 +267,12 @@
       "desc": "Beginning of the Han dynasty. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Han-dynasty",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Beginning of the Han dynasty",
+          "desc": "Beginning of the Han dynasty. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": -27,
@@ -198,7 +283,12 @@
       "desc": "Augustus establishes the Principate. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/biography/Augustus-Roman-emperor",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Augustus establishes the Principate",
+          "desc": "Augustus establishes the Principate. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 105,
@@ -209,7 +299,12 @@
       "desc": "Paper-making tradition associated with Cai Lun. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/biography/Cai-Lun",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Paper-making tradition associated with Cai Lun",
+          "desc": "Paper-making tradition associated with Cai Lun. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 313,
@@ -220,7 +315,12 @@
       "desc": "Edict of Milan. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/event/Edict-of-Milan",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Edict of Milan",
+          "desc": "Edict of Milan. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 320,
@@ -231,7 +331,12 @@
       "desc": "Rise of the Gupta Empire. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Gupta-dynasty",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Rise of the Gupta Empire",
+          "desc": "Rise of the Gupta Empire. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 570,
@@ -242,7 +347,12 @@
       "desc": "Approximate birth period of Muhammad. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/biography/Muhammad",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Approximate birth period of Muhammad",
+          "desc": "Approximate birth period of Muhammad. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 618,
@@ -253,7 +363,12 @@
       "desc": "Beginning of the Tang dynasty. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Tang-dynasty",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Beginning of the Tang dynasty",
+          "desc": "Beginning of the Tang dynasty. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 622,
@@ -264,7 +379,12 @@
       "desc": "Hijra and the beginning of the Islamic calendar. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Hijrah-Islam",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Hijra and the beginning of the Islamic calendar",
+          "desc": "Hijra and the beginning of the Islamic calendar. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 711,
@@ -275,7 +395,12 @@
       "desc": "Umayyad conquest begins in Iberia. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/place/Spain/Muslim-Spain",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Umayyad conquest begins in Iberia",
+          "desc": "Umayyad conquest begins in Iberia. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 793,
@@ -286,7 +411,12 @@
       "desc": "Viking raid on Lindisfarne. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Viking-people",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Viking raid on Lindisfarne",
+          "desc": "Viking raid on Lindisfarne. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 960,
@@ -297,7 +427,12 @@
       "desc": "Song dynasty founded. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/topic/Song-dynasty",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Song dynasty founded",
+          "desc": "Song dynasty founded. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1000,
@@ -308,7 +443,12 @@
       "desc": "Norse voyages across the North Atlantic. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Viking-people",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Norse voyages across the North Atlantic",
+          "desc": "Norse voyages across the North Atlantic. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1054,
@@ -319,7 +459,12 @@
       "desc": "East–West Schism conventionally dated. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/event/East-West-Schism-1054",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "East–West Schism conventionally dated",
+          "desc": "East–West Schism conventionally dated. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1096,
@@ -330,7 +475,12 @@
       "desc": "Beginning of the First Crusade. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Crusades",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Beginning of the First Crusade",
+          "desc": "Beginning of the First Crusade. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1215,
@@ -341,7 +491,12 @@
       "desc": "Magna Carta sealed at Runnymede. The date and map position are representative; see the linked source for context.",
       "src": "https://www.bl.uk/magna-carta",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Magna Carta sealed at Runnymede",
+          "desc": "Magna Carta sealed at Runnymede. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1235,
@@ -352,7 +507,12 @@
       "desc": "Mali Empire rises under Sundiata. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/place/Mali-historical-empire-Africa",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Mali Empire rises under Sundiata",
+          "desc": "Mali Empire rises under Sundiata. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1271,
@@ -363,7 +523,12 @@
       "desc": "Yuan dynasty established. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Yuan-dynasty",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Yuan dynasty established",
+          "desc": "Yuan dynasty established. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1347,
@@ -374,7 +539,12 @@
       "desc": "Black Death reaches Mediterranean Europe. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Black-Death",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Black Death reaches Mediterranean Europe",
+          "desc": "Black Death reaches Mediterranean Europe. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1438,
@@ -385,7 +555,12 @@
       "desc": "Pachacuti's reign and Inca expansion. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/biography/Pachacuti-Inca-Yupanqui",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Pachacuti's reign and Inca expansion",
+          "desc": "Pachacuti's reign and Inca expansion. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1440,
@@ -396,7 +571,12 @@
       "desc": "European movable-type printing develops. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/technology/printing-press",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "European movable-type printing develops",
+          "desc": "European movable-type printing develops. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1498,
@@ -407,7 +587,12 @@
       "desc": "Vasco da Gama reaches the East African coast. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/biography/Vasco-da-Gama",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Vasco da Gama reaches the East African coast",
+          "desc": "Vasco da Gama reaches the East African coast. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1517,
@@ -418,7 +603,12 @@
       "desc": "Luther and the Reformation. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Reformation",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Luther and the Reformation",
+          "desc": "Luther and the Reformation. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1521,
@@ -429,7 +619,12 @@
       "desc": "Fall of Tenochtitlan. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/Tenochtitlan",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Fall of Tenochtitlan",
+          "desc": "Fall of Tenochtitlan. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1600,
@@ -440,7 +635,12 @@
       "desc": "Battle of Sekigahara. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Battle-of-Sekigahara",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Battle of Sekigahara",
+          "desc": "Battle of Sekigahara. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1607,
@@ -451,7 +651,12 @@
       "desc": "Jamestown settlement established. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/place/Jamestown-Colony",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Jamestown settlement established",
+          "desc": "Jamestown settlement established. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1687,
@@ -462,7 +667,12 @@
       "desc": "Newton publishes Principia. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Philosophiae-Naturalis-Principia-Mathematica",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Newton publishes Principia",
+          "desc": "Newton publishes Principia. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1757,
@@ -473,7 +683,12 @@
       "desc": "Battle of Plassey. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/event/Battle-of-Plassey",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Battle of Plassey",
+          "desc": "Battle of Plassey. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1804,
@@ -484,7 +699,12 @@
       "desc": "Haiti declares independence. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/Haiti",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Haiti declares independence",
+          "desc": "Haiti declares independence. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1815,
@@ -495,7 +715,12 @@
       "desc": "Battle of Waterloo. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Battle-of-Waterloo",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Battle of Waterloo",
+          "desc": "Battle of Waterloo. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1830,
@@ -506,7 +731,12 @@
       "desc": "Belgian Revolution. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/event/Belgian-Revolution",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Belgian Revolution",
+          "desc": "Belgian Revolution. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1861,
@@ -517,7 +747,12 @@
       "desc": "American Civil War begins. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/event/American-Civil-War",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "American Civil War begins",
+          "desc": "American Civil War begins. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1868,
@@ -528,7 +763,12 @@
       "desc": "Meiji Restoration. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Meiji-Restoration",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Meiji Restoration",
+          "desc": "Meiji Restoration. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1884,
@@ -539,7 +779,12 @@
       "desc": "Berlin Conference begins. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Berlin-West-Africa-Conference",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Berlin Conference begins",
+          "desc": "Berlin Conference begins. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1917,
@@ -550,7 +795,12 @@
       "desc": "Russian Revolution. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Russian-Revolution",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Russian Revolution",
+          "desc": "Russian Revolution. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1918,
@@ -561,7 +811,12 @@
       "desc": "Armistice ends fighting on the Western Front. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/event/World-War-I",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Armistice ends fighting on the Western Front",
+          "desc": "Armistice ends fighting on the Western Front. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1939,
@@ -572,7 +827,12 @@
       "desc": "Germany invades Poland. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/World-War-II",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Germany invades Poland",
+          "desc": "Germany invades Poland. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1945,
@@ -583,7 +843,12 @@
       "desc": "Atomic bombing of Hiroshima. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/atomic-bombings-of-Hiroshima-and-Nagasaki",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Atomic bombing of Hiroshima",
+          "desc": "Atomic bombing of Hiroshima. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1945,
@@ -594,7 +859,12 @@
       "desc": "United Nations Charter signed in San Francisco. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.un.org/en/about-us/history-of-the-un",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "United Nations Charter signed in San Francisco",
+          "desc": "United Nations Charter signed in San Francisco. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1947,
@@ -605,7 +875,12 @@
       "desc": "Partition of British India. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/partition-of-India",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Partition of British India",
+          "desc": "Partition of British India. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1949,
@@ -616,7 +891,12 @@
       "desc": "People's Republic of China proclaimed. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/China",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "People's Republic of China proclaimed",
+          "desc": "People's Republic of China proclaimed. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1957,
@@ -627,7 +907,12 @@
       "desc": "Sputnik 1 launch. The date and map position are representative; see the linked source for context.",
       "src": "https://www.nasa.gov/history/sputnik/",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Sputnik 1 launch",
+          "desc": "Sputnik 1 launch. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1960,
@@ -638,7 +923,12 @@
       "desc": "Nigeria gains independence. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/Nigeria",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Nigeria gains independence",
+          "desc": "Nigeria gains independence. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1969,
@@ -649,7 +939,12 @@
       "desc": "ARPANET's first network connections. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/topic/ARPANET",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "ARPANET's first network connections",
+          "desc": "ARPANET's first network connections. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1986,
@@ -660,7 +955,12 @@
       "desc": "Chernobyl nuclear disaster. Approximate map location; consult the linked reference for historical context.",
       "src": "https://www.britannica.com/event/Chernobyl-disaster",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Chernobyl nuclear disaster",
+          "desc": "Chernobyl nuclear disaster. Approximate map location; consult the linked reference for historical context."
+        }
+      }
     },
     {
       "y": 1989,
@@ -671,7 +971,12 @@
       "desc": "Fall of the Berlin Wall. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/fall-of-the-Berlin-Wall",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Fall of the Berlin Wall",
+          "desc": "Fall of the Berlin Wall. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1991,
@@ -682,7 +987,12 @@
       "desc": "Dissolution of the Soviet Union. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/collapse-of-the-Soviet-Union",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "Dissolution of the Soviet Union",
+          "desc": "Dissolution of the Soviet Union. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 1994,
@@ -693,7 +1003,12 @@
       "desc": "South Africa's first multiracial national elections. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/South-Africa",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "South Africa's first multiracial national elections",
+          "desc": "South Africa's first multiracial national elections. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 2001,
@@ -704,7 +1019,12 @@
       "desc": "September 11 attacks. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/September-11-attacks",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "September 11 attacks",
+          "desc": "September 11 attacks. The date and map position are representative; see the linked source for context."
+        }
+      }
     },
     {
       "y": 2020,
@@ -715,7 +1035,23 @@
       "desc": "COVID-19 pandemic. The date and map position are representative; see the linked source for context.",
       "src": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
       "precision": "approximate",
-      "translationStatus": "en-only"
+      "i18n": {
+        "en": {
+          "title": "COVID-19 pandemic",
+          "desc": "COVID-19 pandemic. The date and map position are representative; see the linked source for context."
+        }
+      }
     }
-  ]
+  ],
+  "schemaVersion": 2,
+  "languages": [
+    "en",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "hu",
+    "pl"
+  ],
+  "translationPolicy": "Per-record i18n map. Missing translations fall back to English; never claim untranslated text is localized."
 }
