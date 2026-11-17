@@ -1,0 +1,380 @@
+{
+  "version": 1,
+  "people": [
+    {
+      "id": "person-1",
+      "name": "Julius Caesar",
+      "from": -100,
+      "to": -44,
+      "lat": 41.89,
+      "lng": 12.49,
+      "region": "Európa",
+      "note": "Roman statesman and general whose assassination accelerated the end of the Roman Republic.",
+      "source": "https://www.britannica.com/biography/Julius-Caesar-Roman-ruler",
+      "aliases": [
+        "Caesar",
+        "Julius Caesar",
+        "Caius Iulius Caesar"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Julius Caesar"
+    },
+    {
+      "id": "person-2",
+      "name": "Cleopatra VII",
+      "from": -69,
+      "to": -30,
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "Afrika",
+      "note": "Last active ruler of Ptolemaic Egypt, involved in Roman political struggles.",
+      "source": "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt",
+      "aliases": [
+        "Kleopátra",
+        "Cleopatra"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Cleopatra VII"
+    },
+    {
+      "id": "person-3",
+      "name": "Alexander the Great",
+      "from": -356,
+      "to": -323,
+      "lat": 40.63,
+      "lng": 22.94,
+      "region": "Európa",
+      "note": "King of Macedon who conquered the Persian Empire.",
+      "source": "https://www.britannica.com/biography/Alexander-the-Great",
+      "aliases": [
+        "Nagy Sándor",
+        "Alejandro Magno",
+        "Alexandre le Grand"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Alexander the Great"
+    },
+    {
+      "id": "person-4",
+      "name": "Qin Shi Huang",
+      "from": -259,
+      "to": -210,
+      "lat": 34.26,
+      "lng": 108.94,
+      "region": "Ázsia",
+      "note": "First emperor of a unified Qin state in China.",
+      "source": "https://www.britannica.com/biography/Qin-Shi-Huang",
+      "aliases": [
+        "Csin Si Huang-ti",
+        "Qin Shihuang"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Qin Shi Huang"
+    },
+    {
+      "id": "person-5",
+      "name": "Augustus",
+      "from": -63,
+      "to": 14,
+      "lat": 41.89,
+      "lng": 12.49,
+      "region": "Európa",
+      "note": "First Roman emperor and founder of the Principate.",
+      "source": "https://www.britannica.com/biography/Augustus-Roman-emperor",
+      "aliases": [
+        "Octavian",
+        "Augustus császár"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Augustus"
+    },
+    {
+      "id": "person-6",
+      "name": "Muhammad",
+      "from": 570,
+      "to": 632,
+      "lat": 21.42,
+      "lng": 39.83,
+      "region": "Ázsia",
+      "note": "Prophet of Islam; traditional biographical dates are approximate.",
+      "source": "https://www.britannica.com/biography/Muhammad",
+      "aliases": [
+        "Mohamed",
+        "Mahomet",
+        "Mahometa",
+        "Mohammed"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Muhammad"
+    },
+    {
+      "id": "person-7",
+      "name": "Charlemagne",
+      "from": 747,
+      "to": 814,
+      "lat": 50.77,
+      "lng": 6.08,
+      "region": "Európa",
+      "note": "Frankish ruler crowned emperor in Rome in 800.",
+      "source": "https://www.britannica.com/biography/Charlemagne",
+      "aliases": [
+        "Nagy Károly",
+        "Karl der Große",
+        "Carlomagno"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Charlemagne"
+    },
+    {
+      "id": "person-8",
+      "name": "Genghis Khan",
+      "from": 1162,
+      "to": 1227,
+      "lat": 47.92,
+      "lng": 106.92,
+      "region": "Ázsia",
+      "note": "Founder of the Mongol Empire; birth year is disputed.",
+      "source": "https://www.britannica.com/biography/Genghis-Khan",
+      "aliases": [
+        "Dzsingisz kán",
+        "Chinggis Khan",
+        "Dschingis Khan"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Genghis Khan"
+    },
+    {
+      "id": "person-9",
+      "name": "Sundiata Keita",
+      "from": 1217,
+      "to": 1255,
+      "lat": 12.65,
+      "lng": -8,
+      "region": "Afrika",
+      "note": "Traditionally regarded as founder of the Mali Empire; dates and details are uncertain.",
+      "source": "https://www.britannica.com/biography/Sundiata",
+      "aliases": [
+        "Sundjata",
+        "Sundiata"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Sundiata Keita"
+    },
+    {
+      "id": "person-10",
+      "name": "Pachacuti",
+      "from": 1418,
+      "to": 1471,
+      "lat": -13.52,
+      "lng": -71.97,
+      "region": "Amerika",
+      "note": "Inca ruler associated with the rapid expansion of the Inca state.",
+      "source": "https://www.britannica.com/biography/Pachacuti-Inca-Yupanqui",
+      "aliases": [
+        "Pachacútec",
+        "Pachakuti"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Pachacuti"
+    },
+    {
+      "id": "person-11",
+      "name": "Johannes Gutenberg",
+      "from": 1400,
+      "to": 1468,
+      "lat": 49.99,
+      "lng": 8.25,
+      "region": "Európa",
+      "note": "Printer associated with the development of European movable-type printing.",
+      "source": "https://www.britannica.com/biography/Johannes-Gutenberg",
+      "aliases": [
+        "Gutenberg"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Johannes Gutenberg"
+    },
+    {
+      "id": "person-12",
+      "name": "Christopher Columbus",
+      "from": 1451,
+      "to": 1506,
+      "lat": 41.38,
+      "lng": 2.17,
+      "region": "Európa",
+      "note": "Navigator whose 1492 voyage began sustained transatlantic contact and European colonization.",
+      "source": "https://www.britannica.com/biography/Christopher-Columbus",
+      "aliases": [
+        "Kolumbusz Kristóf",
+        "Cristóbal Colón",
+        "Cristoforo Colombo"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Christopher Columbus"
+    },
+    {
+      "id": "person-13",
+      "name": "Martin Luther",
+      "from": 1483,
+      "to": 1546,
+      "lat": 51.87,
+      "lng": 12.65,
+      "region": "Európa",
+      "note": "Theologian whose writings helped initiate the Protestant Reformation.",
+      "source": "https://www.britannica.com/biography/Martin-Luther",
+      "aliases": [
+        "Luther Márton",
+        "Lutero"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Martin Luther"
+    },
+    {
+      "id": "person-14",
+      "name": "Tokugawa Ieyasu",
+      "from": 1543,
+      "to": 1616,
+      "lat": 35.68,
+      "lng": 139.76,
+      "region": "Ázsia",
+      "note": "Japanese leader who established the Tokugawa shogunate.",
+      "source": "https://www.britannica.com/biography/Tokugawa-Ieyasu",
+      "aliases": [
+        "Tokugava Iejaszu"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Tokugawa Ieyasu"
+    },
+    {
+      "id": "person-15",
+      "name": "Isaac Newton",
+      "from": 1643,
+      "to": 1727,
+      "lat": 52.21,
+      "lng": 0.12,
+      "region": "Európa",
+      "note": "Physicist and mathematician whose Principia established classical mechanics.",
+      "source": "https://www.britannica.com/biography/Isaac-Newton",
+      "aliases": [
+        "Newton"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Isaac Newton"
+    },
+    {
+      "id": "person-16",
+      "name": "Napoleon Bonaparte",
+      "from": 1769,
+      "to": 1821,
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "Európa",
+      "note": "French military and political leader defeated at Waterloo in 1815.",
+      "source": "https://www.britannica.com/biography/Napoleon-I",
+      "aliases": [
+        "Napóleon",
+        "Napoléon Bonaparte"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Napoleon Bonaparte"
+    },
+    {
+      "id": "person-17",
+      "name": "Simón Bolívar",
+      "from": 1783,
+      "to": 1830,
+      "lat": 10.48,
+      "lng": -66.9,
+      "region": "Amerika",
+      "note": "Leader in South American independence movements.",
+      "source": "https://www.britannica.com/biography/Simon-Bolivar",
+      "aliases": [
+        "Simon Bolivar",
+        "Bolívar"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Simón Bolívar"
+    },
+    {
+      "id": "person-18",
+      "name": "Abraham Lincoln",
+      "from": 1809,
+      "to": 1865,
+      "lat": 38.89,
+      "lng": -77.04,
+      "region": "Amerika",
+      "note": "US president during the Civil War and emancipation.",
+      "source": "https://www.britannica.com/biography/Abraham-Lincoln",
+      "aliases": [
+        "Lincoln"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Abraham Lincoln"
+    },
+    {
+      "id": "person-19",
+      "name": "Mahatma Gandhi",
+      "from": 1869,
+      "to": 1948,
+      "lat": 28.61,
+      "lng": 77.21,
+      "region": "Ázsia",
+      "note": "Leader of nonviolent resistance in India's independence movement.",
+      "source": "https://www.britannica.com/biography/Mahatma-Gandhi",
+      "aliases": [
+        "Gandhi",
+        "Gándhí"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Mahatma Gandhi"
+    },
+    {
+      "id": "person-20",
+      "name": "Marie Curie",
+      "from": 1867,
+      "to": 1934,
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "Európa",
+      "note": "Pioneering scientist in radioactivity and two-time Nobel laureate.",
+      "source": "https://www.britannica.com/biography/Marie-Curie",
+      "aliases": [
+        "Maria Skłodowska-Curie",
+        "Curie"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Marie Curie"
+    },
+    {
+      "id": "person-21",
+      "name": "Nelson Mandela",
+      "from": 1918,
+      "to": 2013,
+      "lat": -25.75,
+      "lng": 28.19,
+      "region": "Afrika",
+      "note": "Anti-apartheid leader and South Africa's first Black president.",
+      "source": "https://www.britannica.com/biography/Nelson-Mandela",
+      "aliases": [
+        "Mandela"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Nelson Mandela"
+    },
+    {
+      "id": "person-22",
+      "name": "Alan Turing",
+      "from": 1912,
+      "to": 1954,
+      "lat": 51.52,
+      "lng": -0.12,
+      "region": "Európa",
+      "note": "Mathematician and computer science pioneer who contributed to wartime cryptanalysis.",
+      "source": "https://www.britannica.com/biography/Alan-Turing",
+      "aliases": [
+        "Turing"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Alan Turing"
+    }
+  ]
+}
