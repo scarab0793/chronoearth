@@ -332,7 +332,8 @@
         ],
         "entityKey": "mongol",
         "snapshotYear": 1275,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "relationship": "imperial-era"
       },
       "geometry": {
         "type": "Polygon",
@@ -1073,7 +1074,8 @@
         "note": "Highly simplified illustrative region; not a verified historical boundary, and not a continuous territorial reconstruction.",
         "regions": [
           "Ázsia"
-        ]
+        ],
+        "relationship": "imperial-era"
       },
       "geometry": {
         "type": "Polygon",
@@ -1119,18 +1121,20 @@
       "type": "Feature",
       "properties": {
         "id": "mongol-late",
-        "name": "Mongol successor realms — schematic eastern steppe core",
+        "name": "Yuan dynasty successor era — schematic eastern steppe core",
         "from": 1350,
         "to": 1360,
         "snapshotYear": 1355,
-        "entityKey": "mongol",
+        "entityKey": "yuan-successor",
         "geometryStatus": "illustrative-not-verified",
-        "source": "https://www.britannica.com/place/Mongol-empire",
+        "source": "https://www.britannica.com/topic/Yuan-dynasty",
         "confidence": "schematic",
-        "note": "Highly simplified illustrative region; not a verified historical boundary, and not a continuous territorial reconstruction.",
+        "note": "Illustrative eastern steppe region associated with the late Yuan era, NOT the territory of a unified Mongol Empire; historical borders are not verified.",
         "regions": [
           "Ázsia"
-        ]
+        ],
+        "predecessorKey": "mongol",
+        "relationship": "successor-era"
       },
       "geometry": {
         "type": "Polygon",
