@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "states": [
+    {
+      "id": "state-1",
+      "name": "Ancient Egypt",
+      "from": -3100,
+      "to": -30,
+      "lat": 26.8,
+      "lng": 30.8,
+      "region": "Afrika",
+      "note": "Ancient Egyptian state along the Nile; political borders and dynasties changed substantially over time.",
+      "source": "https://www.britannica.com/place/ancient-Egypt",
+      "aliases": [
+        "Egyiptom",
+        "Ägypten",
+        "Egipto",
+        "Égypte",
+        "Egitto",
+        "Egipt"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Ancient Egypt"
+    },
+    {
+      "id": "state-2",
+      "name": "Roman Republic",
+      "from": -509,
+      "to": -27,
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "Európa",
+      "note": "Republican Rome expanded from central Italy across the Mediterranean.",
+      "source": "https://www.britannica.com/place/Roman-Republic",
+      "aliases": [
+        "Római Köztársaság",
+        "República romana"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Roman Republic"
+    },
+    {
+      "id": "state-3",
+      "name": "Roman Empire",
+      "from": -27,
+      "to": 476,
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "Európa",
+      "note": "Roman imperial state; 476 marks the conventional end of the western imperial court, not the eastern empire.",
+      "source": "https://www.britannica.com/place/Roman-Empire",
+      "aliases": [
+        "Római Birodalom",
+        "Imperium Romanum",
+        "Römisches Reich",
+        "Imperio romano"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Roman Empire"
+    },
+    {
+      "id": "state-4",
+      "name": "Achaemenid Empire",
+      "from": -550,
+      "to": -330,
+      "lat": 29.94,
+      "lng": 52.89,
+      "region": "Ázsia",
+      "note": "Ancient Persian empire established by the Achaemenid dynasty.",
+      "source": "https://www.britannica.com/place/Achaemenian-Dynasty",
+      "aliases": [
+        "Perzsa Birodalom",
+        "Persian Empire",
+        "Persisches Reich"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Achaemenid Empire"
+    },
+    {
+      "id": "state-5",
+      "name": "Han dynasty",
+      "from": -202,
+      "to": 220,
+      "lat": 34.3,
+      "lng": 108.9,
+      "region": "Ázsia",
+      "note": "Major Chinese imperial dynasty, with an interruption between Western and Eastern Han.",
+      "source": "https://www.britannica.com/topic/Han-dynasty",
+      "aliases": [
+        "Han-dinasztia",
+        "Han Dynasty"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Han dynasty"
+    },
+    {
+      "id": "state-6",
+      "name": "Byzantine Empire",
+      "from": 330,
+      "to": 1453,
+      "lat": 41.01,
+      "lng": 28.98,
+      "region": "Európa",
+      "note": "The medieval Eastern Roman Empire centred on Constantinople; its origins have no single agreed start date.",
+      "source": "https://www.britannica.com/place/Byzantine-Empire",
+      "aliases": [
+        "Bizánci Birodalom",
+        "Eastern Roman Empire",
+        "Ostrom"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Byzantine Empire"
+    },
+    {
+      "id": "state-7",
+      "name": "Mali Empire",
+      "from": 1235,
+      "to": 1600,
+      "lat": 13.45,
+      "lng": -6.27,
+      "region": "Afrika",
+      "note": "West African empire whose influence and territory changed over several centuries.",
+      "source": "https://www.britannica.com/place/Mali-historical-empire-Africa",
+      "aliases": [
+        "Mali Birodalom",
+        "Empire du Mali"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Mali Empire"
+    },
+    {
+      "id": "state-8",
+      "name": "Mongol Empire",
+      "from": 1206,
+      "to": 1368,
+      "lat": 47.9,
+      "lng": 106.9,
+      "region": "Ázsia",
+      "note": "Empire founded by Genghis Khan that expanded across much of Eurasia; successor states continued separately.",
+      "source": "https://www.britannica.com/place/Mongol-empire",
+      "aliases": [
+        "Mongol Birodalom",
+        "Mongolenreich"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Mongol Empire"
+    },
+    {
+      "id": "state-9",
+      "name": "Inca Empire",
+      "from": 1438,
+      "to": 1533,
+      "lat": -13.52,
+      "lng": -71.97,
+      "region": "Amerika",
+      "note": "Andean empire centred on Cusco that expanded rapidly before Spanish conquest.",
+      "source": "https://www.britannica.com/place/Inca-empire",
+      "aliases": [
+        "Inka Birodalom",
+        "Tawantinsuyu",
+        "Imperio inca"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Inca Empire"
+    },
+    {
+      "id": "state-10",
+      "name": "Ottoman Empire",
+      "from": 1299,
+      "to": 1922,
+      "lat": 41.01,
+      "lng": 28.98,
+      "region": "Ázsia",
+      "note": "Long-lived imperial state spanning parts of southeastern Europe, western Asia and North Africa.",
+      "source": "https://www.britannica.com/place/Ottoman-Empire",
+      "aliases": [
+        "Oszmán Birodalom",
+        "Osmanisches Reich",
+        "Imperio otomano"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Ottoman Empire"
+    },
+    {
+      "id": "state-11",
+      "name": "Aztec Empire",
+      "from": 1428,
+      "to": 1521,
+      "lat": 19.43,
+      "lng": -99.13,
+      "region": "Amerika",
+      "note": "Triple Alliance dominated much of central Mexico until the fall of Tenochtitlan.",
+      "source": "https://www.britannica.com/topic/Aztec",
+      "aliases": [
+        "Azték Birodalom",
+        "Aztec Triple Alliance",
+        "Imperio azteca"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Aztec Empire"
+    },
+    {
+      "id": "state-12",
+      "name": "British Empire",
+      "from": 1583,
+      "to": 1997,
+      "lat": 51.51,
+      "lng": -0.12,
+      "region": "Európa",
+      "note": "Global imperial network developed over centuries; dates are broad historical markers, not fixed boundaries.",
+      "source": "https://www.britannica.com/place/British-Empire",
+      "aliases": [
+        "Brit Birodalom",
+        "Britisches Weltreich",
+        "Imperio británico"
+      ],
+      "precision": "approximate",
+      "imageQuery": "British Empire"
+    },
+    {
+      "id": "state-13",
+      "name": "Soviet Union",
+      "from": 1922,
+      "to": 1991,
+      "lat": 55.75,
+      "lng": 37.62,
+      "region": "Európa",
+      "note": "Federal socialist state spanning eastern Europe and northern Asia.",
+      "source": "https://www.britannica.com/place/Soviet-Union",
+      "aliases": [
+        "Szovjetunió",
+        "USSR",
+        "USSR",
+        "UdSSR",
+        "URSS",
+        "ZSRR"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Soviet Union"
+    },
+    {
+      "id": "state-14",
+      "name": "Kingdom of Hungary",
+      "from": 1000,
+      "to": 1918,
+      "lat": 47.5,
+      "lng": 19.05,
+      "region": "Európa",
+      "note": "Historic Hungarian kingdom with major territorial and constitutional changes over time.",
+      "source": "https://www.britannica.com/place/Hungary/History",
+      "aliases": [
+        "Magyar Királyság",
+        "Hungarian Kingdom",
+        "Königreich Ungarn"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Kingdom of Hungary"
+    },
+    {
+      "id": "state-15",
+      "name": "Kingdom of Poland",
+      "from": 1025,
+      "to": 1795,
+      "lat": 52.23,
+      "lng": 21.01,
+      "region": "Európa",
+      "note": "Historic Polish monarchy, later linked to Lithuania; political continuity and borders changed over time.",
+      "source": "https://www.britannica.com/place/Poland/History",
+      "aliases": [
+        "Lengyel Királyság",
+        "Królestwo Polskie",
+        "Polish–Lithuanian Commonwealth"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Kingdom of Poland"
+    }
+  ]
+}
