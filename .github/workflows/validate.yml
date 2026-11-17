@@ -1,0 +1,18 @@
+name: Validate ChronoEarth data
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate historical datasets and inline JavaScript
+        run: node scripts/validate-data.cjs
