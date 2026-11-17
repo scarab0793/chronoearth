@@ -26,9 +26,18 @@ events.forEach((e,i)=>{for(const [field,known] of [['relatedPeople',peopleIds],[
 cities.forEach((c,i)=>{const k='city '+i;check(year(c.from)&&year(c.to)&&c.from<=c.to,k+' invalid date range');check(lat(c.lat)&&lng(c.lng),k+' invalid coordinates');check(link(c.source),k+' missing source')});
 routes.forEach((r,i)=>{const k='route '+i;check(year(r.from)&&year(r.to)&&r.from<=r.to,k+' invalid dates');check(Array.isArray(r.coords)&&r.coords.length>=2&&r.coords.every(p=>Array.isArray(p)&&p.length===2&&lat(p[0])&&lng(p[1])),k+' invalid route geometry');check(link(r.source),k+' missing source');check(Array.isArray(r.regions)&&r.regions.length>0&&r.regions.every(x=>validRegions.includes(x)),k+' invalid continent coverage')});
 regions.forEach((f,i)=>{const k='region '+i;const p=f.properties||{};check(year(p.from)&&year(p.to)&&p.from<=p.to,k+' invalid dates');check(link(p.source),k+' missing source');check(Array.isArray(p.regions)&&p.regions.length>0&&p.regions.every(x=>validRegions.includes(x)),k+' invalid continent coverage');const ring=f.geometry?.coordinates?.[0];check(f.geometry?.type==='Polygon'&&Array.isArray(ring)&&ring.length>=4&&ring.every(p=>Array.isArray(p)&&p.length===2&&lng(p[0])&&lat(p[1]))&&JSON.stringify(ring[0])===JSON.stringify(ring[ring.length-1]),k+' invalid polygon')});
+const snapshotIds=new Set();
+regions.forEach((f,i)=>{const p=f.properties||{},k='region '+i;
+check(typeof p.id==='string'&&p.id.length>0&&!snapshotIds.has(p.id),k+' missing or duplicate snapshot ID');snapshotIds.add(p.id);
+check(typeof p.entityKey==='string'&&p.entityKey.trim().length>0,k+' missing historical entity key');
+check(Number.isInteger(p.snapshotYear)&&p.snapshotYear>=p.from&&p.snapshotYear<=p.to,k+' reference year outside snapshot interval');
+check(p.geometryStatus==='illustrative-not-verified',k+' must declare illustrative geometry quality');
+});
 const html=fs.readFileSync('index.html','utf8');
 const inline=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]).filter(x=>x.trim());
 const vm=require('node:vm');
+check(html.includes('function nearestSnapshotYear('),'Historical snapshot selection is missing');
+check(html.includes('refreshSnapshotChoices();render()'),'Historical snapshot picker does not refresh after loading');
 check(html.includes('function renderDetailNavigation('),'Missing detail history navigation');
 check(html.includes('appendRelatedEvents(p.id)'),'Missing reverse event links');
 check(html.includes('const SEARCH_FILTER_LABELS='),'Missing search filter translations');
