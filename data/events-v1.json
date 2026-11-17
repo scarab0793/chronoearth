@@ -14,6 +14,17 @@
       "translationStatus": "en-only"
     },
     {
+      "y": -9600,
+      "lat": 37.22,
+      "lng": 38.92,
+      "region": "Ázsia",
+      "title": "Göbekli Tepe monumental enclosures",
+      "desc": "Göbekli Tepe monumental enclosures. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/place/Gobekli-Tepe",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
       "y": -3500,
       "lat": 31.3,
       "lng": 45.6,
@@ -21,6 +32,17 @@
       "title": "Early urbanisation in Mesopotamia",
       "desc": "Early urbanisation in Mesopotamia. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/Mesopotamia-historical-region-Asia",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": -3200,
+      "lat": 51.18,
+      "lng": -1.83,
+      "region": "Európa",
+      "title": "Stonehenge's early construction phases",
+      "desc": "Stonehenge's early construction phases. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/topic/Stonehenge",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
@@ -36,6 +58,17 @@
       "translationStatus": "en-only"
     },
     {
+      "y": -2334,
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "Ázsia",
+      "title": "Rise of the Akkadian Empire",
+      "desc": "Rise of the Akkadian Empire. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/place/Akkad",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
       "y": -1750,
       "lat": 35.7,
       "lng": 51.4,
@@ -43,6 +76,17 @@
       "title": "Old Babylonian period",
       "desc": "Old Babylonian period. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": -1600,
+      "lat": 35.3,
+      "lng": 113.9,
+      "region": "Ázsia",
+      "title": "Shang dynasty emerges in China",
+      "desc": "Shang dynasty emerges in China. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/topic/Shang-dynasty",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
@@ -58,6 +102,17 @@
       "translationStatus": "en-only"
     },
     {
+      "y": -800,
+      "lat": 15.77,
+      "lng": 38.45,
+      "region": "Afrika",
+      "title": "Kingdom of Dʿmt in the Horn of Africa",
+      "desc": "Kingdom of Dʿmt in the Horn of Africa. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/place/Ethiopia",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
       "y": -776,
       "lat": 37.64,
       "lng": 21.63,
@@ -65,6 +120,17 @@
       "title": "Traditional date of the first Olympic Games",
       "desc": "Traditional date of the first Olympic Games. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/sports/Olympic-Games",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": -600,
+      "lat": 17.5,
+      "lng": -89.4,
+      "region": "Amerika",
+      "title": "Maya centre of El Mirador grows",
+      "desc": "Maya centre of El Mirador grows. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/topic/Maya-people",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
@@ -80,6 +146,17 @@
       "translationStatus": "en-only"
     },
     {
+      "y": -509,
+      "lat": 41.89,
+      "lng": 12.49,
+      "region": "Európa",
+      "title": "Traditional founding of the Roman Republic",
+      "desc": "Traditional founding of the Roman Republic. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/place/Roman-Republic",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
       "y": -336,
       "lat": 40.63,
       "lng": 22.95,
@@ -87,6 +164,17 @@
       "title": "Alexander becomes king of Macedon",
       "desc": "Alexander becomes king of Macedon. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/biography/Alexander-the-Great",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": -332,
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "Afrika",
+      "title": "Foundation of Alexandria",
+      "desc": "Foundation of Alexandria. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/place/Alexandria-Egypt",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
@@ -113,6 +201,28 @@
       "translationStatus": "en-only"
     },
     {
+      "y": 105,
+      "lat": 34.27,
+      "lng": 108.94,
+      "region": "Ázsia",
+      "title": "Paper-making tradition associated with Cai Lun",
+      "desc": "Paper-making tradition associated with Cai Lun. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/biography/Cai-Lun",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 313,
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "Európa",
+      "title": "Edict of Milan",
+      "desc": "Edict of Milan. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/event/Edict-of-Milan",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
       "y": 320,
       "lat": 20.6,
       "lng": 78.9,
@@ -124,13 +234,13 @@
       "translationStatus": "en-only"
     },
     {
-      "y": 622,
+      "y": 570,
       "lat": 21.42,
       "lng": 39.83,
       "region": "Ázsia",
-      "title": "Hijra and the beginning of the Islamic calendar",
-      "desc": "Hijra and the beginning of the Islamic calendar. The date and map position are representative; see the linked source for context.",
-      "src": "https://www.britannica.com/event/Hijrah-Islam",
+      "title": "Approximate birth period of Muhammad",
+      "desc": "Approximate birth period of Muhammad. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/biography/Muhammad",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
@@ -146,6 +256,28 @@
       "translationStatus": "en-only"
     },
     {
+      "y": 622,
+      "lat": 21.42,
+      "lng": 39.83,
+      "region": "Ázsia",
+      "title": "Hijra and the beginning of the Islamic calendar",
+      "desc": "Hijra and the beginning of the Islamic calendar. The date and map position are representative; see the linked source for context.",
+      "src": "https://www.britannica.com/event/Hijrah-Islam",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 711,
+      "lat": 36.7,
+      "lng": -4.4,
+      "region": "Európa",
+      "title": "Umayyad conquest begins in Iberia",
+      "desc": "Umayyad conquest begins in Iberia. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/place/Spain/Muslim-Spain",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
       "y": 793,
       "lat": 55.95,
       "lng": -3.19,
@@ -157,6 +289,17 @@
       "translationStatus": "en-only"
     },
     {
+      "y": 960,
+      "lat": 34.27,
+      "lng": 108.94,
+      "region": "Ázsia",
+      "title": "Song dynasty founded",
+      "desc": "Song dynasty founded. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/topic/Song-dynasty",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
       "y": 1000,
       "lat": 64.15,
       "lng": -21.94,
@@ -164,6 +307,17 @@
       "title": "Norse voyages across the North Atlantic",
       "desc": "Norse voyages across the North Atlantic. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Viking-people",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 1054,
+      "lat": 41.01,
+      "lng": 28.98,
+      "region": "Európa",
+      "title": "East–West Schism conventionally dated",
+      "desc": "East–West Schism conventionally dated. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/event/East-West-Schism-1054",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
@@ -190,6 +344,17 @@
       "translationStatus": "en-only"
     },
     {
+      "y": 1235,
+      "lat": 12.64,
+      "lng": -8,
+      "region": "Afrika",
+      "title": "Mali Empire rises under Sundiata",
+      "desc": "Mali Empire rises under Sundiata. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/place/Mali-historical-empire-Africa",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
       "y": 1271,
       "lat": 39.9,
       "lng": 116.4,
@@ -208,6 +373,39 @@
       "title": "Black Death reaches Mediterranean Europe",
       "desc": "Black Death reaches Mediterranean Europe. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Black-Death",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 1438,
+      "lat": -13.52,
+      "lng": -71.98,
+      "region": "Amerika",
+      "title": "Pachacuti's reign and Inca expansion",
+      "desc": "Pachacuti's reign and Inca expansion. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/biography/Pachacuti-Inca-Yupanqui",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 1440,
+      "lat": 50,
+      "lng": 8.27,
+      "region": "Európa",
+      "title": "European movable-type printing develops",
+      "desc": "European movable-type printing develops. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/technology/printing-press",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 1498,
+      "lat": -4.05,
+      "lng": 39.67,
+      "region": "Afrika",
+      "title": "Vasco da Gama reaches the East African coast",
+      "desc": "Vasco da Gama reaches the East African coast. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/biography/Vasco-da-Gama",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
@@ -245,6 +443,17 @@
       "translationStatus": "en-only"
     },
     {
+      "y": 1607,
+      "lat": 37.21,
+      "lng": -76.78,
+      "region": "Amerika",
+      "title": "Jamestown settlement established",
+      "desc": "Jamestown settlement established. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/place/Jamestown-Colony",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
       "y": 1687,
       "lat": 51.51,
       "lng": -0.13,
@@ -252,6 +461,17 @@
       "title": "Newton publishes Principia",
       "desc": "Newton publishes Principia. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/topic/Philosophiae-Naturalis-Principia-Mathematica",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 1757,
+      "lat": 23.8,
+      "lng": 88.25,
+      "region": "Ázsia",
+      "title": "Battle of Plassey",
+      "desc": "Battle of Plassey. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/event/Battle-of-Plassey",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
@@ -274,6 +494,28 @@
       "title": "Battle of Waterloo",
       "desc": "Battle of Waterloo. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/Battle-of-Waterloo",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 1830,
+      "lat": 50.85,
+      "lng": 4.35,
+      "region": "Európa",
+      "title": "Belgian Revolution",
+      "desc": "Belgian Revolution. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/event/Belgian-Revolution",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 1861,
+      "lat": 38.89,
+      "lng": -77.04,
+      "region": "Amerika",
+      "title": "American Civil War begins",
+      "desc": "American Civil War begins. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/event/American-Civil-War",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
@@ -311,6 +553,17 @@
       "translationStatus": "en-only"
     },
     {
+      "y": 1918,
+      "lat": 52.52,
+      "lng": 13.4,
+      "region": "Európa",
+      "title": "Armistice ends fighting on the Western Front",
+      "desc": "Armistice ends fighting on the Western Front. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/event/World-War-I",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
       "y": 1939,
       "lat": 52.23,
       "lng": 21.01,
@@ -329,6 +582,17 @@
       "title": "Atomic bombing of Hiroshima",
       "desc": "Atomic bombing of Hiroshima. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/event/atomic-bombings-of-Hiroshima-and-Nagasaki",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 1945,
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "Európa",
+      "title": "United Nations Charter signed in San Francisco",
+      "desc": "United Nations Charter signed in San Francisco. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.un.org/en/about-us/history-of-the-un",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
@@ -373,6 +637,28 @@
       "title": "Nigeria gains independence",
       "desc": "Nigeria gains independence. The date and map position are representative; see the linked source for context.",
       "src": "https://www.britannica.com/place/Nigeria",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 1969,
+      "lat": 38.91,
+      "lng": -77.04,
+      "region": "Amerika",
+      "title": "ARPANET's first network connections",
+      "desc": "ARPANET's first network connections. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/topic/ARPANET",
+      "precision": "approximate",
+      "translationStatus": "en-only"
+    },
+    {
+      "y": 1986,
+      "lat": 51.39,
+      "lng": 30.1,
+      "region": "Európa",
+      "title": "Chernobyl nuclear disaster",
+      "desc": "Chernobyl nuclear disaster. Approximate map location; consult the linked reference for historical context.",
+      "src": "https://www.britannica.com/event/Chernobyl-disaster",
       "precision": "approximate",
       "translationStatus": "en-only"
     },
