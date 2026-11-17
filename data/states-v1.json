@@ -37,7 +37,10 @@
         "República romana"
       ],
       "precision": "approximate",
-      "imageQuery": "Roman Republic"
+      "imageQuery": "Roman Republic",
+      "successorIds": [
+        "state-3"
+      ]
     },
     {
       "id": "state-3",
@@ -56,7 +59,14 @@
         "Imperio romano"
       ],
       "precision": "approximate",
-      "imageQuery": "Roman Empire"
+      "imageQuery": "Roman Empire",
+      "predecessorIds": [
+        "state-2"
+      ],
+      "successorIds": [
+        "state-6"
+      ],
+      "relationshipNote": "The Roman imperial state developed from the Roman Republic. Its eastern imperial government continued after the fall of the western imperial court."
     },
     {
       "id": "state-4",
@@ -109,7 +119,11 @@
         "Ostrom"
       ],
       "precision": "approximate",
-      "imageQuery": "Byzantine Empire"
+      "imageQuery": "Byzantine Empire",
+      "predecessorIds": [
+        "state-3"
+      ],
+      "relationshipNote": "The Byzantine Empire is the modern name for the medieval eastern continuation of the Roman Empire, not an unrelated state founded in 330."
     },
     {
       "id": "state-7",
