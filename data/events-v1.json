@@ -27,6 +27,10 @@
         "es": {
           "title": "Primeras comunidades neolíticas",
           "desc": "Aparición de comunidades del Neolítico temprano; la fecha y la ubicación son aproximadas."
+        },
+        "fr": {
+          "title": "Premières communautés néolithiques",
+          "desc": "Apparition de communautés du Néolithique ancien ; la date et le lieu sont approximatifs."
         }
       }
     },
@@ -55,6 +59,10 @@
         "es": {
           "title": "Construcciones monumentales de Göbekli Tepe",
           "desc": "Período de las primeras estructuras monumentales de Göbekli Tepe, en la actual Turquía."
+        },
+        "fr": {
+          "title": "Constructions monumentales de Göbekli Tepe",
+          "desc": "Période des premiers ensembles monumentaux de Göbekli Tepe, dans l'actuelle Turquie."
         }
       }
     },
@@ -83,6 +91,10 @@
         "es": {
           "title": "Primeras ciudades de Mesopotamia",
           "desc": "Crecimiento de asentamientos y aparición de centros urbanos en el sur de Mesopotamia."
+        },
+        "fr": {
+          "title": "Première urbanisation en Mésopotamie",
+          "desc": "Développement des établissements et apparition des premiers centres urbains en Mésopotamie méridionale."
         }
       }
     },
@@ -111,6 +123,10 @@
         "es": {
           "title": "Primeras fases de construcción de Stonehenge",
           "desc": "Stonehenge se construyó en varias etapas; la fecha indicada es aproximada."
+        },
+        "fr": {
+          "title": "Premières phases de construction de Stonehenge",
+          "desc": "Stonehenge fut construit en plusieurs étapes ; la date indiquée est approximative."
         }
       }
     },
@@ -139,6 +155,10 @@
         "es": {
           "title": "Centros urbanos de la civilización del Indo",
           "desc": "La civilización harappa desarrolló importantes ciudades en las actuales Pakistán e India."
+        },
+        "fr": {
+          "title": "Centres urbains de la civilisation de l'Indus",
+          "desc": "La civilisation harappéenne développa de grandes villes dans les actuels Pakistan et Inde."
         }
       }
     },
@@ -167,6 +187,10 @@
         "es": {
           "title": "Ascenso del Imperio acadio",
           "desc": "Los gobernantes acadios establecieron un extenso Estado en Mesopotamia."
+        },
+        "fr": {
+          "title": "Essor de l'Empire d'Akkad",
+          "desc": "Les souverains akkadiens constituèrent un vaste État en Mésopotamie."
         }
       }
     },
@@ -195,6 +219,10 @@
         "es": {
           "title": "Período paleobabilónico",
           "desc": "Babilonia se convirtió en un destacado centro político y cultural de Mesopotamia."
+        },
+        "fr": {
+          "title": "Période paléo-babylonienne",
+          "desc": "Babylone devint un centre politique et culturel majeur de la Mésopotamie."
         }
       }
     },
@@ -223,6 +251,10 @@
         "es": {
           "title": "Aparición de la dinastía Shang",
           "desc": "La dinastía Shang marcó una etapa importante en el desarrollo estatal de la China de la Edad del Bronce."
+        },
+        "fr": {
+          "title": "Émergence de la dynastie Shang",
+          "desc": "La dynastie Shang marqua une étape importante de la formation des États chinois à l'âge du bronze."
         }
       }
     },
@@ -251,6 +283,10 @@
         "es": {
           "title": "Colapso de la Edad del Bronce tardía",
           "desc": "Varios Estados y redes comerciales del Mediterráneo oriental entraron en crisis."
+        },
+        "fr": {
+          "title": "Effondrement de la fin de l'âge du bronze",
+          "desc": "Plusieurs États et réseaux commerciaux de Méditerranée orientale traversèrent une crise."
         }
       }
     },
@@ -279,6 +315,10 @@
         "es": {
           "title": "Reino de Dʿmt en el Cuerno de África",
           "desc": "El antiguo reino de Dʿmt se relaciona con las tierras altas etíopes y Eritrea; su cronología es discutida."
+        },
+        "fr": {
+          "title": "Royaume de Dʿmt dans la Corne de l'Afrique",
+          "desc": "L'ancien royaume de Dʿmt est lié aux hauts plateaux éthiopiens et à l'Érythrée ; sa chronologie reste débattue."
         }
       }
     },
@@ -307,6 +347,10 @@
         "es": {
           "title": "Fecha tradicional de los primeros Juegos Olímpicos",
           "desc": "La tradición sitúa los primeros juegos registrados en el año 776 a. C."
+        },
+        "fr": {
+          "title": "Date traditionnelle des premiers Jeux olympiques",
+          "desc": "La tradition situe les premiers Jeux attestés en 776 av. J.-C."
         }
       }
     },
@@ -335,6 +379,10 @@
         "es": {
           "title": "Crecimiento del centro maya de El Mirador",
           "desc": "El Mirador se convirtió en un importante centro del período preclásico maya."
+        },
+        "fr": {
+          "title": "Développement du centre maya d'El Mirador",
+          "desc": "El Mirador devint un centre important de la période préclassique maya."
         }
       }
     },
@@ -363,6 +411,10 @@
         "es": {
           "title": "Ascenso del Imperio aqueménida",
           "desc": "La dinastía aqueménida creó el gran imperio de la antigua Persia."
+        },
+        "fr": {
+          "title": "Essor de l'Empire achéménide",
+          "desc": "La dynastie achéménide fonda le grand empire de la Perse antique."
         }
       }
     },
@@ -391,6 +443,10 @@
         "es": {
           "title": "Fundación tradicional de la República romana",
           "desc": "La tradición romana sitúa el fin de la monarquía en 509 a. C."
+        },
+        "fr": {
+          "title": "Fondation traditionnelle de la République romaine",
+          "desc": "La tradition romaine place la fin de la monarchie en 509 av. J.-C."
         }
       }
     },
@@ -419,6 +475,10 @@
         "es": {
           "title": "Alejandro se convierte en rey de Macedonia",
           "desc": "Alejandro III sucedió a su padre Filipo II como gobernante de Macedonia."
+        },
+        "fr": {
+          "title": "Alexandre devient roi de Macédoine",
+          "desc": "Alexandre III succéda à son père Philippe II à la tête de la Macédoine."
         }
       }
     },
@@ -447,6 +507,10 @@
         "es": {
           "title": "Fundación de Alejandría",
           "desc": "La ciudad egipcia fundada por Alejandro se convirtió después en un gran centro intelectual."
+        },
+        "fr": {
+          "title": "Fondation d'Alexandrie",
+          "desc": "La ville égyptienne fondée par Alexandre devint ensuite un grand centre intellectuel."
         }
       }
     },
@@ -475,6 +539,10 @@
         "es": {
           "title": "Inicio de la dinastía Han",
           "desc": "La dinastía Han fue una de las grandes dinastías imperiales de la historia china."
+        },
+        "fr": {
+          "title": "Début de la dynastie Han",
+          "desc": "La dynastie Han fut l'une des grandes dynasties impériales de l'histoire chinoise."
         }
       }
     },
@@ -503,6 +571,10 @@
         "es": {
           "title": "Augusto establece el principado",
           "desc": "Bajo Augusto se consolidó el sistema político de los primeros emperadores romanos."
+        },
+        "fr": {
+          "title": "Auguste établit le principat",
+          "desc": "Sous Auguste, le système politique des premiers empereurs romains se consolida."
         }
       }
     },
@@ -531,6 +603,10 @@
         "es": {
           "title": "Cai Lun y la tradición de fabricar papel",
           "desc": "La tradición china vincula a Cai Lun con importantes mejoras en la fabricación de papel."
+        },
+        "fr": {
+          "title": "Cai Lun et la tradition de fabrication du papier",
+          "desc": "La tradition chinoise associe Cai Lun à d'importantes améliorations de la fabrication du papier."
         }
       }
     },
@@ -559,6 +635,10 @@
         "es": {
           "title": "Edicto de Milán",
           "desc": "El acuerdo del año 313 fue un paso importante hacia la libertad religiosa en el Imperio romano."
+        },
+        "fr": {
+          "title": "Édit de Milan",
+          "desc": "L'accord de 313 fut une étape importante vers la liberté religieuse dans l'Empire romain."
         }
       }
     },
@@ -587,6 +667,10 @@
         "es": {
           "title": "Ascenso del Imperio gupta",
           "desc": "La dinastía Gupta se convirtió en una importante potencia política y cultural del norte de India."
+        },
+        "fr": {
+          "title": "Essor de l'Empire Gupta",
+          "desc": "La dynastie Gupta devint une grande puissance politique et culturelle du nord de l'Inde."
         }
       }
     },
@@ -615,6 +699,10 @@
         "es": {
           "title": "Época aproximada del nacimiento de Mahoma",
           "desc": "El nacimiento del profeta Mahoma suele situarse en la segunda mitad del siglo VI."
+        },
+        "fr": {
+          "title": "Époque approximative de la naissance de Mahomet",
+          "desc": "La naissance du prophète Mahomet est généralement située dans la seconde moitié du VIe siècle."
         }
       }
     },
@@ -643,6 +731,10 @@
         "es": {
           "title": "Inicio de la dinastía Tang",
           "desc": "La dinastía Tang influyó durante siglos en la política y la cultura de China."
+        },
+        "fr": {
+          "title": "Début de la dynastie Tang",
+          "desc": "La dynastie Tang influença durablement la politique et la culture chinoises."
         }
       }
     },
@@ -671,6 +763,10 @@
         "es": {
           "title": "Hégira e inicio del calendario islámico",
           "desc": "La emigración de Mahoma de La Meca a Medina marca el inicio de la era islámica."
+        },
+        "fr": {
+          "title": "Hégire et début du calendrier islamique",
+          "desc": "L'émigration de Mahomet de La Mecque à Médine marque le point de départ de l'ère islamique."
         }
       }
     },
@@ -699,6 +795,10 @@
         "es": {
           "title": "Comienza la conquista omeya de Iberia",
           "desc": "Los ejércitos musulmanes iniciaron en 711 la conquista de la península ibérica."
+        },
+        "fr": {
+          "title": "Début de la conquête omeyyade de l'Ibérie",
+          "desc": "Les armées musulmanes commencèrent la conquête de la péninsule Ibérique en 711."
         }
       }
     },
@@ -727,6 +827,10 @@
         "es": {
           "title": "Ataque vikingo a Lindisfarne",
           "desc": "El ataque de 793 se considera a menudo el comienzo simbólico de la era vikinga."
+        },
+        "fr": {
+          "title": "Raid viking sur Lindisfarne",
+          "desc": "L'attaque de 793 est souvent considérée comme le début symbolique de l'époque viking."
         }
       }
     },
@@ -755,6 +859,10 @@
         "es": {
           "title": "Fundación de la dinastía Song",
           "desc": "La dinastía Song llegó al poder en China en el año 960."
+        },
+        "fr": {
+          "title": "Fondation de la dynastie Song",
+          "desc": "La dynastie Song accéda au pouvoir en Chine en 960."
         }
       }
     },
@@ -783,6 +891,10 @@
         "es": {
           "title": "Viajes nórdicos por el Atlántico Norte",
           "desc": "Los navegantes escandinavos viajaron hacia Islandia, Groenlandia y América del Norte."
+        },
+        "fr": {
+          "title": "Voyages nordiques dans l'Atlantique Nord",
+          "desc": "Des navigateurs scandinaves voyagèrent vers l'Islande, le Groenland et l'Amérique du Nord."
         }
       }
     },
@@ -811,6 +923,10 @@
         "es": {
           "title": "Fecha tradicional del Cisma de Oriente y Occidente",
           "desc": "Los sucesos de 1054 simbolizan un largo proceso de separación entre las iglesias oriental y occidental."
+        },
+        "fr": {
+          "title": "Date traditionnelle du schisme entre Orient et Occident",
+          "desc": "Les événements de 1054 symbolisent un long processus de séparation entre les Églises orientale et occidentale."
         }
       }
     },
@@ -839,6 +955,10 @@
         "es": {
           "title": "Inicio de la Primera Cruzada",
           "desc": "Una expedición cristiana occidental se dirigió hacia Oriente Próximo."
+        },
+        "fr": {
+          "title": "Début de la première croisade",
+          "desc": "Une expédition chrétienne occidentale partit en direction du Proche-Orient."
         }
       }
     },
@@ -867,6 +987,10 @@
         "es": {
           "title": "Aprobación de la Carta Magna",
           "desc": "El rey Juan aceptó en 1215 las disposiciones de la Carta Magna en Runnymede."
+        },
+        "fr": {
+          "title": "Adoption de la Magna Carta",
+          "desc": "Le roi Jean accepta les dispositions de la Magna Carta à Runnymede en 1215."
         }
       }
     },
@@ -895,6 +1019,10 @@
         "es": {
           "title": "Ascenso del Imperio de Malí",
           "desc": "Durante el gobierno de Sundiata Keita, Malí se convirtió en una gran potencia de África occidental."
+        },
+        "fr": {
+          "title": "Essor de l'Empire du Mali",
+          "desc": "Sous Soundiata Keïta, le Mali devint une grande puissance d'Afrique de l'Ouest."
         }
       }
     },
@@ -923,6 +1051,10 @@
         "es": {
           "title": "Fundación de la dinastía Yuan",
           "desc": "Kublai Kan proclamó la dinastía Yuan en China en 1271."
+        },
+        "fr": {
+          "title": "Fondation de la dynastie Yuan",
+          "desc": "Kubilaï Khan proclama la dynastie Yuan en Chine en 1271."
         }
       }
     },
@@ -951,6 +1083,10 @@
         "es": {
           "title": "La peste negra llega a Europa",
           "desc": "La epidemia de peste provocó una grave crisis demográfica a mediados del siglo XIV."
+        },
+        "fr": {
+          "title": "La peste noire atteint l'Europe",
+          "desc": "L'épidémie de peste provoqua une grave crise démographique au milieu du XIVe siècle."
         }
       }
     },
@@ -979,6 +1115,10 @@
         "es": {
           "title": "Pachacútec y la expansión del Imperio inca",
           "desc": "Durante el reinado de Pachacútec, el Estado inca amplió considerablemente su territorio."
+        },
+        "fr": {
+          "title": "Pachacutec et l'expansion de l'Empire inca",
+          "desc": "Sous Pachacutec, l'État inca étendit considérablement son territoire."
         }
       }
     },
@@ -1007,6 +1147,10 @@
         "es": {
           "title": "Desarrollo de la imprenta europea de tipos móviles",
           "desc": "La impresión con tipos metálicos móviles transformó la cultura del libro europeo en el siglo XV."
+        },
+        "fr": {
+          "title": "Développement de l'imprimerie européenne à caractères mobiles",
+          "desc": "L'impression à caractères métalliques mobiles transforma la culture du livre en Europe au XVe siècle."
         }
       }
     },
@@ -1035,6 +1179,10 @@
         "es": {
           "title": "Vasco da Gama llega a África oriental",
           "desc": "La expedición portuguesa rodeó África en su camino hacia el océano Índico."
+        },
+        "fr": {
+          "title": "Vasco de Gama atteint l'Afrique orientale",
+          "desc": "L'expédition portugaise contourna l'Afrique pour rejoindre l'océan Indien."
         }
       }
     },
@@ -1063,6 +1211,10 @@
         "es": {
           "title": "Lutero y la Reforma",
           "desc": "La actuación de Lutero fue uno de los puntos de partida de una profunda transformación religiosa."
+        },
+        "fr": {
+          "title": "Luther et la Réforme",
+          "desc": "L'action de Luther fut l'un des points de départ d'une profonde transformation religieuse."
         }
       }
     },
@@ -1091,6 +1243,10 @@
         "es": {
           "title": "Caída de Tenochtitlan",
           "desc": "Fuerzas españolas y sus aliados indígenas conquistaron la capital azteca en 1521."
+        },
+        "fr": {
+          "title": "Chute de Tenochtitlan",
+          "desc": "Les forces espagnoles et leurs alliés autochtones prirent la capitale aztèque en 1521."
         }
       }
     },
@@ -1119,6 +1275,10 @@
         "es": {
           "title": "Batalla de Sekigahara",
           "desc": "La batalla de 1600 contribuyó a consolidar el poder de Tokugawa Ieyasu en Japón."
+        },
+        "fr": {
+          "title": "Bataille de Sekigahara",
+          "desc": "La bataille de 1600 contribua à consolider le pouvoir de Tokugawa Ieyasu au Japon."
         }
       }
     },
@@ -1147,6 +1307,10 @@
         "es": {
           "title": "Fundación del asentamiento de Jamestown",
           "desc": "En 1607 se estableció uno de los primeros asentamientos coloniales ingleses permanentes en Norteamérica."
+        },
+        "fr": {
+          "title": "Fondation de Jamestown",
+          "desc": "En 1607 fut établi l'un des premiers établissements coloniaux anglais durables d'Amérique du Nord."
         }
       }
     },
@@ -1175,6 +1339,10 @@
         "es": {
           "title": "Newton publica los Principia",
           "desc": "La obra de Newton de 1687 fue fundamental para la mecánica clásica."
+        },
+        "fr": {
+          "title": "Newton publie les Principia",
+          "desc": "L'ouvrage de Newton paru en 1687 fut fondamental pour la mécanique classique."
         }
       }
     },
@@ -1203,6 +1371,10 @@
         "es": {
           "title": "Batalla de Plassey",
           "desc": "La victoria de la Compañía Británica de las Indias Orientales en 1757 fortaleció su influencia en Bengala."
+        },
+        "fr": {
+          "title": "Bataille de Plassey",
+          "desc": "La victoire de la Compagnie britannique des Indes orientales en 1757 renforça son influence au Bengale."
         }
       }
     },
@@ -1231,6 +1403,10 @@
         "es": {
           "title": "Haití declara su independencia",
           "desc": "En 1804, Haití declaró su independencia del dominio colonial francés."
+        },
+        "fr": {
+          "title": "Haïti proclame son indépendance",
+          "desc": "Haïti déclara son indépendance de la domination coloniale française en 1804."
         }
       }
     },
@@ -1259,6 +1435,10 @@
         "es": {
           "title": "Batalla de Waterloo",
           "desc": "Las fuerzas de Napoleón fueron derrotadas en Waterloo en 1815."
+        },
+        "fr": {
+          "title": "Bataille de Waterloo",
+          "desc": "Les forces de Napoléon furent vaincues à Waterloo en 1815."
         }
       }
     },
@@ -1287,6 +1467,10 @@
         "es": {
           "title": "Revolución belga",
           "desc": "El levantamiento de 1830 condujo a la independencia de Bélgica."
+        },
+        "fr": {
+          "title": "Révolution belge",
+          "desc": "Le soulèvement de 1830 conduisit à l'indépendance de la Belgique."
         }
       }
     },
@@ -1315,6 +1499,10 @@
         "es": {
           "title": "Comienza la guerra de Secesión estadounidense",
           "desc": "En 1861 empezó el conflicto armado entre la Unión y la Confederación."
+        },
+        "fr": {
+          "title": "Début de la guerre de Sécession",
+          "desc": "En 1861 commença le conflit armé entre l'Union et la Confédération."
         }
       }
     },
@@ -1343,6 +1531,10 @@
         "es": {
           "title": "Restauración Meiji",
           "desc": "La transformación política de 1868 abrió una nueva etapa de modernización en Japón."
+        },
+        "fr": {
+          "title": "Restauration de Meiji",
+          "desc": "La transformation politique de 1868 ouvrit une nouvelle phase de modernisation du Japon."
         }
       }
     },
@@ -1371,6 +1563,10 @@
         "es": {
           "title": "Comienza la Conferencia de Berlín",
           "desc": "La conferencia de 1884-1885 influyó en las reglas europeas de la colonización de África."
+        },
+        "fr": {
+          "title": "Ouverture de la conférence de Berlin",
+          "desc": "La conférence de 1884-1885 joua un rôle dans l'encadrement européen de la colonisation de l'Afrique."
         }
       }
     },
@@ -1399,6 +1595,10 @@
         "es": {
           "title": "Revolución rusa",
           "desc": "Las revoluciones de 1917 derribaron al zarismo y llevaron a la toma del poder por los bolcheviques."
+        },
+        "fr": {
+          "title": "Révolution russe",
+          "desc": "Les révolutions de 1917 renversèrent le tsarisme et menèrent à la prise du pouvoir par les bolcheviks."
         }
       }
     },
@@ -1427,6 +1627,10 @@
         "es": {
           "title": "Armisticio en el frente occidental",
           "desc": "El 11 de noviembre de 1918 terminaron los combates de la Primera Guerra Mundial en el frente occidental."
+        },
+        "fr": {
+          "title": "Armistice sur le front occidental",
+          "desc": "Le 11 novembre 1918, les combats de la Première Guerre mondiale cessèrent sur le front occidental."
         }
       }
     },
@@ -1455,6 +1659,10 @@
         "es": {
           "title": "Alemania invade Polonia",
           "desc": "El 1 de septiembre de 1939, Alemania invadió Polonia e inició la Segunda Guerra Mundial en Europa."
+        },
+        "fr": {
+          "title": "L'Allemagne envahit la Pologne",
+          "desc": "Le 1er septembre 1939, l'Allemagne envahit la Pologne, déclenchant la Seconde Guerre mondiale en Europe."
         }
       }
     },
@@ -1483,6 +1691,10 @@
         "es": {
           "title": "Bombardeo atómico de Hiroshima",
           "desc": "El 6 de agosto de 1945, Estados Unidos lanzó una bomba atómica sobre Hiroshima."
+        },
+        "fr": {
+          "title": "Bombardement atomique d'Hiroshima",
+          "desc": "Le 6 août 1945, les États-Unis larguèrent une bombe atomique sur Hiroshima."
         }
       }
     },
@@ -1511,6 +1723,10 @@
         "es": {
           "title": "Firma de la Carta de las Naciones Unidas",
           "desc": "La Carta de la ONU se firmó en San Francisco en 1945."
+        },
+        "fr": {
+          "title": "Signature de la Charte des Nations unies",
+          "desc": "La Charte des Nations unies fut signée à San Francisco en 1945."
         }
       }
     },
@@ -1539,6 +1755,10 @@
         "es": {
           "title": "Partición de la India británica",
           "desc": "En 1947, la independencia y partición dieron lugar a India y Pakistán."
+        },
+        "fr": {
+          "title": "Partition des Indes britanniques",
+          "desc": "En 1947, l'indépendance et la partition donnèrent naissance à l'Inde et au Pakistan."
         }
       }
     },
@@ -1567,6 +1787,10 @@
         "es": {
           "title": "Proclamación de la República Popular China",
           "desc": "El 1 de octubre de 1949 se proclamó en Pekín la República Popular China."
+        },
+        "fr": {
+          "title": "Proclamation de la République populaire de Chine",
+          "desc": "Le 1er octobre 1949, la République populaire de Chine fut proclamée à Pékin."
         }
       }
     },
@@ -1595,6 +1819,10 @@
         "es": {
           "title": "Lanzamiento del Sputnik 1",
           "desc": "La Unión Soviética puso en órbita el primer satélite artificial en 1957."
+        },
+        "fr": {
+          "title": "Lancement de Spoutnik 1",
+          "desc": "L'Union soviétique plaça le premier satellite artificiel en orbite en 1957."
         }
       }
     },
@@ -1623,6 +1851,10 @@
         "es": {
           "title": "Independencia de Nigeria",
           "desc": "Nigeria obtuvo su independencia del Reino Unido en 1960."
+        },
+        "fr": {
+          "title": "Indépendance du Nigeria",
+          "desc": "Le Nigeria obtint son indépendance du Royaume-Uni en 1960."
         }
       }
     },
@@ -1651,6 +1883,10 @@
         "es": {
           "title": "Primeras conexiones de ARPANET",
           "desc": "En 1969 se establecieron las primeras conexiones de la red informática ARPANET."
+        },
+        "fr": {
+          "title": "Premières connexions d'ARPANET",
+          "desc": "Les premières connexions du réseau informatique ARPANET furent établies en 1969."
         }
       }
     },
@@ -1679,6 +1915,10 @@
         "es": {
           "title": "Catástrofe nuclear de Chernóbil",
           "desc": "En 1986 ocurrió un grave accidente de reactor en la central nuclear de Chernóbil."
+        },
+        "fr": {
+          "title": "Catastrophe nucléaire de Tchernobyl",
+          "desc": "Un grave accident de réacteur survint à la centrale nucléaire de Tchernobyl en 1986."
         }
       }
     },
@@ -1707,6 +1947,10 @@
         "es": {
           "title": "Caída del Muro de Berlín",
           "desc": "En noviembre de 1989 se abrieron los pasos fronterizos de Berlín y comenzó el desmantelamiento del muro."
+        },
+        "fr": {
+          "title": "Chute du mur de Berlin",
+          "desc": "En novembre 1989, les points de passage de Berlin furent ouverts et le démantèlement du mur commença."
         }
       }
     },
@@ -1735,6 +1979,10 @@
         "es": {
           "title": "Disolución de la Unión Soviética",
           "desc": "A finales de 1991, la Unión Soviética dejó de existir y sus repúblicas se independizaron."
+        },
+        "fr": {
+          "title": "Dissolution de l'Union soviétique",
+          "desc": "Fin 1991, l'Union soviétique cessa d'exister et ses républiques devinrent indépendantes."
         }
       }
     },
@@ -1763,6 +2011,10 @@
         "es": {
           "title": "Primeras elecciones nacionales multirraciales en Sudáfrica",
           "desc": "En 1994 se celebraron elecciones nacionales sudafricanas con participación de todos los grupos raciales."
+        },
+        "fr": {
+          "title": "Premières élections nationales multiraciales en Afrique du Sud",
+          "desc": "En 1994, des élections nationales sud-africaines furent organisées avec la participation de tous les groupes raciaux."
         }
       }
     },
@@ -1791,6 +2043,10 @@
         "es": {
           "title": "Atentados del 11 de septiembre de 2001",
           "desc": "Los atentados terroristas en Estados Unidos causaron miles de muertes."
+        },
+        "fr": {
+          "title": "Attentats du 11 septembre 2001",
+          "desc": "Les attentats terroristes aux États-Unis causèrent la mort de milliers de personnes."
         }
       }
     },
@@ -1819,6 +2075,10 @@
         "es": {
           "title": "Pandemia de COVID-19",
           "desc": "La propagación del virus SARS-CoV-2 provocó una pandemia mundial."
+        },
+        "fr": {
+          "title": "Pandémie de COVID-19",
+          "desc": "La propagation du virus SARS-CoV-2 entraîna une pandémie mondiale."
         }
       }
     }
