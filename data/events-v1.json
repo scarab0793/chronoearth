@@ -2778,7 +2778,10 @@
       },
       "month": 3,
       "day": 15,
-      "datePrecision": "day"
+      "datePrecision": "day",
+      "relatedPeople": [
+        "person-1"
+      ]
     },
     {
       "y": 476,
