@@ -143,7 +143,13 @@
         "Mongolenreich"
       ],
       "precision": "approximate",
-      "imageQuery": "Mongol Empire"
+      "imageQuery": "Mongol Empire",
+      "successorIds": [
+        "state-16",
+        "state-17",
+        "state-18",
+        "state-19"
+      ]
     },
     {
       "id": "state-9",
@@ -290,7 +296,10 @@
         "Dinastía Yuan"
       ],
       "precision": "approximate",
-      "imageQuery": "Yuan dynasty"
+      "imageQuery": "Yuan dynasty",
+      "predecessorIds": [
+        "state-8"
+      ]
     },
     {
       "id": "state-17",
@@ -308,7 +317,10 @@
         "Horda de Oro"
       ],
       "precision": "approximate",
-      "imageQuery": "Golden Horde"
+      "imageQuery": "Golden Horde",
+      "predecessorIds": [
+        "state-8"
+      ]
     },
     {
       "id": "state-18",
@@ -326,7 +338,10 @@
         "Ilkanato"
       ],
       "precision": "approximate",
-      "imageQuery": "Ilkhanate"
+      "imageQuery": "Ilkhanate",
+      "predecessorIds": [
+        "state-8"
+      ]
     },
     {
       "id": "state-19",
@@ -344,7 +359,10 @@
         "Kanato de Chagatai"
       ],
       "precision": "approximate",
-      "imageQuery": "Chagatai Khanate"
+      "imageQuery": "Chagatai Khanate",
+      "predecessorIds": [
+        "state-8"
+      ]
     }
   ]
 }
