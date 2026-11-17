@@ -520,7 +520,10 @@
           "title": "Powstanie imperium Achemenidów",
           "desc": "Dynastia Achemenidów stworzyła wielkie imperium starożytnej Persji."
         }
-      }
+      },
+      "relatedStates": [
+        "state-4"
+      ]
     },
     {
       "y": -509,
@@ -560,7 +563,10 @@
           "title": "Tradycyjna data powstania republiki rzymskiej",
           "desc": "Według tradycji rzymskiej monarchia zakończyła się w 509 roku p.n.e."
         }
-      }
+      },
+      "relatedStates": [
+        "state-2"
+      ]
     },
     {
       "y": -336,
@@ -600,7 +606,10 @@
           "title": "Aleksander zostaje królem Macedonii",
           "desc": "Aleksander III objął władzę w Macedonii po śmierci ojca, Filipa II."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-3"
+      ]
     },
     {
       "y": -332,
@@ -640,7 +649,10 @@
           "title": "Założenie Aleksandrii",
           "desc": "Miasto założone przez Aleksandra w Egipcie stało się później ważnym ośrodkiem nauki."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-3"
+      ]
     },
     {
       "y": -206,
@@ -680,7 +692,10 @@
           "title": "Początek dynastii Han",
           "desc": "Dynastia Han należała do najważniejszych dynastii cesarskich w dziejach Chin."
         }
-      }
+      },
+      "relatedStates": [
+        "state-5"
+      ]
     },
     {
       "y": -27,
@@ -720,7 +735,13 @@
           "title": "August ustanawia pryncypat",
           "desc": "Za panowania Augusta utrwalił się system polityczny wczesnego cesarstwa rzymskiego."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-5"
+      ],
+      "relatedStates": [
+        "state-3"
+      ]
     },
     {
       "y": 105,
@@ -880,7 +901,10 @@
           "title": "Przybliżony okres narodzin Mahometa",
           "desc": "Narodziny proroka Mahometa zwykle datuje się na drugą połowę VI wieku."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-6"
+      ]
     },
     {
       "y": 618,
@@ -960,7 +984,10 @@
           "title": "Hidżra i początek kalendarza muzułmańskiego",
           "desc": "Migracja Mahometa z Mekki do Medyny wyznacza początek ery muzułmańskiej."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-6"
+      ]
     },
     {
       "y": 711,
@@ -1286,7 +1313,13 @@
           "title": "Powstanie imperium Mali",
           "desc": "Za panowania Sundiaty Keity Mali stało się znaczącą potęgą Afryki Zachodniej."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-9"
+      ],
+      "relatedStates": [
+        "state-7"
+      ]
     },
     {
       "y": 1271,
@@ -1326,7 +1359,13 @@
           "title": "Założenie dynastii Yuan",
           "desc": "Kubilaj-chan ogłosił powstanie dynastii Yuan w Chinach w 1271 roku."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-8"
+      ],
+      "relatedStates": [
+        "state-8"
+      ]
     },
     {
       "y": 1347,
@@ -1406,7 +1445,13 @@
           "title": "Pachacuti i ekspansja imperium Inków",
           "desc": "Za panowania Pachacutiego państwo Inków znacznie rozszerzyło swoje terytorium."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-10"
+      ],
+      "relatedStates": [
+        "state-9"
+      ]
     },
     {
       "y": 1440,
@@ -1446,7 +1491,10 @@
           "title": "Rozwój europejskiego druku ruchomą czcionką",
           "desc": "Druk przy użyciu ruchomych metalowych czcionek zmienił europejską kulturę książki w XV wieku."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-11"
+      ]
     },
     {
       "y": 1498,
@@ -1529,7 +1577,10 @@
       },
       "month": 10,
       "day": 31,
-      "datePrecision": "day"
+      "datePrecision": "day",
+      "relatedPeople": [
+        "person-13"
+      ]
     },
     {
       "y": 1521,
@@ -1615,7 +1666,10 @@
       },
       "month": 10,
       "day": 21,
-      "datePrecision": "day"
+      "datePrecision": "day",
+      "relatedPeople": [
+        "person-14"
+      ]
     },
     {
       "y": 1607,
@@ -1698,7 +1752,10 @@
           "title": "Newton publikuje Principia",
           "desc": "Dzieło Newtona z 1687 roku miało fundamentalne znaczenie dla mechaniki klasycznej."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-15"
+      ]
     },
     {
       "y": 1757,
@@ -1827,7 +1884,10 @@
       },
       "month": 6,
       "day": 18,
-      "datePrecision": "day"
+      "datePrecision": "day",
+      "relatedPeople": [
+        "person-16"
+      ]
     },
     {
       "y": 1830,
@@ -1910,7 +1970,10 @@
       },
       "month": 4,
       "day": 12,
-      "datePrecision": "day"
+      "datePrecision": "day",
+      "relatedPeople": [
+        "person-18"
+      ]
     },
     {
       "y": 1868,
@@ -2245,7 +2308,10 @@
           "title": "Podział Indii Brytyjskich",
           "desc": "W 1947 roku niepodległość i podział doprowadziły do powstania Indii i Pakistanu."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-19"
+      ]
     },
     {
       "y": 1949,
@@ -2543,7 +2609,10 @@
       },
       "month": 12,
       "day": 26,
-      "datePrecision": "day"
+      "datePrecision": "day",
+      "relatedStates": [
+        "state-13"
+      ]
     },
     {
       "y": 1994,
@@ -2583,7 +2652,10 @@
           "title": "Pierwsze ogólnokrajowe wielorasowe wybory w RPA",
           "desc": "W 1994 roku odbyły się wybory krajowe w Republice Południowej Afryki z udziałem wszystkich grup rasowych."
         }
-      }
+      },
+      "relatedPeople": [
+        "person-21"
+      ]
     },
     {
       "y": 2001,
