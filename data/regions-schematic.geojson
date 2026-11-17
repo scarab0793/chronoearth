@@ -454,6 +454,298 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mali-core",
+        "name": "Mali Empire — schematic western Sahel core",
+        "from": 1320,
+        "to": 1330,
+        "source": "https://www.britannica.com/place/Mali-historical-empire-Africa",
+        "confidence": "schematic",
+        "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
+        "regions": [
+          "Afrika"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -12,
+              10
+            ],
+            [
+              -12,
+              16
+            ],
+            [
+              -8,
+              18
+            ],
+            [
+              -3,
+              17
+            ],
+            [
+              0,
+              14
+            ],
+            [
+              -2,
+              11
+            ],
+            [
+              -7,
+              10
+            ],
+            [
+              -12,
+              10
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "aztec-core",
+        "name": "Aztec Empire — schematic central Mexico core",
+        "from": 1500,
+        "to": 1510,
+        "source": "https://www.britannica.com/topic/Aztec",
+        "confidence": "schematic",
+        "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
+        "regions": [
+          "Amerika"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -101,
+              17.5
+            ],
+            [
+              -101,
+              20.5
+            ],
+            [
+              -98,
+              21
+            ],
+            [
+              -96,
+              19.5
+            ],
+            [
+              -97,
+              17.5
+            ],
+            [
+              -101,
+              17.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kush-core",
+        "name": "Kingdom of Kush — schematic Nile corridor",
+        "from": -700,
+        "to": -600,
+        "source": "https://www.britannica.com/place/Kush-ancient-kingdom-Africa",
+        "confidence": "schematic",
+        "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
+        "regions": [
+          "Afrika"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30,
+              15
+            ],
+            [
+              34,
+              15
+            ],
+            [
+              34,
+              23
+            ],
+            [
+              31,
+              23
+            ],
+            [
+              30,
+              19
+            ],
+            [
+              30,
+              15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gupta-core",
+        "name": "Gupta Empire — schematic northern India core",
+        "from": 375,
+        "to": 400,
+        "source": "https://www.britannica.com/topic/Gupta-dynasty",
+        "confidence": "schematic",
+        "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
+        "regions": [
+          "Ázsia"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76,
+              22
+            ],
+            [
+              76,
+              29
+            ],
+            [
+              82,
+              30
+            ],
+            [
+              88,
+              27
+            ],
+            [
+              88,
+              22
+            ],
+            [
+              82,
+              21
+            ],
+            [
+              76,
+              22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tang-core",
+        "name": "Tang dynasty — schematic northern China core",
+        "from": 700,
+        "to": 710,
+        "source": "https://www.britannica.com/topic/Tang-dynasty",
+        "confidence": "schematic",
+        "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
+        "regions": [
+          "Ázsia"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102,
+              30
+            ],
+            [
+              102,
+              40
+            ],
+            [
+              112,
+              42
+            ],
+            [
+              119,
+              38
+            ],
+            [
+              118,
+              31
+            ],
+            [
+              110,
+              29
+            ],
+            [
+              102,
+              30
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ghana-core",
+        "name": "Ghana Empire — schematic western Sahel core",
+        "from": 1000,
+        "to": 1010,
+        "source": "https://www.britannica.com/place/Ghana-historical-West-African-empire",
+        "confidence": "schematic",
+        "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
+        "regions": [
+          "Afrika"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -13,
+              13
+            ],
+            [
+              -13,
+              18
+            ],
+            [
+              -8,
+              19
+            ],
+            [
+              -5,
+              16
+            ],
+            [
+              -7,
+              13
+            ],
+            [
+              -13,
+              13
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
