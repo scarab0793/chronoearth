@@ -1,0 +1,436 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "kind": "schematic",
+    "warning": "These polygons are deliberately simplified illustrations, not verified political boundaries. Do not use for research or navigation.",
+    "sourcePolicy": "Consult linked references and replace with scholarly GIS before claiming historical accuracy."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "roman",
+        "name": "Roman Empire — schematic extent",
+        "from": 117,
+        "to": 118,
+        "source": "https://www.britannica.com/place/Roman-Empire",
+        "confidence": "schematic",
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9,
+              36
+            ],
+            [
+              -9,
+              43
+            ],
+            [
+              -5,
+              44
+            ],
+            [
+              0,
+              43
+            ],
+            [
+              3,
+              46
+            ],
+            [
+              8,
+              48
+            ],
+            [
+              13,
+              47
+            ],
+            [
+              18,
+              46
+            ],
+            [
+              23,
+              44
+            ],
+            [
+              28,
+              42
+            ],
+            [
+              34,
+              37
+            ],
+            [
+              36,
+              32
+            ],
+            [
+              30,
+              30
+            ],
+            [
+              24,
+              31
+            ],
+            [
+              20,
+              31
+            ],
+            [
+              15,
+              31
+            ],
+            [
+              10,
+              32
+            ],
+            [
+              5,
+              34
+            ],
+            [
+              0,
+              35
+            ],
+            [
+              -5,
+              35
+            ],
+            [
+              -9,
+              36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "qin",
+        "name": "Qin dynasty — schematic core",
+        "from": -221,
+        "to": -206,
+        "source": "https://www.britannica.com/topic/Qin-dynasty",
+        "confidence": "schematic",
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103,
+              25
+            ],
+            [
+              108,
+              24
+            ],
+            [
+              114,
+              27
+            ],
+            [
+              119,
+              32
+            ],
+            [
+              117,
+              37
+            ],
+            [
+              112,
+              40
+            ],
+            [
+              106,
+              38
+            ],
+            [
+              103,
+              33
+            ],
+            [
+              103,
+              25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "han",
+        "name": "Han dynasty — schematic core",
+        "from": -202,
+        "to": 220,
+        "source": "https://www.britannica.com/topic/Han-dynasty",
+        "confidence": "schematic",
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              99,
+              23
+            ],
+            [
+              106,
+              21
+            ],
+            [
+              115,
+              24
+            ],
+            [
+              121,
+              30
+            ],
+            [
+              121,
+              37
+            ],
+            [
+              116,
+              42
+            ],
+            [
+              108,
+              43
+            ],
+            [
+              101,
+              38
+            ],
+            [
+              99,
+              32
+            ],
+            [
+              99,
+              23
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "inca",
+        "name": "Inca Empire — schematic Andean corridor",
+        "from": 1450,
+        "to": 1532,
+        "source": "https://www.britannica.com/topic/Inca",
+        "confidence": "schematic",
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80,
+              -1
+            ],
+            [
+              -76,
+              -3
+            ],
+            [
+              -74,
+              -10
+            ],
+            [
+              -71,
+              -16
+            ],
+            [
+              -68,
+              -21
+            ],
+            [
+              -68,
+              -30
+            ],
+            [
+              -70,
+              -36
+            ],
+            [
+              -73,
+              -35
+            ],
+            [
+              -75,
+              -25
+            ],
+            [
+              -78,
+              -15
+            ],
+            [
+              -81,
+              -7
+            ],
+            [
+              -80,
+              -1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mongol",
+        "name": "Mongol Empire — schematic central core",
+        "from": 1250,
+        "to": 1300,
+        "source": "https://www.britannica.com/place/Mongol-empire",
+        "confidence": "schematic",
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45,
+              40
+            ],
+            [
+              57,
+              36
+            ],
+            [
+              70,
+              37
+            ],
+            [
+              82,
+              37
+            ],
+            [
+              94,
+              40
+            ],
+            [
+              108,
+              41
+            ],
+            [
+              121,
+              45
+            ],
+            [
+              123,
+              53
+            ],
+            [
+              108,
+              58
+            ],
+            [
+              94,
+              57
+            ],
+            [
+              82,
+              54
+            ],
+            [
+              68,
+              52
+            ],
+            [
+              55,
+              47
+            ],
+            [
+              45,
+              40
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ottoman",
+        "name": "Ottoman Empire — schematic core",
+        "from": 1550,
+        "to": 1600,
+        "source": "https://www.britannica.com/place/Ottoman-Empire",
+        "confidence": "schematic",
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17,
+              41
+            ],
+            [
+              23,
+              44
+            ],
+            [
+              30,
+              43
+            ],
+            [
+              37,
+              41
+            ],
+            [
+              42,
+              36
+            ],
+            [
+              45,
+              31
+            ],
+            [
+              38,
+              29
+            ],
+            [
+              34,
+              30
+            ],
+            [
+              30,
+              34
+            ],
+            [
+              25,
+              35
+            ],
+            [
+              20,
+              37
+            ],
+            [
+              17,
+              41
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
