@@ -378,5 +378,55 @@
         "state-8"
       ]
     }
+  ],
+  "relationships": [
+    {
+      "from": "state-2",
+      "to": "state-3",
+      "type": "transition",
+      "approximateYear": -27,
+      "datePrecision": "approximate",
+      "note": "Augustus' constitutional settlement marked the emergence of the Principate; the transition from Republic to Empire was gradual."
+    },
+    {
+      "from": "state-3",
+      "to": "state-6",
+      "type": "continuation",
+      "approximateYear": 395,
+      "datePrecision": "approximate",
+      "note": "The eastern Roman imperial administration continued after the permanent division of imperial courts in 395; 330 is a conventional date for Constantinople."
+    },
+    {
+      "from": "state-8",
+      "to": "state-16",
+      "type": "dynastic-branch",
+      "approximateYear": 1271,
+      "datePrecision": "approximate",
+      "note": "Kublai Khan proclaimed the Yuan dynasty in 1271, while rival Mongol dynasties continued elsewhere."
+    },
+    {
+      "from": "state-8",
+      "to": "state-17",
+      "type": "dynastic-branch",
+      "approximateYear": 1240,
+      "datePrecision": "approximate",
+      "note": "The Jochid ulus emerged during the thirteenth-century Mongol conquests; 1240 is approximate, not a formal independence date."
+    },
+    {
+      "from": "state-8",
+      "to": "state-18",
+      "type": "dynastic-branch",
+      "approximateYear": 1256,
+      "datePrecision": "approximate",
+      "note": "Hülegü established Ilkhanid rule in the mid-thirteenth century."
+    },
+    {
+      "from": "state-8",
+      "to": "state-19",
+      "type": "dynastic-branch",
+      "approximateYear": 1227,
+      "datePrecision": "approximate",
+      "note": "Chagatai's appanage dates to the Mongol imperial partition; political autonomy developed gradually."
+    }
   ]
 }
