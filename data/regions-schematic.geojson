@@ -20,7 +20,10 @@
           "Európa",
           "Afrika",
           "Ázsia"
-        ]
+        ],
+        "entityKey": "roman",
+        "snapshotYear": 118,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -126,7 +129,10 @@
         "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
         "regions": [
           "Ázsia"
-        ]
+        ],
+        "entityKey": "qin",
+        "snapshotYear": -213,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -184,7 +190,10 @@
         "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
         "regions": [
           "Ázsia"
-        ]
+        ],
+        "entityKey": "han",
+        "snapshotYear": 9,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -246,7 +255,10 @@
         "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
         "regions": [
           "Amerika"
-        ]
+        ],
+        "entityKey": "inca",
+        "snapshotYear": 1491,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -317,7 +329,10 @@
         "regions": [
           "Ázsia",
           "Európa"
-        ]
+        ],
+        "entityKey": "mongol",
+        "snapshotYear": 1275,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -397,7 +412,10 @@
           "Európa",
           "Ázsia",
           "Afrika"
-        ]
+        ],
+        "entityKey": "ottoman",
+        "snapshotYear": 1575,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -467,7 +485,10 @@
         "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
         "regions": [
           "Afrika"
-        ]
+        ],
+        "entityKey": "mali",
+        "snapshotYear": 1325,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -521,7 +542,10 @@
         "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
         "regions": [
           "Amerika"
-        ]
+        ],
+        "entityKey": "aztec",
+        "snapshotYear": 1505,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -567,7 +591,10 @@
         "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
         "regions": [
           "Afrika"
-        ]
+        ],
+        "entityKey": "kush",
+        "snapshotYear": -650,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -613,7 +640,10 @@
         "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
         "regions": [
           "Ázsia"
-        ]
+        ],
+        "entityKey": "gupta",
+        "snapshotYear": 388,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -663,7 +693,10 @@
         "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
         "regions": [
           "Ázsia"
-        ]
+        ],
+        "entityKey": "tang",
+        "snapshotYear": 705,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -713,7 +746,10 @@
         "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
         "regions": [
           "Afrika"
-        ]
+        ],
+        "entityKey": "ghana",
+        "snapshotYear": 1005,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -759,7 +795,10 @@
         "note": "Illustrative geographic core for a selected historical snapshot, not a verified border or complete territory; no continuous boundary reconstruction is implied.",
         "regions": [
           "Európa"
-        ]
+        ],
+        "entityKey": "roman",
+        "snapshotYear": -195,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -822,7 +861,10 @@
         "regions": [
           "Európa",
           "Afrika"
-        ]
+        ],
+        "entityKey": "roman",
+        "snapshotYear": 400,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -897,7 +939,10 @@
         "regions": [
           "Ázsia",
           "Európa"
-        ]
+        ],
+        "entityKey": "ottoman",
+        "snapshotYear": 1355,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
@@ -948,7 +993,10 @@
         "regions": [
           "Európa",
           "Ázsia"
-        ]
+        ],
+        "entityKey": "ottoman",
+        "snapshotYear": 1905,
+        "geometryStatus": "illustrative-not-verified"
       },
       "geometry": {
         "type": "Polygon",
