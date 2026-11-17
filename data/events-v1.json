@@ -19,6 +19,10 @@
         "hu": {
           "title": "Korai újkőkori közösségek",
           "desc": "Az újkőkor korai közösségeinek kialakulása; az időpont és a helyszín tájékoztató jellegű."
+        },
+        "de": {
+          "title": "Frühe neolithische Gemeinschaften",
+          "desc": "Frühe Gemeinschaften der Jungsteinzeit; Zeitpunkt und Ort sind nur näherungsweise angegeben."
         }
       }
     },
@@ -39,6 +43,10 @@
         "hu": {
           "title": "Göbekli Tepe monumentális építményei",
           "desc": "A mai Törökország területén álló Göbekli Tepe korai monumentális építményeinek időszaka."
+        },
+        "de": {
+          "title": "Monumentalbauten von Göbekli Tepe",
+          "desc": "Frühe monumentale Anlagen am Fundort Göbekli Tepe in der heutigen Türkei."
         }
       }
     },
@@ -59,6 +67,10 @@
         "hu": {
           "title": "A mezopotámiai városiasodás kezdete",
           "desc": "A dél-mezopotámiai települések növekedése és az első városi központok kialakulása."
+        },
+        "de": {
+          "title": "Frühe Urbanisierung in Mesopotamien",
+          "desc": "In Südmesopotamien entstanden größere Siedlungen und frühe städtische Zentren."
         }
       }
     },
@@ -79,6 +91,10 @@
         "hu": {
           "title": "Stonehenge építésének korai szakaszai",
           "desc": "A Stonehenge régészeti lelőhelyen több építési szakasz követhető nyomon; a megadott év közelítő."
+        },
+        "de": {
+          "title": "Frühe Bauphasen von Stonehenge",
+          "desc": "Die Anlage Stonehenge wurde in mehreren Phasen errichtet; die Jahresangabe ist ungefähr."
         }
       }
     },
@@ -99,6 +115,10 @@
         "hu": {
           "title": "Az Indus-völgyi civilizáció városai",
           "desc": "A harappai civilizáció fejlett városi központjai a mai Pakisztán és India térségében."
+        },
+        "de": {
+          "title": "Städte der Indus-Kultur",
+          "desc": "Die Harappa-Kultur entwickelte bedeutende urbane Zentren im heutigen Pakistan und Indien."
         }
       }
     },
@@ -119,6 +139,10 @@
         "hu": {
           "title": "Az Akkád Birodalom felemelkedése",
           "desc": "Akkád uralkodói nagy kiterjedésű államot hoztak létre Mezopotámiában."
+        },
+        "de": {
+          "title": "Aufstieg des Akkadischen Reiches",
+          "desc": "Akkadische Herrscher schufen ein großräumiges Reich in Mesopotamien."
         }
       }
     },
@@ -139,6 +163,10 @@
         "hu": {
           "title": "Az óbabiloni korszak",
           "desc": "Babilon jelentős mezopotámiai politikai és kulturális központtá vált."
+        },
+        "de": {
+          "title": "Altbabylonische Zeit",
+          "desc": "Babylon entwickelte sich zu einem bedeutenden politischen und kulturellen Zentrum."
         }
       }
     },
@@ -159,6 +187,10 @@
         "hu": {
           "title": "A Shang-dinasztia kialakulása",
           "desc": "A Shang-dinasztia a korai kínai bronzkori államfejlődés fontos szakasza."
+        },
+        "de": {
+          "title": "Entstehung der Shang-Dynastie",
+          "desc": "Die Shang-Dynastie prägte die frühe bronzezeitliche Staatsentwicklung Chinas."
         }
       }
     },
@@ -179,6 +211,10 @@
         "hu": {
           "title": "A késő bronzkori összeomlás",
           "desc": "A keleti Mediterráneumban több állam és kereskedelmi hálózat válságba került."
+        },
+        "de": {
+          "title": "Zusammenbruch der späten Bronzezeit",
+          "desc": "Im östlichen Mittelmeerraum gerieten mehrere Staaten und Handelsnetze in eine Krise."
         }
       }
     },
@@ -199,6 +235,10 @@
         "hu": {
           "title": "Dʿmt királysága Afrika szarván",
           "desc": "Az ókori Dʿmt királyság az Etióp-magasföld és Eritrea térségéhez kapcsolódik; időrendje vitatott."
+        },
+        "de": {
+          "title": "Königreich Dʿmt am Horn von Afrika",
+          "desc": "Das antike Königreich Dʿmt lag im Gebiet des äthiopischen Hochlands und Eritreas; die Datierung ist umstritten."
         }
       }
     },
@@ -219,6 +259,10 @@
         "hu": {
           "title": "Az első ókori olimpiai játékok hagyományos dátuma",
           "desc": "A hagyomány Kr. e. 776-ra teszi az első feljegyzett olimpiai játékokat."
+        },
+        "de": {
+          "title": "Traditionelles Datum der ersten Olympischen Spiele",
+          "desc": "Nach antiker Überlieferung fanden die ersten aufgezeichneten Spiele 776 v. Chr. statt."
         }
       }
     },
@@ -239,6 +283,10 @@
         "hu": {
           "title": "El Mirador maja központ fejlődése",
           "desc": "El Mirador a maja preklasszikus korszak jelentős települési központjává vált."
+        },
+        "de": {
+          "title": "Wachstum des Maya-Zentrums El Mirador",
+          "desc": "El Mirador entwickelte sich zu einem bedeutenden Zentrum der vorklassischen Maya-Zeit."
         }
       }
     },
@@ -259,6 +307,10 @@
         "hu": {
           "title": "Az Óperzsa Birodalom felemelkedése",
           "desc": "Az Akhaimenida-dinasztia uralma alatt létrejött az ókori Perzsa Birodalom."
+        },
+        "de": {
+          "title": "Aufstieg des Achämenidenreiches",
+          "desc": "Unter den Achämeniden entstand das große antike Perserreich."
         }
       }
     },
@@ -279,6 +331,10 @@
         "hu": {
           "title": "A Római Köztársaság hagyományos kezdete",
           "desc": "A római hagyomány Kr. e. 509-re teszi a királyság végét és a köztársaság kezdetét."
+        },
+        "de": {
+          "title": "Traditionelle Gründung der Römischen Republik",
+          "desc": "Die römische Überlieferung datiert das Ende der Monarchie auf 509 v. Chr."
         }
       }
     },
@@ -299,6 +355,10 @@
         "hu": {
           "title": "Nagy Sándor Makedónia királya lesz",
           "desc": "III. Alexandrosz apja, II. Philipposz halála után Makedónia uralkodója lett."
+        },
+        "de": {
+          "title": "Alexander wird König von Makedonien",
+          "desc": "Alexander III. übernahm nach dem Tod seines Vaters Philipp II. die Herrschaft."
         }
       }
     },
@@ -319,6 +379,10 @@
         "hu": {
           "title": "Alexandria alapítása",
           "desc": "Nagy Sándor egyiptomi hadjárata során alapított város, amely később jelentős tudományos központ lett."
+        },
+        "de": {
+          "title": "Gründung Alexandrias",
+          "desc": "Die von Alexander gegründete ägyptische Stadt wurde später ein wichtiges Wissenschaftszentrum."
         }
       }
     },
@@ -339,6 +403,10 @@
         "hu": {
           "title": "A Han-dinasztia kezdete",
           "desc": "A Han-dinasztia Kína történetének egyik meghatározó császári dinasztiája volt."
+        },
+        "de": {
+          "title": "Beginn der Han-Dynastie",
+          "desc": "Die Han-Dynastie gehörte zu den prägenden Kaiserdynastien Chinas."
         }
       }
     },
@@ -359,6 +427,10 @@
         "hu": {
           "title": "Augustus és a principátus kialakulása",
           "desc": "Augustus uralma alatt megszilárdult a római császárkor korai politikai rendszere."
+        },
+        "de": {
+          "title": "Augustus begründet den Prinzipat",
+          "desc": "Unter Augustus festigte sich die frühe politische Ordnung der römischen Kaiserzeit."
         }
       }
     },
@@ -379,6 +451,10 @@
         "hu": {
           "title": "Caj Lun és a papírkészítés hagyománya",
           "desc": "A kínai hagyomány Caj Lun nevéhez kapcsolja a papírkészítés jelentős fejlesztését."
+        },
+        "de": {
+          "title": "Cai Lun und die Geschichte des Papiers",
+          "desc": "Die chinesische Überlieferung verbindet Cai Lun mit wichtigen Verbesserungen der Papierherstellung."
         }
       }
     },
@@ -399,6 +475,10 @@
         "hu": {
           "title": "A milánói ediktum",
           "desc": "A 313-as megállapodás a Római Birodalomban a vallásgyakorlás szabadságának fontos állomása volt."
+        },
+        "de": {
+          "title": "Edikt von Mailand",
+          "desc": "Die Vereinbarung von 313 war ein wichtiger Schritt zur Religionsfreiheit im Römischen Reich."
         }
       }
     },
@@ -419,6 +499,10 @@
         "hu": {
           "title": "A Gupta Birodalom felemelkedése",
           "desc": "A Gupta-dinasztia Észak-India jelentős politikai és kulturális hatalmává vált."
+        },
+        "de": {
+          "title": "Aufstieg des Gupta-Reiches",
+          "desc": "Die Gupta-Dynastie wurde zu einer bedeutenden Macht in Nordindien."
         }
       }
     },
@@ -439,6 +523,10 @@
         "hu": {
           "title": "Mohamed születésének hozzávetőleges időszaka",
           "desc": "Mohamed próféta születését általában a 6. század második felére teszik."
+        },
+        "de": {
+          "title": "Ungefähre Geburtszeit Mohammeds",
+          "desc": "Die Geburt des Propheten Mohammed wird meist in die zweite Hälfte des sechsten Jahrhunderts datiert."
         }
       }
     },
@@ -459,6 +547,10 @@
         "hu": {
           "title": "A Tang-dinasztia kezdete",
           "desc": "A Tang-dinasztia hosszú időre meghatározta Kína politikai és kulturális életét."
+        },
+        "de": {
+          "title": "Beginn der Tang-Dynastie",
+          "desc": "Die Tang-Dynastie prägte Politik und Kultur Chinas über lange Zeit."
         }
       }
     },
@@ -479,6 +571,10 @@
         "hu": {
           "title": "A hidzsra és az iszlám időszámítás kezdete",
           "desc": "Mohamed Mekkából Medinába történő kivándorlása az iszlám időszámítás kiindulópontja."
+        },
+        "de": {
+          "title": "Hidschra und Beginn des islamischen Kalenders",
+          "desc": "Mohammeds Auswanderung von Mekka nach Medina bildet den Ausgangspunkt der islamischen Zeitrechnung."
         }
       }
     },
@@ -499,6 +595,10 @@
         "hu": {
           "title": "Az Omajjád hódítás kezdete Ibériában",
           "desc": "Muszlim seregek 711-ben megkezdték az Ibériai-félsziget meghódítását."
+        },
+        "de": {
+          "title": "Beginn der umayyadischen Eroberung Iberiens",
+          "desc": "Muslimische Heere begannen 711 mit der Eroberung der Iberischen Halbinsel."
         }
       }
     },
@@ -519,6 +619,10 @@
         "hu": {
           "title": "A lindisfarne-i viking támadás",
           "desc": "A 793-as lindisfarne-i támadást gyakran a viking kor jelképes kezdetének tekintik."
+        },
+        "de": {
+          "title": "Wikingerüberfall auf Lindisfarne",
+          "desc": "Der Angriff von 793 gilt häufig als symbolischer Beginn der Wikingerzeit."
         }
       }
     },
@@ -539,6 +643,10 @@
         "hu": {
           "title": "A Song-dinasztia megalapítása",
           "desc": "A Song-dinasztia 960-ban került hatalomra Kínában."
+        },
+        "de": {
+          "title": "Gründung der Song-Dynastie",
+          "desc": "Die Song-Dynastie übernahm 960 die Macht in China."
         }
       }
     },
@@ -559,6 +667,10 @@
         "hu": {
           "title": "Északi hajósok az Atlanti-óceánon",
           "desc": "A skandináv hajósok Izland, Grönland és Észak-Amerika felé indultak."
+        },
+        "de": {
+          "title": "Nordische Seefahrten über den Atlantik",
+          "desc": "Skandinavische Seefahrer erreichten Island, Grönland und Gebiete Nordamerikas."
         }
       }
     },
@@ -579,6 +691,10 @@
         "hu": {
           "title": "A kelet–nyugati egyházszakadás hagyományos dátuma",
           "desc": "Az 1054-es események a keleti és nyugati kereszténység hosszú különválási folyamatának jelképei."
+        },
+        "de": {
+          "title": "Traditionelles Datum des Morgenländischen Schismas",
+          "desc": "Die Ereignisse von 1054 stehen für einen langen Trennungsprozess zwischen Ost- und Westkirche."
         }
       }
     },
@@ -599,6 +715,10 @@
         "hu": {
           "title": "Az első keresztes hadjárat kezdete",
           "desc": "A nyugati keresztény hadjárat a Közel-Kelet felé indult."
+        },
+        "de": {
+          "title": "Beginn des Ersten Kreuzzugs",
+          "desc": "Ein westchristlicher Feldzug zog in Richtung Naher Osten."
         }
       }
     },
@@ -619,6 +739,10 @@
         "hu": {
           "title": "A Magna Carta kiadása",
           "desc": "János angol király 1215-ben elfogadta a Magna Carta rendelkezéseit Runnymede-nél."
+        },
+        "de": {
+          "title": "Besiegelung der Magna Carta",
+          "desc": "König Johann akzeptierte 1215 bei Runnymede die Bestimmungen der Magna Carta."
         }
       }
     },
@@ -639,6 +763,10 @@
         "hu": {
           "title": "A Mali Birodalom felemelkedése",
           "desc": "Szundiata Keita uralma idején a Mali Birodalom jelentős nyugat-afrikai hatalommá vált."
+        },
+        "de": {
+          "title": "Aufstieg des Mali-Reiches",
+          "desc": "Unter Sundiata Keita wurde Mali zu einer bedeutenden Macht Westafrikas."
         }
       }
     },
@@ -659,6 +787,10 @@
         "hu": {
           "title": "A Jüan-dinasztia megalapítása",
           "desc": "Kubiláj kán 1271-ben meghirdette a Jüan-dinasztiát Kínában."
+        },
+        "de": {
+          "title": "Gründung der Yuan-Dynastie",
+          "desc": "Kublai Khan rief 1271 die Yuan-Dynastie in China aus."
         }
       }
     },
@@ -679,6 +811,10 @@
         "hu": {
           "title": "A fekete halál megjelenése Európában",
           "desc": "A pestisjárvány a 14. század közepén súlyos demográfiai válságot okozott Európában."
+        },
+        "de": {
+          "title": "Der Schwarze Tod erreicht Europa",
+          "desc": "Die Pest verursachte Mitte des 14. Jahrhunderts eine schwere demografische Krise."
         }
       }
     },
@@ -699,6 +835,10 @@
         "hu": {
           "title": "Pachacuti uralma és az Inka Birodalom terjeszkedése",
           "desc": "Pachacuti uralkodása alatt az inka állam jelentősen megerősödött."
+        },
+        "de": {
+          "title": "Pachacuti und die Expansion des Inkareiches",
+          "desc": "Unter Pachacuti dehnte sich die Macht der Inka erheblich aus."
         }
       }
     },
@@ -719,6 +859,10 @@
         "hu": {
           "title": "Az európai mozgatható betűs könyvnyomtatás fejlődése",
           "desc": "A 15. század közepén a mozgatható fémbetűs nyomtatás átalakította az európai könyvkultúrát."
+        },
+        "de": {
+          "title": "Entwicklung des europäischen Buchdrucks mit beweglichen Lettern",
+          "desc": "Der Druck mit beweglichen Metalllettern veränderte im 15. Jahrhundert die Buchkultur Europas."
         }
       }
     },
@@ -739,6 +883,10 @@
         "hu": {
           "title": "Vasco da Gama Kelet-Afrika partjainál",
           "desc": "A portugál expedíció Afrika megkerülésével az Indiai-óceán felé haladt."
+        },
+        "de": {
+          "title": "Vasco da Gama erreicht Ostafrika",
+          "desc": "Die portugiesische Expedition umfuhr Afrika auf dem Weg zum Indischen Ozean."
         }
       }
     },
@@ -759,6 +907,10 @@
         "hu": {
           "title": "Luther és a reformáció",
           "desc": "Luther fellépése a nyugati kereszténység nagy vallási átalakulásának egyik kiindulópontja."
+        },
+        "de": {
+          "title": "Luther und die Reformation",
+          "desc": "Luthers Auftreten war ein Ausgangspunkt tiefgreifender religiöser Veränderungen."
         }
       }
     },
@@ -779,6 +931,10 @@
         "hu": {
           "title": "Tenochtitlán eleste",
           "desc": "A spanyol és szövetséges bennszülött erők 1521-ben elfoglalták az azték fővárost."
+        },
+        "de": {
+          "title": "Fall von Tenochtitlán",
+          "desc": "Spanische und verbündete indigene Streitkräfte eroberten 1521 die aztekische Hauptstadt."
         }
       }
     },
@@ -799,6 +955,10 @@
         "hu": {
           "title": "A szekigaharai csata",
           "desc": "Az 1600-as csata hozzájárult Tokugava Iejaszu hatalmának megszilárdulásához Japánban."
+        },
+        "de": {
+          "title": "Schlacht von Sekigahara",
+          "desc": "Die Schlacht von 1600 stärkte die Machtstellung Tokugawa Ieyasus in Japan."
         }
       }
     },
@@ -819,6 +979,10 @@
         "hu": {
           "title": "Jamestown település alapítása",
           "desc": "1607-ben létrejött az angolok egyik első tartós észak-amerikai gyarmati települése."
+        },
+        "de": {
+          "title": "Gründung der Siedlung Jamestown",
+          "desc": "1607 entstand eine der ersten dauerhaften englischen Kolonialsiedlungen Nordamerikas."
         }
       }
     },
@@ -839,6 +1003,10 @@
         "hu": {
           "title": "Newton Principiájának megjelenése",
           "desc": "Isaac Newton 1687-ben megjelent műve alapvető jelentőségű volt a klasszikus mechanikában."
+        },
+        "de": {
+          "title": "Newton veröffentlicht die Principia",
+          "desc": "Newtons Werk von 1687 wurde grundlegend für die klassische Mechanik."
         }
       }
     },
@@ -859,6 +1027,10 @@
         "hu": {
           "title": "A plassey-i csata",
           "desc": "A Brit Kelet-indiai Társaság 1757-es győzelme megerősítette brit befolyását Bengálban."
+        },
+        "de": {
+          "title": "Schlacht von Plassey",
+          "desc": "Der Sieg der Britischen Ostindien-Kompanie von 1757 stärkte ihren Einfluss in Bengalen."
         }
       }
     },
@@ -879,6 +1051,10 @@
         "hu": {
           "title": "Haiti függetlenségének kikiáltása",
           "desc": "Haiti 1804-ben kikiáltotta függetlenségét a francia gyarmati uralomtól."
+        },
+        "de": {
+          "title": "Haiti erklärt seine Unabhängigkeit",
+          "desc": "Haiti erklärte 1804 seine Unabhängigkeit von der französischen Kolonialherrschaft."
         }
       }
     },
@@ -899,6 +1075,10 @@
         "hu": {
           "title": "A waterlooi csata",
           "desc": "Napóleon hadereje 1815-ben vereséget szenvedett Waterloonál."
+        },
+        "de": {
+          "title": "Schlacht bei Waterloo",
+          "desc": "Napoleons Streitkräfte wurden 1815 bei Waterloo besiegt."
         }
       }
     },
@@ -919,6 +1099,10 @@
         "hu": {
           "title": "A belga forradalom",
           "desc": "Az 1830-as felkelés Belgium függetlenné válásához vezetett."
+        },
+        "de": {
+          "title": "Belgische Revolution",
+          "desc": "Der Aufstand von 1830 führte zur Unabhängigkeit Belgiens."
         }
       }
     },
@@ -939,6 +1123,10 @@
         "hu": {
           "title": "Az amerikai polgárháború kezdete",
           "desc": "1861-ben fegyveres konfliktus kezdődött az Egyesült Államokban az Unió és a Konföderáció között."
+        },
+        "de": {
+          "title": "Beginn des Amerikanischen Bürgerkriegs",
+          "desc": "1861 begann der bewaffnete Konflikt zwischen Union und Konföderation."
         }
       }
     },
@@ -959,6 +1147,10 @@
         "hu": {
           "title": "A Meidzsi-restauráció",
           "desc": "Az 1868-as politikai átalakulás megnyitotta Japán modernizációjának új korszakát."
+        },
+        "de": {
+          "title": "Meiji-Restauration",
+          "desc": "Der politische Wandel von 1868 leitete eine neue Phase der Modernisierung Japans ein."
         }
       }
     },
@@ -979,6 +1171,10 @@
         "hu": {
           "title": "A berlini konferencia kezdete",
           "desc": "Az 1884–1885-ös konferencia az afrikai gyarmatosítás európai szabályozásában játszott szerepet."
+        },
+        "de": {
+          "title": "Beginn der Berliner Konferenz",
+          "desc": "Die Konferenz von 1884 bis 1885 spielte eine Rolle bei der europäischen Kolonialaufteilung Afrikas."
         }
       }
     },
@@ -999,6 +1195,10 @@
         "hu": {
           "title": "Az orosz forradalom",
           "desc": "Az 1917-es forradalmak megdöntötték a cári rendszert, majd bolsevik hatalomátvételhez vezettek."
+        },
+        "de": {
+          "title": "Russische Revolution",
+          "desc": "Die Revolutionen von 1917 stürzten die Zarenherrschaft und führten zur Machtübernahme der Bolschewiki."
         }
       }
     },
@@ -1019,6 +1219,10 @@
         "hu": {
           "title": "A nyugati fronti fegyverszünet",
           "desc": "1918. november 11-én véget értek az első világháború nyugati frontjának harcai."
+        },
+        "de": {
+          "title": "Waffenstillstand an der Westfront",
+          "desc": "Am 11. November 1918 endeten die Kämpfe des Ersten Weltkriegs an der Westfront."
         }
       }
     },
@@ -1039,6 +1243,10 @@
         "hu": {
           "title": "Németország megtámadja Lengyelországot",
           "desc": "1939. szeptember 1-jén Németország lerohanta Lengyelországot, megkezdve a második világháborút Európában."
+        },
+        "de": {
+          "title": "Deutschland überfällt Polen",
+          "desc": "Am 1. September 1939 begann mit dem deutschen Angriff auf Polen der Zweite Weltkrieg in Europa."
         }
       }
     },
@@ -1059,6 +1267,10 @@
         "hu": {
           "title": "Hirosima atombombázása",
           "desc": "1945. augusztus 6-án az Egyesült Államok atombombát dobott Hirosimára."
+        },
+        "de": {
+          "title": "Atombombenabwurf auf Hiroshima",
+          "desc": "Am 6. August 1945 warfen die Vereinigten Staaten eine Atombombe auf Hiroshima ab."
         }
       }
     },
@@ -1079,6 +1291,10 @@
         "hu": {
           "title": "Az ENSZ Alapokmányának aláírása",
           "desc": "Az ENSZ Alapokmányát 1945-ben San Franciscóban írták alá."
+        },
+        "de": {
+          "title": "Unterzeichnung der Charta der Vereinten Nationen",
+          "desc": "Die UN-Charta wurde 1945 in San Francisco unterzeichnet."
         }
       }
     },
@@ -1099,6 +1315,10 @@
         "hu": {
           "title": "Brit India felosztása",
           "desc": "1947-ben Brit India függetlenné vált, és India, illetve Pakisztán létrejöttével kettévált."
+        },
+        "de": {
+          "title": "Teilung Britisch-Indiens",
+          "desc": "1947 entstanden im Zuge der Unabhängigkeit Indien und Pakistan."
         }
       }
     },
@@ -1119,6 +1339,10 @@
         "hu": {
           "title": "A Kínai Népköztársaság kikiáltása",
           "desc": "1949. október 1-jén Pekingben kikiáltották a Kínai Népköztársaságot."
+        },
+        "de": {
+          "title": "Ausrufung der Volksrepublik China",
+          "desc": "Am 1. Oktober 1949 wurde in Peking die Volksrepublik China ausgerufen."
         }
       }
     },
@@ -1139,6 +1363,10 @@
         "hu": {
           "title": "A Szputnyik–1 felbocsátása",
           "desc": "A Szovjetunió 1957-ben pályára állította a világ első mesterséges holdját."
+        },
+        "de": {
+          "title": "Start von Sputnik 1",
+          "desc": "Die Sowjetunion brachte 1957 den ersten künstlichen Erdsatelliten in die Umlaufbahn."
         }
       }
     },
@@ -1159,6 +1387,10 @@
         "hu": {
           "title": "Nigéria függetlenné válása",
           "desc": "Nigéria 1960-ban elnyerte függetlenségét az Egyesült Királyságtól."
+        },
+        "de": {
+          "title": "Unabhängigkeit Nigerias",
+          "desc": "Nigeria erlangte 1960 seine Unabhängigkeit vom Vereinigten Königreich."
         }
       }
     },
@@ -1179,6 +1411,10 @@
         "hu": {
           "title": "Az ARPANET első hálózati kapcsolatai",
           "desc": "1969-ben létrejöttek az ARPANET első számítógépes hálózati összeköttetései."
+        },
+        "de": {
+          "title": "Erste Netzwerkverbindungen des ARPANET",
+          "desc": "1969 wurden die ersten Computerverbindungen des ARPANET eingerichtet."
         }
       }
     },
@@ -1199,6 +1435,10 @@
         "hu": {
           "title": "A csernobili atomkatasztrófa",
           "desc": "1986-ban súlyos reaktorbaleset történt a csernobili atomerőműben."
+        },
+        "de": {
+          "title": "Reaktorkatastrophe von Tschernobyl",
+          "desc": "1986 ereignete sich ein schwerer Reaktorunfall im Kernkraftwerk Tschernobyl."
         }
       }
     },
@@ -1219,6 +1459,10 @@
         "hu": {
           "title": "A berlini fal leomlása",
           "desc": "1989 novemberében megnyíltak a berlini határátkelők, és megkezdődött a fal lebontása."
+        },
+        "de": {
+          "title": "Fall der Berliner Mauer",
+          "desc": "Im November 1989 wurden die Berliner Grenzübergänge geöffnet; der Abbau der Mauer begann."
         }
       }
     },
@@ -1239,6 +1483,10 @@
         "hu": {
           "title": "A Szovjetunió felbomlása",
           "desc": "1991 végén megszűnt a Szovjetunió, és tagköztársaságai önálló államokká váltak."
+        },
+        "de": {
+          "title": "Auflösung der Sowjetunion",
+          "desc": "Ende 1991 hörte die Sowjetunion auf zu bestehen; ihre Republiken wurden unabhängig."
         }
       }
     },
@@ -1259,6 +1507,10 @@
         "hu": {
           "title": "Dél-Afrika első országos többnemzetiségű választása",
           "desc": "1994-ben lezajlottak Dél-Afrika első általános választásai, amelyeken minden faji csoport szavazhatott."
+        },
+        "de": {
+          "title": "Erste landesweite allgemeine Wahl in Südafrika",
+          "desc": "1994 fand in Südafrika die erste landesweite Wahl mit Wahlrecht für alle Bevölkerungsgruppen statt."
         }
       }
     },
@@ -1279,6 +1531,10 @@
         "hu": {
           "title": "A 2001. szeptember 11-i terrortámadások",
           "desc": "Az Egyesült Államokban végrehajtott terrortámadások több ezer ember életét követelték."
+        },
+        "de": {
+          "title": "Terroranschläge vom 11. September 2001",
+          "desc": "Die Anschläge in den Vereinigten Staaten forderten Tausende Menschenleben."
         }
       }
     },
@@ -1299,6 +1555,10 @@
         "hu": {
           "title": "A COVID–19-világjárvány",
           "desc": "A SARS-CoV-2 vírus terjedése globális világjárványhoz vezetett."
+        },
+        "de": {
+          "title": "COVID-19-Pandemie",
+          "desc": "Die Ausbreitung des Virus SARS-CoV-2 führte zu einer weltweiten Pandemie."
         }
       }
     }
