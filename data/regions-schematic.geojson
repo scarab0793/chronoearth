@@ -15,7 +15,12 @@
         "to": 118,
         "source": "https://www.britannica.com/place/Roman-Empire",
         "confidence": "schematic",
-        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
+        "regions": [
+          "Európa",
+          "Afrika",
+          "Ázsia"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -118,7 +123,10 @@
         "to": -206,
         "source": "https://www.britannica.com/topic/Qin-dynasty",
         "confidence": "schematic",
-        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
+        "regions": [
+          "Ázsia"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -173,7 +181,10 @@
         "to": 220,
         "source": "https://www.britannica.com/topic/Han-dynasty",
         "confidence": "schematic",
-        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
+        "regions": [
+          "Ázsia"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -232,7 +243,10 @@
         "to": 1532,
         "source": "https://www.britannica.com/topic/Inca",
         "confidence": "schematic",
-        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
+        "regions": [
+          "Amerika"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -299,7 +313,11 @@
         "to": 1300,
         "source": "https://www.britannica.com/place/Mongol-empire",
         "confidence": "schematic",
-        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
+        "regions": [
+          "Ázsia",
+          "Európa"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -374,7 +392,12 @@
         "to": 1600,
         "source": "https://www.britannica.com/place/Ottoman-Empire",
         "confidence": "schematic",
-        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot."
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
+        "regions": [
+          "Európa",
+          "Ázsia",
+          "Afrika"
+        ]
       },
       "geometry": {
         "type": "Polygon",
