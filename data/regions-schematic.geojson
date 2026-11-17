@@ -1293,6 +1293,184 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "golden-horde",
+        "name": "Golden Horde — schematic western steppe core",
+        "entityKey": "golden-horde",
+        "from": 1350,
+        "to": 1360,
+        "snapshotYear": 1355,
+        "source": "https://www.britannica.com/topic/Golden-Horde",
+        "regions": [
+          "Európa",
+          "Ázsia"
+        ],
+        "predecessorKey": "mongol",
+        "relationship": "successor-state",
+        "confidence": "schematic",
+        "geometryStatus": "illustrative-not-verified",
+        "note": "Illustrative regional core only; not a verified or complete historical border."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36,
+              44
+            ],
+            [
+              36,
+              51
+            ],
+            [
+              46,
+              53
+            ],
+            [
+              57,
+              52
+            ],
+            [
+              62,
+              48
+            ],
+            [
+              57,
+              44
+            ],
+            [
+              46,
+              43
+            ],
+            [
+              36,
+              44
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ilkhanate",
+        "name": "Ilkhanate — schematic Iranian plateau core",
+        "entityKey": "ilkhanate",
+        "from": 1290,
+        "to": 1300,
+        "snapshotYear": 1295,
+        "source": "https://www.britannica.com/place/Il-Khanid-dynasty",
+        "regions": [
+          "Ázsia"
+        ],
+        "predecessorKey": "mongol",
+        "relationship": "successor-state",
+        "confidence": "schematic",
+        "geometryStatus": "illustrative-not-verified",
+        "note": "Illustrative regional core only; not a verified or complete historical border."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44,
+              30
+            ],
+            [
+              44,
+              38
+            ],
+            [
+              51,
+              40
+            ],
+            [
+              60,
+              38
+            ],
+            [
+              62,
+              33
+            ],
+            [
+              56,
+              29
+            ],
+            [
+              49,
+              29
+            ],
+            [
+              44,
+              30
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chagatai",
+        "name": "Chagatai Khanate — schematic Central Asian core",
+        "entityKey": "chagatai",
+        "from": 1300,
+        "to": 1310,
+        "snapshotYear": 1305,
+        "source": "https://www.britannica.com/topic/Chagatai-khanate",
+        "regions": [
+          "Ázsia"
+        ],
+        "predecessorKey": "mongol",
+        "relationship": "successor-state",
+        "confidence": "schematic",
+        "geometryStatus": "illustrative-not-verified",
+        "note": "Illustrative regional core only; not a verified or complete historical border."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              64,
+              37
+            ],
+            [
+              64,
+              44
+            ],
+            [
+              72,
+              46
+            ],
+            [
+              81,
+              44
+            ],
+            [
+              83,
+              39
+            ],
+            [
+              77,
+              36
+            ],
+            [
+              69,
+              36
+            ],
+            [
+              64,
+              37
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
