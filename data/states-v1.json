@@ -273,6 +273,78 @@
       ],
       "precision": "approximate",
       "imageQuery": "Kingdom of Poland"
+    },
+    {
+      "id": "state-16",
+      "name": "Yuan dynasty",
+      "from": 1271,
+      "to": 1368,
+      "lat": 39.9,
+      "lng": 116.4,
+      "region": "Ázsia",
+      "note": "Mongol-led dynasty ruling China, founded by Kublai Khan; the Yuan court's rule in China ended in 1368.",
+      "source": "https://www.britannica.com/topic/Yuan-dynasty",
+      "aliases": [
+        "Jüan-dinasztia",
+        "Yuan-Dynastie",
+        "Dinastía Yuan"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Yuan dynasty"
+    },
+    {
+      "id": "state-17",
+      "name": "Golden Horde",
+      "from": 1240,
+      "to": 1502,
+      "lat": 47.2,
+      "lng": 49.3,
+      "region": "Európa",
+      "note": "Mongol successor polity across the western Eurasian steppe; its political cohesion and borders changed over time.",
+      "source": "https://www.britannica.com/topic/Golden-Horde",
+      "aliases": [
+        "Arany Horda",
+        "Goldene Horde",
+        "Horda de Oro"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Golden Horde"
+    },
+    {
+      "id": "state-18",
+      "name": "Ilkhanate",
+      "from": 1256,
+      "to": 1335,
+      "lat": 35.7,
+      "lng": 51.4,
+      "region": "Ázsia",
+      "note": "Mongol successor state centered on Iran and surrounding lands, established by Hülegü.",
+      "source": "https://www.britannica.com/place/Il-Khanid-dynasty",
+      "aliases": [
+        "Ilhánida állam",
+        "Ilchanat",
+        "Ilkanato"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Ilkhanate"
+    },
+    {
+      "id": "state-19",
+      "name": "Chagatai Khanate",
+      "from": 1227,
+      "to": 1687,
+      "lat": 42.9,
+      "lng": 74.6,
+      "region": "Ázsia",
+      "note": "Mongol successor polity in Central Asia; later fragmented into separate eastern and western political formations.",
+      "source": "https://www.britannica.com/topic/Chagatai-khanate",
+      "aliases": [
+        "Csagatáj Kánság",
+        "Tschagatai-Khanat",
+        "Kanato de Chagatai"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Chagatai Khanate"
     }
   ]
 }
