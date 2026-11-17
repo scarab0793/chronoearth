@@ -23,7 +23,8 @@
         ],
         "entityKey": "roman",
         "snapshotYear": 118,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-3"
       },
       "geometry": {
         "type": "Polygon",
@@ -258,7 +259,8 @@
         ],
         "entityKey": "inca",
         "snapshotYear": 1491,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-9"
       },
       "geometry": {
         "type": "Polygon",
@@ -333,7 +335,8 @@
         "entityKey": "mongol",
         "snapshotYear": 1275,
         "geometryStatus": "illustrative-not-verified",
-        "relationship": "imperial-era"
+        "relationship": "imperial-era",
+        "stateId": "state-8"
       },
       "geometry": {
         "type": "Polygon",
@@ -416,7 +419,8 @@
         ],
         "entityKey": "ottoman",
         "snapshotYear": 1575,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-10"
       },
       "geometry": {
         "type": "Polygon",
@@ -489,7 +493,8 @@
         ],
         "entityKey": "mali",
         "snapshotYear": 1325,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-7"
       },
       "geometry": {
         "type": "Polygon",
@@ -546,7 +551,8 @@
         ],
         "entityKey": "aztec",
         "snapshotYear": 1505,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-11"
       },
       "geometry": {
         "type": "Polygon",
@@ -799,7 +805,8 @@
         ],
         "entityKey": "roman",
         "snapshotYear": -195,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-2"
       },
       "geometry": {
         "type": "Polygon",
@@ -865,7 +872,8 @@
         ],
         "entityKey": "roman",
         "snapshotYear": 400,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-6"
       },
       "geometry": {
         "type": "Polygon",
@@ -943,7 +951,8 @@
         ],
         "entityKey": "ottoman",
         "snapshotYear": 1355,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-10"
       },
       "geometry": {
         "type": "Polygon",
@@ -997,7 +1006,8 @@
         ],
         "entityKey": "ottoman",
         "snapshotYear": 1905,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-10"
       },
       "geometry": {
         "type": "Polygon",
@@ -1075,7 +1085,8 @@
         "regions": [
           "Ázsia"
         ],
-        "relationship": "imperial-era"
+        "relationship": "imperial-era",
+        "stateId": "state-8"
       },
       "geometry": {
         "type": "Polygon",
@@ -1134,7 +1145,8 @@
           "Ázsia"
         ],
         "predecessorKey": "mongol",
-        "relationship": "successor-era"
+        "relationship": "successor-era",
+        "stateId": "state-16"
       },
       "geometry": {
         "type": "Polygon",
@@ -1191,7 +1203,8 @@
         "note": "Highly simplified illustrative region; not a verified historical boundary, and not a continuous territorial reconstruction.",
         "regions": [
           "Amerika"
-        ]
+        ],
+        "stateId": "state-9"
       },
       "geometry": {
         "type": "Polygon",
@@ -1240,7 +1253,8 @@
         "note": "Highly simplified illustrative region; not a verified historical boundary, and not a continuous territorial reconstruction.",
         "regions": [
           "Amerika"
-        ]
+        ],
+        "stateId": "state-9"
       },
       "geometry": {
         "type": "Polygon",
@@ -1312,7 +1326,8 @@
         "relationship": "successor-state",
         "confidence": "schematic",
         "geometryStatus": "illustrative-not-verified",
-        "note": "Illustrative regional core only; not a verified or complete historical border."
+        "note": "Illustrative regional core only; not a verified or complete historical border.",
+        "stateId": "state-17"
       },
       "geometry": {
         "type": "Polygon",
@@ -1371,7 +1386,8 @@
         "relationship": "successor-state",
         "confidence": "schematic",
         "geometryStatus": "illustrative-not-verified",
-        "note": "Illustrative regional core only; not a verified or complete historical border."
+        "note": "Illustrative regional core only; not a verified or complete historical border.",
+        "stateId": "state-18"
       },
       "geometry": {
         "type": "Polygon",
@@ -1430,7 +1446,8 @@
         "relationship": "successor-state",
         "confidence": "schematic",
         "geometryStatus": "illustrative-not-verified",
-        "note": "Illustrative regional core only; not a verified or complete historical border."
+        "note": "Illustrative regional core only; not a verified or complete historical border.",
+        "stateId": "state-19"
       },
       "geometry": {
         "type": "Polygon",
