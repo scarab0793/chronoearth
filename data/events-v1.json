@@ -1361,7 +1361,8 @@
         }
       },
       "relatedStates": [
-        "state-8"
+        "state-8",
+        "state-16"
       ]
     },
     {
@@ -3442,6 +3443,349 @@
       "month": 3,
       "day": 6,
       "datePrecision": "day"
+    },
+    {
+      "y": 1206,
+      "lat": 47.9,
+      "lng": 106.9,
+      "region": "Ázsia",
+      "title": "Temüjin proclaimed Genghis Khan",
+      "desc": "At a Mongol assembly, Temüjin was recognized as Genghis Khan, a key milestone in the formation of the Mongol Empire.",
+      "src": "https://www.britannica.com/biography/Genghis-Khan",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Temüjin proclaimed Genghis Khan",
+          "desc": "At a Mongol assembly, Temüjin was recognized as Genghis Khan, a key milestone in the formation of the Mongol Empire."
+        },
+        "hu": {
+          "title": "Temüdzsin felveszi a Dzsingisz kán címet",
+          "desc": "A mongol törzsek gyűlésén Temüdzsint Dzsingisz kánként ismerték el, ami a Mongol Birodalom létrejöttének fontos állomása volt."
+        },
+        "de": {
+          "title": "Temüjin proclaimed Genghis Khan",
+          "desc": "At a Mongol assembly, Temüjin was recognized as Genghis Khan, a key milestone in the formation of the Mongol Empire."
+        },
+        "es": {
+          "title": "Temüjin proclaimed Genghis Khan",
+          "desc": "At a Mongol assembly, Temüjin was recognized as Genghis Khan, a key milestone in the formation of the Mongol Empire."
+        },
+        "fr": {
+          "title": "Temüjin proclaimed Genghis Khan",
+          "desc": "At a Mongol assembly, Temüjin was recognized as Genghis Khan, a key milestone in the formation of the Mongol Empire."
+        },
+        "it": {
+          "title": "Temüjin proclaimed Genghis Khan",
+          "desc": "At a Mongol assembly, Temüjin was recognized as Genghis Khan, a key milestone in the formation of the Mongol Empire."
+        },
+        "pl": {
+          "title": "Temüjin proclaimed Genghis Khan",
+          "desc": "At a Mongol assembly, Temüjin was recognized as Genghis Khan, a key milestone in the formation of the Mongol Empire."
+        }
+      }
+    },
+    {
+      "y": 1256,
+      "lat": 35.7,
+      "lng": 51.4,
+      "region": "Ázsia",
+      "title": "Hülegü establishes Ilkhanid rule",
+      "desc": "Hülegü's campaigns laid the foundations of Mongol Ilkhanid rule in Iran and neighboring regions.",
+      "src": "https://www.britannica.com/place/Il-Khanid-dynasty",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Hülegü establishes Ilkhanid rule",
+          "desc": "Hülegü's campaigns laid the foundations of Mongol Ilkhanid rule in Iran and neighboring regions."
+        },
+        "hu": {
+          "title": "Hülegü megalapozza az ilhánida uralmat",
+          "desc": "Hülegü hadjáratai megteremtették az iráni és környező területek mongol ilhánida uralmának alapjait."
+        },
+        "de": {
+          "title": "Hülegü establishes Ilkhanid rule",
+          "desc": "Hülegü's campaigns laid the foundations of Mongol Ilkhanid rule in Iran and neighboring regions."
+        },
+        "es": {
+          "title": "Hülegü establishes Ilkhanid rule",
+          "desc": "Hülegü's campaigns laid the foundations of Mongol Ilkhanid rule in Iran and neighboring regions."
+        },
+        "fr": {
+          "title": "Hülegü establishes Ilkhanid rule",
+          "desc": "Hülegü's campaigns laid the foundations of Mongol Ilkhanid rule in Iran and neighboring regions."
+        },
+        "it": {
+          "title": "Hülegü establishes Ilkhanid rule",
+          "desc": "Hülegü's campaigns laid the foundations of Mongol Ilkhanid rule in Iran and neighboring regions."
+        },
+        "pl": {
+          "title": "Hülegü establishes Ilkhanid rule",
+          "desc": "Hülegü's campaigns laid the foundations of Mongol Ilkhanid rule in Iran and neighboring regions."
+        }
+      },
+      "relatedStates": [
+        "state-18"
+      ]
+    },
+    {
+      "y": 1258,
+      "lat": 33.315,
+      "lng": 44.366,
+      "region": "Ázsia",
+      "title": "Mongol capture of Baghdad",
+      "desc": "Hülegü's forces captured Baghdad, ending the Abbasid caliphate's rule in the city.",
+      "src": "https://www.britannica.com/event/sack-of-Baghdad-1258",
+      "i18n": {
+        "en": {
+          "title": "Mongol capture of Baghdad",
+          "desc": "Hülegü's forces captured Baghdad, ending the Abbasid caliphate's rule in the city."
+        },
+        "hu": {
+          "title": "Bagdad mongol elfoglalása",
+          "desc": "Hülegü seregei elfoglalták Bagdadot, véget vetve az Abbászida kalifátus város feletti uralmának."
+        },
+        "de": {
+          "title": "Mongol capture of Baghdad",
+          "desc": "Hülegü's forces captured Baghdad, ending the Abbasid caliphate's rule in the city."
+        },
+        "es": {
+          "title": "Mongol capture of Baghdad",
+          "desc": "Hülegü's forces captured Baghdad, ending the Abbasid caliphate's rule in the city."
+        },
+        "fr": {
+          "title": "Mongol capture of Baghdad",
+          "desc": "Hülegü's forces captured Baghdad, ending the Abbasid caliphate's rule in the city."
+        },
+        "it": {
+          "title": "Mongol capture of Baghdad",
+          "desc": "Hülegü's forces captured Baghdad, ending the Abbasid caliphate's rule in the city."
+        },
+        "pl": {
+          "title": "Mongol capture of Baghdad",
+          "desc": "Hülegü's forces captured Baghdad, ending the Abbasid caliphate's rule in the city."
+        }
+      },
+      "relatedStates": [
+        "state-18"
+      ],
+      "month": 2,
+      "day": 10,
+      "datePrecision": "day"
+    },
+    {
+      "y": 1271,
+      "lat": 39.9,
+      "lng": 116.4,
+      "region": "Ázsia",
+      "title": "Kublai Khan proclaims the Yuan dynasty",
+      "desc": "Kublai Khan adopted the dynastic title Yuan, establishing the Mongol-led dynasty that later unified China.",
+      "src": "https://www.britannica.com/topic/Yuan-dynasty",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Kublai Khan proclaims the Yuan dynasty",
+          "desc": "Kublai Khan adopted the dynastic title Yuan, establishing the Mongol-led dynasty that later unified China."
+        },
+        "hu": {
+          "title": "Kubiláj kán meghirdeti a Jüan-dinasztiát",
+          "desc": "Kubiláj kán felvette a Jüan dinasztikus nevet, létrehozva a később Kínát egyesítő mongol vezetésű dinasztiát."
+        },
+        "de": {
+          "title": "Kublai Khan proclaims the Yuan dynasty",
+          "desc": "Kublai Khan adopted the dynastic title Yuan, establishing the Mongol-led dynasty that later unified China."
+        },
+        "es": {
+          "title": "Kublai Khan proclaims the Yuan dynasty",
+          "desc": "Kublai Khan adopted the dynastic title Yuan, establishing the Mongol-led dynasty that later unified China."
+        },
+        "fr": {
+          "title": "Kublai Khan proclaims the Yuan dynasty",
+          "desc": "Kublai Khan adopted the dynastic title Yuan, establishing the Mongol-led dynasty that later unified China."
+        },
+        "it": {
+          "title": "Kublai Khan proclaims the Yuan dynasty",
+          "desc": "Kublai Khan adopted the dynastic title Yuan, establishing the Mongol-led dynasty that later unified China."
+        },
+        "pl": {
+          "title": "Kublai Khan proclaims the Yuan dynasty",
+          "desc": "Kublai Khan adopted the dynastic title Yuan, establishing the Mongol-led dynasty that later unified China."
+        }
+      },
+      "relatedStates": [
+        "state-16"
+      ]
+    },
+    {
+      "y": 1294,
+      "lat": 39.9,
+      "lng": 116.4,
+      "region": "Ázsia",
+      "title": "Death of Kublai Khan",
+      "desc": "Kublai Khan, founder of China's Yuan dynasty, died after decades of rule.",
+      "src": "https://www.britannica.com/biography/Kublai-Khan",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Death of Kublai Khan",
+          "desc": "Kublai Khan, founder of China's Yuan dynasty, died after decades of rule."
+        },
+        "hu": {
+          "title": "Kubiláj kán halála",
+          "desc": "Meghalt Kubiláj kán, a kínai Jüan-dinasztia alapítója, több évtizedes uralkodás után."
+        },
+        "de": {
+          "title": "Death of Kublai Khan",
+          "desc": "Kublai Khan, founder of China's Yuan dynasty, died after decades of rule."
+        },
+        "es": {
+          "title": "Death of Kublai Khan",
+          "desc": "Kublai Khan, founder of China's Yuan dynasty, died after decades of rule."
+        },
+        "fr": {
+          "title": "Death of Kublai Khan",
+          "desc": "Kublai Khan, founder of China's Yuan dynasty, died after decades of rule."
+        },
+        "it": {
+          "title": "Death of Kublai Khan",
+          "desc": "Kublai Khan, founder of China's Yuan dynasty, died after decades of rule."
+        },
+        "pl": {
+          "title": "Death of Kublai Khan",
+          "desc": "Kublai Khan, founder of China's Yuan dynasty, died after decades of rule."
+        }
+      },
+      "relatedStates": [
+        "state-16"
+      ]
+    },
+    {
+      "y": 1335,
+      "lat": 35.7,
+      "lng": 51.4,
+      "region": "Ázsia",
+      "title": "Death of Abu Sa'id and Ilkhanate fragmentation",
+      "desc": "The death of Abu Sa'id without a direct heir accelerated the fragmentation of the Ilkhanate.",
+      "src": "https://www.britannica.com/place/Il-Khanid-dynasty",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Death of Abu Sa'id and Ilkhanate fragmentation",
+          "desc": "The death of Abu Sa'id without a direct heir accelerated the fragmentation of the Ilkhanate."
+        },
+        "hu": {
+          "title": "Abu Szaíd halála és az Ilhánida állam szétesése",
+          "desc": "Abu Szaíd közvetlen örökös nélküli halála felgyorsította az Ilhánida állam politikai felbomlását."
+        },
+        "de": {
+          "title": "Death of Abu Sa'id and Ilkhanate fragmentation",
+          "desc": "The death of Abu Sa'id without a direct heir accelerated the fragmentation of the Ilkhanate."
+        },
+        "es": {
+          "title": "Death of Abu Sa'id and Ilkhanate fragmentation",
+          "desc": "The death of Abu Sa'id without a direct heir accelerated the fragmentation of the Ilkhanate."
+        },
+        "fr": {
+          "title": "Death of Abu Sa'id and Ilkhanate fragmentation",
+          "desc": "The death of Abu Sa'id without a direct heir accelerated the fragmentation of the Ilkhanate."
+        },
+        "it": {
+          "title": "Death of Abu Sa'id and Ilkhanate fragmentation",
+          "desc": "The death of Abu Sa'id without a direct heir accelerated the fragmentation of the Ilkhanate."
+        },
+        "pl": {
+          "title": "Death of Abu Sa'id and Ilkhanate fragmentation",
+          "desc": "The death of Abu Sa'id without a direct heir accelerated the fragmentation of the Ilkhanate."
+        }
+      },
+      "relatedStates": [
+        "state-18"
+      ]
+    },
+    {
+      "y": 1368,
+      "lat": 39.9,
+      "lng": 116.4,
+      "region": "Ázsia",
+      "title": "Ming forces take the Yuan capital",
+      "desc": "Ming forces entered Dadu (Beijing), ending Yuan rule over China proper; Mongol rulers continued north of the Great Wall.",
+      "src": "https://www.britannica.com/topic/Yuan-dynasty",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Ming forces take the Yuan capital",
+          "desc": "Ming forces entered Dadu (Beijing), ending Yuan rule over China proper; Mongol rulers continued north of the Great Wall."
+        },
+        "hu": {
+          "title": "A Ming-seregek elfoglalják a Jüan fővárost",
+          "desc": "A Ming-seregek bevonultak Daduba (Pekingbe), véget vetve a Jüan-dinasztia kínai uralmának; a mongol uralkodók északon folytatták hatalmukat."
+        },
+        "de": {
+          "title": "Ming forces take the Yuan capital",
+          "desc": "Ming forces entered Dadu (Beijing), ending Yuan rule over China proper; Mongol rulers continued north of the Great Wall."
+        },
+        "es": {
+          "title": "Ming forces take the Yuan capital",
+          "desc": "Ming forces entered Dadu (Beijing), ending Yuan rule over China proper; Mongol rulers continued north of the Great Wall."
+        },
+        "fr": {
+          "title": "Ming forces take the Yuan capital",
+          "desc": "Ming forces entered Dadu (Beijing), ending Yuan rule over China proper; Mongol rulers continued north of the Great Wall."
+        },
+        "it": {
+          "title": "Ming forces take the Yuan capital",
+          "desc": "Ming forces entered Dadu (Beijing), ending Yuan rule over China proper; Mongol rulers continued north of the Great Wall."
+        },
+        "pl": {
+          "title": "Ming forces take the Yuan capital",
+          "desc": "Ming forces entered Dadu (Beijing), ending Yuan rule over China proper; Mongol rulers continued north of the Great Wall."
+        }
+      },
+      "relatedStates": [
+        "state-16"
+      ]
+    },
+    {
+      "y": 1380,
+      "lat": 54.8,
+      "lng": 38.65,
+      "region": "Európa",
+      "title": "Battle of Kulikovo",
+      "desc": "Forces led by Dmitry of Moscow defeated Mamai's army in a battle that became an important symbol of resistance to Horde domination.",
+      "src": "https://www.britannica.com/event/Battle-of-Kulikovo",
+      "precision": "approximate",
+      "i18n": {
+        "en": {
+          "title": "Battle of Kulikovo",
+          "desc": "Forces led by Dmitry of Moscow defeated Mamai's army in a battle that became an important symbol of resistance to Horde domination."
+        },
+        "hu": {
+          "title": "A kulikovói csata",
+          "desc": "Dmitrij moszkvai fejedelem serege legyőzte Mamaj hadát; a csata később a hordai uralommal szembeni ellenállás fontos jelképévé vált."
+        },
+        "de": {
+          "title": "Battle of Kulikovo",
+          "desc": "Forces led by Dmitry of Moscow defeated Mamai's army in a battle that became an important symbol of resistance to Horde domination."
+        },
+        "es": {
+          "title": "Battle of Kulikovo",
+          "desc": "Forces led by Dmitry of Moscow defeated Mamai's army in a battle that became an important symbol of resistance to Horde domination."
+        },
+        "fr": {
+          "title": "Battle of Kulikovo",
+          "desc": "Forces led by Dmitry of Moscow defeated Mamai's army in a battle that became an important symbol of resistance to Horde domination."
+        },
+        "it": {
+          "title": "Battle of Kulikovo",
+          "desc": "Forces led by Dmitry of Moscow defeated Mamai's army in a battle that became an important symbol of resistance to Horde domination."
+        },
+        "pl": {
+          "title": "Battle of Kulikovo",
+          "desc": "Forces led by Dmitry of Moscow defeated Mamai's army in a battle that became an important symbol of resistance to Horde domination."
+        }
+      },
+      "relatedStates": [
+        "state-17"
+      ]
     }
   ],
   "schemaVersion": 2,
