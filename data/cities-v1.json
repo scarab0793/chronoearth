@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "warning": "Approximate illustrative periods. Some places continued as modern cities, while archaeological sites have narrower ranges. Not a complete gazetteer.",
+  "cities": [
+    {
+      "name": "Uruk",
+      "lat": 31.32,
+      "lng": 45.64,
+      "from": -4000,
+      "to": -300,
+      "region": "Ázsia",
+      "source": "https://www.britannica.com/place/Uruk",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Memphis",
+      "lat": 29.85,
+      "lng": 31.25,
+      "from": -3000,
+      "to": 640,
+      "region": "Afrika",
+      "source": "https://www.britannica.com/place/Memphis-ancient-city-Egypt",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Thebes (Egypt)",
+      "lat": 25.7,
+      "lng": 32.64,
+      "from": -2100,
+      "to": 400,
+      "region": "Afrika",
+      "source": "https://www.britannica.com/place/Thebes-ancient-Egypt",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Mohenjo-daro",
+      "lat": 27.33,
+      "lng": 68.14,
+      "from": -2600,
+      "to": -1900,
+      "region": "Ázsia",
+      "source": "https://www.britannica.com/place/Mohenjo-daro",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Babylon",
+      "lat": 32.54,
+      "lng": 44.42,
+      "from": -1900,
+      "to": 500,
+      "region": "Ázsia",
+      "source": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Athens",
+      "lat": 37.98,
+      "lng": 23.73,
+      "from": -800,
+      "to": 2026,
+      "region": "Európa",
+      "source": "https://www.britannica.com/place/Athens",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Rome",
+      "lat": 41.89,
+      "lng": 12.49,
+      "from": -750,
+      "to": 2026,
+      "region": "Európa",
+      "source": "https://www.britannica.com/place/Rome",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Alexandria",
+      "lat": 31.2,
+      "lng": 29.92,
+      "from": -331,
+      "to": 2026,
+      "region": "Afrika",
+      "source": "https://www.britannica.com/place/Alexandria-Egypt",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Chang'an",
+      "lat": 34.27,
+      "lng": 108.94,
+      "from": -200,
+      "to": 900,
+      "region": "Ázsia",
+      "source": "https://www.britannica.com/place/Xian-China",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Teotihuacan",
+      "lat": 19.69,
+      "lng": -98.84,
+      "from": -100,
+      "to": 750,
+      "region": "Amerika",
+      "source": "https://www.britannica.com/place/Teotihuacan",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Tikal",
+      "lat": 17.22,
+      "lng": -89.62,
+      "from": 200,
+      "to": 900,
+      "region": "Amerika",
+      "source": "https://www.britannica.com/place/Tikal",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Constantinople",
+      "lat": 41.01,
+      "lng": 28.98,
+      "from": 330,
+      "to": 1453,
+      "region": "Európa",
+      "source": "https://www.britannica.com/place/Constantinople",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Baghdad",
+      "lat": 33.31,
+      "lng": 44.37,
+      "from": 762,
+      "to": 2026,
+      "region": "Ázsia",
+      "source": "https://www.britannica.com/place/Baghdad",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Kyiv",
+      "lat": 50.45,
+      "lng": 30.52,
+      "from": 880,
+      "to": 2026,
+      "region": "Európa",
+      "source": "https://www.britannica.com/place/Kyiv",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Angkor",
+      "lat": 13.41,
+      "lng": 103.87,
+      "from": 900,
+      "to": 1431,
+      "region": "Ázsia",
+      "source": "https://www.britannica.com/place/Angkor",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Cahokia",
+      "lat": 38.65,
+      "lng": -90.06,
+      "from": 1050,
+      "to": 1350,
+      "region": "Amerika",
+      "source": "https://www.britannica.com/place/Cahokia",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Great Zimbabwe",
+      "lat": -20.27,
+      "lng": 30.93,
+      "from": 1100,
+      "to": 1450,
+      "region": "Afrika",
+      "source": "https://www.britannica.com/place/Great-Zimbabwe",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Timbuktu",
+      "lat": 16.77,
+      "lng": -3.01,
+      "from": 1300,
+      "to": 2026,
+      "region": "Afrika",
+      "source": "https://www.britannica.com/place/Timbuktu",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Tenochtitlan",
+      "lat": 19.43,
+      "lng": -99.13,
+      "from": 1325,
+      "to": 1521,
+      "region": "Amerika",
+      "source": "https://www.britannica.com/place/Tenochtitlan",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Cusco",
+      "lat": -13.52,
+      "lng": -71.98,
+      "from": 1400,
+      "to": 2026,
+      "region": "Amerika",
+      "source": "https://www.britannica.com/place/Cuzco",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Machu Picchu",
+      "lat": -13.16,
+      "lng": -72.55,
+      "from": 1450,
+      "to": 1572,
+      "region": "Amerika",
+      "source": "https://www.britannica.com/place/Machu-Picchu",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Beijing",
+      "lat": 39.9,
+      "lng": 116.4,
+      "from": 1400,
+      "to": 2026,
+      "region": "Ázsia",
+      "source": "https://www.britannica.com/place/Beijing",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "London",
+      "lat": 51.51,
+      "lng": -0.13,
+      "from": 100,
+      "to": 2026,
+      "region": "Európa",
+      "source": "https://www.britannica.com/place/London",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Paris",
+      "lat": 48.86,
+      "lng": 2.35,
+      "from": 300,
+      "to": 2026,
+      "region": "Európa",
+      "source": "https://www.britannica.com/place/Paris",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    },
+    {
+      "name": "Venice",
+      "lat": 45.44,
+      "lng": 12.33,
+      "from": 800,
+      "to": 2026,
+      "region": "Európa",
+      "source": "https://www.britannica.com/place/Venice",
+      "precision": "approximate",
+      "note": "Representative urban or archaeological location; date range is approximate and does not imply uninterrupted occupation."
+    }
+  ]
+}
