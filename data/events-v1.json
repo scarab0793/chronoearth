@@ -1040,7 +1040,10 @@
           "title": "Najazd wikingów na Lindisfarne",
           "desc": "Atak z 793 roku często uznaje się za symboliczny początek epoki wikingów."
         }
-      }
+      },
+      "month": 6,
+      "day": 8,
+      "datePrecision": "day"
     },
     {
       "y": 960,
@@ -1240,7 +1243,10 @@
           "title": "Uchwalenie Wielkiej Karty Swobód",
           "desc": "Król Jan zaakceptował postanowienia Magna Carta w Runnymede w 1215 roku."
         }
-      }
+      },
+      "month": 6,
+      "day": 15,
+      "datePrecision": "day"
     },
     {
       "y": 1235,
@@ -1520,7 +1526,10 @@
           "title": "Luter i reformacja",
           "desc": "Działalność Lutra stała się jednym z początków głębokich przemian religijnych."
         }
-      }
+      },
+      "month": 10,
+      "day": 31,
+      "datePrecision": "day"
     },
     {
       "y": 1521,
@@ -1560,7 +1569,10 @@
           "title": "Upadek Tenochtitlán",
           "desc": "Siły hiszpańskie i ich rdzenni sojusznicy zdobyli stolicę Azteków w 1521 roku."
         }
-      }
+      },
+      "month": 8,
+      "day": 13,
+      "datePrecision": "day"
     },
     {
       "y": 1600,
@@ -1600,7 +1612,10 @@
           "title": "Bitwa pod Sekigaharą",
           "desc": "Bitwa z 1600 roku pomogła umocnić władzę Tokugawy Ieyasu w Japonii."
         }
-      }
+      },
+      "month": 10,
+      "day": 21,
+      "datePrecision": "day"
     },
     {
       "y": 1607,
@@ -1640,7 +1655,10 @@
           "title": "Założenie osady Jamestown",
           "desc": "W 1607 roku powstała jedna z pierwszych trwałych angielskich osad kolonialnych w Ameryce Północnej."
         }
-      }
+      },
+      "month": 5,
+      "day": 14,
+      "datePrecision": "day"
     },
     {
       "y": 1687,
@@ -1720,7 +1738,10 @@
           "title": "Bitwa pod Plassey",
           "desc": "Zwycięstwo Brytyjskiej Kompanii Wschodnioindyjskiej w 1757 roku umocniło jej wpływy w Bengalu."
         }
-      }
+      },
+      "month": 6,
+      "day": 23,
+      "datePrecision": "day"
     },
     {
       "y": 1804,
@@ -1760,7 +1781,10 @@
           "title": "Haiti ogłasza niepodległość",
           "desc": "W 1804 roku Haiti ogłosiło niepodległość od francuskiego panowania kolonialnego."
         }
-      }
+      },
+      "month": 1,
+      "day": 1,
+      "datePrecision": "day"
     },
     {
       "y": 1815,
@@ -1800,7 +1824,10 @@
           "title": "Bitwa pod Waterloo",
           "desc": "Wojska Napoleona zostały pokonane pod Waterloo w 1815 roku."
         }
-      }
+      },
+      "month": 6,
+      "day": 18,
+      "datePrecision": "day"
     },
     {
       "y": 1830,
@@ -1880,7 +1907,10 @@
           "title": "Początek wojny secesyjnej w USA",
           "desc": "W 1861 roku rozpoczął się konflikt zbrojny między Unią a Konfederacją."
         }
-      }
+      },
+      "month": 4,
+      "day": 12,
+      "datePrecision": "day"
     },
     {
       "y": 1868,
@@ -2000,7 +2030,10 @@
           "title": "Rewolucja rosyjska",
           "desc": "Rewolucje 1917 roku obaliły carat i doprowadziły do przejęcia władzy przez bolszewików."
         }
-      }
+      },
+      "month": 11,
+      "day": 7,
+      "datePrecision": "day"
     },
     {
       "y": 1918,
@@ -2040,7 +2073,10 @@
           "title": "Rozejm na froncie zachodnim",
           "desc": "11 listopada 1918 roku zakończyły się walki I wojny światowej na froncie zachodnim."
         }
-      }
+      },
+      "month": 11,
+      "day": 11,
+      "datePrecision": "day"
     },
     {
       "y": 1939,
@@ -2080,7 +2116,10 @@
           "title": "Niemcy napadają na Polskę",
           "desc": "1 września 1939 roku Niemcy zaatakowały Polskę, rozpoczynając II wojnę światową w Europie."
         }
-      }
+      },
+      "month": 9,
+      "day": 1,
+      "datePrecision": "day"
     },
     {
       "y": 1945,
@@ -2120,7 +2159,10 @@
           "title": "Bombardowanie atomowe Hiroszimy",
           "desc": "6 sierpnia 1945 roku Stany Zjednoczone zrzuciły bombę atomową na Hiroszimę."
         }
-      }
+      },
+      "month": 8,
+      "day": 6,
+      "datePrecision": "day"
     },
     {
       "y": 1945,
@@ -2160,7 +2202,10 @@
           "title": "Podpisanie Karty Narodów Zjednoczonych",
           "desc": "Kartę Narodów Zjednoczonych podpisano w San Francisco w 1945 roku."
         }
-      }
+      },
+      "month": 6,
+      "day": 26,
+      "datePrecision": "day"
     },
     {
       "y": 1947,
@@ -2240,7 +2285,10 @@
           "title": "Proklamowanie Chińskiej Republiki Ludowej",
           "desc": "1 października 1949 roku w Pekinie proklamowano Chińską Republikę Ludową."
         }
-      }
+      },
+      "month": 10,
+      "day": 1,
+      "datePrecision": "day"
     },
     {
       "y": 1957,
@@ -2280,7 +2328,10 @@
           "title": "Wystrzelenie Sputnika 1",
           "desc": "W 1957 roku Związek Radziecki umieścił na orbicie pierwszego sztucznego satelitę."
         }
-      }
+      },
+      "month": 10,
+      "day": 4,
+      "datePrecision": "day"
     },
     {
       "y": 1960,
@@ -2320,7 +2371,10 @@
           "title": "Niepodległość Nigerii",
           "desc": "Nigeria uzyskała niepodległość od Wielkiej Brytanii w 1960 roku."
         }
-      }
+      },
+      "month": 10,
+      "day": 1,
+      "datePrecision": "day"
     },
     {
       "y": 1969,
@@ -2400,7 +2454,10 @@
           "title": "Katastrofa jądrowa w Czarnobylu",
           "desc": "W 1986 roku doszło do poważnej awarii reaktora w elektrowni jądrowej w Czarnobylu."
         }
-      }
+      },
+      "month": 4,
+      "day": 26,
+      "datePrecision": "day"
     },
     {
       "y": 1989,
@@ -2440,7 +2497,10 @@
           "title": "Upadek muru berlińskiego",
           "desc": "W listopadzie 1989 roku otwarto przejścia graniczne w Berlinie i rozpoczęto demontaż muru."
         }
-      }
+      },
+      "month": 11,
+      "day": 9,
+      "datePrecision": "day"
     },
     {
       "y": 1991,
@@ -2480,7 +2540,10 @@
           "title": "Rozpad Związku Radzieckiego",
           "desc": "Pod koniec 1991 roku Związek Radziecki przestał istnieć, a jego republiki uzyskały niepodległość."
         }
-      }
+      },
+      "month": 12,
+      "day": 26,
+      "datePrecision": "day"
     },
     {
       "y": 1994,
@@ -2560,7 +2623,10 @@
           "title": "Zamachy terrorystyczne z 11 września 2001 roku",
           "desc": "Ataki terrorystyczne w Stanach Zjednoczonych spowodowały śmierć tysięcy osób."
         }
-      }
+      },
+      "month": 9,
+      "day": 11,
+      "datePrecision": "day"
     },
     {
       "y": 2020,
