@@ -57,7 +57,7 @@ const html=fs.readFileSync('index.html','utf8');
 const inline=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]).filter(x=>x.trim());
 const vm=require('node:vm');
 check(html.includes('function nearestSnapshotYear('),'Historical snapshot selection is missing');
-check(html.includes('refreshSnapshotChoices();render()'),'Historical snapshot picker does not refresh after loading');
+check(/refreshSnapshotChoices\(\);\s*refreshMapInventory\(\);\s*render\(\)/.test(html),'Historical snapshot picker does not refresh after loading');
 check(html.includes('function renderDetailNavigation('),'Missing detail history navigation');
 check(html.includes('appendRelatedEvents(p.id)'),'Missing reverse event links');
 check(html.includes('const SEARCH_FILTER_LABELS='),'Missing search filter translations');
@@ -65,7 +65,7 @@ check(html.includes('document.getElementById(\'resultPeriod\').onchange=render')
 check(html.includes('document.getElementById(\'resultType\').onchange=render'),'Search type filter is not wired');
 const filterMatch=html.match(/const SEARCH_FILTER_LABELS=(\{[^;]+\});/);
 if(filterMatch){try{const labels=JSON.parse(filterMatch[1]);for(const lang of ['en','de','es','fr','it','hu','pl'])check(Array.isArray(labels[lang])&&labels[lang].length===13&&labels[lang].every(x=>typeof x==='string'&&x.trim().length>0),'Search filter translations incomplete: '+lang)}catch(e){errors.push('Search filter translation JSON invalid: '+e.message)}}else errors.push('Search filter translation object not found');
-for(const [id,expected] of [['resultType',6],['resultPeriod',6]]){const match=html.match(new RegExp('<select id="'+id+'"[^>]*>([\\s\\S]*?)<\\/select>'));check(Boolean(match),id+' missing from HTML');if(match)check((match[1].match(/<option\\b/g)||[]).length===expected,id+' expected '+expected+' options')}
+for(const [id,expected] of [['resultType',6],['resultPeriod',6]]){const match=html.match(new RegExp('<select\\\\s+id="'+id+'"[^>]*>([\\\\s\\\\S]*?)<\\\\/select>'));check(Boolean(match),id+' missing from HTML');if(match)check((match[1].match(/<option\\b/g)||[]).length===expected,id+' expected '+expected+' options')}
 const allEntityIds=new Set([...peopleIds,...stateIds]);check(allEntityIds.size===people.length+states.length,'Historical entity IDs must be unique');
 inline.forEach((code,i)=>{try{new vm.Script(code,{filename:'inline-'+i+'.js'})}catch(e){errors.push('JavaScript syntax: '+e.message)}});
 for(const p of ['data/events-v1.json','data/cities-v1.json','data/routes-v1.json','data/regions-schematic.geojson','data/people-v1.json','data/states-v1.json'])check(html.includes(p),'Page does not reference '+p);
