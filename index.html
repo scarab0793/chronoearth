@@ -76,7 +76,7 @@ function appendStateResearchBrief(state){
    const heading=document.createElement('strong');heading.style.cssText='display:block;margin:9px 0 3px;font-size:12px';
    heading.textContent=label(phase.year)+' · '+(lang==='hu'?phase.titleHu:phase.title);details.append(heading);
    const caution=document.createElement('small');caution.style.cssText='display:block;opacity:.8;margin-bottom:6px';
-   caution.textContent=lang==='hu'?phase.cautionHu:(phase.caution||'Research target only; no verified boundary geometry available.');details.append(caution);
+   caution.textContent=lang==='hu'?phase.cautionHu:phase.caution;details.append(caution);
  }
 }
 function appendStateMapSnapshots(state){
