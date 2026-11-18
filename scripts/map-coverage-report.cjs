@@ -17,6 +17,16 @@ lines.push('### '+region,'',years.length?'Reference years: '+years.join(', '):'N
 if(years.length>1){const gaps=years.slice(1).map((year,i)=>({from:years[i],to:year,years:year-years[i]})).sort((a,b)=>b.years-a.years).slice(0,5);
 lines.push('Largest gaps: '+gaps.map(g=>g.from+' to '+g.to+' ('+g.years+' years)').join('; '),'')}
 }
+const research=JSON.parse(fs.readFileSync('data/map-research-queue.json','utf8'));
+lines.push('## Map research backlog','','Candidate years below are **research targets**, not existing or verified maps.','', '| Priority | Historical state | Candidate years | Research status |','|---|---|---|---|');
+const priorityOrder={high:0,medium:1,low:2};
+for(const target of research.targets.slice().sort((a,b)=>priorityOrder[a.priority]-priorityOrder[b.priority])){
+const state=states.find(s=>s.id===target.stateId);
+lines.push('| '+target.priority+' | '+(state?state.name:target.stateId)+' | '+target.candidateYears.join(', ')+' | '+target.status+' |');
+}
+lines.push('','### Research questions','');
+for(const target of research.targets){const state=states.find(s=>s.id===target.stateId);lines.push('- **'+(state?state.name:target.stateId)+'**: '+target.researchFocus)}
+lines.push('');
 const report=lines.join('\n');
 if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,report);
 else process.stdout.write(report);
