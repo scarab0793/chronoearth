@@ -133,7 +133,8 @@
         ],
         "entityKey": "qin",
         "snapshotYear": -213,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-20"
       },
       "geometry": {
         "type": "Polygon",
@@ -602,7 +603,8 @@
         ],
         "entityKey": "kush",
         "snapshotYear": -650,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-21"
       },
       "geometry": {
         "type": "Polygon",
@@ -651,7 +653,8 @@
         ],
         "entityKey": "gupta",
         "snapshotYear": 388,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-22"
       },
       "geometry": {
         "type": "Polygon",
@@ -704,7 +707,8 @@
         ],
         "entityKey": "tang",
         "snapshotYear": 705,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-23"
       },
       "geometry": {
         "type": "Polygon",
@@ -757,7 +761,8 @@
         ],
         "entityKey": "ghana",
         "snapshotYear": 1005,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-24"
       },
       "geometry": {
         "type": "Polygon",
