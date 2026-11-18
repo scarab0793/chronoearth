@@ -377,6 +377,91 @@
       "predecessorIds": [
         "state-8"
       ]
+    },
+    {
+      "id": "state-20",
+      "name": "Qin dynasty",
+      "from": -221,
+      "to": -206,
+      "lat": 34.3,
+      "lng": 108.9,
+      "region": "Ázsia",
+      "note": "The Qin unified competing Chinese kingdoms in 221 BCE; imperial administration was short-lived and boundaries changed during conquest and collapse.",
+      "source": "https://www.britannica.com/topic/Qin-dynasty",
+      "aliases": [
+        "Csin-dinasztia",
+        "Qin Empire"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Qin dynasty"
+    },
+    {
+      "id": "state-21",
+      "name": "Kingdom of Kush",
+      "from": -1070,
+      "to": 350,
+      "lat": 18.5,
+      "lng": 31.8,
+      "region": "Afrika",
+      "note": "Nubian kingdom centred on the Nile, with changing political centres and territorial reach over many centuries.",
+      "source": "https://www.britannica.com/place/Kush-ancient-kingdom-Africa",
+      "aliases": [
+        "Kusita Királyság",
+        "Kush"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Kingdom of Kush"
+    },
+    {
+      "id": "state-22",
+      "name": "Gupta Empire",
+      "from": 320,
+      "to": 550,
+      "lat": 25.6,
+      "lng": 83,
+      "region": "Ázsia",
+      "note": "North Indian imperial dynasty whose political control and influence varied considerably across regions and reigns.",
+      "source": "https://www.britannica.com/topic/Gupta-dynasty",
+      "aliases": [
+        "Gupta Birodalom",
+        "Gupta dynasty"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Gupta Empire"
+    },
+    {
+      "id": "state-23",
+      "name": "Tang dynasty",
+      "from": 618,
+      "to": 907,
+      "lat": 34.3,
+      "lng": 108.9,
+      "region": "Ázsia",
+      "note": "Chinese imperial dynasty with substantial changes in frontier control, especially after the mid-eighth century.",
+      "source": "https://www.britannica.com/topic/Tang-dynasty",
+      "aliases": [
+        "Tang-dinasztia",
+        "Tang Empire"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Tang dynasty"
+    },
+    {
+      "id": "state-24",
+      "name": "Ghana Empire",
+      "from": 300,
+      "to": 1200,
+      "lat": 17.5,
+      "lng": -8,
+      "region": "Afrika",
+      "note": "Medieval West African polity associated with trans-Saharan trade; its early chronology and territorial extent are uncertain.",
+      "source": "https://www.britannica.com/place/Ghana-historical-West-African-empire",
+      "aliases": [
+        "Ghánai Birodalom",
+        "Wagadu"
+      ],
+      "precision": "approximate",
+      "imageQuery": "Ghana Empire"
     }
   ],
   "relationships": [
