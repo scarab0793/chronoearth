@@ -39,6 +39,10 @@ check(typeof p.id==='string'&&p.id.length>0&&!snapshotIds.has(p.id),k+' missing 
 check(typeof p.entityKey==='string'&&p.entityKey.trim().length>0,k+' missing historical entity key');
 check(Number.isInteger(p.snapshotYear)&&p.snapshotYear>=p.from&&p.snapshotYear<=p.to,k+' reference year outside snapshot interval');
 check(p.geometryStatus==='illustrative-not-verified',k+' must declare illustrative geometry quality');
+check(p.geometryMethod==='hand-drawn-schematic',k+' missing schematic geometry method');
+check(p.sourceRole==='historical-background-only',k+' must not imply source verifies geometry');
+check(p.boundaryVerification==='not-verified',k+' boundary verification must be explicit');
+check(p.spatialAccuracy==='unknown',k+' unknown spatial accuracy must be declared');
 check(p.to-p.from<=25,k+' schematic map interval is too broad for a dated reference snapshot');
 check(typeof p.stateId==='string'&&stateIds.has(p.stateId),k+' missing or unknown linked historical state '+p.stateId);
 const linkedState=states.find(st=>st.id===p.stateId);
