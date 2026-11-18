@@ -40,7 +40,9 @@ check(typeof p.entityKey==='string'&&p.entityKey.trim().length>0,k+' missing his
 check(Number.isInteger(p.snapshotYear)&&p.snapshotYear>=p.from&&p.snapshotYear<=p.to,k+' reference year outside snapshot interval');
 check(p.geometryStatus==='illustrative-not-verified',k+' must declare illustrative geometry quality');
 check(p.to-p.from<=25,k+' schematic map interval is too broad for a dated reference snapshot');
-if(p.stateId)check(stateIds.has(p.stateId),k+' references unknown historical state '+p.stateId);
+check(typeof p.stateId==='string'&&stateIds.has(p.stateId),k+' missing or unknown linked historical state '+p.stateId);
+const linkedState=states.find(st=>st.id===p.stateId);
+if(linkedState){check(p.snapshotYear>=linkedState.from&&p.snapshotYear<=linkedState.to,k+' snapshot reference year outside linked state lifetime');check(p.from>=linkedState.from&&p.to<=linkedState.to,k+' snapshot display window extends beyond linked state lifetime');check((p.regions||[]).includes(linkedState.region),k+' map regions omit linked state primary region')}
 });
 const html=fs.readFileSync('index.html','utf8');
 const inline=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]).filter(x=>x.trim());
