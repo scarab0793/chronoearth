@@ -1,0 +1,13 @@
+const fs=require('node:fs');
+const features=JSON.parse(fs.readFileSync('data/regions-schematic.geojson','utf8')).features;
+const states=JSON.parse(fs.readFileSync('data/states-v1.json','utf8')).states;
+const regions=['Afrika','Amerika','Ázsia','Európa'];
+const windows=features.map(f=>({id:f.properties.id,year:f.properties.snapshotYear,from:f.properties.from,to:f.properties.to,regions:f.properties.regions||[],stateId:f.properties.stateId||null,status:f.properties.geometryStatus}));
+const verified=windows.filter(f=>f.status==='verified').length;
+const missingState=windows.filter(f=>!f.stateId);
+const bins=[{label:'Before 500 BCE',from:-10000,to:-501},{label:'500 BCE–499 CE',from:-500,to:499},{label:'500–1499',from:500,to:1499},{label:'1500–1799',from:1500,to:1799},{label:'1800–2026',from:1800,to:2026}];
+const rows=regions.map(region=>({region,counts:bins.map(b=>windows.filter(w=>w.regions.includes(region)&&w.year>=b.from&&w.year<=b.to).length)}));
+const lines=['# ChronoEarth historical map coverage audit','','This is an inventory of illustrative map snapshots, **not** evidence of verified borders.','', '- Snapshots: '+windows.length,'- Verified boundary geometries: '+verified,'- Illustrative/unverified: '+(windows.length-verified),'- Snapshots without linked state ID: '+missingState.length,'','| Region | '+bins.map(b=>b.label).join(' | ')+' |','|---|'+bins.map(()=>'---:|').join(''),...rows.map(r=>'| '+r.region+' | '+r.counts.join(' | ')+' |'),'','## Snapshots without state links',...(missingState.length?missingState.map(w=>'- '+w.id+' ('+w.year+')'):['None']),'','## Reference snapshots',...windows.sort((a,b)=>a.year-b.year).map(w=>'- '+w.year+': '+w.id+' ('+w.from+'–'+w.to+'); '+w.status+'; '+(w.stateId||'unlinked')),''];
+const report=lines.join('\n');
+if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,report);
+else process.stdout.write(report);
