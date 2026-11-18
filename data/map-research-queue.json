@@ -12,7 +12,21 @@
       "priority": "high",
       "researchFocus": "New Kingdom territorial extent versus late Ptolemaic Egypt; distinguish direct rule from influence",
       "status": "needs-geospatial-source",
-      "researchFocusHu": "Az Újbirodalom területi kiterjedésének összevetése a késő Ptolemaiosz-kori Egyiptommal; a közvetlen uralom és a politikai befolyás elkülönítése."
+      "researchFocusHu": "Az Újbirodalom területi kiterjedésének összevetése a késő Ptolemaiosz-kori Egyiptommal; a közvetlen uralom és a politikai befolyás elkülönítése.",
+      "phases": [
+        {
+          "year": -1250,
+          "title": "New Kingdom, Ramesside period",
+          "titleHu": "Újbirodalom, ramesszida korszak",
+          "cautionHu": "A levantei fennhatóság és befolyás nem azonos az egyiptomi közvetlen igazgatással."
+        },
+        {
+          "year": -30,
+          "title": "Late Ptolemaic Egypt",
+          "titleHu": "Késő Ptolemaiosz-kori Egyiptom",
+          "cautionHu": "A római befolyást és a tényleges ptolemaioszi uralmat külön kell ábrázolni."
+        }
+      ]
     },
     {
       "stateId": "state-4",
@@ -23,7 +37,21 @@
       "priority": "high",
       "researchFocus": "Achaemenid satrapies, western frontiers and areas of indirect control",
       "status": "needs-geospatial-source",
-      "researchFocusHu": "Az Akhaimenida Birodalom szatrapiáinak, nyugati határainak és közvetett ellenőrzés alatt álló területeinek vizsgálata."
+      "researchFocusHu": "Az Akhaimenida Birodalom szatrapiáinak, nyugati határainak és közvetett ellenőrzés alatt álló területeinek vizsgálata.",
+      "phases": [
+        {
+          "year": -500,
+          "title": "Achaemenid imperial expansion",
+          "titleHu": "Akhaimenida birodalmi kiterjedés",
+          "cautionHu": "A szatrapiák és a közvetett uralom területei eltérő bizonyosságúak."
+        },
+        {
+          "year": -330,
+          "title": "Final Achaemenid years",
+          "titleHu": "Az Akhaimenida Birodalom utolsó évei",
+          "cautionHu": "A makedón hódítás miatt a fennhatóság gyorsan változott."
+        }
+      ]
     },
     {
       "stateId": "state-12",
@@ -34,7 +62,21 @@
       "priority": "medium",
       "researchFocus": "Separate colonies, protectorates, dominions and spheres of influence; avoid single misleading global polygon",
       "status": "needs-geospatial-source",
-      "researchFocusHu": "A gyarmatok, protektorátusok, domíniumok és befolyási övezetek elkülönítése; a félrevezető, egybefüggő világbirodalmi térkép elkerülése."
+      "researchFocusHu": "A gyarmatok, protektorátusok, domíniumok és befolyási övezetek elkülönítése; a félrevezető, egybefüggő világbirodalmi térkép elkerülése.",
+      "phases": [
+        {
+          "year": 1815,
+          "title": "Post-Napoleonic British Empire",
+          "titleHu": "Brit Birodalom a napóleoni háborúk után",
+          "cautionHu": "A gyarmatok, protektorátusok és befolyási területek eltérő jogállásúak."
+        },
+        {
+          "year": 1920,
+          "title": "British Empire after World War I",
+          "titleHu": "Brit Birodalom az első világháború után",
+          "cautionHu": "A mandátumterületeket és domíniumokat külön kategóriákban kell bemutatni."
+        }
+      ]
     },
     {
       "stateId": "state-13",
@@ -46,7 +88,27 @@
       "priority": "medium",
       "researchFocus": "Distinguish union republic borders from external international boundaries at each date",
       "status": "needs-geospatial-source",
-      "researchFocusHu": "A szovjet tagköztársaságok belső határainak és a Szovjetunió nemzetközi határainak megkülönböztetése a vizsgált években."
+      "researchFocusHu": "A szovjet tagköztársaságok belső határainak és a Szovjetunió nemzetközi határainak megkülönböztetése a vizsgált években.",
+      "phases": [
+        {
+          "year": 1922,
+          "title": "Foundation of the USSR",
+          "titleHu": "A Szovjetunió megalakulása",
+          "cautionHu": "A kezdeti tagköztársasági szerkezet eltér a későbbi szovjet határoktól."
+        },
+        {
+          "year": 1945,
+          "title": "Post-war Soviet Union",
+          "titleHu": "A második világháború utáni Szovjetunió",
+          "cautionHu": "A nemzetközi és tagköztársasági határokat külön kell kezelni."
+        },
+        {
+          "year": 1991,
+          "title": "Dissolution of the USSR",
+          "titleHu": "A Szovjetunió felbomlása",
+          "cautionHu": "Az 1991-es év során a politikai és jogi állapot többször változott."
+        }
+      ]
     },
     {
       "stateId": "state-14",
@@ -58,7 +120,27 @@
       "priority": "high",
       "researchFocus": "Distinguish medieval crown lands, Ottoman partition and Habsburg dual-monarchy period",
       "status": "needs-geospatial-source",
-      "researchFocusHu": "A középkori magyar korona országainak, az oszmán hódítás utáni területi megosztottságnak és a dualizmus kori államszerkezetnek az elkülönítése."
+      "researchFocusHu": "A középkori magyar korona országainak, az oszmán hódítás utáni területi megosztottságnak és a dualizmus kori államszerkezetnek az elkülönítése.",
+      "phases": [
+        {
+          "year": 1301,
+          "title": "Late Árpád-era transition",
+          "titleHu": "Az Árpád-ház kihalása utáni átmenet",
+          "cautionHu": "A királyi jogcím és a tényleges területi ellenőrzés nem mindig esett egybe."
+        },
+        {
+          "year": 1526,
+          "title": "Mohács and succession crisis",
+          "titleHu": "Mohács és a trónutódlási válság",
+          "cautionHu": "Az 1526-os csata nem jelentett azonnali, végleges három részre szakadást."
+        },
+        {
+          "year": 1867,
+          "title": "Austro-Hungarian Compromise",
+          "titleHu": "Az osztrák–magyar kiegyezés",
+          "cautionHu": "A Magyar Korona országait a Monarchia egészétől el kell különíteni."
+        }
+      ]
     },
     {
       "stateId": "state-15",
@@ -70,7 +152,27 @@
       "priority": "high",
       "researchFocus": "Distinguish early Polish monarchy, Polish-Lithuanian dynastic union and Commonwealth",
       "status": "needs-geospatial-source",
-      "researchFocusHu": "A korai lengyel királyság, a lengyel–litván dinasztikus unió és a későbbi Lengyel–Litván Nemzetközösség elkülönítése."
+      "researchFocusHu": "A korai lengyel királyság, a lengyel–litván dinasztikus unió és a későbbi Lengyel–Litván Nemzetközösség elkülönítése.",
+      "phases": [
+        {
+          "year": 1025,
+          "title": "Early Kingdom of Poland",
+          "titleHu": "A korai Lengyel Királyság",
+          "cautionHu": "A korai határok és fennhatósági viszonyok rekonstrukciója bizonytalan."
+        },
+        {
+          "year": 1386,
+          "title": "Polish–Lithuanian dynastic union",
+          "titleHu": "Lengyel–litván dinasztikus unió",
+          "cautionHu": "A dinasztikus unió még nem jelentett egységes államot."
+        },
+        {
+          "year": 1569,
+          "title": "Union of Lublin",
+          "titleHu": "A lublini unió",
+          "cautionHu": "A Nemzetközösség és a korábbi Lengyel Királyság területi fogalma eltér."
+        }
+      ]
     }
   ]
 }
