@@ -184,11 +184,11 @@
       "properties": {
         "id": "han",
         "name": "Han dynasty — schematic core",
-        "from": -202,
-        "to": 220,
+        "from": 4,
+        "to": 14,
         "source": "https://www.britannica.com/topic/Han-dynasty",
         "confidence": "schematic",
-        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot. Display window restricted to a narrow reference interval; not evidence of unchanged borders across the polity's lifetime.",
         "regions": [
           "Ázsia"
         ],
@@ -249,11 +249,11 @@
       "properties": {
         "id": "inca",
         "name": "Inca Empire — schematic Andean corridor",
-        "from": 1450,
-        "to": 1532,
+        "from": 1486,
+        "to": 1496,
         "source": "https://www.britannica.com/topic/Inca",
         "confidence": "schematic",
-        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot. Display window restricted to a narrow reference interval; not evidence of unchanged borders across the polity's lifetime.",
         "regions": [
           "Amerika"
         ],
@@ -323,11 +323,11 @@
       "properties": {
         "id": "mongol",
         "name": "Mongol Empire — schematic central core",
-        "from": 1250,
-        "to": 1300,
+        "from": 1270,
+        "to": 1280,
         "source": "https://www.britannica.com/place/Mongol-empire",
         "confidence": "schematic",
-        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot. Display window restricted to a narrow reference interval; not evidence of unchanged borders across the polity's lifetime.",
         "regions": [
           "Ázsia",
           "Európa"
@@ -407,11 +407,11 @@
       "properties": {
         "id": "ottoman",
         "name": "Ottoman Empire — schematic core",
-        "from": 1550,
-        "to": 1600,
+        "from": 1570,
+        "to": 1580,
         "source": "https://www.britannica.com/place/Ottoman-Empire",
         "confidence": "schematic",
-        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot.",
+        "note": "Illustrative core area, NOT an authoritative historical border; dates show a representative snapshot. Display window restricted to a narrow reference interval; not evidence of unchanged borders across the polity's lifetime.",
         "regions": [
           "Európa",
           "Ázsia",
@@ -591,11 +591,11 @@
       "properties": {
         "id": "kush-core",
         "name": "Kingdom of Kush — schematic Nile corridor",
-        "from": -700,
-        "to": -600,
+        "from": -655,
+        "to": -645,
         "source": "https://www.britannica.com/place/Kush-ancient-kingdom-Africa",
         "confidence": "schematic",
-        "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary.",
+        "note": "Highly simplified illustrative geographic core for this dated snapshot; NOT a reconstructed or authoritative historical boundary. Display window restricted to a narrow reference interval; not evidence of unchanged borders across the polity's lifetime.",
         "regions": [
           "Afrika"
         ],
