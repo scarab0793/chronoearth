@@ -16,3 +16,6 @@ jobs:
           node-version: '22'
       - name: Validate historical datasets and inline JavaScript
         run: node scripts/validate-data.cjs
+      - name: Summarize map coverage and unverified boundaries
+        if: always()
+        run: node scripts/map-coverage-report.cjs
