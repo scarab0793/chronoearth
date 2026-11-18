@@ -32,6 +32,7 @@ check(typeof p.id==='string'&&p.id.length>0&&!snapshotIds.has(p.id),k+' missing 
 check(typeof p.entityKey==='string'&&p.entityKey.trim().length>0,k+' missing historical entity key');
 check(Number.isInteger(p.snapshotYear)&&p.snapshotYear>=p.from&&p.snapshotYear<=p.to,k+' reference year outside snapshot interval');
 check(p.geometryStatus==='illustrative-not-verified',k+' must declare illustrative geometry quality');
+check(p.to-p.from<=25,k+' schematic map interval is too broad for a dated reference snapshot');
 if(p.stateId)check(stateIds.has(p.stateId),k+' references unknown historical state '+p.stateId);
 });
 const html=fs.readFileSync('index.html','utf8');
