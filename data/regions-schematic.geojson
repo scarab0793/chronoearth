@@ -24,7 +24,11 @@
         "entityKey": "roman",
         "snapshotYear": 118,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-3"
+        "stateId": "state-3",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -134,7 +138,11 @@
         "entityKey": "qin",
         "snapshotYear": -213,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-20"
+        "stateId": "state-20",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -196,7 +204,11 @@
         "entityKey": "han",
         "snapshotYear": 9,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-5"
+        "stateId": "state-5",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -262,7 +274,11 @@
         "entityKey": "inca",
         "snapshotYear": 1491,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-9"
+        "stateId": "state-9",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -338,7 +354,11 @@
         "snapshotYear": 1275,
         "geometryStatus": "illustrative-not-verified",
         "relationship": "imperial-era",
-        "stateId": "state-8"
+        "stateId": "state-8",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -422,7 +442,11 @@
         "entityKey": "ottoman",
         "snapshotYear": 1575,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-10"
+        "stateId": "state-10",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -496,7 +520,11 @@
         "entityKey": "mali",
         "snapshotYear": 1325,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-7"
+        "stateId": "state-7",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -554,7 +582,11 @@
         "entityKey": "aztec",
         "snapshotYear": 1505,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-11"
+        "stateId": "state-11",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -604,7 +636,11 @@
         "entityKey": "kush",
         "snapshotYear": -650,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-21"
+        "stateId": "state-21",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -654,7 +690,11 @@
         "entityKey": "gupta",
         "snapshotYear": 388,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-22"
+        "stateId": "state-22",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -708,7 +748,11 @@
         "entityKey": "tang",
         "snapshotYear": 705,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-23"
+        "stateId": "state-23",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -762,7 +806,11 @@
         "entityKey": "ghana",
         "snapshotYear": 1005,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-24"
+        "stateId": "state-24",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -812,7 +860,11 @@
         "entityKey": "roman",
         "snapshotYear": -195,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-2"
+        "stateId": "state-2",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -879,7 +931,11 @@
         "entityKey": "roman",
         "snapshotYear": 400,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-6"
+        "stateId": "state-6",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -958,7 +1014,11 @@
         "entityKey": "ottoman",
         "snapshotYear": 1355,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-10"
+        "stateId": "state-10",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -1013,7 +1073,11 @@
         "entityKey": "ottoman",
         "snapshotYear": 1905,
         "geometryStatus": "illustrative-not-verified",
-        "stateId": "state-10"
+        "stateId": "state-10",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -1092,7 +1156,11 @@
           "Ázsia"
         ],
         "relationship": "imperial-era",
-        "stateId": "state-8"
+        "stateId": "state-8",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -1152,7 +1220,11 @@
         ],
         "predecessorKey": "mongol",
         "relationship": "successor-era",
-        "stateId": "state-16"
+        "stateId": "state-16",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -1210,7 +1282,11 @@
         "regions": [
           "Amerika"
         ],
-        "stateId": "state-9"
+        "stateId": "state-9",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -1260,7 +1336,11 @@
         "regions": [
           "Amerika"
         ],
-        "stateId": "state-9"
+        "stateId": "state-9",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -1333,7 +1413,11 @@
         "confidence": "schematic",
         "geometryStatus": "illustrative-not-verified",
         "note": "Illustrative regional core only; not a verified or complete historical border.",
-        "stateId": "state-17"
+        "stateId": "state-17",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -1393,7 +1477,11 @@
         "confidence": "schematic",
         "geometryStatus": "illustrative-not-verified",
         "note": "Illustrative regional core only; not a verified or complete historical border.",
-        "stateId": "state-18"
+        "stateId": "state-18",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
@@ -1453,7 +1541,11 @@
         "confidence": "schematic",
         "geometryStatus": "illustrative-not-verified",
         "note": "Illustrative regional core only; not a verified or complete historical border.",
-        "stateId": "state-19"
+        "stateId": "state-19",
+        "geometryMethod": "hand-drawn-schematic",
+        "sourceRole": "historical-background-only",
+        "boundaryVerification": "not-verified",
+        "spatialAccuracy": "unknown"
       },
       "geometry": {
         "type": "Polygon",
