@@ -194,7 +194,8 @@
         ],
         "entityKey": "han",
         "snapshotYear": 9,
-        "geometryStatus": "illustrative-not-verified"
+        "geometryStatus": "illustrative-not-verified",
+        "stateId": "state-5"
       },
       "geometry": {
         "type": "Polygon",
