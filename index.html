@@ -71,7 +71,7 @@ function appendStateResearchBrief(state){
  const prefix=({hu:'Kutatási referenciaévek (még nem elérhető térképek): ',en:'Research reference years (maps not yet available): ',de:'Forschungsjahre (Karten noch nicht verfügbar): ',es:'Años de investigación (mapas aún no disponibles): ',fr:'Années de recherche (cartes non disponibles) : ',it:'Anni di ricerca (mappe non disponibili): ',pl:'Lata badań (mapy jeszcze niedostępne): '}[lang]||'Research reference years (maps not yet available): ');
  info.textContent=prefix+target.candidateYears.map(y=>label(y)).join(', ');
  details.append(info);
- const question=document.createElement('p');question.style.cssText='font-size:12px;opacity:.8';question.textContent=target.researchFocus;details.append(question);
+ const question=document.createElement('p');question.style.cssText='font-size:12px;opacity:.8';question.textContent=(lang==='hu'&&target.researchFocusHu)?target.researchFocusHu:target.researchFocus;details.append(question);
 }
 function appendStateMapSnapshots(state){
   const snapshots=historicalRegions.filter(f=>f.properties.stateId===state.id).sort((a,b)=>a.properties.snapshotYear-b.properties.snapshotYear);
