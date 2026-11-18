@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "description": "Research queue for states without map snapshots. Candidate years are editorial research targets, not verified historical boundary dates.",
+  "qualityPolicy": "Do not promote a schematic polygon to verified without a boundary-specific geospatial source, clear license, dated methodology, and review.",
+  "targets": [
+    {
+      "stateId": "state-1",
+      "candidateYears": [
+        -1250,
+        -30
+      ],
+      "priority": "high",
+      "researchFocus": "New Kingdom territorial extent versus late Ptolemaic Egypt; distinguish direct rule from influence",
+      "status": "needs-geospatial-source"
+    },
+    {
+      "stateId": "state-4",
+      "candidateYears": [
+        -500,
+        -330
+      ],
+      "priority": "high",
+      "researchFocus": "Achaemenid satrapies, western frontiers and areas of indirect control",
+      "status": "needs-geospatial-source"
+    },
+    {
+      "stateId": "state-12",
+      "candidateYears": [
+        1815,
+        1920
+      ],
+      "priority": "medium",
+      "researchFocus": "Separate colonies, protectorates, dominions and spheres of influence; avoid single misleading global polygon",
+      "status": "needs-geospatial-source"
+    },
+    {
+      "stateId": "state-13",
+      "candidateYears": [
+        1922,
+        1945,
+        1991
+      ],
+      "priority": "medium",
+      "researchFocus": "Distinguish union republic borders from external international boundaries at each date",
+      "status": "needs-geospatial-source"
+    },
+    {
+      "stateId": "state-14",
+      "candidateYears": [
+        1301,
+        1526,
+        1867
+      ],
+      "priority": "high",
+      "researchFocus": "Distinguish medieval crown lands, Ottoman partition and Habsburg dual-monarchy period",
+      "status": "needs-geospatial-source"
+    },
+    {
+      "stateId": "state-15",
+      "candidateYears": [
+        1025,
+        1386,
+        1569
+      ],
+      "priority": "high",
+      "researchFocus": "Distinguish early Polish monarchy, Polish-Lithuanian dynastic union and Commonwealth",
+      "status": "needs-geospatial-source"
+    }
+  ]
+}
