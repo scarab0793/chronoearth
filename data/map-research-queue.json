@@ -18,13 +18,15 @@
           "year": -1250,
           "title": "New Kingdom, Ramesside period",
           "titleHu": "Újbirodalom, ramesszida korszak",
-          "cautionHu": "A levantei fennhatóság és befolyás nem azonos az egyiptomi közvetlen igazgatással."
+          "cautionHu": "A levantei fennhatóság és befolyás nem azonos az egyiptomi közvetlen igazgatással.",
+          "caution": "Political influence in the Levant should not be represented as direct Egyptian administration."
         },
         {
           "year": -30,
           "title": "Late Ptolemaic Egypt",
           "titleHu": "Késő Ptolemaiosz-kori Egyiptom",
-          "cautionHu": "A római befolyást és a tényleges ptolemaioszi uralmat külön kell ábrázolni."
+          "cautionHu": "A római befolyást és a tényleges ptolemaioszi uralmat külön kell ábrázolni.",
+          "caution": "Roman political influence must be distinguished from territory under actual Ptolemaic rule."
         }
       ]
     },
@@ -43,13 +45,15 @@
           "year": -500,
           "title": "Achaemenid imperial expansion",
           "titleHu": "Akhaimenida birodalmi kiterjedés",
-          "cautionHu": "A szatrapiák és a közvetett uralom területei eltérő bizonyosságúak."
+          "cautionHu": "A szatrapiák és a közvetett uralom területei eltérő bizonyosságúak.",
+          "caution": "Satrapal boundaries and areas of indirect imperial control have differing levels of historical certainty."
         },
         {
           "year": -330,
           "title": "Final Achaemenid years",
           "titleHu": "Az Akhaimenida Birodalom utolsó évei",
-          "cautionHu": "A makedón hódítás miatt a fennhatóság gyorsan változott."
+          "cautionHu": "A makedón hódítás miatt a fennhatóság gyorsan változott.",
+          "caution": "Macedonian conquest caused rapid changes in political control during this period."
         }
       ]
     },
@@ -68,13 +72,15 @@
           "year": 1815,
           "title": "Post-Napoleonic British Empire",
           "titleHu": "Brit Birodalom a napóleoni háborúk után",
-          "cautionHu": "A gyarmatok, protektorátusok és befolyási területek eltérő jogállásúak."
+          "cautionHu": "A gyarmatok, protektorátusok és befolyási területek eltérő jogállásúak.",
+          "caution": "Colonies, protectorates and spheres of influence had different legal and political statuses."
         },
         {
           "year": 1920,
           "title": "British Empire after World War I",
           "titleHu": "Brit Birodalom az első világháború után",
-          "cautionHu": "A mandátumterületeket és domíniumokat külön kategóriákban kell bemutatni."
+          "cautionHu": "A mandátumterületeket és domíniumokat külön kategóriákban kell bemutatni.",
+          "caution": "League of Nations mandates and self-governing dominions should be mapped as distinct categories."
         }
       ]
     },
@@ -94,19 +100,22 @@
           "year": 1922,
           "title": "Foundation of the USSR",
           "titleHu": "A Szovjetunió megalakulása",
-          "cautionHu": "A kezdeti tagköztársasági szerkezet eltér a későbbi szovjet határoktól."
+          "cautionHu": "A kezdeti tagköztársasági szerkezet eltér a későbbi szovjet határoktól.",
+          "caution": "The original union-republic structure differed from the USSR's later internal and external borders."
         },
         {
           "year": 1945,
           "title": "Post-war Soviet Union",
           "titleHu": "A második világháború utáni Szovjetunió",
-          "cautionHu": "A nemzetközi és tagköztársasági határokat külön kell kezelni."
+          "cautionHu": "A nemzetközi és tagköztársasági határokat külön kell kezelni.",
+          "caution": "International frontiers and internal union-republic boundaries must be distinguished."
         },
         {
           "year": 1991,
           "title": "Dissolution of the USSR",
           "titleHu": "A Szovjetunió felbomlása",
-          "cautionHu": "Az 1991-es év során a politikai és jogi állapot többször változott."
+          "cautionHu": "Az 1991-es év során a politikai és jogi állapot többször változott.",
+          "caution": "Political and legal status changed repeatedly during the dissolution year of 1991."
         }
       ]
     },
@@ -126,19 +135,22 @@
           "year": 1301,
           "title": "Late Árpád-era transition",
           "titleHu": "Az Árpád-ház kihalása utáni átmenet",
-          "cautionHu": "A királyi jogcím és a tényleges területi ellenőrzés nem mindig esett egybe."
+          "cautionHu": "A királyi jogcím és a tényleges területi ellenőrzés nem mindig esett egybe.",
+          "caution": "Royal claims and actual territorial control did not always coincide during the succession crisis."
         },
         {
           "year": 1526,
           "title": "Mohács and succession crisis",
           "titleHu": "Mohács és a trónutódlási válság",
-          "cautionHu": "Az 1526-os csata nem jelentett azonnali, végleges három részre szakadást."
+          "cautionHu": "Az 1526-os csata nem jelentett azonnali, végleges három részre szakadást.",
+          "caution": "The Battle of Mohács did not immediately create a permanent three-way partition of Hungary."
         },
         {
           "year": 1867,
           "title": "Austro-Hungarian Compromise",
           "titleHu": "Az osztrák–magyar kiegyezés",
-          "cautionHu": "A Magyar Korona országait a Monarchia egészétől el kell különíteni."
+          "cautionHu": "A Magyar Korona országait a Monarchia egészétől el kell különíteni.",
+          "caution": "The Lands of the Crown of Saint Stephen must be distinguished from Austria-Hungary as a whole."
         }
       ]
     },
@@ -158,19 +170,22 @@
           "year": 1025,
           "title": "Early Kingdom of Poland",
           "titleHu": "A korai Lengyel Királyság",
-          "cautionHu": "A korai határok és fennhatósági viszonyok rekonstrukciója bizonytalan."
+          "cautionHu": "A korai határok és fennhatósági viszonyok rekonstrukciója bizonytalan.",
+          "caution": "The borders and relationships of authority in the early Polish kingdom remain uncertain."
         },
         {
           "year": 1386,
           "title": "Polish–Lithuanian dynastic union",
           "titleHu": "Lengyel–litván dinasztikus unió",
-          "cautionHu": "A dinasztikus unió még nem jelentett egységes államot."
+          "cautionHu": "A dinasztikus unió még nem jelentett egységes államot.",
+          "caution": "A dynastic union with Lithuania did not yet create a unified state."
         },
         {
           "year": 1569,
           "title": "Union of Lublin",
           "titleHu": "A lublini unió",
-          "cautionHu": "A Nemzetközösség és a korábbi Lengyel Királyság területi fogalma eltér."
+          "cautionHu": "A Nemzetközösség és a korábbi Lengyel Királyság területi fogalma eltér.",
+          "caution": "The Commonwealth's territorial scope differed from that of the earlier Kingdom of Poland."
         }
       ]
     }
