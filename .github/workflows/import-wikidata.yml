@@ -1,5 +1,10 @@
 name: Import Wikidata historical cities
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-wikidata.yml'
+      - 'scripts/fetch-wikidata-cities.cjs'
   workflow_dispatch:
   schedule:
     - cron: '20 3 * * 1'
