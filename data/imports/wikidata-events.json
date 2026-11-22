@@ -1,0 +1,1087 @@
+{
+  "schemaVersion": 1,
+  "source": "Wikidata MediaWiki API",
+  "importedAt": "2026-11-22T16:25:11.701Z",
+  "reviewStatus": "unreviewed",
+  "note": "Candidate event catalogue; each item needs historical type and date review.",
+  "events": [
+    {
+      "id": "wikidata:Q31900",
+      "wikidataId": "Q31900",
+      "name": "Battle of Marathon",
+      "year": -490,
+      "description": "490 BCE battle in the Greco-Persian wars",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q31900",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131969",
+      "wikidataId": "Q131969",
+      "name": "Battle of Thermopylae",
+      "year": -480,
+      "description": "battle of 480 BCE during Persian invasion of Greece",
+      "typeIds": [
+        "Q178561",
+        "Q3817498"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q131969",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12877559",
+      "wikidataId": "Q12877559",
+      "name": "Battle of Marathon",
+      "year": -450,
+      "description": "painting by Polygnotus of Thasos",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12877559",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3460799",
+      "wikidataId": "Q3460799",
+      "name": "Sack of Rome",
+      "year": -390,
+      "description": "390 BCE sack",
+      "typeIds": [
+        "Q188055",
+        "Q19841484"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3460799",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q783058",
+      "wikidataId": "Q783058",
+      "name": "Battle of Thermopylae",
+      "year": -191,
+      "description": "191 BCE battle of the Roman-Seleucid War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q783058",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1463845",
+      "wikidataId": "Q1463845",
+      "name": "410 sack of Rome",
+      "year": 410,
+      "description": "410 Visigoth siege and looting of Rome",
+      "typeIds": [
+        "Q19841484",
+        "Q192623"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1463845",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q979633",
+      "wikidataId": "Q979633",
+      "name": "Sack of Rome",
+      "year": 846,
+      "description": "846 raid of Rome",
+      "typeIds": [
+        "Q467011",
+        "Q275918"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q979633",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3778666",
+      "wikidataId": "Q3778666",
+      "name": "Rus'–Byzantine War",
+      "year": 988,
+      "description": "988–989 war",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3778666",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q83224",
+      "wikidataId": "Q83224",
+      "name": "Battle of Hastings",
+      "year": 1066,
+      "description": "battle which occurred on 14 October 1066",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q83224",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q51649",
+      "wikidataId": "Q51649",
+      "name": "First Crusade",
+      "year": 1090,
+      "description": "1096–1099 Christian conquest of the Holy Land",
+      "typeIds": [
+        "Q1827102"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q51649",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q51656",
+      "wikidataId": "Q51656",
+      "name": "Fourth Crusade",
+      "year": 1202,
+      "description": "armed expedition against Constantinople",
+      "typeIds": [
+        "Q1827102"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q51656",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12519",
+      "wikidataId": "Q12519",
+      "name": "Magna Carta",
+      "year": 1215,
+      "description": "charter of rights agreed between King John of England and the nobility in 1215",
+      "typeIds": [
+        "Q727002",
+        "Q93288",
+        "Q87167",
+        "Q18009587",
+        "Q7755"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12519",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12551",
+      "wikidataId": "Q12551",
+      "name": "Hundred Years' War",
+      "year": 1337,
+      "description": "series of conflicts and wars between England and France between 1337 and 1453",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12551",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q42005",
+      "wikidataId": "Q42005",
+      "name": "Black Death",
+      "year": 1346,
+      "description": "1346–1353 pandemic in Eurasia and North Africa",
+      "typeIds": [
+        "Q3241045",
+        "Q12184"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q42005",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q188495",
+      "wikidataId": "Q188495",
+      "name": "Battle of Agincourt",
+      "year": 1415,
+      "description": "1415 English victory in the Hundred Years' War",
+      "typeIds": [
+        "Q178561",
+        "Q40890151"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q188495",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q160077",
+      "wikidataId": "Q160077",
+      "name": "Fall of Constantinople",
+      "year": 1453,
+      "description": "1453 capture of the Byzantine capital by the Ottoman Empire",
+      "typeIds": [
+        "Q188055",
+        "Q178561",
+        "Q1361229"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q160077",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7510505",
+      "wikidataId": "Q7510505",
+      "name": "Siege of Vienna",
+      "year": 1485,
+      "description": "1485 siege of the Austrian–Hungarian War",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q7510505",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q180897",
+      "wikidataId": "Q180897",
+      "name": "Treaty of Tordesillas",
+      "year": 1494,
+      "description": "treaty dividing territory between Portugal and Spain",
+      "typeIds": [
+        "Q131569"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q180897",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q207576",
+      "wikidataId": "Q207576",
+      "name": "First Turkish Siege of Vienna",
+      "year": 1529,
+      "description": "First attempt by the Ottoman Empire to capture the city of Vienna, Austria",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q207576",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2877472",
+      "wikidataId": "Q2877472",
+      "name": "1531 Lisbon earthquake",
+      "year": 1531,
+      "description": "Earthquake which occurred in Portugal on 26 January 1531",
+      "typeIds": [
+        "Q7944",
+        "Q8065",
+        "Q3839081"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2877472",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2487",
+      "wikidataId": "Q2487",
+      "name": "Thirty Years' War",
+      "year": 1618,
+      "description": "war principally fought in Central Europe from 1618 to 1648",
+      "typeIds": [
+        "Q1827102"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2487",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q130803598",
+      "wikidataId": "Q130803598",
+      "name": "Siege of Vienna",
+      "year": 1619,
+      "description": "1619 siege",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q130803598",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3778626",
+      "wikidataId": "Q3778626",
+      "name": "Thirty Years War in France",
+      "year": 1635,
+      "description": "",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3778626",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q150995",
+      "wikidataId": "Q150995",
+      "name": "Peace of Westph",
+      "year": 1648,
+      "description": "peace treaty ending the Thirty and Eighty Years' Wars",
+      "typeIds": [
+        "Q625298"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q150995",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q164679",
+      "wikidataId": "Q164679",
+      "name": "Great Fire of London",
+      "year": 1666,
+      "description": "disaster in 17th century England",
+      "typeIds": [
+        "Q838718"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q164679",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q189508",
+      "wikidataId": "Q189508",
+      "name": "Glorious Revolution",
+      "year": 1688,
+      "description": "British revolution of 1688",
+      "typeIds": [
+        "Q45382",
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q189508",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q191055",
+      "wikidataId": "Q191055",
+      "name": "1755 Lisbon earthquake",
+      "year": 1755,
+      "description": "earthquake in 1755",
+      "typeIds": [
+        "Q7944"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q191055",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1639638",
+      "wikidataId": "Q1639638",
+      "name": "Treaty of Versailles",
+      "year": 1757,
+      "description": "diplomatic agreement between Austria and France in 1757",
+      "typeIds": [
+        "Q131569"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1639638",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2269",
+      "wikidataId": "Q2269",
+      "name": "Industrial Revolution",
+      "year": 1760,
+      "description": "transition to new manufacturing processes in Europe and the United States, in the 18th-19th centuries",
+      "typeIds": [
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2269",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q105347709",
+      "wikidataId": "Q105347709",
+      "name": "1761 Lisbon earthquake",
+      "year": 1761,
+      "description": "Earthquake and tsunami in the Atlantic Ocean",
+      "typeIds": [
+        "Q7944",
+        "Q3839081",
+        "Q8065"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q105347709",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q192769",
+      "wikidataId": "Q192769",
+      "name": "American Revolution",
+      "year": 1763,
+      "description": "revolution establishing the United States of America",
+      "typeIds": [
+        "Q10931",
+        "Q2738074"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q192769",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q961673",
+      "wikidataId": "Q961673",
+      "name": "Treaty of Versailles",
+      "year": 1768,
+      "description": "1768 treaty between the Republic of Genoa and France",
+      "typeIds": [
+        "Q131569"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q961673",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q40949",
+      "wikidataId": "Q40949",
+      "name": "American Revolutionary War",
+      "year": 1775,
+      "description": "1775–1783 war between Great Britain and the Thirteen Colonies, which won independence as the United States of America",
+      "typeIds": [
+        "Q1006311"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q40949",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q127912",
+      "wikidataId": "Q127912",
+      "name": "United States Declaration of Independence",
+      "year": 1776,
+      "description": "1776 assertion of colonial America's independence from Great Britain",
+      "typeIds": [
+        "Q1464916"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q127912",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6534",
+      "wikidataId": "Q6534",
+      "name": "French Revolution",
+      "year": 1789,
+      "description": "A period of political and societal change in France from 1789 to 1799",
+      "typeIds": [
+        "Q13418847",
+        "Q10931",
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q6534",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q207318",
+      "wikidataId": "Q207318",
+      "name": "French Revolutionary Wars",
+      "year": 1792,
+      "description": "1792–1802 series of conflicts between the French Republic and several European monarchies",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q207318",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q78994",
+      "wikidataId": "Q78994",
+      "name": "Napoleonic Wars",
+      "year": 1803,
+      "description": "1803–1815 wars involving the French Empire",
+      "typeIds": [
+        "Q104212151",
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q78994",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q171416",
+      "wikidataId": "Q171416",
+      "name": "Battle of Trafalgar",
+      "year": 1805,
+      "description": "1805 battle during the War of the Third Coalition",
+      "typeIds": [
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q171416",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q46362",
+      "wikidataId": "Q46362",
+      "name": "Congress of Vienna",
+      "year": 1815,
+      "description": "conference of ambassadors of European states (September/November 1814 to June 1815)",
+      "typeIds": [
+        "Q7157512"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q46362",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q48314",
+      "wikidataId": "Q48314",
+      "name": "Battle of Waterloo",
+      "year": 1815,
+      "description": "1815 battle during the War of the Seventh Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q48314",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1772871",
+      "wikidataId": "Q1772871",
+      "name": "The Battle of Trafalgar",
+      "year": 1823,
+      "description": "painting by J. M. W. Turner",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1772871",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q111911292",
+      "wikidataId": "Q111911292",
+      "name": "Battle of Marathon 1824 CE",
+      "year": 1824,
+      "description": "1824 battle in Greek war of independence",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q111911292",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q19021",
+      "wikidataId": "Q19021",
+      "name": "Vienna Uprising",
+      "year": 1848,
+      "description": "last uprising in the Austrian Revolution of 1848",
+      "typeIds": [
+        "Q1323212"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q19021",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3588",
+      "wikidataId": "Q3588",
+      "name": "European Revolutions of 1848",
+      "year": 1848,
+      "description": "series of political upheavals throughout Europe in 1848–49",
+      "typeIds": [
+        "Q1886460"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3588",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3699",
+      "wikidataId": "Q3699",
+      "name": "Revolutions of 1848 in the German states",
+      "year": 1848,
+      "description": "German part of the Revolutions of 1848",
+      "typeIds": [
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3699",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q690959",
+      "wikidataId": "Q690959",
+      "name": "Revolutions of 1848 in the Habsburg empire",
+      "year": 1848,
+      "description": "bourgeois-democratic motivated revolutions",
+      "typeIds": [
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q690959",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q254106",
+      "wikidataId": "Q254106",
+      "name": "Crimean War",
+      "year": 1853,
+      "description": "military conflict fought between October 1853 – March 1856",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q254106",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q17539747",
+      "wikidataId": "Q17539747",
+      "name": "Battle of Waterloo",
+      "year": 1862,
+      "description": "painting by Hendrik Albert van Trigt",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q17539747",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q33132",
+      "wikidataId": "Q33132",
+      "name": "Battle of Gettysburg",
+      "year": 1863,
+      "description": "1863 battle of the American Civil War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q33132",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8676",
+      "wikidataId": "Q8676",
+      "name": "American Civil War",
+      "year": 1865,
+      "description": "1861–1865 civil war in the United States between the North and the South over the enslavement of African-Americans",
+      "typeIds": [
+        "Q8465",
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8676",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1540751",
+      "wikidataId": "Q1540751",
+      "name": "Glorious Revolution",
+      "year": 1868,
+      "description": "1868 revolution in Spain that deposed Queen Isabella II",
+      "typeIds": [
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1540751",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3173195",
+      "wikidataId": "Q3173195",
+      "name": "Declaration of Independence",
+      "year": 1900,
+      "description": "painting by John Trumbull in the U.S. Capitol",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3173195",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q184928",
+      "wikidataId": "Q184928",
+      "name": "Russian Revolution of 1905",
+      "year": 1905,
+      "description": "wave of mass political and social unrest that spread through vast areas of the Russian Empire",
+      "typeIds": [
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q184928",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4157640",
+      "wikidataId": "Q4157640",
+      "name": "Russian Revolution Army",
+      "year": 1917,
+      "description": "army existing between the February and October 1917 revolutions",
+      "typeIds": [
+        "Q37726"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4157640",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q42976",
+      "wikidataId": "Q42976",
+      "name": "October Revolution",
+      "year": 1917,
+      "description": "second of two 1917 revolutions in Russia",
+      "typeIds": [
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q42976",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8729",
+      "wikidataId": "Q8729",
+      "name": "Russian Revolution",
+      "year": 1917,
+      "description": "1917-1922 political change in Russia",
+      "typeIds": [
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8729",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q178275",
+      "wikidataId": "Q178275",
+      "name": "1918–1920 flu pandemic",
+      "year": 1918,
+      "description": "1918–1920 global influenza pandemic caused by the H1N1 influenza A virus",
+      "typeIds": [
+        "Q2723958",
+        "Q182672"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q178275",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q361",
+      "wikidataId": "Q361",
+      "name": "World War I",
+      "year": 1918,
+      "description": "1914–1918 global conflict",
+      "typeIds": [
+        "Q103495",
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q361",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q56313318",
+      "wikidataId": "Q56313318",
+      "name": "Spanish flu of 1918-1919 in Switzerland",
+      "year": 1918,
+      "description": "",
+      "typeIds": [
+        "Q3241045",
+        "Q18123741"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q56313318",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q96239861",
+      "wikidataId": "Q96239861",
+      "name": "Spanish flu in Austria",
+      "year": 1918,
+      "description": "",
+      "typeIds": [
+        "Q18340514",
+        "Q3241045"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q96239861",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8736",
+      "wikidataId": "Q8736",
+      "name": "Treaty of Versailles",
+      "year": 1919,
+      "description": "most important of the peace treaties of the First World War which ended the state of war between Germany and the Allied Powers",
+      "typeIds": [
+        "Q625298",
+        "Q6934728"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8736",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q696482",
+      "wikidataId": "Q696482",
+      "name": "Great Depression in the United States",
+      "year": 1929,
+      "description": "severe economic crisis in the USA in the 1930s",
+      "typeIds": [
+        "Q290178"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q696482",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8698",
+      "wikidataId": "Q8698",
+      "name": "Great Depression",
+      "year": 1929,
+      "description": "worldwide economic depression (1929–1939)",
+      "typeIds": [
+        "Q290178",
+        "Q176494",
+        "Q11514315",
+        "Q6428674"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8698",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q362",
+      "wikidataId": "Q362",
+      "name": "World War II",
+      "year": 1939,
+      "description": "1939–1945 global conflict",
+      "typeIds": [
+        "Q103495",
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q362",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q154720",
+      "wikidataId": "Q154720",
+      "name": "Battle of Britain",
+      "year": 1940,
+      "description": "air battle waged between German and British air forces in 1940",
+      "typeIds": [
+        "Q830494"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154720",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q151860",
+      "wikidataId": "Q151860",
+      "name": "Siege of Leningrad",
+      "year": 1941,
+      "description": "8 September 1941 – 27 January 1944 blockade of Leningrad by the Axis",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q151860",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q704248",
+      "wikidataId": "Q704248",
+      "name": "Battle of Thermopylae",
+      "year": 1941,
+      "description": "1941 World War II battle during the German invasion of Greece",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q704248",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q173034",
+      "wikidataId": "Q173034",
+      "name": "Battle of Midway",
+      "year": 1942,
+      "description": "1942 World War II naval battle",
+      "typeIds": [
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q173034",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q38789",
+      "wikidataId": "Q38789",
+      "name": "Battle of Stalingrad",
+      "year": 1942,
+      "description": "1942 major battle of World War II",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q38789",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8663",
+      "wikidataId": "Q8663",
+      "name": "Korean War",
+      "year": 1950,
+      "description": "war between North and South Korea, 1950–1953",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8663",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4333027",
+      "wikidataId": "Q4333027",
+      "name": "Oktyabrskaya Revolutsia",
+      "year": 1954,
+      "description": "1951 Sverdlov-class cruiser",
+      "typeIds": [
+        "Q778129"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4333027",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q128160",
+      "wikidataId": "Q128160",
+      "name": "Cuban Missile Crisis",
+      "year": 1962,
+      "description": "October 1962 confrontation between the Soviet Union, Cuba and the United States",
+      "typeIds": [
+        "Q3002772",
+        "Q180684",
+        "Q861911"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q128160",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2487880",
+      "wikidataId": "Q2487880",
+      "name": "Korean War Veterans Parkway",
+      "year": 1972,
+      "description": "highway in New York",
+      "typeIds": [
+        "Q34442"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2487880",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8740",
+      "wikidataId": "Q8740",
+      "name": "Vietnam War",
+      "year": 1975,
+      "description": "armed conflict in Vietnam, Laos, and Cambodia between North Vietnam and South Vietnam, from 1955 to 1975",
+      "typeIds": [
+        "Q864113",
+        "Q8465"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8740",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4920629",
+      "wikidataId": "Q4920629",
+      "name": "Black Death",
+      "year": 1977,
+      "description": "American musical group; heavy metal band",
+      "typeIds": [
+        "Q215380"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4920629",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q486",
+      "wikidataId": "Q486",
+      "name": "Chernobyl disaster",
+      "year": 1986,
+      "description": "1986 nuclear accident in the Soviet Union",
+      "typeIds": [
+        "Q15725976",
+        "Q3193890"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q486",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q69163529",
+      "wikidataId": "Q69163529",
+      "name": "fall of the Berlin Wall",
+      "year": 1989,
+      "description": "historical event in November 1989 where the Berlin Wall was opened and demolished",
+      "typeIds": [
+        "Q13418847",
+        "Q331483"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q69163529",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5167679",
+      "wikidataId": "Q5167679",
+      "name": "dissolution of the Soviet Union",
+      "year": 1991,
+      "description": "process leading to the late-1991 breakup of the USSR",
+      "typeIds": [
+        "Q18603729",
+        "Q22087155"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q5167679",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q15833607",
+      "wikidataId": "Q15833607",
+      "name": "2014 Russian invasion of Crimea",
+      "year": 2014,
+      "description": "2014 invasion of Ukraine by Russia",
+      "typeIds": [
+        "Q645883",
+        "Q467011"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q15833607",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q19928886",
+      "wikidataId": "Q19928886",
+      "name": "Magna Carta (An Embroidery)",
+      "year": 2015,
+      "description": "2015 artwork",
+      "typeIds": [
+        "Q28966302"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q19928886",
+      "reviewStatus": "unreviewed",
+      "location": null
+    }
+  ]
+}
