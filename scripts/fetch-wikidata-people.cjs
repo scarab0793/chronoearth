@@ -5,6 +5,7 @@
 const fs=require('node:fs');
 const api='https://www.wikidata.org/w/api.php';
 const terms=['Roman emperor','Roman general','ancient Greek philosopher','ancient Egyptian pharaoh','medieval king','medieval queen','Renaissance scientist','Renaissance artist','historian','astronomer','mathematician','explorer','inventor','composer','Napoleonic general','scientist','political philosopher','medieval scholar','Chinese emperor','Mongol ruler'];
+const namedPeople=["Hammurabi","Sargon of Akkad","Nebuchadnezzar II","Cyrus the Great","Darius I","Xerxes I","Pericles","Socrates","Aristotle","Herodotus","Thucydides","Hippocrates","Euclid","Archimedes","Pythagoras","Alexander the Great","Philip II of Macedon","Hannibal","Scipio Africanus","Augustus","Tiberius","Caligula","Claudius","Nero","Trajan","Hadrian","Marcus Aurelius","Constantine the Great","Theodosius I","Justinian I","Theodora","Charlemagne","Alfred the Great","William the Conqueror","Richard I of England","Saladin","Frederick II Holy Roman Emperor","Genghis Khan","Kublai Khan","Tamerlane","Mehmed II","Suleiman the Magnificent","Akbar","Ashoka","Qin Shi Huang","Emperor Wu of Han","Empress Wu Zetian","Zhu Yuanzhang","Kangxi Emperor","Tokugawa Ieyasu","Oda Nobunaga","Toyotomi Hideyoshi","Mansa Musa","Sundiata Keita","Shaka Zulu","Pachacuti","Moctezuma II","Atahualpa","Isabella I of Castile","Ferdinand II of Aragon","Elizabeth I","Mary Queen of Scots","Henry VIII","Louis XIV","Peter the Great","Catherine the Great","Maria Theresa","Joseph II Holy Roman Emperor","Frederick the Great","George Washington","Thomas Jefferson","Benjamin Franklin","Alexander Hamilton","Napoleon Bonaparte","Duke of Wellington","Simón Bolívar","José de San Martín","Abraham Lincoln","Otto von Bismarck","Giuseppe Garibaldi","Karl Marx","Friedrich Engels","Vladimir Lenin","Leon Trotsky","Joseph Stalin","Winston Churchill","Franklin D Roosevelt","Charles de Gaulle","Mahatma Gandhi","Jawaharlal Nehru","Sun Yat-sen","Mao Zedong","Nelson Mandela","Martin Luther King Jr","Marie Curie","Isaac Newton","Galileo Galilei","Johannes Kepler","Nicolaus Copernicus","René Descartes","Blaise Pascal","Ada Lovelace","Alan Turing","Nikola Tesla","Michael Faraday","James Clerk Maxwell","Louis Pasteur","Gregor Mendel","Rosalind Franklin","Florence Nightingale","Mary Wollstonecraft","Jane Austen","Mary Shelley","Virginia Woolf","Dante Alighieri","Petrarch","Geoffrey Chaucer","Miguel de Cervantes","Johann Wolfgang von Goethe","Ludwig van Beethoven","Wolfgang Amadeus Mozart","Johann Sebastian Bach","Frédéric Chopin","Pyotr Ilyich Tchaikovsky","Rembrandt","Michelangelo","Raphael","Donatello","Caravaggio","Vincent van Gogh","Pablo Picasso","Frida Kahlo","Ibn Sina","Ibn Rushd","Ibn Khaldun","Al-Khwarizmi","Al-Biruni","Zheng He","Ibn Battuta","Marco Polo","Christopher Columbus","Vasco da Gama","Ferdinand Magellan","James Cook","Roald Amundsen","Ernest Shackleton","Neil Armstrong"];
 const seed=['Q1048','Q635','Q720','Q91','Q1035','Q1233','Q859','Q692','Q762','Q1426','Q7259','Q1339','Q937','Q7186','Q5582','Q5879','Q9036','Q8007','Q8462','Q4965','Q5715','Q1067','Q260','Q22670','Q9061','Q7245'];
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 async function request(params){
@@ -21,10 +22,10 @@ const claim=(e,p)=>e.claims?.[p]?.find(c=>c.mainsnak?.snaktype==='value')?.mains
 const years=v=>{if(!v?.time)return null;const m=v.time.match(/^([+-])(\d+)-/);if(!m)return null;const y=Number(m[2])*(m[1]==='-'?-1:1);return Number.isSafeInteger(y)?y:null};
 async function main(){
  const ids=new Set(seed);
- for(const term of terms){
+ for(const term of [...terms,...namedPeople]){
   const data=await request({action:'wbsearchentities',search:term,language:'en',type:'item',limit:'50'});
   for(const hit of data.search||[])if(/^Q[1-9]\d*$/.test(hit.id))ids.add(hit.id);
-  await wait(250);
+  await wait(100);
  }
  const people=new Map(),all=[...ids];
  for(let i=0;i<all.length;i+=40){
