@@ -6,7 +6,7 @@ const fs=require('node:fs');
 const pageSize=100,maxPages=10;
 const delay=ms=>new Promise(r=>setTimeout(r,ms));
 const query=(offset)=>`SELECT ?person ?personLabel ?birth ?death WHERE {
- { SELECT ?person WHERE { ?person wdt:P31 wd:Q5 ; wdt:P569 ?birthDate . FILTER(YEAR(?birthDate) < 1900) } ORDER BY ?person LIMIT ${pageSize} OFFSET ${offset} }
+ { SELECT ?person WHERE { ?person wdt:P31 wd:Q5 . } ORDER BY ?person LIMIT ${pageSize} OFFSET ${offset} }
  OPTIONAL { ?person wdt:P569 ?birth }
  OPTIONAL { ?person wdt:P570 ?death }
  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,hu". }
@@ -31,7 +31,7 @@ async function main(){
    const v=k=>row[k]?.value;
    const id=String(v('person')||'').match(/\/entity\/(Q[1-9]\d*)$/)?.[1];
    const from=year(v('birth')),to=year(v('death'));
-   if(!id||!Number.isSafeInteger(from)||from>2026||to!==null&&(!Number.isSafeInteger(to)||to<from))continue;
+   if(!id||!Number.isSafeInteger(from)||from>1900||to!==null&&(!Number.isSafeInteger(to)||to<from))continue;
    if(!people.has(id))people.set(id,{id:'wikidata:'+id,wikidataId:id,name:v('personLabel')||id,birthYear:from,deathYear:to,source:'https://www.wikidata.org/wiki/'+id,reviewStatus:'unreviewed',location:null});
   }
   console.log('Page '+(i+1)+': '+rows.length+' results; '+people.size+' distinct people');
