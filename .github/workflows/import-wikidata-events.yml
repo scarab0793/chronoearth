@@ -1,0 +1,38 @@
+name: Import Wikidata historical events
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-wikidata-events.yml'
+      - 'scripts/fetch-wikidata-events.cjs'
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5 * * 3'
+permissions:
+  contents: write
+concurrency:
+  group: wikidata-events-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch event candidates
+        run: node scripts/fetch-wikidata-events.cjs
+      - name: Validate candidate catalogue
+        run: node -e "const j=require('./data/imports/wikidata-events.json');if(!Array.isArray(j.events)||!j.events.length||j.events.some(x=>!Number.isInteger(x.year)||!x.wikidataId))process.exit(1)"
+      - name: Commit refreshed candidate catalogue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/imports/wikidata-events.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh Wikidata event candidates"
+            git pull --rebase origin main
+            git push
+          fi
