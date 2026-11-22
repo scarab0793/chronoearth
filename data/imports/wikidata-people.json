@@ -1,9 +1,19 @@
 {
   "schemaVersion": 2,
   "source": "Wikidata MediaWiki API",
-  "importedAt": "2026-11-22T16:20:17.703Z",
+  "importedAt": "2026-11-22T16:50:51.429Z",
   "reviewStatus": "unreviewed",
   "people": [
+    {
+      "id": "wikidata:Q23",
+      "wikidataId": "Q23",
+      "name": "George Washington",
+      "birthYear": 1732,
+      "deathYear": 1799,
+      "source": "https://www.wikidata.org/wiki/Q23",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
     {
       "id": "wikidata:Q91",
       "wikidataId": "Q91",
@@ -15,12 +25,82 @@
       "location": null
     },
     {
+      "id": "wikidata:Q254",
+      "wikidataId": "Q254",
+      "name": "Wolfgang Amadeus Mozart",
+      "birthYear": 1756,
+      "deathYear": 1791,
+      "source": "https://www.wikidata.org/wiki/Q254",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q255",
+      "wikidataId": "Q255",
+      "name": "Ludwig van Beethoven",
+      "birthYear": 1770,
+      "deathYear": 1827,
+      "source": "https://www.wikidata.org/wiki/Q255",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q260",
       "wikidataId": "Q260",
       "name": "Jean-François Champollion",
       "birthYear": 1790,
       "deathYear": 1832,
       "source": "https://www.wikidata.org/wiki/Q260",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q307",
+      "wikidataId": "Q307",
+      "name": "Galileo Galilei",
+      "birthYear": 1564,
+      "deathYear": 1642,
+      "source": "https://www.wikidata.org/wiki/Q307",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q517",
+      "wikidataId": "Q517",
+      "name": "Napoleon",
+      "birthYear": 1769,
+      "deathYear": 1821,
+      "source": "https://www.wikidata.org/wiki/Q517",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q529",
+      "wikidataId": "Q529",
+      "name": "Louis Pasteur",
+      "birthYear": 1822,
+      "deathYear": 1895,
+      "source": "https://www.wikidata.org/wiki/Q529",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q539",
+      "wikidataId": "Q539",
+      "name": "Giuseppe Garibaldi",
+      "birthYear": 1807,
+      "deathYear": 1882,
+      "source": "https://www.wikidata.org/wiki/Q539",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q619",
+      "wikidataId": "Q619",
+      "name": "Nicolaus Copernicus",
+      "birthYear": 1473,
+      "deathYear": 1543,
+      "source": "https://www.wikidata.org/wiki/Q619",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -65,12 +145,62 @@
       "location": null
     },
     {
+      "id": "wikidata:Q855",
+      "wikidataId": "Q855",
+      "name": "Joseph Stalin",
+      "birthYear": 1878,
+      "deathYear": 1953,
+      "source": "https://www.wikidata.org/wiki/Q855",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q859",
       "wikidataId": "Q859",
       "name": "Plato",
       "birthYear": -427,
       "deathYear": -347,
       "source": "https://www.wikidata.org/wiki/Q859",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q868",
+      "wikidataId": "Q868",
+      "name": "Aristotle",
+      "birthYear": -384,
+      "deathYear": -322,
+      "source": "https://www.wikidata.org/wiki/Q868",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q913",
+      "wikidataId": "Q913",
+      "name": "Socrates",
+      "birthYear": -470,
+      "deathYear": -399,
+      "source": "https://www.wikidata.org/wiki/Q913",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q926",
+      "wikidataId": "Q926",
+      "name": "Roald Amundsen",
+      "birthYear": 1872,
+      "deathYear": 1928,
+      "source": "https://www.wikidata.org/wiki/Q926",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q935",
+      "wikidataId": "Q935",
+      "name": "Isaac Newton",
+      "birthYear": 1642,
+      "deathYear": 1727,
+      "source": "https://www.wikidata.org/wiki/Q935",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -85,12 +215,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q1001",
+      "wikidataId": "Q1001",
+      "name": "Mahatma Gandhi",
+      "birthYear": 1869,
+      "deathYear": 1948,
+      "source": "https://www.wikidata.org/wiki/Q1001",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q1035",
       "wikidataId": "Q1035",
       "name": "Charles Darwin",
       "birthYear": 1809,
       "deathYear": 1882,
       "source": "https://www.wikidata.org/wiki/Q1035",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1047",
+      "wikidataId": "Q1047",
+      "name": "Jawaharlal Nehru",
+      "birthYear": 1889,
+      "deathYear": 1964,
+      "source": "https://www.wikidata.org/wiki/Q1047",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -125,12 +275,242 @@
       "location": null
     },
     {
+      "id": "wikidata:Q1268",
+      "wikidataId": "Q1268",
+      "name": "Frédéric Chopin",
+      "birthYear": 1810,
+      "deathYear": 1849,
+      "source": "https://www.wikidata.org/wiki/Q1268",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1290",
+      "wikidataId": "Q1290",
+      "name": "Blaise Pascal",
+      "birthYear": 1623,
+      "deathYear": 1662,
+      "source": "https://www.wikidata.org/wiki/Q1290",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q1339",
       "wikidataId": "Q1339",
       "name": "Johann Sebastian Bach",
       "birthYear": 1685,
       "deathYear": 1750,
       "source": "https://www.wikidata.org/wiki/Q1339",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1394",
+      "wikidataId": "Q1394",
+      "name": "Vladimir Lenin",
+      "birthYear": 1870,
+      "deathYear": 1924,
+      "source": "https://www.wikidata.org/wiki/Q1394",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1401",
+      "wikidataId": "Q1401",
+      "name": "Petrarch",
+      "birthYear": 1304,
+      "deathYear": 1374,
+      "source": "https://www.wikidata.org/wiki/Q1401",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1405",
+      "wikidataId": "Q1405",
+      "name": "Augustus",
+      "birthYear": -63,
+      "deathYear": 14,
+      "source": "https://www.wikidata.org/wiki/Q1405",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1407",
+      "wikidataId": "Q1407",
+      "name": "Tiberius",
+      "birthYear": -42,
+      "deathYear": 37,
+      "source": "https://www.wikidata.org/wiki/Q1407",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1409",
+      "wikidataId": "Q1409",
+      "name": "Caligula",
+      "birthYear": 12,
+      "deathYear": 41,
+      "source": "https://www.wikidata.org/wiki/Q1409",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1411",
+      "wikidataId": "Q1411",
+      "name": "Claudius",
+      "birthYear": -10,
+      "deathYear": 54,
+      "source": "https://www.wikidata.org/wiki/Q1411",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1413",
+      "wikidataId": "Q1413",
+      "name": "Nero",
+      "birthYear": 37,
+      "deathYear": 68,
+      "source": "https://www.wikidata.org/wiki/Q1413",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1425",
+      "wikidataId": "Q1425",
+      "name": "Trajan",
+      "birthYear": 53,
+      "deathYear": 117,
+      "source": "https://www.wikidata.org/wiki/Q1425",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1427",
+      "wikidataId": "Q1427",
+      "name": "Hadrian",
+      "birthYear": 76,
+      "deathYear": 138,
+      "source": "https://www.wikidata.org/wiki/Q1427",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1430",
+      "wikidataId": "Q1430",
+      "name": "Marcus Aurelius",
+      "birthYear": 121,
+      "deathYear": 180,
+      "source": "https://www.wikidata.org/wiki/Q1430",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1434",
+      "wikidataId": "Q1434",
+      "name": "Commodus",
+      "birthYear": 161,
+      "deathYear": 192,
+      "source": "https://www.wikidata.org/wiki/Q1434",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1446",
+      "wikidataId": "Q1446",
+      "name": "Caracalla",
+      "birthYear": 188,
+      "deathYear": 217,
+      "source": "https://www.wikidata.org/wiki/Q1446",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1496",
+      "wikidataId": "Q1496",
+      "name": "Ferdinand Magellan",
+      "birthYear": 1480,
+      "deathYear": 1521,
+      "source": "https://www.wikidata.org/wiki/Q1496",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1762",
+      "wikidataId": "Q1762",
+      "name": "Elagabalus",
+      "birthYear": 203,
+      "deathYear": 222,
+      "source": "https://www.wikidata.org/wiki/Q1762",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1769",
+      "wikidataId": "Q1769",
+      "name": "Severus Alexander",
+      "birthYear": 208,
+      "deathYear": 235,
+      "source": "https://www.wikidata.org/wiki/Q1769",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1830",
+      "wikidataId": "Q1830",
+      "name": "Decius",
+      "birthYear": 201,
+      "deathYear": 251,
+      "source": "https://www.wikidata.org/wiki/Q1830",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2042",
+      "wikidataId": "Q2042",
+      "name": "Charles de Gaulle",
+      "birthYear": 1890,
+      "deathYear": 1970,
+      "source": "https://www.wikidata.org/wiki/Q2042",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2253",
+      "wikidataId": "Q2253",
+      "name": "Scipio Africanus",
+      "birthYear": -235,
+      "deathYear": -183,
+      "source": "https://www.wikidata.org/wiki/Q2253",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2307",
+      "wikidataId": "Q2307",
+      "name": "Scipio Aemilianus",
+      "birthYear": -185,
+      "deathYear": -129,
+      "source": "https://www.wikidata.org/wiki/Q2307",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3044",
+      "wikidataId": "Q3044",
+      "name": "I. (Nagy) Károly római császár és frank király",
+      "birthYear": 748,
+      "deathYear": 814,
+      "source": "https://www.wikidata.org/wiki/Q3044",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5264",
+      "wikidataId": "Q5264",
+      "name": "Hippocrates",
+      "birthYear": -460,
+      "deathYear": -370,
+      "source": "https://www.wikidata.org/wiki/Q5264",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -145,6 +525,76 @@
       "location": null
     },
     {
+      "id": "wikidata:Q5592",
+      "wikidataId": "Q5592",
+      "name": "Michelangelo",
+      "birthYear": 1475,
+      "deathYear": 1564,
+      "source": "https://www.wikidata.org/wiki/Q5592",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5593",
+      "wikidataId": "Q5593",
+      "name": "Pablo Picasso",
+      "birthYear": 1881,
+      "deathYear": 1973,
+      "source": "https://www.wikidata.org/wiki/Q5593",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5597",
+      "wikidataId": "Q5597",
+      "name": "Raphael",
+      "birthYear": 1483,
+      "deathYear": 1520,
+      "source": "https://www.wikidata.org/wiki/Q5597",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5598",
+      "wikidataId": "Q5598",
+      "name": "Rembrandt",
+      "birthYear": 1606,
+      "deathYear": 1669,
+      "source": "https://www.wikidata.org/wiki/Q5598",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5682",
+      "wikidataId": "Q5682",
+      "name": "Miguel de Cervantes",
+      "birthYear": 1547,
+      "deathYear": 1616,
+      "source": "https://www.wikidata.org/wiki/Q5682",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5683",
+      "wikidataId": "Q5683",
+      "name": "Geoffrey Chaucer",
+      "birthYear": 1343,
+      "deathYear": 1400,
+      "source": "https://www.wikidata.org/wiki/Q5683",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5816",
+      "wikidataId": "Q5816",
+      "name": "Mao Zedong",
+      "birthYear": 1893,
+      "deathYear": 1976,
+      "source": "https://www.wikidata.org/wiki/Q5816",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q5879",
       "wikidataId": "Q5879",
       "name": "Johann Wolfgang von Goethe",
@@ -155,12 +605,52 @@
       "location": null
     },
     {
+      "id": "wikidata:Q6101",
+      "wikidataId": "Q6101",
+      "name": "Marco Polo",
+      "birthYear": 1254,
+      "deathYear": 1324,
+      "source": "https://www.wikidata.org/wiki/Q6101",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q7186",
       "wikidataId": "Q7186",
       "name": "Q7186",
       "birthYear": 1867,
       "deathYear": 1934,
       "source": "https://www.wikidata.org/wiki/Q7186",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7192",
+      "wikidataId": "Q7192",
+      "name": "Qin Shi Huang",
+      "birthYear": -259,
+      "deathYear": -210,
+      "source": "https://www.wikidata.org/wiki/Q7192",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7207",
+      "wikidataId": "Q7207",
+      "name": "Elizabeth I of England",
+      "birthYear": 1533,
+      "deathYear": 1603,
+      "source": "https://www.wikidata.org/wiki/Q7207",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7225",
+      "wikidataId": "Q7225",
+      "name": "Emperor Wu of Han",
+      "birthYear": -156,
+      "deathYear": -87,
+      "source": "https://www.wikidata.org/wiki/Q7225",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -185,12 +675,172 @@
       "location": null
     },
     {
+      "id": "wikidata:Q7315",
+      "wikidataId": "Q7315",
+      "name": "Pyotr Ilyich Tchaikovsky",
+      "birthYear": 1840,
+      "deathYear": 1893,
+      "source": "https://www.wikidata.org/wiki/Q7315",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7322",
+      "wikidataId": "Q7322",
+      "name": "Christopher Columbus",
+      "birthYear": 1450,
+      "deathYear": 1506,
+      "source": "https://www.wikidata.org/wiki/Q7322",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7324",
+      "wikidataId": "Q7324",
+      "name": "James Cook",
+      "birthYear": 1728,
+      "deathYear": 1779,
+      "source": "https://www.wikidata.org/wiki/Q7324",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7328",
+      "wikidataId": "Q7328",
+      "name": "Vasco da Gama",
+      "birthYear": 1469,
+      "deathYear": 1524,
+      "source": "https://www.wikidata.org/wiki/Q7328",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7331",
+      "wikidataId": "Q7331",
+      "name": "Ibn Battuta",
+      "birthYear": 1304,
+      "deathYear": 1368,
+      "source": "https://www.wikidata.org/wiki/Q7331",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7333",
+      "wikidataId": "Q7333",
+      "name": "Zheng He",
+      "birthYear": 1371,
+      "deathYear": 1433,
+      "source": "https://www.wikidata.org/wiki/Q7333",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7415",
+      "wikidataId": "Q7415",
+      "name": "Mária Telkes",
+      "birthYear": 1900,
+      "deathYear": 1995,
+      "source": "https://www.wikidata.org/wiki/Q7415",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7523",
+      "wikidataId": "Q7523",
+      "name": "Kublai Khan",
+      "birthYear": 1215,
+      "deathYear": 1294,
+      "source": "https://www.wikidata.org/wiki/Q7523",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7742",
+      "wikidataId": "Q7742",
+      "name": "Louis XIV of France",
+      "birthYear": 1638,
+      "deathYear": 1715,
+      "source": "https://www.wikidata.org/wiki/Q7742",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7824",
+      "wikidataId": "Q7824",
+      "name": "Annibale Carracci",
+      "birthYear": 1560,
+      "deathYear": 1609,
+      "source": "https://www.wikidata.org/wiki/Q7824",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q8007",
       "wikidataId": "Q8007",
       "name": "Franklin Delano Roosevelt",
       "birthYear": 1882,
       "deathYear": 1945,
       "source": "https://www.wikidata.org/wiki/Q8007",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8011",
+      "wikidataId": "Q8011",
+      "name": "Avicenna",
+      "birthYear": 980,
+      "deathYear": 1037,
+      "source": "https://www.wikidata.org/wiki/Q8011",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8016",
+      "wikidataId": "Q8016",
+      "name": "Winston Churchill",
+      "birthYear": 1874,
+      "deathYear": 1965,
+      "source": "https://www.wikidata.org/wiki/Q8016",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8409",
+      "wikidataId": "Q8409",
+      "name": "Alexander the Great",
+      "birthYear": -356,
+      "deathYear": -323,
+      "source": "https://www.wikidata.org/wiki/Q8409",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8413",
+      "wikidataId": "Q8413",
+      "name": "Constantine the Great",
+      "birthYear": 272,
+      "deathYear": 337,
+      "source": "https://www.wikidata.org/wiki/Q8413",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8423",
+      "wikidataId": "Q8423",
+      "name": "Cyrus the Great",
+      "birthYear": -600,
+      "deathYear": -530,
+      "source": "https://www.wikidata.org/wiki/Q8423",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8442",
+      "wikidataId": "Q8442",
+      "name": "Otto von Bismarck",
+      "birthYear": 1815,
+      "deathYear": 1898,
+      "source": "https://www.wikidata.org/wiki/Q8442",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -205,12 +855,142 @@
       "location": null
     },
     {
+      "id": "wikidata:Q8474",
+      "wikidataId": "Q8474",
+      "name": "Suleiman the Magnificent",
+      "birthYear": 1494,
+      "deathYear": 1566,
+      "source": "https://www.wikidata.org/wiki/Q8474",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8479",
+      "wikidataId": "Q8479",
+      "name": "Peter the Great",
+      "birthYear": 1672,
+      "deathYear": 1725,
+      "source": "https://www.wikidata.org/wiki/Q8479",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8573",
+      "wikidataId": "Q8573",
+      "name": "Sun Yat-sen",
+      "birthYear": 1866,
+      "deathYear": 1925,
+      "source": "https://www.wikidata.org/wiki/Q8573",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8581",
+      "wikidataId": "Q8581",
+      "name": "Saladin",
+      "birthYear": 1138,
+      "deathYear": 1193,
+      "source": "https://www.wikidata.org/wiki/Q8581",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8589",
+      "wikidataId": "Q8589",
+      "name": "Ashoka",
+      "birthYear": -304,
+      "deathYear": -232,
+      "source": "https://www.wikidata.org/wiki/Q8589",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8597",
+      "wikidataId": "Q8597",
+      "name": "Akbar",
+      "birthYear": 1542,
+      "deathYear": 1605,
+      "source": "https://www.wikidata.org/wiki/Q8597",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8605",
+      "wikidataId": "Q8605",
+      "name": "Simón Bolívar",
+      "birthYear": 1783,
+      "deathYear": 1830,
+      "source": "https://www.wikidata.org/wiki/Q8605",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8739",
+      "wikidataId": "Q8739",
+      "name": "Archimedes",
+      "birthYear": -287,
+      "deathYear": -212,
+      "source": "https://www.wikidata.org/wiki/Q8739",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8747",
+      "wikidataId": "Q8747",
+      "name": "Euclid",
+      "birthYear": -333,
+      "deathYear": -285,
+      "source": "https://www.wikidata.org/wiki/Q8747",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8750",
+      "wikidataId": "Q8750",
+      "name": "Michael Faraday",
+      "birthYear": 1791,
+      "deathYear": 1867,
+      "source": "https://www.wikidata.org/wiki/Q8750",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8778",
+      "wikidataId": "Q8778",
+      "name": "Galen",
+      "birthYear": 200,
+      "deathYear": 300,
+      "source": "https://www.wikidata.org/wiki/Q8778",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8963",
+      "wikidataId": "Q8963",
+      "name": "Johannes Kepler",
+      "birthYear": 1571,
+      "deathYear": 1630,
+      "source": "https://www.wikidata.org/wiki/Q8963",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q9036",
       "wikidataId": "Q9036",
       "name": "Nikola Tesla",
       "birthYear": 1856,
       "deathYear": 1943,
       "source": "https://www.wikidata.org/wiki/Q9036",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q9038",
+      "wikidataId": "Q9038",
+      "name": "Muḥammad ibn Musa al-Khwarizmi",
+      "birthYear": 750,
+      "deathYear": 846,
+      "source": "https://www.wikidata.org/wiki/Q9038",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -225,12 +1005,5242 @@
       "location": null
     },
     {
+      "id": "wikidata:Q9095",
+      "wikidataId": "Q9095",
+      "name": "James Clerk Maxwell",
+      "birthYear": 1831,
+      "deathYear": 1879,
+      "source": "https://www.wikidata.org/wiki/Q9095",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q9191",
+      "wikidataId": "Q9191",
+      "name": "René Descartes",
+      "birthYear": 1596,
+      "deathYear": 1650,
+      "source": "https://www.wikidata.org/wiki/Q9191",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q9294",
+      "wikidataId": "Q9294",
+      "name": "Ibn Khaldun",
+      "birthYear": 1332,
+      "deathYear": 1406,
+      "source": "https://www.wikidata.org/wiki/Q9294",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q9957",
+      "wikidataId": "Q9957",
+      "name": "Hongwu Emperor",
+      "birthYear": 1328,
+      "deathYear": 1398,
+      "source": "https://www.wikidata.org/wiki/Q9957",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q10261",
+      "wikidataId": "Q10261",
+      "name": "Pythagoras",
+      "birthYear": -550,
+      "deathYear": -490,
+      "source": "https://www.wikidata.org/wiki/Q10261",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q11812",
+      "wikidataId": "Q11812",
+      "name": "Thomas Jefferson",
+      "birthYear": 1743,
+      "deathYear": 1826,
+      "source": "https://www.wikidata.org/wiki/Q11812",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q11826",
+      "wikidataId": "Q11826",
+      "name": "Al-Biruni",
+      "birthYear": 973,
+      "deathYear": 1048,
+      "source": "https://www.wikidata.org/wiki/Q11826",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12591",
+      "wikidataId": "Q12591",
+      "name": "Nebuchadnezzar II",
+      "birthYear": -642,
+      "deathYear": -561,
+      "source": "https://www.wikidata.org/wiki/Q12591",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12860",
+      "wikidataId": "Q12860",
+      "name": "Ferdinand II of Aragon",
+      "birthYear": 1452,
+      "deathYear": 1516,
+      "source": "https://www.wikidata.org/wiki/Q12860",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q17790",
+      "wikidataId": "Q17790",
+      "name": "Kangxi Emperor",
+      "birthYear": 1654,
+      "deathYear": 1722,
+      "source": "https://www.wikidata.org/wiki/Q17790",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q20722",
+      "wikidataId": "Q20722",
+      "name": "Claudius Colas",
+      "birthYear": 1884,
+      "deathYear": 1914,
+      "source": "https://www.wikidata.org/wiki/Q20722",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q22670",
       "wikidataId": "Q22670",
       "name": "Friedrich Schiller",
       "birthYear": 1759,
       "deathYear": 1805,
       "source": "https://www.wikidata.org/wiki/Q22670",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q25098",
+      "wikidataId": "Q25098",
+      "name": "Pope Theodosius II of Alexandria",
+      "birthYear": 650,
+      "deathYear": 742,
+      "source": "https://www.wikidata.org/wiki/Q25098",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q26825",
+      "wikidataId": "Q26825",
+      "name": "Herodotus",
+      "birthYear": -484,
+      "deathYear": -425,
+      "source": "https://www.wikidata.org/wiki/Q26825",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q27695",
+      "wikidataId": "Q27695",
+      "name": "Shaka Zulu",
+      "birthYear": 1787,
+      "deathYear": 1828,
+      "source": "https://www.wikidata.org/wiki/Q27695",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q31491",
+      "wikidataId": "Q31491",
+      "name": "Tiberius II Constantine",
+      "birthYear": 520,
+      "deathYear": 582,
+      "source": "https://www.wikidata.org/wiki/Q31491",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q33391",
+      "wikidataId": "Q33391",
+      "name": "Leon Trotsky",
+      "birthYear": 1879,
+      "deathYear": 1940,
+      "source": "https://www.wikidata.org/wiki/Q33391",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q33550",
+      "wikidataId": "Q33550",
+      "name": "Frederick II of Prussia",
+      "birthYear": 1712,
+      "deathYear": 1786,
+      "source": "https://www.wikidata.org/wiki/Q33550",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q34503",
+      "wikidataId": "Q34503",
+      "name": "Mehmed II",
+      "birthYear": 1432,
+      "deathYear": 1481,
+      "source": "https://www.wikidata.org/wiki/Q34503",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q34787",
+      "wikidataId": "Q34787",
+      "name": "Friedrich Engels",
+      "birthYear": 1820,
+      "deathYear": 1895,
+      "source": "https://www.wikidata.org/wiki/Q34787",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q34943",
+      "wikidataId": "Q34943",
+      "name": "Ptolemy",
+      "birthYear": 100,
+      "deathYear": 170,
+      "source": "https://www.wikidata.org/wiki/Q34943",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q34969",
+      "wikidataId": "Q34969",
+      "name": "Benjamin Franklin",
+      "birthYear": 1706,
+      "deathYear": 1790,
+      "source": "https://www.wikidata.org/wiki/Q34969",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q36322",
+      "wikidataId": "Q36322",
+      "name": "Jane Austen",
+      "birthYear": 1775,
+      "deathYear": 1817,
+      "source": "https://www.wikidata.org/wiki/Q36322",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q36359",
+      "wikidataId": "Q36359",
+      "name": "Hammurabi",
+      "birthYear": -1810,
+      "deathYear": -1750,
+      "source": "https://www.wikidata.org/wiki/Q36359",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q36450",
+      "wikidataId": "Q36450",
+      "name": "Catherine II of Russia",
+      "birthYear": 1729,
+      "deathYear": 1796,
+      "source": "https://www.wikidata.org/wiki/Q36450",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q36456",
+      "wikidataId": "Q36456",
+      "name": "Hannibal",
+      "birthYear": -247,
+      "deathYear": -183,
+      "source": "https://www.wikidata.org/wiki/Q36456",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q37103",
+      "wikidataId": "Q37103",
+      "name": "Florence Nightingale",
+      "birthYear": 1820,
+      "deathYear": 1910,
+      "source": "https://www.wikidata.org/wiki/Q37103",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q37562",
+      "wikidataId": "Q37562",
+      "name": "Donatello",
+      "birthYear": 1386,
+      "deathYear": 1466,
+      "source": "https://www.wikidata.org/wiki/Q37562",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q37594",
+      "wikidataId": "Q37594",
+      "name": "William the Conqueror",
+      "birthYear": 1028,
+      "deathYear": 1087,
+      "source": "https://www.wikidata.org/wiki/Q37594",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q37970",
+      "wikidataId": "Q37970",
+      "name": "Gregor Mendel",
+      "birthYear": 1822,
+      "deathYear": 1884,
+      "source": "https://www.wikidata.org/wiki/Q37970",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q38370",
+      "wikidataId": "Q38370",
+      "name": "Henry VIII of England",
+      "birthYear": 1491,
+      "deathYear": 1547,
+      "source": "https://www.wikidata.org/wiki/Q38370",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q39837",
+      "wikidataId": "Q39837",
+      "name": "Averroes",
+      "birthYear": 1126,
+      "deathYear": 1198,
+      "source": "https://www.wikidata.org/wiki/Q39837",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q40909",
+      "wikidataId": "Q40909",
+      "name": "Virginia Woolf",
+      "birthYear": 1882,
+      "deathYear": 1941,
+      "source": "https://www.wikidata.org/wiki/Q40909",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q41637",
+      "wikidataId": "Q41637",
+      "name": "Tiberios III",
+      "birthYear": 700,
+      "deathYear": 706,
+      "source": "https://www.wikidata.org/wiki/Q41637",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q41666",
+      "wikidataId": "Q41666",
+      "name": "Theodora Porphyrogenita",
+      "birthYear": 984,
+      "deathYear": 1056,
+      "source": "https://www.wikidata.org/wiki/Q41666",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q41683",
+      "wikidataId": "Q41683",
+      "name": "Thucydides",
+      "birthYear": -460,
+      "deathYear": -395,
+      "source": "https://www.wikidata.org/wiki/Q41683",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q41836",
+      "wikidataId": "Q41836",
+      "name": "Theodosios III",
+      "birthYear": 700,
+      "deathYear": 722,
+      "source": "https://www.wikidata.org/wiki/Q41836",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q41866",
+      "wikidataId": "Q41866",
+      "name": "Justinian I",
+      "birthYear": 482,
+      "deathYear": 565,
+      "source": "https://www.wikidata.org/wiki/Q41866",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q42021",
+      "wikidataId": "Q42021",
+      "name": "Justinian II",
+      "birthYear": 669,
+      "deathYear": 711,
+      "source": "https://www.wikidata.org/wiki/Q42021",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q42207",
+      "wikidataId": "Q42207",
+      "name": "Caravaggio",
+      "birthYear": 1571,
+      "deathYear": 1610,
+      "source": "https://www.wikidata.org/wiki/Q42207",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q42305",
+      "wikidataId": "Q42305",
+      "name": "Richard I of England",
+      "birthYear": 1157,
+      "deathYear": 1199,
+      "source": "https://www.wikidata.org/wiki/Q42305",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q43107",
+      "wikidataId": "Q43107",
+      "name": "Diocletian",
+      "birthYear": 244,
+      "deathYear": 316,
+      "source": "https://www.wikidata.org/wiki/Q43107",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q44387",
+      "wikidataId": "Q44387",
+      "name": "Darius I",
+      "birthYear": -550,
+      "deathYear": -486,
+      "source": "https://www.wikidata.org/wiki/Q44387",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q44978",
+      "wikidataId": "Q44978",
+      "name": "Theodora",
+      "birthYear": 900,
+      "deathYear": 916,
+      "source": "https://www.wikidata.org/wiki/Q44978",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q45144",
+      "wikidataId": "Q45144",
+      "name": "Carmine Crocco",
+      "birthYear": 1830,
+      "deathYear": 1905,
+      "source": "https://www.wikidata.org/wiki/Q45144",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q45859",
+      "wikidataId": "Q45859",
+      "name": "Isabella I of Castile",
+      "birthYear": 1451,
+      "deathYear": 1504,
+      "source": "https://www.wikidata.org/wiki/Q45859",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q46696",
+      "wikidataId": "Q46696",
+      "name": "Theodosius I",
+      "birthYear": 347,
+      "deathYear": 395,
+      "source": "https://www.wikidata.org/wiki/Q46696",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q46762",
+      "wikidataId": "Q46762",
+      "name": "Claudius Gothicus",
+      "birthYear": 214,
+      "deathYear": 270,
+      "source": "https://www.wikidata.org/wiki/Q46762",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q46768",
+      "wikidataId": "Q46768",
+      "name": "Maximian",
+      "birthYear": 240,
+      "deathYear": 310,
+      "source": "https://www.wikidata.org/wiki/Q46768",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q46821",
+      "wikidataId": "Q46821",
+      "name": "Numerian",
+      "birthYear": 254,
+      "deathYear": 284,
+      "source": "https://www.wikidata.org/wiki/Q46821",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q47152",
+      "wikidataId": "Q47152",
+      "name": "Mary Shelley",
+      "birthYear": 1797,
+      "deathYear": 1851,
+      "source": "https://www.wikidata.org/wiki/Q47152",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q57087",
+      "wikidataId": "Q57087",
+      "name": "Adrian VI",
+      "birthYear": 1459,
+      "deathYear": 1523,
+      "source": "https://www.wikidata.org/wiki/Q57087",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q57619",
+      "wikidataId": "Q57619",
+      "name": "Frank Wedekind",
+      "birthYear": 1864,
+      "deathYear": 1918,
+      "source": "https://www.wikidata.org/wiki/Q57619",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q59872",
+      "wikidataId": "Q59872",
+      "name": "Q59872",
+      "birthYear": 1897,
+      "deathYear": 1975,
+      "source": "https://www.wikidata.org/wiki/Q59872",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q76718",
+      "wikidataId": "Q76718",
+      "name": "Anton Raphael Mengs",
+      "birthYear": 1728,
+      "deathYear": 1779,
+      "source": "https://www.wikidata.org/wiki/Q76718",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q80398",
+      "wikidataId": "Q80398",
+      "name": "Pericles",
+      "birthYear": -494,
+      "deathYear": -429,
+      "source": "https://www.wikidata.org/wiki/Q80398",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q83476",
+      "wikidataId": "Q83476",
+      "name": "Alfred the Great",
+      "birthYear": 849,
+      "deathYear": 899,
+      "source": "https://www.wikidata.org/wiki/Q83476",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q88653",
+      "wikidataId": "Q88653",
+      "name": "Johann David Köhler",
+      "birthYear": 1684,
+      "deathYear": 1755,
+      "source": "https://www.wikidata.org/wiki/Q88653",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q101638",
+      "wikidataId": "Q101638",
+      "name": "Mary Wollstonecraft",
+      "birthYear": 1759,
+      "deathYear": 1797,
+      "source": "https://www.wikidata.org/wiki/Q101638",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q102865",
+      "wikidataId": "Q102865",
+      "name": "Darius III",
+      "birthYear": -380,
+      "deathYear": -330,
+      "source": "https://www.wikidata.org/wiki/Q102865",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q103292",
+      "wikidataId": "Q103292",
+      "name": "Adrian I",
+      "birthYear": 700,
+      "deathYear": 795,
+      "source": "https://www.wikidata.org/wiki/Q103292",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q126342",
+      "wikidataId": "Q126342",
+      "name": "Henry VIII, Count of Waldeck",
+      "birthYear": 1465,
+      "deathYear": 1513,
+      "source": "https://www.wikidata.org/wiki/Q126342",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q129165",
+      "wikidataId": "Q129165",
+      "name": "Xerxes I",
+      "birthYear": -519,
+      "deathYear": -465,
+      "source": "https://www.wikidata.org/wiki/Q129165",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q130650",
+      "wikidataId": "Q130650",
+      "name": "Philip II of Macedon",
+      "birthYear": -385,
+      "deathYear": -336,
+      "source": "https://www.wikidata.org/wiki/Q130650",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q130752",
+      "wikidataId": "Q130752",
+      "name": "Elizabeth I of Russia",
+      "birthYear": 1709,
+      "deathYear": 1762,
+      "source": "https://www.wikidata.org/wiki/Q130752",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131412",
+      "wikidataId": "Q131412",
+      "name": "Mary, Queen of Scots",
+      "birthYear": 1542,
+      "deathYear": 1587,
+      "source": "https://www.wikidata.org/wiki/Q131412",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131691",
+      "wikidataId": "Q131691",
+      "name": "Arthur Wellesley, 1st Duke of Wellington",
+      "birthYear": 1769,
+      "deathYear": 1852,
+      "source": "https://www.wikidata.org/wiki/Q131691",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131706",
+      "wikidataId": "Q131706",
+      "name": "Maria Theresa of Austria",
+      "birthYear": 1717,
+      "deathYear": 1780,
+      "source": "https://www.wikidata.org/wiki/Q131706",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q133100",
+      "wikidataId": "Q133100",
+      "name": "Innocent XIII",
+      "birthYear": 1655,
+      "deathYear": 1724,
+      "source": "https://www.wikidata.org/wiki/Q133100",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q134160",
+      "wikidataId": "Q134160",
+      "name": "José de San Martín",
+      "birthYear": 1778,
+      "deathYear": 1850,
+      "source": "https://www.wikidata.org/wiki/Q134160",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q141791",
+      "wikidataId": "Q141791",
+      "name": "Moctezuma II",
+      "birthYear": 1466,
+      "deathYear": 1520,
+      "source": "https://www.wikidata.org/wiki/Q141791",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q150111",
+      "wikidataId": "Q150111",
+      "name": "Giuseppe Garibaldi II",
+      "birthYear": 1879,
+      "deathYear": 1950,
+      "source": "https://www.wikidata.org/wiki/Q150111",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q152549",
+      "wikidataId": "Q152549",
+      "name": "Maria Theresa of Spain",
+      "birthYear": 1638,
+      "deathYear": 1683,
+      "source": "https://www.wikidata.org/wiki/Q152549",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q156023",
+      "wikidataId": "Q156023",
+      "name": "Franz Xaver Wolfgang Mozart",
+      "birthYear": 1791,
+      "deathYear": 1844,
+      "source": "https://www.wikidata.org/wiki/Q156023",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q156778",
+      "wikidataId": "Q156778",
+      "name": "Nero Claudius Drusus",
+      "birthYear": -38,
+      "deathYear": -9,
+      "source": "https://www.wikidata.org/wiki/Q156778",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q160353",
+      "wikidataId": "Q160353",
+      "name": "Theodosius II",
+      "birthYear": 401,
+      "deathYear": 450,
+      "source": "https://www.wikidata.org/wiki/Q160353",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q164504",
+      "wikidataId": "Q164504",
+      "name": "Maria Theresa of Naples and Sicily",
+      "birthYear": 1772,
+      "deathYear": 1807,
+      "source": "https://www.wikidata.org/wiki/Q164504",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q171411",
+      "wikidataId": "Q171411",
+      "name": "Oda Nobunaga",
+      "birthYear": 1534,
+      "deathYear": 1582,
+      "source": "https://www.wikidata.org/wiki/Q171411",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q171465",
+      "wikidataId": "Q171465",
+      "name": "Mehmed III",
+      "birthYear": 1566,
+      "deathYear": 1603,
+      "source": "https://www.wikidata.org/wiki/Q171465",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q171977",
+      "wikidataId": "Q171977",
+      "name": "Tokugawa Ieyasu",
+      "birthYear": 1543,
+      "deathYear": 1616,
+      "source": "https://www.wikidata.org/wiki/Q171977",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q175772",
+      "wikidataId": "Q175772",
+      "name": "Sunjata Keïta",
+      "birthYear": 1190,
+      "deathYear": 1255,
+      "source": "https://www.wikidata.org/wiki/Q175772",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q176910",
+      "wikidataId": "Q176910",
+      "name": "Thomas Jefferson Lilly",
+      "birthYear": 1878,
+      "deathYear": 1956,
+      "source": "https://www.wikidata.org/wiki/Q176910",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q178903",
+      "wikidataId": "Q178903",
+      "name": "Alexander Hamilton",
+      "birthYear": 1757,
+      "deathYear": 1804,
+      "source": "https://www.wikidata.org/wiki/Q178903",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q179577",
+      "wikidataId": "Q179577",
+      "name": "Atahualpa",
+      "birthYear": 1502,
+      "deathYear": 1533,
+      "source": "https://www.wikidata.org/wiki/Q179577",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q182070",
+      "wikidataId": "Q182070",
+      "name": "Maxentius",
+      "birthYear": 278,
+      "deathYear": 312,
+      "source": "https://www.wikidata.org/wiki/Q182070",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q185844",
+      "wikidataId": "Q185844",
+      "name": "Quintillus",
+      "birthYear": 229,
+      "deathYear": 270,
+      "source": "https://www.wikidata.org/wiki/Q185844",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q187004",
+      "wikidataId": "Q187004",
+      "name": "Carus",
+      "birthYear": 222,
+      "deathYear": 283,
+      "source": "https://www.wikidata.org/wiki/Q187004",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q187068",
+      "wikidataId": "Q187068",
+      "name": "Probus",
+      "birthYear": 232,
+      "deathYear": 282,
+      "source": "https://www.wikidata.org/wiki/Q187068",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q187550",
+      "wikidataId": "Q187550",
+      "name": "Toyotomi Hideyoshi",
+      "birthYear": 1536,
+      "deathYear": 1598,
+      "source": "https://www.wikidata.org/wiki/Q187550",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q190097",
+      "wikidataId": "Q190097",
+      "name": "Carinus",
+      "birthYear": 250,
+      "deathYear": 285,
+      "source": "https://www.wikidata.org/wiki/Q190097",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q199461",
+      "wikidataId": "Q199461",
+      "name": "Sargon of Akkad",
+      "birthYear": -2350,
+      "deathYear": -2300,
+      "source": "https://www.wikidata.org/wiki/Q199461",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q202236",
+      "wikidataId": "Q202236",
+      "name": "Darius II",
+      "birthYear": -475,
+      "deathYear": -404,
+      "source": "https://www.wikidata.org/wiki/Q202236",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q204843",
+      "wikidataId": "Q204843",
+      "name": "Theodora",
+      "birthYear": 500,
+      "deathYear": 548,
+      "source": "https://www.wikidata.org/wiki/Q204843",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q205947",
+      "wikidataId": "Q205947",
+      "name": "Claudian",
+      "birthYear": 370,
+      "deathYear": 404,
+      "source": "https://www.wikidata.org/wiki/Q205947",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q208448",
+      "wikidataId": "Q208448",
+      "name": "Augustus De Morgan",
+      "birthYear": 1806,
+      "deathYear": 1871,
+      "source": "https://www.wikidata.org/wiki/Q208448",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q212109",
+      "wikidataId": "Q212109",
+      "name": "Tiberius Gracchus",
+      "birthYear": -162,
+      "deathYear": -133,
+      "source": "https://www.wikidata.org/wiki/Q212109",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q213758",
+      "wikidataId": "Q213758",
+      "name": "Pachacútec",
+      "birthYear": 1380,
+      "deathYear": 1460,
+      "source": "https://www.wikidata.org/wiki/Q213758",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q230001",
+      "wikidataId": "Q230001",
+      "name": "Theodora",
+      "birthYear": 815,
+      "deathYear": 867,
+      "source": "https://www.wikidata.org/wiki/Q230001",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q232094",
+      "wikidataId": "Q232094",
+      "name": "Theodora",
+      "birthYear": 270,
+      "deathYear": 400,
+      "source": "https://www.wikidata.org/wiki/Q232094",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q233798",
+      "wikidataId": "Q233798",
+      "name": "Maria Theresa of Savoy",
+      "birthYear": 1756,
+      "deathYear": 1805,
+      "source": "https://www.wikidata.org/wiki/Q233798",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q234045",
+      "wikidataId": "Q234045",
+      "name": "Archduchess Maria Theresa of Austria-Teschen",
+      "birthYear": 1816,
+      "deathYear": 1867,
+      "source": "https://www.wikidata.org/wiki/Q234045",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q234568",
+      "wikidataId": "Q234568",
+      "name": "Maria Theresa of Austria",
+      "birthYear": 1801,
+      "deathYear": 1855,
+      "source": "https://www.wikidata.org/wiki/Q234568",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q235183",
+      "wikidataId": "Q235183",
+      "name": "Queen Maria Theresa of Bavaria",
+      "birthYear": 1849,
+      "deathYear": 1919,
+      "source": "https://www.wikidata.org/wiki/Q235183",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q235509",
+      "wikidataId": "Q235509",
+      "name": "Elizabeth Arden",
+      "birthYear": 1878,
+      "deathYear": 1966,
+      "source": "https://www.wikidata.org/wiki/Q235509",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q237955",
+      "wikidataId": "Q237955",
+      "name": "Maria Theresa of Austria, Queen of Saxony",
+      "birthYear": 1767,
+      "deathYear": 1827,
+      "source": "https://www.wikidata.org/wiki/Q237955",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q247320",
+      "wikidataId": "Q247320",
+      "name": "Adriaan Reland",
+      "birthYear": 1676,
+      "deathYear": 1718,
+      "source": "https://www.wikidata.org/wiki/Q247320",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q260505",
+      "wikidataId": "Q260505",
+      "name": "Maria Theresa of Austria-Este",
+      "birthYear": 1773,
+      "deathYear": 1832,
+      "source": "https://www.wikidata.org/wiki/Q260505",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q272043",
+      "wikidataId": "Q272043",
+      "name": "Xerxes II",
+      "birthYear": -500,
+      "deathYear": -423,
+      "source": "https://www.wikidata.org/wiki/Q272043",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q273546",
+      "wikidataId": "Q273546",
+      "name": "Hannibal Hamlin",
+      "birthYear": 1809,
+      "deathYear": 1891,
+      "source": "https://www.wikidata.org/wiki/Q273546",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q288650",
+      "wikidataId": "Q288650",
+      "name": "Hammurabi I",
+      "birthYear": -1750,
+      "deathYear": -1750,
+      "source": "https://www.wikidata.org/wiki/Q288650",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q293171",
+      "wikidataId": "Q293171",
+      "name": "Maria Theresia Paradis",
+      "birthYear": 1759,
+      "deathYear": 1824,
+      "source": "https://www.wikidata.org/wiki/Q293171",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q296898",
+      "wikidataId": "Q296898",
+      "name": "George Washington Carver",
+      "birthYear": 1864,
+      "deathYear": 1943,
+      "source": "https://www.wikidata.org/wiki/Q296898",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q309333",
+      "wikidataId": "Q309333",
+      "name": "Mansa Musa",
+      "birthYear": 1280,
+      "deathYear": 1337,
+      "source": "https://www.wikidata.org/wiki/Q309333",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q310442",
+      "wikidataId": "Q310442",
+      "name": "Marcus Aurelius Marius",
+      "birthYear": 250,
+      "deathYear": 269,
+      "source": "https://www.wikidata.org/wiki/Q310442",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q312629",
+      "wikidataId": "Q312629",
+      "name": "Hippocrates of Chios",
+      "birthYear": -470,
+      "deathYear": -410,
+      "source": "https://www.wikidata.org/wiki/Q312629",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q313115",
+      "wikidataId": "Q313115",
+      "name": "Britannicus",
+      "birthYear": 41,
+      "deathYear": 55,
+      "source": "https://www.wikidata.org/wiki/Q313115",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q313288",
+      "wikidataId": "Q313288",
+      "name": "Augustus Pugin",
+      "birthYear": 1812,
+      "deathYear": 1852,
+      "source": "https://www.wikidata.org/wiki/Q313288",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q316123",
+      "wikidataId": "Q316123",
+      "name": "Silius Italicus",
+      "birthYear": 26,
+      "deathYear": 101,
+      "source": "https://www.wikidata.org/wiki/Q316123",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q316915",
+      "wikidataId": "Q316915",
+      "name": "Antonius Felix",
+      "birthYear": 10,
+      "deathYear": 100,
+      "source": "https://www.wikidata.org/wiki/Q316915",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q319410",
+      "wikidataId": "Q319410",
+      "name": "Tiberius Gemellus",
+      "birthYear": 19,
+      "deathYear": 37,
+      "source": "https://www.wikidata.org/wiki/Q319410",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q330197",
+      "wikidataId": "Q330197",
+      "name": "Abraham L. Brick",
+      "birthYear": 1860,
+      "deathYear": 1908,
+      "source": "https://www.wikidata.org/wiki/Q330197",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q336198",
+      "wikidataId": "Q336198",
+      "name": "Socrates of Constantinople",
+      "birthYear": 380,
+      "deathYear": 440,
+      "source": "https://www.wikidata.org/wiki/Q336198",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q336657",
+      "wikidataId": "Q336657",
+      "name": "Alexander Hamilton, 10th Duke of Hamilton",
+      "birthYear": 1767,
+      "deathYear": 1852,
+      "source": "https://www.wikidata.org/wiki/Q336657",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q342512",
+      "wikidataId": "Q342512",
+      "name": "Tiberius Claudius Nero",
+      "birthYear": -89,
+      "deathYear": -33,
+      "source": "https://www.wikidata.org/wiki/Q342512",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q343826",
+      "wikidataId": "Q343826",
+      "name": "Tiberius Pollienus Armenius Peregrinus",
+      "birthYear": 200,
+      "deathYear": 300,
+      "source": "https://www.wikidata.org/wiki/Q343826",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q347250",
+      "wikidataId": "Q347250",
+      "name": "Prudentius",
+      "birthYear": 348,
+      "deathYear": 413,
+      "source": "https://www.wikidata.org/wiki/Q347250",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q352864",
+      "wikidataId": "Q352864",
+      "name": "Pieter Lastman",
+      "birthYear": 1583,
+      "deathYear": 1633,
+      "source": "https://www.wikidata.org/wiki/Q352864",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q354997",
+      "wikidataId": "Q354997",
+      "name": "Theodosius",
+      "birthYear": 583,
+      "deathYear": 602,
+      "source": "https://www.wikidata.org/wiki/Q354997",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q361357",
+      "wikidataId": "Q361357",
+      "name": "Tiberius Julius Alexander",
+      "birthYear": 100,
+      "deathYear": 100,
+      "source": "https://www.wikidata.org/wiki/Q361357",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q366707",
+      "wikidataId": "Q366707",
+      "name": "Tiberius",
+      "birthYear": 600,
+      "deathYear": 602,
+      "source": "https://www.wikidata.org/wiki/Q366707",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q367640",
+      "wikidataId": "Q367640",
+      "name": "Henry VIII of Legnica",
+      "birthYear": 1355,
+      "deathYear": 1398,
+      "source": "https://www.wikidata.org/wiki/Q367640",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q369265",
+      "wikidataId": "Q369265",
+      "name": "Michelangelo Ricci",
+      "birthYear": 1619,
+      "deathYear": 1682,
+      "source": "https://www.wikidata.org/wiki/Q369265",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q370031",
+      "wikidataId": "Q370031",
+      "name": "Trajano Boccalini",
+      "birthYear": 1556,
+      "deathYear": 1613,
+      "source": "https://www.wikidata.org/wiki/Q370031",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q370363",
+      "wikidataId": "Q370363",
+      "name": "Nero Caesar",
+      "birthYear": 6,
+      "deathYear": 30,
+      "source": "https://www.wikidata.org/wiki/Q370363",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q374822",
+      "wikidataId": "Q374822",
+      "name": "Adrian of Nicomedia",
+      "birthYear": 278,
+      "deathYear": 306,
+      "source": "https://www.wikidata.org/wiki/Q374822",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q375814",
+      "wikidataId": "Q375814",
+      "name": "Raphaël Collin",
+      "birthYear": 1850,
+      "deathYear": 1916,
+      "source": "https://www.wikidata.org/wiki/Q375814",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q375926",
+      "wikidataId": "Q375926",
+      "name": "Rembrandt Peale",
+      "birthYear": 1778,
+      "deathYear": 1860,
+      "source": "https://www.wikidata.org/wiki/Q375926",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q434077",
+      "wikidataId": "Q434077",
+      "name": "Prince Napoléon-Jérôme, Prince Napoléon",
+      "birthYear": 1822,
+      "deathYear": 1891,
+      "source": "https://www.wikidata.org/wiki/Q434077",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q435016",
+      "wikidataId": "Q435016",
+      "name": "Augustus, Elector of Saxony",
+      "birthYear": 1526,
+      "deathYear": 1586,
+      "source": "https://www.wikidata.org/wiki/Q435016",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q441807",
+      "wikidataId": "Q441807",
+      "name": "Alexander H. Rice",
+      "birthYear": 1818,
+      "deathYear": 1895,
+      "source": "https://www.wikidata.org/wiki/Q441807",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q442158",
+      "wikidataId": "Q442158",
+      "name": "Henry VIII the Sparrow",
+      "birthYear": 1360,
+      "deathYear": 1397,
+      "source": "https://www.wikidata.org/wiki/Q442158",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q443505",
+      "wikidataId": "Q443505",
+      "name": "Tiberius Sempronius Gracchus",
+      "birthYear": -220,
+      "deathYear": -200,
+      "source": "https://www.wikidata.org/wiki/Q443505",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q447804",
+      "wikidataId": "Q447804",
+      "name": "Maria Teresa Agnesi Pinottini",
+      "birthYear": 1720,
+      "deathYear": 1795,
+      "source": "https://www.wikidata.org/wiki/Q447804",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q465930",
+      "wikidataId": "Q465930",
+      "name": "Claudius James Rich",
+      "birthYear": 1787,
+      "deathYear": 1821,
+      "source": "https://www.wikidata.org/wiki/Q465930",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q469974",
+      "wikidataId": "Q469974",
+      "name": "Elizabeth Inchbald",
+      "birthYear": 1753,
+      "deathYear": 1821,
+      "source": "https://www.wikidata.org/wiki/Q469974",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q505586",
+      "wikidataId": "Q505586",
+      "name": "Raphael Lemkin",
+      "birthYear": 1900,
+      "deathYear": 1959,
+      "source": "https://www.wikidata.org/wiki/Q505586",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q518284",
+      "wikidataId": "Q518284",
+      "name": "Benjamin Franklin Howey",
+      "birthYear": 1828,
+      "deathYear": 1893,
+      "source": "https://www.wikidata.org/wiki/Q518284",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q562540",
+      "wikidataId": "Q562540",
+      "name": "Augustus John",
+      "birthYear": 1878,
+      "deathYear": 1961,
+      "source": "https://www.wikidata.org/wiki/Q562540",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q577590",
+      "wikidataId": "Q577590",
+      "name": "Michelangelo Anselmi",
+      "birthYear": 1492,
+      "deathYear": 1556,
+      "source": "https://www.wikidata.org/wiki/Q577590",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q580356",
+      "wikidataId": "Q580356",
+      "name": "Thucydides",
+      "birthYear": -500,
+      "deathYear": -420,
+      "source": "https://www.wikidata.org/wiki/Q580356",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q604535",
+      "wikidataId": "Q604535",
+      "name": "Theodora Kroeber",
+      "birthYear": 1897,
+      "deathYear": 1979,
+      "source": "https://www.wikidata.org/wiki/Q604535",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q608043",
+      "wikidataId": "Q608043",
+      "name": "Augustus Charles Hobart-Hampden",
+      "birthYear": 1822,
+      "deathYear": 1886,
+      "source": "https://www.wikidata.org/wiki/Q608043",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q629961",
+      "wikidataId": "Q629961",
+      "name": "George Washington Custis Lee",
+      "birthYear": 1832,
+      "deathYear": 1913,
+      "source": "https://www.wikidata.org/wiki/Q629961",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q638391",
+      "wikidataId": "Q638391",
+      "name": "Johann Sebastian Bach",
+      "birthYear": 1748,
+      "deathYear": 1778,
+      "source": "https://www.wikidata.org/wiki/Q638391",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q638962",
+      "wikidataId": "Q638962",
+      "name": "Simon Bolivar Buckner",
+      "birthYear": 1823,
+      "deathYear": 1914,
+      "source": "https://www.wikidata.org/wiki/Q638962",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q647000",
+      "wikidataId": "Q647000",
+      "name": "Michelangelo Tamburini",
+      "birthYear": 1648,
+      "deathYear": 1730,
+      "source": "https://www.wikidata.org/wiki/Q647000",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q650612",
+      "wikidataId": "Q650612",
+      "name": "Augustus C. French",
+      "birthYear": 1808,
+      "deathYear": 1864,
+      "source": "https://www.wikidata.org/wiki/Q650612",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q681866",
+      "wikidataId": "Q681866",
+      "name": "Augustus Pitt Rivers",
+      "birthYear": 1827,
+      "deathYear": 1900,
+      "source": "https://www.wikidata.org/wiki/Q681866",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q704763",
+      "wikidataId": "Q704763",
+      "name": "Simon Bolivar Buckner Jr.",
+      "birthYear": 1886,
+      "deathYear": 1945,
+      "source": "https://www.wikidata.org/wiki/Q704763",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q705919",
+      "wikidataId": "Q705919",
+      "name": "Rutilius Claudius Namatianus",
+      "birthYear": 400,
+      "deathYear": 500,
+      "source": "https://www.wikidata.org/wiki/Q705919",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q707894",
+      "wikidataId": "Q707894",
+      "name": "Hippocrates of Gela",
+      "birthYear": -600,
+      "deathYear": -491,
+      "source": "https://www.wikidata.org/wiki/Q707894",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q712167",
+      "wikidataId": "Q712167",
+      "name": "Augustus Toplady",
+      "birthYear": 1740,
+      "deathYear": 1778,
+      "source": "https://www.wikidata.org/wiki/Q712167",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q714906",
+      "wikidataId": "Q714906",
+      "name": "Augustus Desiré Waller",
+      "birthYear": 1856,
+      "deathYear": 1922,
+      "source": "https://www.wikidata.org/wiki/Q714906",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q715814",
+      "wikidataId": "Q715814",
+      "name": "Winston Churchill",
+      "birthYear": 1871,
+      "deathYear": 1947,
+      "source": "https://www.wikidata.org/wiki/Q715814",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q717716",
+      "wikidataId": "Q717716",
+      "name": "Périclès Pantazis",
+      "birthYear": 1849,
+      "deathYear": 1884,
+      "source": "https://www.wikidata.org/wiki/Q717716",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q720859",
+      "wikidataId": "Q720859",
+      "name": "Marcus Aurelius Cotta",
+      "birthYear": -120,
+      "deathYear": -100,
+      "source": "https://www.wikidata.org/wiki/Q720859",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q725225",
+      "wikidataId": "Q725225",
+      "name": "Thrasyllus of Mendes",
+      "birthYear": -100,
+      "deathYear": 36,
+      "source": "https://www.wikidata.org/wiki/Q725225",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q732188",
+      "wikidataId": "Q732188",
+      "name": "Napoleon B. Broward",
+      "birthYear": 1857,
+      "deathYear": 1910,
+      "source": "https://www.wikidata.org/wiki/Q732188",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q734452",
+      "wikidataId": "Q734452",
+      "name": "Tiberius Julius Celsus Polemaeanus",
+      "birthYear": 45,
+      "deathYear": 120,
+      "source": "https://www.wikidata.org/wiki/Q734452",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q735259",
+      "wikidataId": "Q735259",
+      "name": "Augustus Owsley Stanley",
+      "birthYear": 1867,
+      "deathYear": 1958,
+      "source": "https://www.wikidata.org/wiki/Q735259",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q770209",
+      "wikidataId": "Q770209",
+      "name": "Augustus Brandegee",
+      "birthYear": 1828,
+      "deathYear": 1904,
+      "source": "https://www.wikidata.org/wiki/Q770209",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q770329",
+      "wikidataId": "Q770329",
+      "name": "Augustus Edward Hough Love",
+      "birthYear": 1863,
+      "deathYear": 1940,
+      "source": "https://www.wikidata.org/wiki/Q770329",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q770431",
+      "wikidataId": "Q770431",
+      "name": "Augustus Charles Gregory",
+      "birthYear": 1819,
+      "deathYear": 1905,
+      "source": "https://www.wikidata.org/wiki/Q770431",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q770454",
+      "wikidataId": "Q770454",
+      "name": "Augustus Hill Garland",
+      "birthYear": 1832,
+      "deathYear": 1899,
+      "source": "https://www.wikidata.org/wiki/Q770454",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q770495",
+      "wikidataId": "Q770495",
+      "name": "Augustus Lukeman",
+      "birthYear": 1872,
+      "deathYear": 1935,
+      "source": "https://www.wikidata.org/wiki/Q770495",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q770508",
+      "wikidataId": "Q770508",
+      "name": "Augustus Le Plongeon",
+      "birthYear": 1825,
+      "deathYear": 1908,
+      "source": "https://www.wikidata.org/wiki/Q770508",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q770561",
+      "wikidataId": "Q770561",
+      "name": "Augustus Peabody Gardner",
+      "birthYear": 1865,
+      "deathYear": 1918,
+      "source": "https://www.wikidata.org/wiki/Q770561",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q770604",
+      "wikidataId": "Q770604",
+      "name": "Augustus Radcliffe Grote",
+      "birthYear": 1841,
+      "deathYear": 1903,
+      "source": "https://www.wikidata.org/wiki/Q770604",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q770621",
+      "wikidataId": "Q770621",
+      "name": "Augustus Seymour Porter",
+      "birthYear": 1798,
+      "deathYear": 1872,
+      "source": "https://www.wikidata.org/wiki/Q770621",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q817478",
+      "wikidataId": "Q817478",
+      "name": "Benjamin Franklin Tracy",
+      "birthYear": 1830,
+      "deathYear": 1915,
+      "source": "https://www.wikidata.org/wiki/Q817478",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q817486",
+      "wikidataId": "Q817486",
+      "name": "Benjamin Franklin Butler",
+      "birthYear": 1795,
+      "deathYear": 1858,
+      "source": "https://www.wikidata.org/wiki/Q817486",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q817487",
+      "wikidataId": "Q817487",
+      "name": "Benjamin Franklin Howell",
+      "birthYear": 1844,
+      "deathYear": 1933,
+      "source": "https://www.wikidata.org/wiki/Q817487",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q817488",
+      "wikidataId": "Q817488",
+      "name": "Benjamin Franklin Butler",
+      "birthYear": 1818,
+      "deathYear": 1893,
+      "source": "https://www.wikidata.org/wiki/Q817488",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q845959",
+      "wikidataId": "Q845959",
+      "name": "Benjamin Finkel",
+      "birthYear": 1865,
+      "deathYear": 1947,
+      "source": "https://www.wikidata.org/wiki/Q845959",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q875576",
+      "wikidataId": "Q875576",
+      "name": "Michelangelo Unterberger",
+      "birthYear": 1695,
+      "deathYear": 1758,
+      "source": "https://www.wikidata.org/wiki/Q875576",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q882538",
+      "wikidataId": "Q882538",
+      "name": "Karl Marx",
+      "birthYear": 1897,
+      "deathYear": 1985,
+      "source": "https://www.wikidata.org/wiki/Q882538",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q885404",
+      "wikidataId": "Q885404",
+      "name": "Nigrinian",
+      "birthYear": 283,
+      "deathYear": 284,
+      "source": "https://www.wikidata.org/wiki/Q885404",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q949309",
+      "wikidataId": "Q949309",
+      "name": "Nemesianus",
+      "birthYear": 200,
+      "deathYear": 300,
+      "source": "https://www.wikidata.org/wiki/Q949309",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q957543",
+      "wikidataId": "Q957543",
+      "name": "Ernest Shackleton",
+      "birthYear": 1874,
+      "deathYear": 1922,
+      "source": "https://www.wikidata.org/wiki/Q957543",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q958736",
+      "wikidataId": "Q958736",
+      "name": "Teodósio II, Duke of Braganza",
+      "birthYear": 1568,
+      "deathYear": 1630,
+      "source": "https://www.wikidata.org/wiki/Q958736",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q964822",
+      "wikidataId": "Q964822",
+      "name": "Polidoro da Caravaggio",
+      "birthYear": 1499,
+      "deathYear": 1543,
+      "source": "https://www.wikidata.org/wiki/Q964822",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q969336",
+      "wikidataId": "Q969336",
+      "name": "Michelangelo Caetani",
+      "birthYear": 1804,
+      "deathYear": 1882,
+      "source": "https://www.wikidata.org/wiki/Q969336",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q979862",
+      "wikidataId": "Q979862",
+      "name": "Michelangelo Cerquozzi",
+      "birthYear": 1602,
+      "deathYear": 1660,
+      "source": "https://www.wikidata.org/wiki/Q979862",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1086571",
+      "wikidataId": "Q1086571",
+      "name": "Christopher Columbus Harris",
+      "birthYear": 1842,
+      "deathYear": 1935,
+      "source": "https://www.wikidata.org/wiki/Q1086571",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1096818",
+      "wikidataId": "Q1096818",
+      "name": "Claudius Jacquand",
+      "birthYear": 1803,
+      "deathYear": 1878,
+      "source": "https://www.wikidata.org/wiki/Q1096818",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1098318",
+      "wikidataId": "Q1098318",
+      "name": "Claudius Lavergne",
+      "birthYear": 1815,
+      "deathYear": 1887,
+      "source": "https://www.wikidata.org/wiki/Q1098318",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1098330",
+      "wikidataId": "Q1098330",
+      "name": "Claudius Popelin",
+      "birthYear": 1825,
+      "deathYear": 1892,
+      "source": "https://www.wikidata.org/wiki/Q1098330",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1098337",
+      "wikidataId": "Q1098337",
+      "name": "Claudius Schraudolph",
+      "birthYear": 1813,
+      "deathYear": 1891,
+      "source": "https://www.wikidata.org/wiki/Q1098337",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1110031",
+      "wikidataId": "Q1110031",
+      "name": "Euclide Turba",
+      "birthYear": 1869,
+      "deathYear": 1917,
+      "source": "https://www.wikidata.org/wiki/Q1110031",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1116711",
+      "wikidataId": "Q1116711",
+      "name": "Tiberius Claudius Donatus",
+      "birthYear": 400,
+      "deathYear": 500,
+      "source": "https://www.wikidata.org/wiki/Q1116711",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1119290",
+      "wikidataId": "Q1119290",
+      "name": "Adriano Fiorentino",
+      "birthYear": 1440,
+      "deathYear": 1499,
+      "source": "https://www.wikidata.org/wiki/Q1119290",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1176856",
+      "wikidataId": "Q1176856",
+      "name": "David",
+      "birthYear": 631,
+      "deathYear": 641,
+      "source": "https://www.wikidata.org/wiki/Q1176856",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1216093",
+      "wikidataId": "Q1216093",
+      "name": "Marcus Aurelius Cotta Maximus Messalinus",
+      "birthYear": -50,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q1216093",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1240734",
+      "wikidataId": "Q1240734",
+      "name": "Donato da Formello",
+      "birthYear": 1546,
+      "deathYear": 1580,
+      "source": "https://www.wikidata.org/wiki/Q1240734",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1242311",
+      "wikidataId": "Q1242311",
+      "name": "Hannibal Germanus von Schmertzing",
+      "birthYear": 1660,
+      "deathYear": 1715,
+      "source": "https://www.wikidata.org/wiki/Q1242311",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1283584",
+      "wikidataId": "Q1283584",
+      "name": "Marcus Aurelius Scaurus",
+      "birthYear": -200,
+      "deathYear": -105,
+      "source": "https://www.wikidata.org/wiki/Q1283584",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1300641",
+      "wikidataId": "Q1300641",
+      "name": "Rembrandt Bugatti",
+      "birthYear": 1884,
+      "deathYear": 1916,
+      "source": "https://www.wikidata.org/wiki/Q1300641",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1349686",
+      "wikidataId": "Q1349686",
+      "name": "Thomas Jefferson Jackson See",
+      "birthYear": 1866,
+      "deathYear": 1962,
+      "source": "https://www.wikidata.org/wiki/Q1349686",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1361553",
+      "wikidataId": "Q1361553",
+      "name": "Isaac Newton Lewis",
+      "birthYear": 1858,
+      "deathYear": 1931,
+      "source": "https://www.wikidata.org/wiki/Q1361553",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1372571",
+      "wikidataId": "Q1372571",
+      "name": "Pericles the Younger",
+      "birthYear": -440,
+      "deathYear": -406,
+      "source": "https://www.wikidata.org/wiki/Q1372571",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1374536",
+      "wikidataId": "Q1374536",
+      "name": "Raphaelle Peale",
+      "birthYear": 1774,
+      "deathYear": 1825,
+      "source": "https://www.wikidata.org/wiki/Q1374536",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1377877",
+      "wikidataId": "Q1377877",
+      "name": "Hippocrates of Syracuse",
+      "birthYear": -300,
+      "deathYear": -212,
+      "source": "https://www.wikidata.org/wiki/Q1377877",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1398771",
+      "wikidataId": "Q1398771",
+      "name": "Tiberius Cavallo",
+      "birthYear": 1749,
+      "deathYear": 1809,
+      "source": "https://www.wikidata.org/wiki/Q1398771",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1398969",
+      "wikidataId": "Q1398969",
+      "name": "Raphaël Salem",
+      "birthYear": 1898,
+      "deathYear": 1963,
+      "source": "https://www.wikidata.org/wiki/Q1398969",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1412525",
+      "wikidataId": "Q1412525",
+      "name": "Thomas J. Henley",
+      "birthYear": 1808,
+      "deathYear": 1865,
+      "source": "https://www.wikidata.org/wiki/Q1412525",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1458971",
+      "wikidataId": "Q1458971",
+      "name": "Friedrich Engels",
+      "birthYear": 1796,
+      "deathYear": 1860,
+      "source": "https://www.wikidata.org/wiki/Q1458971",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1508545",
+      "wikidataId": "Q1508545",
+      "name": "George Washington Cable",
+      "birthYear": 1844,
+      "deathYear": 1925,
+      "source": "https://www.wikidata.org/wiki/Q1508545",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1508559",
+      "wikidataId": "Q1508559",
+      "name": "George Washington Parke Custis",
+      "birthYear": 1781,
+      "deathYear": 1857,
+      "source": "https://www.wikidata.org/wiki/Q1508559",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1547252",
+      "wikidataId": "Q1547252",
+      "name": "Hadrian Maria Netto",
+      "birthYear": 1882,
+      "deathYear": 1947,
+      "source": "https://www.wikidata.org/wiki/Q1547252",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1567547",
+      "wikidataId": "Q1567547",
+      "name": "Hadrian Daude",
+      "birthYear": 1704,
+      "deathYear": 1755,
+      "source": "https://www.wikidata.org/wiki/Q1567547",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1567581",
+      "wikidataId": "Q1567581",
+      "name": "Hadrianus Junius",
+      "birthYear": 1511,
+      "deathYear": 1575,
+      "source": "https://www.wikidata.org/wiki/Q1567581",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1576150",
+      "wikidataId": "Q1576150",
+      "name": "Hannibal",
+      "birthYear": -300,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q1576150",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1576188",
+      "wikidataId": "Q1576188",
+      "name": "Hannibal Sehested",
+      "birthYear": 1842,
+      "deathYear": 1924,
+      "source": "https://www.wikidata.org/wiki/Q1576188",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1620003",
+      "wikidataId": "Q1620003",
+      "name": "Hippocrates of Athens",
+      "birthYear": -500,
+      "deathYear": -424,
+      "source": "https://www.wikidata.org/wiki/Q1620003",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1732308",
+      "wikidataId": "Q1732308",
+      "name": "Karl Marx",
+      "birthYear": 1897,
+      "deathYear": 1966,
+      "source": "https://www.wikidata.org/wiki/Q1732308",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1732312",
+      "wikidataId": "Q1732312",
+      "name": "Karl Marx",
+      "birthYear": 1844,
+      "deathYear": 1914,
+      "source": "https://www.wikidata.org/wiki/Q1732312",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1763905",
+      "wikidataId": "Q1763905",
+      "name": "Thomas J. Howell",
+      "birthYear": 1842,
+      "deathYear": 1912,
+      "source": "https://www.wikidata.org/wiki/Q1763905",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1850160",
+      "wikidataId": "Q1850160",
+      "name": "Michelangelo Abbado",
+      "birthYear": 1900,
+      "deathYear": 1979,
+      "source": "https://www.wikidata.org/wiki/Q1850160",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1894073",
+      "wikidataId": "Q1894073",
+      "name": "Marcus A. Smith",
+      "birthYear": 1851,
+      "deathYear": 1924,
+      "source": "https://www.wikidata.org/wiki/Q1894073",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1930983",
+      "wikidataId": "Q1930983",
+      "name": "Michelangelo Buonarroti",
+      "birthYear": 1568,
+      "deathYear": 1646,
+      "source": "https://www.wikidata.org/wiki/Q1930983",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1960369",
+      "wikidataId": "Q1960369",
+      "name": "Vincent van Gogh",
+      "birthYear": 1789,
+      "deathYear": 1874,
+      "source": "https://www.wikidata.org/wiki/Q1960369",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1964936",
+      "wikidataId": "Q1964936",
+      "name": "Napoleon Bonaparte Giddings",
+      "birthYear": 1816,
+      "deathYear": 1897,
+      "source": "https://www.wikidata.org/wiki/Q1964936",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2072796",
+      "wikidataId": "Q2072796",
+      "name": "Christopher Columbus Langdell",
+      "birthYear": 1826,
+      "deathYear": 1906,
+      "source": "https://www.wikidata.org/wiki/Q2072796",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2091579",
+      "wikidataId": "Q2091579",
+      "name": "Akbar Shah II",
+      "birthYear": 1760,
+      "deathYear": 1837,
+      "source": "https://www.wikidata.org/wiki/Q2091579",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2092484",
+      "wikidataId": "Q2092484",
+      "name": "Theodosius III of Abkhazia",
+      "birthYear": 901,
+      "deathYear": 980,
+      "source": "https://www.wikidata.org/wiki/Q2092484",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2109146",
+      "wikidataId": "Q2109146",
+      "name": "Augustus Leopold Kuper",
+      "birthYear": 1809,
+      "deathYear": 1885,
+      "source": "https://www.wikidata.org/wiki/Q2109146",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2131415",
+      "wikidataId": "Q2131415",
+      "name": "Raphael Soyer",
+      "birthYear": 1899,
+      "deathYear": 1987,
+      "source": "https://www.wikidata.org/wiki/Q2131415",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2179710",
+      "wikidataId": "Q2179710",
+      "name": "George Washington Wilson",
+      "birthYear": 1823,
+      "deathYear": 1893,
+      "source": "https://www.wikidata.org/wiki/Q2179710",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2290948",
+      "wikidataId": "Q2290948",
+      "name": "Thomas Jefferson Rusk",
+      "birthYear": 1803,
+      "deathYear": 1857,
+      "source": "https://www.wikidata.org/wiki/Q2290948",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2357646",
+      "wikidataId": "Q2357646",
+      "name": "Archduchess Maria Theresa of Austria",
+      "birthYear": 1762,
+      "deathYear": 1770,
+      "source": "https://www.wikidata.org/wiki/Q2357646",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2366114",
+      "wikidataId": "Q2366114",
+      "name": "George Washington",
+      "birthYear": 1871,
+      "deathYear": 1946,
+      "source": "https://www.wikidata.org/wiki/Q2366114",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2395150",
+      "wikidataId": "Q2395150",
+      "name": "Archduchess Maria Theresa of Austria",
+      "birthYear": 1684,
+      "deathYear": 1696,
+      "source": "https://www.wikidata.org/wiki/Q2395150",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2425062",
+      "wikidataId": "Q2425062",
+      "name": "Thomas Jefferson Halsey",
+      "birthYear": 1863,
+      "deathYear": 1951,
+      "source": "https://www.wikidata.org/wiki/Q2425062",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2425068",
+      "wikidataId": "Q2425068",
+      "name": "Thomas Jefferson Majors",
+      "birthYear": 1841,
+      "deathYear": 1932,
+      "source": "https://www.wikidata.org/wiki/Q2425068",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2428570",
+      "wikidataId": "Q2428570",
+      "name": "Theodosius I of Alexandria",
+      "birthYear": 450,
+      "deathYear": 567,
+      "source": "https://www.wikidata.org/wiki/Q2428570",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2429818",
+      "wikidataId": "Q2429818",
+      "name": "Thucydides",
+      "birthYear": -439,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q2429818",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2466903",
+      "wikidataId": "Q2466903",
+      "name": "Hannibal Sehested",
+      "birthYear": 1609,
+      "deathYear": 1666,
+      "source": "https://www.wikidata.org/wiki/Q2466903",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2467970",
+      "wikidataId": "Q2467970",
+      "name": "Isabella I of Majorca",
+      "birthYear": 1338,
+      "deathYear": 1406,
+      "source": "https://www.wikidata.org/wiki/Q2467970",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2545507",
+      "wikidataId": "Q2545507",
+      "name": "George Washington Lambert",
+      "birthYear": 1873,
+      "deathYear": 1930,
+      "source": "https://www.wikidata.org/wiki/Q2545507",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2574511",
+      "wikidataId": "Q2574511",
+      "name": "Teodósio, Prince of Brazil",
+      "birthYear": 1634,
+      "deathYear": 1653,
+      "source": "https://www.wikidata.org/wiki/Q2574511",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2578242",
+      "wikidataId": "Q2578242",
+      "name": "Augustus Egg",
+      "birthYear": 1816,
+      "deathYear": 1863,
+      "source": "https://www.wikidata.org/wiki/Q2578242",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2580659",
+      "wikidataId": "Q2580659",
+      "name": "William Stewart Ross",
+      "birthYear": 1844,
+      "deathYear": 1906,
+      "source": "https://www.wikidata.org/wiki/Q2580659",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2688728",
+      "wikidataId": "Q2688728",
+      "name": "Claudius Amyand",
+      "birthYear": 1680,
+      "deathYear": 1740,
+      "source": "https://www.wikidata.org/wiki/Q2688728",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2705358",
+      "wikidataId": "Q2705358",
+      "name": "Theodora",
+      "birthYear": 801,
+      "deathYear": 922,
+      "source": "https://www.wikidata.org/wiki/Q2705358",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2705569",
+      "wikidataId": "Q2705569",
+      "name": "Pythagoras",
+      "birthYear": -600,
+      "deathYear": -500,
+      "source": "https://www.wikidata.org/wiki/Q2705569",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2755070",
+      "wikidataId": "Q2755070",
+      "name": "Teodósio I",
+      "birthYear": 1510,
+      "deathYear": 1563,
+      "source": "https://www.wikidata.org/wiki/Q2755070",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2803470",
+      "wikidataId": "Q2803470",
+      "name": "Tiberius Fundel",
+      "birthYear": 1897,
+      "deathYear": 1982,
+      "source": "https://www.wikidata.org/wiki/Q2803470",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2821841",
+      "wikidataId": "Q2821841",
+      "name": "Abraham Lincoln",
+      "birthYear": 1744,
+      "deathYear": 1786,
+      "source": "https://www.wikidata.org/wiki/Q2821841",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2833131",
+      "wikidataId": "Q2833131",
+      "name": "Alexander Hamilton",
+      "birthYear": 1688,
+      "deathYear": 1732,
+      "source": "https://www.wikidata.org/wiki/Q2833131",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2871122",
+      "wikidataId": "Q2871122",
+      "name": "Augustus Charles Pugin",
+      "birthYear": 1762,
+      "deathYear": 1832,
+      "source": "https://www.wikidata.org/wiki/Q2871122",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2871719",
+      "wikidataId": "Q2871719",
+      "name": "Augustus Thomas",
+      "birthYear": 1857,
+      "deathYear": 1934,
+      "source": "https://www.wikidata.org/wiki/Q2871719",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2896080",
+      "wikidataId": "Q2896080",
+      "name": "Benjamin Franklin Smith",
+      "birthYear": 1865,
+      "deathYear": 1944,
+      "source": "https://www.wikidata.org/wiki/Q2896080",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2900469",
+      "wikidataId": "Q2900469",
+      "name": "Claudius Marioton",
+      "birthYear": 1844,
+      "deathYear": 1919,
+      "source": "https://www.wikidata.org/wiki/Q2900469",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2916076",
+      "wikidataId": "Q2916076",
+      "name": "Winston Churchill",
+      "birthYear": 1620,
+      "deathYear": 1688,
+      "source": "https://www.wikidata.org/wiki/Q2916076",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2957871",
+      "wikidataId": "Q2957871",
+      "name": "Charlemagne Ovigneur",
+      "birthYear": 1759,
+      "deathYear": 1832,
+      "source": "https://www.wikidata.org/wiki/Q2957871",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2960591",
+      "wikidataId": "Q2960591",
+      "name": "Charles de Gaulle",
+      "birthYear": 1837,
+      "deathYear": 1880,
+      "source": "https://www.wikidata.org/wiki/Q2960591",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2978569",
+      "wikidataId": "Q2978569",
+      "name": "Claudius Gallet",
+      "birthYear": 1874,
+      "deathYear": 1936,
+      "source": "https://www.wikidata.org/wiki/Q2978569",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2989523",
+      "wikidataId": "Q2989523",
+      "name": "Mehmed III Giray",
+      "birthYear": 1584,
+      "deathYear": 1629,
+      "source": "https://www.wikidata.org/wiki/Q2989523",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2996427",
+      "wikidataId": "Q2996427",
+      "name": "Mehmed II Giray",
+      "birthYear": 1532,
+      "deathYear": 1584,
+      "source": "https://www.wikidata.org/wiki/Q2996427",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3123284",
+      "wikidataId": "Q3123284",
+      "name": "Juan Santos Atahualpa",
+      "birthYear": 1710,
+      "deathYear": 1756,
+      "source": "https://www.wikidata.org/wiki/Q3123284",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3147456",
+      "wikidataId": "Q3147456",
+      "name": "Abu-'l-Walīd Muḥammad Ibn-Aḥmad Ibn-Rušd",
+      "birthYear": 1058,
+      "deathYear": 1126,
+      "source": "https://www.wikidata.org/wiki/Q3147456",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3171856",
+      "wikidataId": "Q3171856",
+      "name": "Socrates of Achaea",
+      "birthYear": -430,
+      "deathYear": -401,
+      "source": "https://www.wikidata.org/wiki/Q3171856",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3262847",
+      "wikidataId": "Q3262847",
+      "name": "Louis-Pasteur Vallery-Radot",
+      "birthYear": 1886,
+      "deathYear": 1970,
+      "source": "https://www.wikidata.org/wiki/Q3262847",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3321618",
+      "wikidataId": "Q3321618",
+      "name": "Nebuchadnezzar III",
+      "birthYear": -600,
+      "deathYear": -522,
+      "source": "https://www.wikidata.org/wiki/Q3321618",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3366228",
+      "wikidataId": "Q3366228",
+      "name": "Alexander Hamilton",
+      "birthYear": 1762,
+      "deathYear": 1824,
+      "source": "https://www.wikidata.org/wiki/Q3366228",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3380645",
+      "wikidataId": "Q3380645",
+      "name": "Euclides Pinto Martins",
+      "birthYear": 1892,
+      "deathYear": 1924,
+      "source": "https://www.wikidata.org/wiki/Q3380645",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3403091",
+      "wikidataId": "Q3403091",
+      "name": "Sam Mussabini",
+      "birthYear": 1867,
+      "deathYear": 1927,
+      "source": "https://www.wikidata.org/wiki/Q3403091",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3525248",
+      "wikidataId": "Q3525248",
+      "name": "Thomas Jefferson",
+      "birthYear": 1856,
+      "deathYear": 1932,
+      "source": "https://www.wikidata.org/wiki/Q3525248",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3526563",
+      "wikidataId": "Q3526563",
+      "name": "Theodosius I of Constantinople",
+      "birthYear": 1150,
+      "deathYear": 1183,
+      "source": "https://www.wikidata.org/wiki/Q3526563",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3603776",
+      "wikidataId": "Q3603776",
+      "name": "Abraham Genoels",
+      "birthYear": 1640,
+      "deathYear": 1723,
+      "source": "https://www.wikidata.org/wiki/Q3603776",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3610762",
+      "wikidataId": "Q3610762",
+      "name": "Alexander Hamilton-Gordon",
+      "birthYear": 1859,
+      "deathYear": 1939,
+      "source": "https://www.wikidata.org/wiki/Q3610762",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3638248",
+      "wikidataId": "Q3638248",
+      "name": "Benjamin Franklin Sands",
+      "birthYear": 1811,
+      "deathYear": 1883,
+      "source": "https://www.wikidata.org/wiki/Q3638248",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3701862",
+      "wikidataId": "Q3701862",
+      "name": "Q3701862",
+      "birthYear": 1801,
+      "deathYear": 1873,
+      "source": "https://www.wikidata.org/wiki/Q3701862",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3810919",
+      "wikidataId": "Q3810919",
+      "name": "Juan Santa Cruz Pachacuti",
+      "birthYear": 1600,
+      "deathYear": 1650,
+      "source": "https://www.wikidata.org/wiki/Q3810919",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3945278",
+      "wikidataId": "Q3945278",
+      "name": "Saladino Saladini Pilastri",
+      "birthYear": 1846,
+      "deathYear": 1923,
+      "source": "https://www.wikidata.org/wiki/Q3945278",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4120845",
+      "wikidataId": "Q4120845",
+      "name": "Isaac Newton Arnold",
+      "birthYear": 1815,
+      "deathYear": 1884,
+      "source": "https://www.wikidata.org/wiki/Q4120845",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4210134",
+      "wikidataId": "Q4210134",
+      "name": "George Washington Cullum",
+      "birthYear": 1809,
+      "deathYear": 1892,
+      "source": "https://www.wikidata.org/wiki/Q4210134",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4281713",
+      "wikidataId": "Q4281713",
+      "name": "Maria Theresa of Portugal",
+      "birthYear": 1881,
+      "deathYear": 1945,
+      "source": "https://www.wikidata.org/wiki/Q4281713",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4297162",
+      "wikidataId": "Q4297162",
+      "name": "Lord Augustus FitzRoy",
+      "birthYear": 1716,
+      "deathYear": 1741,
+      "source": "https://www.wikidata.org/wiki/Q4297162",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4669034",
+      "wikidataId": "Q4669034",
+      "name": "Abraham Lincoln Keister",
+      "birthYear": 1852,
+      "deathYear": 1917,
+      "source": "https://www.wikidata.org/wiki/Q4669034",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4719041",
+      "wikidataId": "Q4719041",
+      "name": "Alexander Hamilton Rice",
+      "birthYear": 1875,
+      "deathYear": 1956,
+      "source": "https://www.wikidata.org/wiki/Q4719041",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4719056",
+      "wikidataId": "Q4719056",
+      "name": "Alexander Hamilton-Gordon",
+      "birthYear": 1817,
+      "deathYear": 1890,
+      "source": "https://www.wikidata.org/wiki/Q4719056",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4719060",
+      "wikidataId": "Q4719060",
+      "name": "Alexander Hamilton",
+      "birthYear": 1712,
+      "deathYear": 1756,
+      "source": "https://www.wikidata.org/wiki/Q4719060",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4719061",
+      "wikidataId": "Q4719061",
+      "name": "Alexander Hamilton",
+      "birthYear": 1815,
+      "deathYear": 1907,
+      "source": "https://www.wikidata.org/wiki/Q4719061",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4719062",
+      "wikidataId": "Q4719062",
+      "name": "Alexander Hamilton",
+      "birthYear": 1847,
+      "deathYear": 1928,
+      "source": "https://www.wikidata.org/wiki/Q4719062",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4719071",
+      "wikidataId": "Q4719071",
+      "name": "Alexander Hamilton Jr.",
+      "birthYear": 1786,
+      "deathYear": 1875,
+      "source": "https://www.wikidata.org/wiki/Q4719071",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4820667",
+      "wikidataId": "Q4820667",
+      "name": "August Busck",
+      "birthYear": 1870,
+      "deathYear": 1944,
+      "source": "https://www.wikidata.org/wiki/Q4820667",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4821369",
+      "wikidataId": "Q4821369",
+      "name": "Augustus Anson",
+      "birthYear": 1835,
+      "deathYear": 1877,
+      "source": "https://www.wikidata.org/wiki/Q4821369",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4821399",
+      "wikidataId": "Q4821399",
+      "name": "Augustus Clifford",
+      "birthYear": 1788,
+      "deathYear": 1877,
+      "source": "https://www.wikidata.org/wiki/Q4821399",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4821445",
+      "wikidataId": "Q4821445",
+      "name": "Augustus Hare",
+      "birthYear": 1834,
+      "deathYear": 1903,
+      "source": "https://www.wikidata.org/wiki/Q4821445",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4821512",
+      "wikidataId": "Q4821512",
+      "name": "Augustus Octavius Bacon",
+      "birthYear": 1839,
+      "deathYear": 1914,
+      "source": "https://www.wikidata.org/wiki/Q4821512",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4821518",
+      "wikidataId": "Q4821518",
+      "name": "Augustus Phillimore",
+      "birthYear": 1822,
+      "deathYear": 1897,
+      "source": "https://www.wikidata.org/wiki/Q4821518",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4888546",
+      "wikidataId": "Q4888546",
+      "name": "Benjamin F. Johnson",
+      "birthYear": 1818,
+      "deathYear": 1905,
+      "source": "https://www.wikidata.org/wiki/Q4888546",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4888610",
+      "wikidataId": "Q4888610",
+      "name": "Benjamin Franklin",
+      "birthYear": 1812,
+      "deathYear": 1878,
+      "source": "https://www.wikidata.org/wiki/Q4888610",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4888611",
+      "wikidataId": "Q4888611",
+      "name": "Benjamin Franklin",
+      "birthYear": 1844,
+      "deathYear": 1917,
+      "source": "https://www.wikidata.org/wiki/Q4888611",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4892319",
+      "wikidataId": "Q4892319",
+      "name": "Hannibal",
+      "birthYear": -250,
+      "deathYear": -238,
+      "source": "https://www.wikidata.org/wiki/Q4892319",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5074627",
+      "wikidataId": "Q5074627",
+      "name": "Charlemagne Tower Sr.",
+      "birthYear": 1809,
+      "deathYear": 1889,
+      "source": "https://www.wikidata.org/wiki/Q5074627",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5074629",
+      "wikidataId": "Q5074629",
+      "name": "Charlemagne Tower Jr.",
+      "birthYear": 1848,
+      "deathYear": 1923,
+      "source": "https://www.wikidata.org/wiki/Q5074629",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5222941",
+      "wikidataId": "Q5222941",
+      "name": "Darius I of Media Atropatene",
+      "birthYear": -85,
+      "deathYear": -60,
+      "source": "https://www.wikidata.org/wiki/Q5222941",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5460734",
+      "wikidataId": "Q5460734",
+      "name": "Florence Nightingale Levy",
+      "birthYear": 1870,
+      "deathYear": 1947,
+      "source": "https://www.wikidata.org/wiki/Q5460734",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5545912",
+      "wikidataId": "Q5545912",
+      "name": "George Washington",
+      "birthYear": 1817,
+      "deathYear": 1905,
+      "source": "https://www.wikidata.org/wiki/Q5545912",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5565419",
+      "wikidataId": "Q5565419",
+      "name": "Giuseppe Garibaldi",
+      "birthYear": 1819,
+      "deathYear": 1908,
+      "source": "https://www.wikidata.org/wiki/Q5565419",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5649162",
+      "wikidataId": "Q5649162",
+      "name": "Hannibal Fegth",
+      "birthYear": 1879,
+      "deathYear": 1967,
+      "source": "https://www.wikidata.org/wiki/Q5649162",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5785886",
+      "wikidataId": "Q5785886",
+      "name": "Alexander Hamilton",
+      "birthYear": 1855,
+      "deathYear": 1944,
+      "source": "https://www.wikidata.org/wiki/Q5785886",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6076058",
+      "wikidataId": "Q6076058",
+      "name": "Isaac Blackford",
+      "birthYear": 1786,
+      "deathYear": 1859,
+      "source": "https://www.wikidata.org/wiki/Q6076058",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6076862",
+      "wikidataId": "Q6076862",
+      "name": "Isaac Newton Carleton",
+      "birthYear": 1832,
+      "deathYear": 1902,
+      "source": "https://www.wikidata.org/wiki/Q6076862",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6076874",
+      "wikidataId": "Q6076874",
+      "name": "Isaac Newton Seligman",
+      "birthYear": 1855,
+      "deathYear": 1917,
+      "source": "https://www.wikidata.org/wiki/Q6076874",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6131671",
+      "wikidataId": "Q6131671",
+      "name": "James Cook",
+      "birthYear": 1888,
+      "deathYear": 1979,
+      "source": "https://www.wikidata.org/wiki/Q6131671",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6131694",
+      "wikidataId": "Q6131694",
+      "name": "James Cooke-Collis",
+      "birthYear": 1876,
+      "deathYear": 1941,
+      "source": "https://www.wikidata.org/wiki/Q6131694",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6288138",
+      "wikidataId": "Q6288138",
+      "name": "Q6288138",
+      "birthYear": 1900,
+      "deathYear": 1981,
+      "source": "https://www.wikidata.org/wiki/Q6288138",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6761631",
+      "wikidataId": "Q6761631",
+      "name": "Maria Theresia van Thielen",
+      "birthYear": 1640,
+      "deathYear": 1706,
+      "source": "https://www.wikidata.org/wiki/Q6761631",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6836815",
+      "wikidataId": "Q6836815",
+      "name": "Michele Pace del Campidoglio",
+      "birthYear": 1610,
+      "deathYear": 1670,
+      "source": "https://www.wikidata.org/wiki/Q6836815",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6965014",
+      "wikidataId": "Q6965014",
+      "name": "Napoleon B. Thistlewood",
+      "birthYear": 1837,
+      "deathYear": 1915,
+      "source": "https://www.wikidata.org/wiki/Q6965014",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q6965022",
+      "wikidataId": "Q6965022",
+      "name": "Napoleon Bonaparte Brown",
+      "birthYear": 1834,
+      "deathYear": 1910,
+      "source": "https://www.wikidata.org/wiki/Q6965022",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7434013",
+      "wikidataId": "Q7434013",
+      "name": "Scipio Africanus",
+      "birthYear": 1702,
+      "deathYear": 1720,
+      "source": "https://www.wikidata.org/wiki/Q7434013",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7434014",
+      "wikidataId": "Q7434014",
+      "name": "Scipio Africanus Jones",
+      "birthYear": 1863,
+      "deathYear": 1943,
+      "source": "https://www.wikidata.org/wiki/Q7434014",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7781653",
+      "wikidataId": "Q7781653",
+      "name": "Theodora Morse",
+      "birthYear": 1883,
+      "deathYear": 1953,
+      "source": "https://www.wikidata.org/wiki/Q7781653",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7791255",
+      "wikidataId": "Q7791255",
+      "name": "Thomas Jefferson Green",
+      "birthYear": 1802,
+      "deathYear": 1863,
+      "source": "https://www.wikidata.org/wiki/Q7791255",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7800372",
+      "wikidataId": "Q7800372",
+      "name": "Tiberius",
+      "birthYear": 705,
+      "deathYear": 711,
+      "source": "https://www.wikidata.org/wiki/Q7800372",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7800376",
+      "wikidataId": "Q7800376",
+      "name": "Tiberius",
+      "birthYear": 650,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q7800376",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q10278090",
+      "wikidataId": "Q10278090",
+      "name": "Euclides Figueiredo",
+      "birthYear": 1883,
+      "deathYear": 1963,
+      "source": "https://www.wikidata.org/wiki/Q10278090",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q10278100",
+      "wikidataId": "Q10278100",
+      "name": "Euclides Vieira Malta",
+      "birthYear": 1861,
+      "deathYear": 1944,
+      "source": "https://www.wikidata.org/wiki/Q10278100",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q10278103",
+      "wikidataId": "Q10278103",
+      "name": "Euclides Zenóbio da Costa",
+      "birthYear": 1893,
+      "deathYear": 1963,
+      "source": "https://www.wikidata.org/wiki/Q10278103",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q10350135",
+      "wikidataId": "Q10350135",
+      "name": "Pythagoras of Samos",
+      "birthYear": -600,
+      "deathYear": -500,
+      "source": "https://www.wikidata.org/wiki/Q10350135",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q10384053",
+      "wikidataId": "Q10384053",
+      "name": "Trajano Augusto de Carvalho",
+      "birthYear": 1830,
+      "deathYear": 1898,
+      "source": "https://www.wikidata.org/wiki/Q10384053",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q10384058",
+      "wikidataId": "Q10384058",
+      "name": "Trajano Vaz",
+      "birthYear": 1887,
+      "deathYear": 1942,
+      "source": "https://www.wikidata.org/wiki/Q10384058",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q10384059",
+      "wikidataId": "Q10384059",
+      "name": "Trajano de Barros Camargo",
+      "birthYear": 1890,
+      "deathYear": 1930,
+      "source": "https://www.wikidata.org/wiki/Q10384059",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q10384060",
+      "wikidataId": "Q10384060",
+      "name": "Trajano Viriato de Medeiros",
+      "birthYear": 1837,
+      "deathYear": 1911,
+      "source": "https://www.wikidata.org/wiki/Q10384060",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q11287696",
+      "wikidataId": "Q11287696",
+      "name": "Marcus Aurelius Cotta",
+      "birthYear": -250,
+      "deathYear": -201,
+      "source": "https://www.wikidata.org/wiki/Q11287696",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q11940081",
+      "wikidataId": "Q11940081",
+      "name": "Papirius Dionysius",
+      "birthYear": 150,
+      "deathYear": 191,
+      "source": "https://www.wikidata.org/wiki/Q11940081",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q11950679",
+      "wikidataId": "Q11950679",
+      "name": "Socrates of Rhodes",
+      "birthYear": -100,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q11950679",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12213263",
+      "wikidataId": "Q12213263",
+      "name": "Theodora Angelina",
+      "birthYear": 1150,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q12213263",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12296185",
+      "wikidataId": "Q12296185",
+      "name": "Theodora Komnene",
+      "birthYear": 1050,
+      "deathYear": 1136,
+      "source": "https://www.wikidata.org/wiki/Q12296185",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12306448",
+      "wikidataId": "Q12306448",
+      "name": "Claudius August Wiinholt",
+      "birthYear": 1855,
+      "deathYear": 1905,
+      "source": "https://www.wikidata.org/wiki/Q12306448",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12315209",
+      "wikidataId": "Q12315209",
+      "name": "Hannibal Wedell",
+      "birthYear": 1660,
+      "deathYear": 1708,
+      "source": "https://www.wikidata.org/wiki/Q12315209",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12315210",
+      "wikidataId": "Q12315210",
+      "name": "Hannibal Wedell",
+      "birthYear": 1731,
+      "deathYear": 1766,
+      "source": "https://www.wikidata.org/wiki/Q12315210",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12315211",
+      "wikidataId": "Q12315211",
+      "name": "Hannibal Wilhelm Wedell",
+      "birthYear": 1780,
+      "deathYear": 1828,
+      "source": "https://www.wikidata.org/wiki/Q12315211",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12368917",
+      "wikidataId": "Q12368917",
+      "name": "Ludwig van Beethoven",
+      "birthYear": 1712,
+      "deathYear": 1773,
+      "source": "https://www.wikidata.org/wiki/Q12368917",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q13138319",
+      "wikidataId": "Q13138319",
+      "name": "Tiberius de Baar",
+      "birthYear": 1750,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q13138319",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q13219615",
+      "wikidataId": "Q13219615",
+      "name": "Isaac Newton Evans",
+      "birthYear": 1827,
+      "deathYear": 1901,
+      "source": "https://www.wikidata.org/wiki/Q13219615",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q14946951",
+      "wikidataId": "Q14946951",
+      "name": "Sir Justinian Isham, 2nd Baronet",
+      "birthYear": 1610,
+      "deathYear": 1675,
+      "source": "https://www.wikidata.org/wiki/Q14946951",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q15452210",
+      "wikidataId": "Q15452210",
+      "name": "Augustus Jessopp",
+      "birthYear": 1823,
+      "deathYear": 1914,
+      "source": "https://www.wikidata.org/wiki/Q15452210",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q15505278",
+      "wikidataId": "Q15505278",
+      "name": "Isaac Newton Phelps Stokes",
+      "birthYear": 1867,
+      "deathYear": 1944,
+      "source": "https://www.wikidata.org/wiki/Q15505278",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q15632180",
+      "wikidataId": "Q15632180",
+      "name": "Maria Theresa Kemble",
+      "birthYear": 1774,
+      "deathYear": 1838,
+      "source": "https://www.wikidata.org/wiki/Q15632180",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q15904612",
+      "wikidataId": "Q15904612",
+      "name": "Zheng Heng",
+      "birthYear": 1356,
+      "deathYear": 1434,
+      "source": "https://www.wikidata.org/wiki/Q15904612",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q15970295",
+      "wikidataId": "Q15970295",
+      "name": "Henri Frédéric Schopin",
+      "birthYear": 1804,
+      "deathYear": 1880,
+      "source": "https://www.wikidata.org/wiki/Q15970295",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q15980523",
+      "wikidataId": "Q15980523",
+      "name": "George Washington Sprott",
+      "birthYear": 1829,
+      "deathYear": 1909,
+      "source": "https://www.wikidata.org/wiki/Q15980523",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q15990331",
+      "wikidataId": "Q15990331",
+      "name": "Augustus Arthur Vansittart",
+      "birthYear": 1824,
+      "deathYear": 1882,
+      "source": "https://www.wikidata.org/wiki/Q15990331",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q15994587",
+      "wikidataId": "Q15994587",
+      "name": "Hannibal Evans Lloyd",
+      "birthYear": 1771,
+      "deathYear": 1847,
+      "source": "https://www.wikidata.org/wiki/Q15994587",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16058701",
+      "wikidataId": "Q16058701",
+      "name": "Q16058701",
+      "birthYear": 1846,
+      "deathYear": 1913,
+      "source": "https://www.wikidata.org/wiki/Q16058701",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16062247",
+      "wikidataId": "Q16062247",
+      "name": "Augustus Spencer",
+      "birthYear": 1807,
+      "deathYear": 1893,
+      "source": "https://www.wikidata.org/wiki/Q16062247",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16062483",
+      "wikidataId": "Q16062483",
+      "name": "Karl Marx",
+      "birthYear": 1857,
+      "deathYear": 1891,
+      "source": "https://www.wikidata.org/wiki/Q16062483",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16118155",
+      "wikidataId": "Q16118155",
+      "name": "Ibn Sinān al-Khafājī",
+      "birthYear": 1031,
+      "deathYear": 1073,
+      "source": "https://www.wikidata.org/wiki/Q16118155",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16130796",
+      "wikidataId": "Q16130796",
+      "name": "Benjamin Franklin Peixotto",
+      "birthYear": 1834,
+      "deathYear": 1890,
+      "source": "https://www.wikidata.org/wiki/Q16130796",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16203822",
+      "wikidataId": "Q16203822",
+      "name": "Elizabeth Isham",
+      "birthYear": 1609,
+      "deathYear": 1654,
+      "source": "https://www.wikidata.org/wiki/Q16203822",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16240035",
+      "wikidataId": "Q16240035",
+      "name": "Sir Justinian Isham, 5th Baronet",
+      "birthYear": 1687,
+      "deathYear": 1737,
+      "source": "https://www.wikidata.org/wiki/Q16240035",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16269322",
+      "wikidataId": "Q16269322",
+      "name": "Pythagoras",
+      "birthYear": -500,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q16269322",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16579016",
+      "wikidataId": "Q16579016",
+      "name": "Benjamin Franklin Howell",
+      "birthYear": 1890,
+      "deathYear": 1976,
+      "source": "https://www.wikidata.org/wiki/Q16579016",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16664360",
+      "wikidataId": "Q16664360",
+      "name": "Michelangelo Ricciolini",
+      "birthYear": 1654,
+      "deathYear": 1715,
+      "source": "https://www.wikidata.org/wiki/Q16664360",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16840446",
+      "wikidataId": "Q16840446",
+      "name": "Alexander Hamilton",
+      "birthYear": 1865,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q16840446",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16843321",
+      "wikidataId": "Q16843321",
+      "name": "Sir Justinian Isham, 7th Baronet",
+      "birthYear": 1740,
+      "deathYear": 1818,
+      "source": "https://www.wikidata.org/wiki/Q16843321",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16848716",
+      "wikidataId": "Q16848716",
+      "name": "Sir Justinian Isham, 4th Baronet",
+      "birthYear": 1658,
+      "deathYear": 1730,
+      "source": "https://www.wikidata.org/wiki/Q16848716",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16856900",
+      "wikidataId": "Q16856900",
+      "name": "Theodora Cowan",
+      "birthYear": 1868,
+      "deathYear": 1949,
+      "source": "https://www.wikidata.org/wiki/Q16856900",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16935226",
+      "wikidataId": "Q16935226",
+      "name": "Charlemagne Théophile Lefebvre",
+      "birthYear": 1811,
+      "deathYear": 1860,
+      "source": "https://www.wikidata.org/wiki/Q16935226",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16943916",
+      "wikidataId": "Q16943916",
+      "name": "Augustus Hughes-Hughes",
+      "birthYear": 1857,
+      "deathYear": 1942,
+      "source": "https://www.wikidata.org/wiki/Q16943916",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16943917",
+      "wikidataId": "Q16943917",
+      "name": "Augustus Samuel Bolton",
+      "birthYear": 1825,
+      "deathYear": 1886,
+      "source": "https://www.wikidata.org/wiki/Q16943917",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q17312528",
+      "wikidataId": "Q17312528",
+      "name": "Theodora Krarup",
+      "birthYear": 1862,
+      "deathYear": 1941,
+      "source": "https://www.wikidata.org/wiki/Q17312528",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q17330745",
+      "wikidataId": "Q17330745",
+      "name": "Rembrandt's father",
+      "birthYear": 1620,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q17330745",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q17626668",
+      "wikidataId": "Q17626668",
+      "name": "James Clerk Maxwell Garnett",
+      "birthYear": 1880,
+      "deathYear": 1958,
+      "source": "https://www.wikidata.org/wiki/Q17626668",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q17627065",
+      "wikidataId": "Q17627065",
+      "name": "C.C. Slaughter",
+      "birthYear": 1837,
+      "deathYear": 1919,
+      "source": "https://www.wikidata.org/wiki/Q17627065",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q18042709",
+      "wikidataId": "Q18042709",
+      "name": "Q18042709",
+      "birthYear": 1869,
+      "deathYear": 1966,
+      "source": "https://www.wikidata.org/wiki/Q18042709",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q18235435",
+      "wikidataId": "Q18235435",
+      "name": "Hadrianus",
+      "birthYear": 350,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q18235435",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q18528654",
+      "wikidataId": "Q18528654",
+      "name": "Theodora Guest",
+      "birthYear": 1840,
+      "deathYear": 1924,
+      "source": "https://www.wikidata.org/wiki/Q18528654",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q18529248",
+      "wikidataId": "Q18529248",
+      "name": "Thomas Jefferson",
+      "birthYear": 1732,
+      "deathYear": 1807,
+      "source": "https://www.wikidata.org/wiki/Q18529248",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q18529838",
+      "wikidataId": "Q18529838",
+      "name": "James Cook",
+      "birthYear": 1572,
+      "deathYear": 1610,
+      "source": "https://www.wikidata.org/wiki/Q18529838",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q18535693",
+      "wikidataId": "Q18535693",
+      "name": "Trajan Hughes",
+      "birthYear": 1669,
+      "deathYear": 1779,
+      "source": "https://www.wikidata.org/wiki/Q18535693",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q18577038",
+      "wikidataId": "Q18577038",
+      "name": "Theresa Lewis",
+      "birthYear": 1803,
+      "deathYear": 1865,
+      "source": "https://www.wikidata.org/wiki/Q18577038",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q18674252",
+      "wikidataId": "Q18674252",
+      "name": "Napoleon Bonaparte Wyse",
+      "birthYear": 1822,
+      "deathYear": 1895,
+      "source": "https://www.wikidata.org/wiki/Q18674252",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q18753503",
+      "wikidataId": "Q18753503",
+      "name": "Pythagoras of Laconia",
+      "birthYear": -800,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q18753503",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q19666288",
+      "wikidataId": "Q19666288",
+      "name": "Isaac Newton",
+      "birthYear": 1800,
+      "deathYear": 1867,
+      "source": "https://www.wikidata.org/wiki/Q19666288",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q19838052",
+      "wikidataId": "Q19838052",
+      "name": "Tiberius",
+      "birthYear": 950,
+      "deathYear": 1012,
+      "source": "https://www.wikidata.org/wiki/Q19838052",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q19968568",
+      "wikidataId": "Q19968568",
+      "name": "Charlemagne Oscar Guet",
+      "birthYear": 1801,
+      "deathYear": 1871,
+      "source": "https://www.wikidata.org/wiki/Q19968568",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q20493332",
+      "wikidataId": "Q20493332",
+      "name": "Pythagoras of Magnesia",
+      "birthYear": -400,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q20493332",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q21182964",
+      "wikidataId": "Q21182964",
+      "name": "Alexander Hamilton",
+      "birthYear": 1765,
+      "deathYear": 1838,
+      "source": "https://www.wikidata.org/wiki/Q21182964",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q21503650",
+      "wikidataId": "Q21503650",
+      "name": "Alexander Hamilton",
+      "birthYear": 1739,
+      "deathYear": 1802,
+      "source": "https://www.wikidata.org/wiki/Q21503650",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q21554518",
+      "wikidataId": "Q21554518",
+      "name": "Isaac Newton",
+      "birthYear": 1632,
+      "deathYear": 1730,
+      "source": "https://www.wikidata.org/wiki/Q21554518",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q21554519",
+      "wikidataId": "Q21554519",
+      "name": "Isaac Newton",
+      "birthYear": 1727,
+      "deathYear": 1825,
+      "source": "https://www.wikidata.org/wiki/Q21554519",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q23691658",
+      "wikidataId": "Q23691658",
+      "name": "Elizabeth Ilive, Countess of Egremont",
+      "birthYear": 1769,
+      "deathYear": 1822,
+      "source": "https://www.wikidata.org/wiki/Q23691658",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q25749465",
+      "wikidataId": "Q25749465",
+      "name": "Theodora Johanna Seuffer",
+      "birthYear": 1862,
+      "deathYear": 1911,
+      "source": "https://www.wikidata.org/wiki/Q25749465",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q25835100",
+      "wikidataId": "Q25835100",
+      "name": "Hippocrates of Thessaly",
+      "birthYear": -300,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q25835100",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q26214199",
+      "wikidataId": "Q26214199",
+      "name": "Henry VIII of Henneberg-Schleusingen",
+      "birthYear": 1250,
+      "deathYear": 1347,
+      "source": "https://www.wikidata.org/wiki/Q26214199",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q26710226",
+      "wikidataId": "Q26710226",
+      "name": "Herodotus of Clazomenae",
+      "birthYear": -400,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q26710226",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q26776969",
+      "wikidataId": "Q26776969",
+      "name": "Isaac Newton Sr.",
+      "birthYear": 1606,
+      "deathYear": 1642,
+      "source": "https://www.wikidata.org/wiki/Q26776969",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q28008819",
+      "wikidataId": "Q28008819",
+      "name": "Claudius Fonnereau",
+      "birthYear": 1699,
+      "deathYear": 1785,
+      "source": "https://www.wikidata.org/wiki/Q28008819",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q28202723",
+      "wikidataId": "Q28202723",
+      "name": "Florence Harrison Bell",
+      "birthYear": 1865,
+      "deathYear": 1948,
+      "source": "https://www.wikidata.org/wiki/Q28202723",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q28474312",
+      "wikidataId": "Q28474312",
+      "name": "James Cook",
+      "birthYear": 1885,
+      "deathYear": 1971,
+      "source": "https://www.wikidata.org/wiki/Q28474312",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q29129562",
+      "wikidataId": "Q29129562",
+      "name": "James Cook",
+      "birthYear": 1764,
+      "deathYear": 1837,
+      "source": "https://www.wikidata.org/wiki/Q29129562",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q29885090",
+      "wikidataId": "Q29885090",
+      "name": "Neeltje Willemsdr. Zuytbrouck",
+      "birthYear": 1568,
+      "deathYear": 1640,
+      "source": "https://www.wikidata.org/wiki/Q29885090",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q30115688",
+      "wikidataId": "Q30115688",
+      "name": "Thomas Jefferson Leslie",
+      "birthYear": 1796,
+      "deathYear": 1874,
+      "source": "https://www.wikidata.org/wiki/Q30115688",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q30828896",
+      "wikidataId": "Q30828896",
+      "name": "Henry VIII, Count of Schwarzburg-Leutenberg",
+      "birthYear": 1300,
+      "deathYear": 1360,
+      "source": "https://www.wikidata.org/wiki/Q30828896",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q45364336",
+      "wikidataId": "Q45364336",
+      "name": "Zheng Hewu",
+      "birthYear": 1136,
+      "deathYear": 1219,
+      "source": "https://www.wikidata.org/wiki/Q45364336",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q45450665",
+      "wikidataId": "Q45450665",
+      "name": "Zheng He",
+      "birthYear": 780,
+      "deathYear": 824,
+      "source": "https://www.wikidata.org/wiki/Q45450665",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q45460975",
+      "wikidataId": "Q45460975",
+      "name": "Zheng He",
+      "birthYear": 1511,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q45460975",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q47529159",
+      "wikidataId": "Q47529159",
+      "name": "Q47529159",
+      "birthYear": 1813,
+      "deathYear": 1896,
+      "source": "https://www.wikidata.org/wiki/Q47529159",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q50360082",
+      "wikidataId": "Q50360082",
+      "name": "James Cook",
+      "birthYear": 1693,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q50360082",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q50890006",
+      "wikidataId": "Q50890006",
+      "name": "Périclès Grimanelli",
+      "birthYear": 1847,
+      "deathYear": 1924,
+      "source": "https://www.wikidata.org/wiki/Q50890006",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q55318009",
+      "wikidataId": "Q55318009",
+      "name": "Giuseppe Garibaldi Bruno",
+      "birthYear": 1864,
+      "deathYear": 1922,
+      "source": "https://www.wikidata.org/wiki/Q55318009",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q55720976",
+      "wikidataId": "Q55720976",
+      "name": "Maria-Theresa Duncan",
+      "birthYear": 1895,
+      "deathYear": 1987,
+      "source": "https://www.wikidata.org/wiki/Q55720976",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q56611689",
+      "wikidataId": "Q56611689",
+      "name": "Theresa Villiers",
+      "birthYear": 1775,
+      "deathYear": 1856,
+      "source": "https://www.wikidata.org/wiki/Q56611689",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q58532715",
+      "wikidataId": "Q58532715",
+      "name": "Isaac Newton Wallop, 5th Earl of Portsmouth",
+      "birthYear": 1825,
+      "deathYear": 1891,
+      "source": "https://www.wikidata.org/wiki/Q58532715",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q60569611",
+      "wikidataId": "Q60569611",
+      "name": "Thomas Jefferson Coolidge",
+      "birthYear": 1863,
+      "deathYear": 1912,
+      "source": "https://www.wikidata.org/wiki/Q60569611",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q62100576",
+      "wikidataId": "Q62100576",
+      "name": "Saladino Saladini Pilastri",
+      "birthYear": 1800,
+      "deathYear": 1861,
+      "source": "https://www.wikidata.org/wiki/Q62100576",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q64685976",
+      "wikidataId": "Q64685976",
+      "name": "Frances Maria Wilbraham",
+      "birthYear": 1816,
+      "deathYear": 1905,
+      "source": "https://www.wikidata.org/wiki/Q64685976",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q66361166",
+      "wikidataId": "Q66361166",
+      "name": "Isaac Newton Stevens",
+      "birthYear": 1858,
+      "deathYear": 1920,
+      "source": "https://www.wikidata.org/wiki/Q66361166",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q66499003",
+      "wikidataId": "Q66499003",
+      "name": "Theodosius III",
+      "birthYear": 1203,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q66499003",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q68710039",
+      "wikidataId": "Q68710039",
+      "name": "Darayan I",
+      "birthYear": -150,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q68710039",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75273210",
+      "wikidataId": "Q75273210",
+      "name": "Maria Theresa Gage",
+      "birthYear": 1762,
+      "deathYear": 1832,
+      "source": "https://www.wikidata.org/wiki/Q75273210",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75284155",
+      "wikidataId": "Q75284155",
+      "name": "Alexander Hamilton",
+      "birthYear": 1693,
+      "deathYear": 1781,
+      "source": "https://www.wikidata.org/wiki/Q75284155",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75286225",
+      "wikidataId": "Q75286225",
+      "name": "Lady Mary Stopford",
+      "birthYear": 1851,
+      "deathYear": 1937,
+      "source": "https://www.wikidata.org/wiki/Q75286225",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75385687",
+      "wikidataId": "Q75385687",
+      "name": "Winston Churchill",
+      "birthYear": 1649,
+      "deathYear": 1672,
+      "source": "https://www.wikidata.org/wiki/Q75385687",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75389753",
+      "wikidataId": "Q75389753",
+      "name": "Augustus Barrington Price Anne Powell Hamilton",
+      "birthYear": 1781,
+      "deathYear": 1849,
+      "source": "https://www.wikidata.org/wiki/Q75389753",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75448356",
+      "wikidataId": "Q75448356",
+      "name": "Mary Smyth",
+      "birthYear": 1824,
+      "deathYear": 1886,
+      "source": "https://www.wikidata.org/wiki/Q75448356",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75535496",
+      "wikidataId": "Q75535496",
+      "name": "Alexander Hamilton",
+      "birthYear": 1690,
+      "deathYear": 1768,
+      "source": "https://www.wikidata.org/wiki/Q75535496",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75609174",
+      "wikidataId": "Q75609174",
+      "name": "Winston Churchill Trench",
+      "birthYear": 1900,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q75609174",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75631099",
+      "wikidataId": "Q75631099",
+      "name": "Jane Austen",
+      "birthYear": 1826,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q75631099",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75766912",
+      "wikidataId": "Q75766912",
+      "name": "Thomas Jefferson",
+      "birthYear": 1679,
+      "deathYear": 1731,
+      "source": "https://www.wikidata.org/wiki/Q75766912",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75870115",
+      "wikidataId": "Q75870115",
+      "name": "Alexander Hamilton",
+      "birthYear": 1774,
+      "deathYear": 1852,
+      "source": "https://www.wikidata.org/wiki/Q75870115",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75875085",
+      "wikidataId": "Q75875085",
+      "name": "Alexander Hamilton",
+      "birthYear": 1587,
+      "deathYear": 1587,
+      "source": "https://www.wikidata.org/wiki/Q75875085",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75900806",
+      "wikidataId": "Q75900806",
+      "name": "Alexander Hamilton",
+      "birthYear": 1648,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q75900806",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q75905954",
+      "wikidataId": "Q75905954",
+      "name": "Mary Shelley",
+      "birthYear": 1690,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q75905954",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q76038300",
+      "wikidataId": "Q76038300",
+      "name": "Sir Justinian Isham, 8th Bt.",
+      "birthYear": 1773,
+      "deathYear": 1845,
+      "source": "https://www.wikidata.org/wiki/Q76038300",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q76166107",
+      "wikidataId": "Q76166107",
+      "name": "Mary Shelley",
+      "birthYear": 1895,
+      "deathYear": 1898,
+      "source": "https://www.wikidata.org/wiki/Q76166107",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q76231959",
+      "wikidataId": "Q76231959",
+      "name": "Alexander Hamilton",
+      "birthYear": 1829,
+      "deathYear": 1904,
+      "source": "https://www.wikidata.org/wiki/Q76231959",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q76246015",
+      "wikidataId": "Q76246015",
+      "name": "James Cook",
+      "birthYear": 1763,
+      "deathYear": 1794,
+      "source": "https://www.wikidata.org/wiki/Q76246015",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q76271092",
+      "wikidataId": "Q76271092",
+      "name": "Alexander Hamilton",
+      "birthYear": 1829,
+      "deathYear": 1911,
+      "source": "https://www.wikidata.org/wiki/Q76271092",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q76365683",
+      "wikidataId": "Q76365683",
+      "name": "Alexander Hamilton",
+      "birthYear": 1727,
+      "deathYear": 1786,
+      "source": "https://www.wikidata.org/wiki/Q76365683",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q87746162",
+      "wikidataId": "Q87746162",
+      "name": "Hippokrates Autokrator Nikephoros",
+      "birthYear": -100,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q87746162",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q94402465",
+      "wikidataId": "Q94402465",
+      "name": "Darius Holbrook Ingraham",
+      "birthYear": 1837,
+      "deathYear": 1923,
+      "source": "https://www.wikidata.org/wiki/Q94402465",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q96085049",
+      "wikidataId": "Q96085049",
+      "name": "Jane Austen",
+      "birthYear": 1655,
+      "deathYear": 1717,
+      "source": "https://www.wikidata.org/wiki/Q96085049",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q96199930",
+      "wikidataId": "Q96199930",
+      "name": "Thomas Jefferson",
+      "birthYear": 1640,
+      "deathYear": 1697,
+      "source": "https://www.wikidata.org/wiki/Q96199930",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q97579551",
+      "wikidataId": "Q97579551",
+      "name": "Aristotle Michal",
+      "birthYear": 1899,
+      "deathYear": 1953,
+      "source": "https://www.wikidata.org/wiki/Q97579551",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q100386065",
+      "wikidataId": "Q100386065",
+      "name": "Karl Marx",
+      "birthYear": 1777,
+      "deathYear": 1830,
+      "source": "https://www.wikidata.org/wiki/Q100386065",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q100753243",
+      "wikidataId": "Q100753243",
+      "name": "Hannibal Charles Hamilton",
+      "birthYear": 1812,
+      "deathYear": 1902,
+      "source": "https://www.wikidata.org/wiki/Q100753243",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q100895777",
+      "wikidataId": "Q100895777",
+      "name": "Thomas Jefferson Dalton",
+      "birthYear": 1848,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q100895777",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q102413149",
+      "wikidataId": "Q102413149",
+      "name": "Vincent van Gogh (Uncle Cent)",
+      "birthYear": 1820,
+      "deathYear": 1888,
+      "source": "https://www.wikidata.org/wiki/Q102413149",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q102441871",
+      "wikidataId": "Q102441871",
+      "name": "Vincent van Gogh",
+      "birthYear": 1866,
+      "deathYear": 1911,
+      "source": "https://www.wikidata.org/wiki/Q102441871",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q104677561",
+      "wikidataId": "Q104677561",
+      "name": "Thomas Jefferson Moncure",
+      "birthYear": 1832,
+      "deathYear": 1912,
+      "source": "https://www.wikidata.org/wiki/Q104677561",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q105070512",
+      "wikidataId": "Q105070512",
+      "name": "Benjamin Franklin French",
+      "birthYear": 1799,
+      "deathYear": 1887,
+      "source": "https://www.wikidata.org/wiki/Q105070512",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q105367341",
+      "wikidataId": "Q105367341",
+      "name": "Karl Marx",
+      "birthYear": 1890,
+      "deathYear": 1940,
+      "source": "https://www.wikidata.org/wiki/Q105367341",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q106222154",
+      "wikidataId": "Q106222154",
+      "name": "Isaac Newton Kershaw",
+      "birthYear": 1849,
+      "deathYear": 1923,
+      "source": "https://www.wikidata.org/wiki/Q106222154",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q106642066",
+      "wikidataId": "Q106642066",
+      "name": "James Oliver Cook",
+      "birthYear": 1842,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q106642066",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q106805905",
+      "wikidataId": "Q106805905",
+      "name": "Claudius Lucien Dedichen",
+      "birthYear": 1867,
+      "deathYear": 1944,
+      "source": "https://www.wikidata.org/wiki/Q106805905",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q106841718",
+      "wikidataId": "Q106841718",
+      "name": "James Cook",
+      "birthYear": 1811,
+      "deathYear": 1832,
+      "source": "https://www.wikidata.org/wiki/Q106841718",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q106847235",
+      "wikidataId": "Q106847235",
+      "name": "Theodora Bruce Bendall",
+      "birthYear": 1842,
+      "deathYear": 1913,
+      "source": "https://www.wikidata.org/wiki/Q106847235",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q106889054",
+      "wikidataId": "Q106889054",
+      "name": "Isaac Newton Crosby",
+      "birthYear": 1824,
+      "deathYear": 1907,
+      "source": "https://www.wikidata.org/wiki/Q106889054",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q106906446",
+      "wikidataId": "Q106906446",
+      "name": "Benjamin Franklin Cook",
+      "birthYear": 1833,
+      "deathYear": 1915,
+      "source": "https://www.wikidata.org/wiki/Q106906446",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q106921810",
+      "wikidataId": "Q106921810",
+      "name": "Isaac Newton Hathaway",
+      "birthYear": 1819,
+      "deathYear": 1892,
+      "source": "https://www.wikidata.org/wiki/Q106921810",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q106921811",
+      "wikidataId": "Q106921811",
+      "name": "Isaac Newton Keith",
+      "birthYear": 1838,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q106921811",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q107107494",
+      "wikidataId": "Q107107494",
+      "name": "Christopher Columbus Denny",
+      "birthYear": 1813,
+      "deathYear": 1895,
+      "source": "https://www.wikidata.org/wiki/Q107107494",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q107107562",
+      "wikidataId": "Q107107562",
+      "name": "Isaac Newton Ross",
+      "birthYear": 1824,
+      "deathYear": 1881,
+      "source": "https://www.wikidata.org/wiki/Q107107562",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q107174535",
+      "wikidataId": "Q107174535",
+      "name": "Elizabeth Imlay Horner",
+      "birthYear": 1826,
+      "deathYear": 1901,
+      "source": "https://www.wikidata.org/wiki/Q107174535",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q107279015",
+      "wikidataId": "Q107279015",
+      "name": "Mary Shelley",
+      "birthYear": 1537,
+      "deathYear": 1600,
+      "source": "https://www.wikidata.org/wiki/Q107279015",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q107598648",
+      "wikidataId": "Q107598648",
+      "name": "Q107598648",
+      "birthYear": 1851,
+      "deathYear": 1929,
+      "source": "https://www.wikidata.org/wiki/Q107598648",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q108060835",
+      "wikidataId": "Q108060835",
+      "name": "Benjamin Franklin Hancock",
+      "birthYear": 1800,
+      "deathYear": 1867,
+      "source": "https://www.wikidata.org/wiki/Q108060835",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q108179684",
+      "wikidataId": "Q108179684",
+      "name": "Thomas Jefferson Taylor I",
+      "birthYear": 1845,
+      "deathYear": 1883,
+      "source": "https://www.wikidata.org/wiki/Q108179684",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q108179831",
+      "wikidataId": "Q108179831",
+      "name": "Thomas Jefferson Barrett",
+      "birthYear": 1855,
+      "deathYear": 1928,
+      "source": "https://www.wikidata.org/wiki/Q108179831",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q108294687",
+      "wikidataId": "Q108294687",
+      "name": "Tiberius Reytsma",
+      "birthYear": 1736,
+      "deathYear": 1760,
+      "source": "https://www.wikidata.org/wiki/Q108294687",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q108679324",
+      "wikidataId": "Q108679324",
+      "name": "Thomas Jefferson Littleton",
+      "birthYear": 1830,
+      "deathYear": 1915,
+      "source": "https://www.wikidata.org/wiki/Q108679324",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q108903631",
+      "wikidataId": "Q108903631",
+      "name": "Elizabeth Ives",
+      "birthYear": 1725,
+      "deathYear": 1773,
+      "source": "https://www.wikidata.org/wiki/Q108903631",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q109536209",
+      "wikidataId": "Q109536209",
+      "name": "Karl von Marx",
+      "birthYear": 1832,
+      "deathYear": 1890,
+      "source": "https://www.wikidata.org/wiki/Q109536209",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q109581118",
+      "wikidataId": "Q109581118",
+      "name": "George Washington",
+      "birthYear": 1830,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q109581118",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q109629057",
+      "wikidataId": "Q109629057",
+      "name": "Isaac Newton Maynard",
+      "birthYear": 1849,
+      "deathYear": 1936,
+      "source": "https://www.wikidata.org/wiki/Q109629057",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q109649887",
+      "wikidataId": "Q109649887",
+      "name": "Tiberius Burger",
+      "birthYear": 1886,
+      "deathYear": 1961,
+      "source": "https://www.wikidata.org/wiki/Q109649887",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q109852755",
+      "wikidataId": "Q109852755",
+      "name": "Vincent van Gogh",
+      "birthYear": 1674,
+      "deathYear": 1746,
+      "source": "https://www.wikidata.org/wiki/Q109852755",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q109859326",
+      "wikidataId": "Q109859326",
+      "name": "Trajano Augusto de Carvalho",
+      "birthYear": 1876,
+      "deathYear": 1942,
+      "source": "https://www.wikidata.org/wiki/Q109859326",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q110016714",
+      "wikidataId": "Q110016714",
+      "name": "Benjamin Franklin Smith",
+      "birthYear": 1830,
+      "deathYear": 1927,
+      "source": "https://www.wikidata.org/wiki/Q110016714",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q110180967",
+      "wikidataId": "Q110180967",
+      "name": "James Cook",
+      "birthYear": 1853,
+      "deathYear": 1934,
+      "source": "https://www.wikidata.org/wiki/Q110180967",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q110304875",
+      "wikidataId": "Q110304875",
+      "name": "Claudius Montessuit",
+      "birthYear": 1887,
+      "deathYear": 1963,
+      "source": "https://www.wikidata.org/wiki/Q110304875",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q111507461",
+      "wikidataId": "Q111507461",
+      "name": "Elizabeth Izard",
+      "birthYear": 1720,
+      "deathYear": 1759,
+      "source": "https://www.wikidata.org/wiki/Q111507461",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q112064760",
+      "wikidataId": "Q112064760",
+      "name": "Socrates Spiro",
+      "birthYear": 1868,
+      "deathYear": 1932,
+      "source": "https://www.wikidata.org/wiki/Q112064760",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q112131375",
+      "wikidataId": "Q112131375",
+      "name": "Benjamin Franklin Hardin",
+      "birthYear": 1803,
+      "deathYear": 1878,
+      "source": "https://www.wikidata.org/wiki/Q112131375",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q112379527",
+      "wikidataId": "Q112379527",
+      "name": "Isaac Newton Kugelmass",
+      "birthYear": 1896,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q112379527",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q113001474",
+      "wikidataId": "Q113001474",
+      "name": "Florence Nightingale Nason",
+      "birthYear": 1857,
+      "deathYear": 1952,
+      "source": "https://www.wikidata.org/wiki/Q113001474",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q113379269",
+      "wikidataId": "Q113379269",
+      "name": "Napoleon B. Laughlin",
+      "birthYear": 1844,
+      "deathYear": 1924,
+      "source": "https://www.wikidata.org/wiki/Q113379269",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q113956613",
+      "wikidataId": "Q113956613",
+      "name": "Thomas Jefferson Kirkland",
+      "birthYear": 1860,
+      "deathYear": 1936,
+      "source": "https://www.wikidata.org/wiki/Q113956613",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q115668546",
+      "wikidataId": "Q115668546",
+      "name": "Marcus Aurelius Cotta",
+      "birthYear": -200,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q115668546",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q116151955",
+      "wikidataId": "Q116151955",
+      "name": "Darius Ingraham Fillmore",
+      "birthYear": 1814,
+      "deathYear": 1837,
+      "source": "https://www.wikidata.org/wiki/Q116151955",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q116790678",
+      "wikidataId": "Q116790678",
+      "name": "James Cook",
+      "birthYear": 1785,
+      "deathYear": 1872,
+      "source": "https://www.wikidata.org/wiki/Q116790678",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q116931132",
+      "wikidataId": "Q116931132",
+      "name": "Isaac Newton Lewis III",
+      "birthYear": 1812,
+      "deathYear": 1887,
+      "source": "https://www.wikidata.org/wiki/Q116931132",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q116931943",
+      "wikidataId": "Q116931943",
+      "name": "Napoleon Bonaparte Moore",
+      "birthYear": 1832,
+      "deathYear": 1910,
+      "source": "https://www.wikidata.org/wiki/Q116931943",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q120340958",
+      "wikidataId": "Q120340958",
+      "name": "Florence Nightingale Ward",
+      "birthYear": 1860,
+      "deathYear": 1919,
+      "source": "https://www.wikidata.org/wiki/Q120340958",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q120479697",
+      "wikidataId": "Q120479697",
+      "name": "Isaac Newton Clark",
+      "birthYear": 1833,
+      "deathYear": 1917,
+      "source": "https://www.wikidata.org/wiki/Q120479697",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q120482247",
+      "wikidataId": "Q120482247",
+      "name": "Isaac Newton Snyder",
+      "birthYear": 1846,
+      "deathYear": 1920,
+      "source": "https://www.wikidata.org/wiki/Q120482247",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q121069103",
+      "wikidataId": "Q121069103",
+      "name": "Claudius",
+      "birthYear": 600,
+      "deathYear": 700,
+      "source": "https://www.wikidata.org/wiki/Q121069103",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q121141388",
+      "wikidataId": "Q121141388",
+      "name": "Michelangelo Senese",
+      "birthYear": 1470,
+      "deathYear": 1520,
+      "source": "https://www.wikidata.org/wiki/Q121141388",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q124175447",
+      "wikidataId": "Q124175447",
+      "name": "Isaac Newton Alexander",
+      "birthYear": 1832,
+      "deathYear": 1890,
+      "source": "https://www.wikidata.org/wiki/Q124175447",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q124772652",
+      "wikidataId": "Q124772652",
+      "name": "Ibn sinaah",
+      "birthYear": 1633,
+      "deathYear": 1772,
+      "source": "https://www.wikidata.org/wiki/Q124772652",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q124907824",
+      "wikidataId": "Q124907824",
+      "name": "Isaac Newton Failor",
+      "birthYear": 1851,
+      "deathYear": 1925,
+      "source": "https://www.wikidata.org/wiki/Q124907824",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q125534881",
+      "wikidataId": "Q125534881",
+      "name": "Napoleon Bonaparte Maxey",
+      "birthYear": 1853,
+      "deathYear": 1930,
+      "source": "https://www.wikidata.org/wiki/Q125534881",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q127272576",
+      "wikidataId": "Q127272576",
+      "name": "Napoleon Bonaparte McCanless",
+      "birthYear": 1851,
+      "deathYear": 1920,
+      "source": "https://www.wikidata.org/wiki/Q127272576",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q130453882",
+      "wikidataId": "Q130453882",
+      "name": "Isaac Newton Lewis",
+      "birthYear": 1848,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q130453882",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131069394",
+      "wikidataId": "Q131069394",
+      "name": "Alexander Hamilton",
+      "birthYear": 1797,
+      "deathYear": 1884,
+      "source": "https://www.wikidata.org/wiki/Q131069394",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131424759",
+      "wikidataId": "Q131424759",
+      "name": "Marco Polo",
+      "birthYear": 1899,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q131424759",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q132201451",
+      "wikidataId": "Q132201451",
+      "name": "Isaac Newton Blodgett",
+      "birthYear": 1838,
+      "deathYear": 1905,
+      "source": "https://www.wikidata.org/wiki/Q132201451",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q132728375",
+      "wikidataId": "Q132728375",
+      "name": "I. N. Danforth",
+      "birthYear": 1835,
+      "deathYear": 1911,
+      "source": "https://www.wikidata.org/wiki/Q132728375",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q133250012",
+      "wikidataId": "Q133250012",
+      "name": "Q133250012",
+      "birthYear": 1890,
+      "deathYear": null,
+      "source": "https://www.wikidata.org/wiki/Q133250012",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q136379638",
+      "wikidataId": "Q136379638",
+      "name": "Maria Theresa Moore",
+      "birthYear": 1784,
+      "deathYear": 1855,
+      "source": "https://www.wikidata.org/wiki/Q136379638",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q137883090",
+      "wikidataId": "Q137883090",
+      "name": "Florence Nightingale Coleman",
+      "birthYear": 1858,
+      "deathYear": 1910,
+      "source": "https://www.wikidata.org/wiki/Q137883090",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q139005086",
+      "wikidataId": "Q139005086",
+      "name": "Q139005086",
+      "birthYear": 1886,
+      "deathYear": 1964,
+      "source": "https://www.wikidata.org/wiki/Q139005086",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q140635501",
+      "wikidataId": "Q140635501",
+      "name": "Florence Nightingale Sims",
+      "birthYear": 1855,
+      "deathYear": 1915,
+      "source": "https://www.wikidata.org/wiki/Q140635501",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q140866286",
+      "wikidataId": "Q140866286",
+      "name": "Maria Theresa Gaudi",
+      "birthYear": 1765,
+      "deathYear": 1844,
+      "source": "https://www.wikidata.org/wiki/Q140866286",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q141127615",
+      "wikidataId": "Q141127615",
+      "name": "Ibn Sinān",
+      "birthYear": 1562,
+      "deathYear": 1628,
+      "source": "https://www.wikidata.org/wiki/Q141127615",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q141636918",
+      "wikidataId": "Q141636918",
+      "name": "Claudius NN",
+      "birthYear": 825,
+      "deathYear": 900,
+      "source": "https://www.wikidata.org/wiki/Q141636918",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q141878457",
+      "wikidataId": "Q141878457",
+      "name": "Q141878457",
+      "birthYear": 1796,
+      "deathYear": 1860,
+      "source": "https://www.wikidata.org/wiki/Q141878457",
       "reviewStatus": "unreviewed",
       "location": null
     }
