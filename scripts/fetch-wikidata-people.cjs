@@ -1,47 +1,49 @@
 #!/usr/bin/env node
 'use strict';
-// Import Wikidata people as a provenance-preserving catalogue, not map pins.
-// Birth and death dates are asserted claims, not verified biographies.
+// Wikidata MediaWiki API importer: avoids expensive SPARQL scans.
+// Search is discovery only; entity P31=human and birth-date claims are checked.
 const fs=require('node:fs');
-const pageSize=100,maxPages=10;
-const delay=ms=>new Promise(r=>setTimeout(r,ms));
-const query=(offset)=>`SELECT ?person ?personLabel ?birth ?death WHERE {
- { SELECT ?person WHERE { ?person wdt:P31 wd:Q5 . } ORDER BY ?person LIMIT ${pageSize} OFFSET ${offset} }
- OPTIONAL { ?person wdt:P569 ?birth }
- OPTIONAL { ?person wdt:P570 ?death }
- SERVICE wikibase:label { bd:serviceParam wikibase:language "en,hu". }
-} ORDER BY ?person`;
-const year=v=>{const m=String(v||'').match(/^([+-]?\d+)-\d\d-\d\dT/);return m?Number(m[1]):null};
-async function fetchPage(offset){
- const url='https://query.wikidata.org/sparql?'+new URLSearchParams({query:query(offset),format:'json'});
- for(let attempt=0;attempt<2;attempt++){
+const api='https://www.wikidata.org/w/api.php';
+const terms=['Roman emperor','Roman general','ancient Greek philosopher','ancient Egyptian pharaoh','medieval king','medieval queen','Renaissance scientist','Renaissance artist','historian','astronomer','mathematician','explorer','inventor','composer','Napoleonic general','scientist','political philosopher','medieval scholar','Chinese emperor','Mongol ruler'];
+const seed=['Q1048','Q635','Q720','Q91','Q1035','Q1233','Q859','Q692','Q762','Q1426','Q7259','Q1339','Q937','Q7186','Q5582','Q5879','Q9036','Q8007','Q8462','Q4965','Q5715','Q1067','Q260','Q22670','Q9061','Q7245'];
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+async function request(params){
+ const url=api+'?'+new URLSearchParams({...params,format:'json'});
+ for(let n=0;n<3;n++){
   try{
-   const r=await fetch(url,{headers:{Accept:'application/sparql-results+json','User-Agent':'ChronoEarthHistoricalDatabase/0.2 (https://github.com/scarab0793/chronoearth)'},signal:AbortSignal.timeout(25000)});
-   if(!r.ok)throw Error('Wikidata HTTP '+r.status);
-   const j=await r.json();if(!Array.isArray(j.results?.bindings))throw Error('Invalid SPARQL response');
-   return j.results.bindings;
-  }catch(e){if(attempt===1)throw e;await delay(2500)}
+   const r=await fetch(url,{headers:{'User-Agent':'ChronoEarthHistoricalDatabase/0.3 (https://github.com/scarab0793/chronoearth)'},signal:AbortSignal.timeout(20000)});
+   if(!r.ok)throw Error('Wikidata API '+r.status);
+   const data=await r.json();if(data.error)throw Error(JSON.stringify(data.error));return data;
+  }catch(e){if(n===2)throw e;await wait(1500*(n+1))}
  }
 }
+const claim=(e,p)=>e.claims?.[p]?.find(c=>c.mainsnak?.snaktype==='value')?.mainsnak?.datavalue?.value;
+const years=v=>{if(!v?.time)return null;const m=v.time.match(/^([+-])(\d+)-/);if(!m)return null;const y=Number(m[2])*(m[1]==='-'?-1:1);return Number.isSafeInteger(y)?y:null};
 async function main(){
- const people=new Map();
- for(let i=0;i<maxPages;i++){
-  const rows=await fetchPage(i*pageSize);
-  for(const row of rows){
-   const v=k=>row[k]?.value;
-   const id=String(v('person')||'').match(/\/entity\/(Q[1-9]\d*)$/)?.[1];
-   const from=year(v('birth')),to=year(v('death'));
-   if(!id||!Number.isSafeInteger(from)||from>1900||to!==null&&(!Number.isSafeInteger(to)||to<from))continue;
-   if(!people.has(id))people.set(id,{id:'wikidata:'+id,wikidataId:id,name:v('personLabel')||id,birthYear:from,deathYear:to,source:'https://www.wikidata.org/wiki/'+id,reviewStatus:'unreviewed',location:null});
-  }
-  console.log('Page '+(i+1)+': '+rows.length+' results; '+people.size+' distinct people');
-  if(rows.length<pageSize)break;
-  await delay(1500);
+ const ids=new Set(seed);
+ for(const term of terms){
+  const data=await request({action:'wbsearchentities',search:term,language:'en',type:'item',limit:'50'});
+  for(const hit of data.search||[])if(/^Q[1-9]\d*$/.test(hit.id))ids.add(hit.id);
+  await wait(250);
  }
- if(!people.size)throw Error('No valid records; existing catalogue unchanged');
- const records=[...people.values()].sort((a,b)=>a.wikidataId.localeCompare(b.wikidataId,undefined,{numeric:true}));
+ const people=new Map(),all=[...ids];
+ for(let i=0;i<all.length;i+=40){
+  const data=await request({action:'wbgetentities',ids:all.slice(i,i+40).join('|'),props:'labels|claims',languages:'en|hu'});
+  for(const [id,e] of Object.entries(data.entities||{})){
+   if(e.missing)continue;
+   const instance=e.claims?.P31||[];
+   if(!instance.some(c=>c.mainsnak?.datavalue?.value?.id==='Q5'))continue;
+   const birth=years(claim(e,'P569')),death=years(claim(e,'P570'));
+   if(!Number.isSafeInteger(birth)||birth>1900||death!==null&&(!Number.isSafeInteger(death)||death<birth))continue;
+   people.set(id,{id:'wikidata:'+id,wikidataId:id,name:e.labels?.en?.value||e.labels?.hu?.value||id,birthYear:birth,deathYear:death,source:'https://www.wikidata.org/wiki/'+id,reviewStatus:'unreviewed',location:null});
+  }
+  console.log('Processed '+Math.min(i+40,all.length)+' of '+all.length+' candidates; '+people.size+' historical people');
+  await wait(300);
+ }
+ if(!people.size)throw Error('No verified-human historical records; existing data unchanged');
  fs.mkdirSync('data/imports',{recursive:true});
- fs.writeFileSync('data/imports/wikidata-people.json',JSON.stringify({schemaVersion:1,source:'Wikidata SPARQL',importedAt:new Date().toISOString(),reviewStatus:'unreviewed',people:records},null,2)+'\n');
- console.log('Imported '+records.length+' people');
+ const records=[...people.values()].sort((a,b)=>a.wikidataId.localeCompare(b.wikidataId,undefined,{numeric:true}));
+ fs.writeFileSync('data/imports/wikidata-people.json',JSON.stringify({schemaVersion:2,source:'Wikidata MediaWiki API',importedAt:new Date().toISOString(),reviewStatus:'unreviewed',people:records},null,2)+'\n');
+ console.log('Imported '+records.length+' historical people');
 }
 main().catch(e=>{console.error(e);process.exitCode=1});
