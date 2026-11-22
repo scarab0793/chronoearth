@@ -1,0 +1,38 @@
+name: Import Wikidata historical people
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-wikidata-people.yml'
+      - 'scripts/fetch-wikidata-people.cjs'
+  workflow_dispatch:
+  schedule:
+    - cron: '40 4 * * 2'
+permissions:
+  contents: write
+concurrency:
+  group: wikidata-people-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch historical people
+        run: node scripts/fetch-wikidata-people.cjs
+      - name: Verify people catalogue
+        run: node -e "const x=require('./data/imports/wikidata-people.json');if(!Array.isArray(x.people)||!x.people.length||x.people.some(p=>!p.wikidataId||!Number.isInteger(p.birthYear)))process.exit(1)"
+      - name: Commit historical people
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/imports/wikidata-people.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh Wikidata historical people"
+            git pull --rebase origin main
+            git push
+          fi
