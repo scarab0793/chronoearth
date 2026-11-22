@@ -1,10 +1,36 @@
 {
   "schemaVersion": 1,
   "source": "Wikidata MediaWiki API",
-  "importedAt": "2026-11-22T16:25:11.701Z",
+  "importedAt": "2026-11-22T16:49:42.871Z",
   "reviewStatus": "unreviewed",
   "note": "Candidate event catalogue; each item needs historical type and date review.",
   "events": [
+    {
+      "id": "wikidata:Q76026",
+      "wikidataId": "Q76026",
+      "name": "Greco-Persian Wars",
+      "year": -499,
+      "description": "series of conflicts between the Achaemenid Empire of Persia and poleis of the Hellenic world in the fifth century BCE",
+      "typeIds": [
+        "Q104212151"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q76026",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12411113",
+      "wikidataId": "Q12411113",
+      "name": "Battle of Salamis of Cyprus",
+      "year": -497,
+      "description": "497 BCE naval battle",
+      "typeIds": [
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12411113",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
     {
       "id": "wikidata:Q31900",
       "wikidataId": "Q31900",
@@ -33,6 +59,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q178850",
+      "wikidataId": "Q178850",
+      "name": "Battle of Salamis",
+      "year": -480,
+      "description": "480 BCE naval battle fought between an alliance of Greek city-states and the Persian Empire",
+      "typeIds": [
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q178850",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q204636",
+      "wikidataId": "Q204636",
+      "name": "Battle of Plataea",
+      "year": -479,
+      "description": "479 BCE land battle during the second Persian invasion of Greece",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q204636",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q12877559",
       "wikidataId": "Q12877559",
       "name": "Battle of Marathon",
@@ -42,6 +94,45 @@
         "Q3305213"
       ],
       "source": "https://www.wikidata.org/wiki/Q12877559",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q9173813",
+      "wikidataId": "Q9173813",
+      "name": "Battle of Actium",
+      "year": -435,
+      "description": "435 BC naval battle",
+      "typeIds": [
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q9173813",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q11908757",
+      "wikidataId": "Q11908757",
+      "name": "Battle of Plataea",
+      "year": -431,
+      "description": "430 BCE battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q11908757",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q33745",
+      "wikidataId": "Q33745",
+      "name": "Peloponnesian War",
+      "year": -431,
+      "description": "war fought between Athens and Sparta (431–404 BCE)",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q33745",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -60,6 +151,98 @@
       "location": null
     },
     {
+      "id": "wikidata:Q201526",
+      "wikidataId": "Q201526",
+      "name": "Battle of Issus",
+      "year": -333,
+      "description": "second great battle of Alexander's conquest of Asia",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q201526",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q179670",
+      "wikidataId": "Q179670",
+      "name": "Battle of Gaugamela",
+      "year": -331,
+      "description": "decisive battle of Alexander the Great's invasion of the Persian Achaemenid Empire",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q179670",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4872060",
+      "wikidataId": "Q4872060",
+      "name": "Battle of Plataea",
+      "year": -323,
+      "description": "battle during the Lamian War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4872060",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1247317",
+      "wikidataId": "Q1247317",
+      "name": "Battle of Salamis",
+      "year": -306,
+      "description": "naval battle during the Wars of the Diadochi",
+      "typeIds": [
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1247317",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q124988",
+      "wikidataId": "Q124988",
+      "name": "Punic Wars",
+      "year": -264,
+      "description": "series of three wars fought between Rome and Carthage from 264 BC to 146 BC, at the time probably the largest wars that had ever taken place",
+      "typeIds": [
+        "Q104212151",
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q124988",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q179591",
+      "wikidataId": "Q179591",
+      "name": "Battle of Cannae",
+      "year": -216,
+      "description": "major battle of the Second Punic War (216 BCE)",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q179591",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q200056",
+      "wikidataId": "Q200056",
+      "name": "Battle of Zama",
+      "year": -202,
+      "description": "final battle of the Second Punic War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q200056",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q783058",
       "wikidataId": "Q783058",
       "name": "Battle of Thermopylae",
@@ -69,6 +252,112 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q783058",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131386",
+      "wikidataId": "Q131386",
+      "name": "Battle of Alesia",
+      "year": -52,
+      "description": "decisive Roman victory in which Rome secures the conquest of Gaul",
+      "typeIds": [
+        "Q178561",
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q131386",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q203681",
+      "wikidataId": "Q203681",
+      "name": "Battle of Pharsalus",
+      "year": -48,
+      "description": "48 BCE decisive battle of Caesar's Civil War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q203681",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2889520",
+      "wikidataId": "Q2889520",
+      "name": "Battle of Nicopolis",
+      "year": -48,
+      "description": "48 BCE battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2889520",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q160387",
+      "wikidataId": "Q160387",
+      "name": "Battle of Actium",
+      "year": -31,
+      "description": "31 BCE decisive confrontation of the Final War of the Roman Republic",
+      "typeIds": [
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q160387",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q599141",
+      "wikidataId": "Q599141",
+      "name": "Antonine Plague",
+      "year": 165,
+      "description": "pandemic",
+      "typeIds": [
+        "Q12184",
+        "Q12214"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q599141",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2170603",
+      "wikidataId": "Q2170603",
+      "name": "Battle of Issus",
+      "year": 194,
+      "description": "battle between Septimius Severus and Pescennius Niger (194)",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2170603",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q133331",
+      "wikidataId": "Q133331",
+      "name": "First Council of Nicaea",
+      "year": 325,
+      "description": "council of Christian bishops in Nicaea, 325",
+      "typeIds": [
+        "Q51645"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q133331",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q192473",
+      "wikidataId": "Q192473",
+      "name": "Battle of Adrianople",
+      "year": 378,
+      "description": "378 battle between Roman Empire and Goths",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q192473",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -83,6 +372,73 @@
         "Q192623"
       ],
       "source": "https://www.wikidata.org/wiki/Q1463845",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q608613",
+      "wikidataId": "Q608613",
+      "name": "fall of the western Roman Empire",
+      "year": 476,
+      "description": "loss of central political control in the Western Roman Empire in late antiquity",
+      "typeIds": [
+        "Q18603729",
+        "Q945895"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q608613",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q821711",
+      "wikidataId": "Q821711",
+      "name": "Plague of Justinian",
+      "year": 541,
+      "description": "541–549 AD pandemic in the Byzantine Empire, later northern Europe",
+      "typeIds": [
+        "Q12184",
+        "Q133780"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q821711",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q570140",
+      "wikidataId": "Q570140",
+      "name": "Taika Reform",
+      "year": 645,
+      "description": "set of doctrines established by Emperor Kōtoku",
+      "typeIds": [
+        "Q6103541"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q570140",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q173077",
+      "wikidataId": "Q173077",
+      "name": "Battle of Tours",
+      "year": 732,
+      "description": "battle fought in 732 by Merovingian Franks against the Umayyad Caliphate",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q173077",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q492415",
+      "wikidataId": "Q492415",
+      "name": "Battle of Talas",
+      "year": 751,
+      "description": "751 battle between the Abbasid Caliphate and the Chinese Tang dynasty",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q492415",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -114,6 +470,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q608438",
+      "wikidataId": "Q608438",
+      "name": "Battle of Cannae (1018)",
+      "year": 1018,
+      "description": "1018 battle during the Norman conquest of Italy",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q608438",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3636516",
+      "wikidataId": "Q3636516",
+      "name": "Siege of Manzikert",
+      "year": 1054,
+      "description": "1054 siege",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3636516",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q83224",
       "wikidataId": "Q83224",
       "name": "Battle of Hastings",
@@ -123,6 +505,19 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q83224",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q200032",
+      "wikidataId": "Q200032",
+      "name": "Battle of Manzikert",
+      "year": 1071,
+      "description": "1071 battle between the Byzantine Empire and Seljuk Turks",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q200032",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -140,6 +535,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q233568",
+      "wikidataId": "Q233568",
+      "name": "Battle of Hattin",
+      "year": 1187,
+      "description": "Victory of Ayyubid forces under Saladin against Crusader joint forces, 1187",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q233568",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q51656",
       "wikidataId": "Q51656",
       "name": "Fourth Crusade",
@@ -149,6 +557,19 @@
         "Q1827102"
       ],
       "source": "https://www.wikidata.org/wiki/Q51656",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1427630",
+      "wikidataId": "Q1427630",
+      "name": "Battle of Adrianople",
+      "year": 1205,
+      "description": "part of the Fourth Crusade, in which the Bulgarians defeated the Crusaders",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1427630",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -166,6 +587,32 @@
         "Q7755"
       ],
       "source": "https://www.wikidata.org/wiki/Q12519",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q97999945",
+      "wikidataId": "Q97999945",
+      "name": "Battle of Tsushima (1274)",
+      "year": 1274,
+      "description": "1274 Yuan victory over the Kamakura Shogunate",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q97999945",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q392797",
+      "wikidataId": "Q392797",
+      "name": "Battle of Pharsalus",
+      "year": 1277,
+      "description": "1277 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q392797",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -197,6 +644,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q210354",
+      "wikidataId": "Q210354",
+      "name": "Battle of Kulikovo",
+      "year": 1380,
+      "description": "1380 battle between Russian principalities and Golden Horde",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q210354",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q212220",
+      "wikidataId": "Q212220",
+      "name": "Battle of Nicopolis",
+      "year": 1396,
+      "description": "Ottoman victory and raising of the siege of the fortress of Nicopolis in September 1396",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q212220",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q188495",
       "wikidataId": "Q188495",
       "name": "Battle of Agincourt",
@@ -207,6 +680,20 @@
         "Q40890151"
       ],
       "source": "https://www.wikidata.org/wiki/Q188495",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q392213",
+      "wikidataId": "Q392213",
+      "name": "Siege of Orléans",
+      "year": 1428,
+      "description": "siege in 1428-29",
+      "typeIds": [
+        "Q188055",
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q392213",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -222,6 +709,32 @@
         "Q1361229"
       ],
       "source": "https://www.wikidata.org/wiki/Q160077",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q20537847",
+      "wikidataId": "Q20537847",
+      "name": "Battle of Pharsalus and the Beheading of Pompey",
+      "year": 1460,
+      "description": "painting by Apollonio di Giovanni di Tomaso",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q20537847",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q559400",
+      "wikidataId": "Q559400",
+      "name": "Treaty of Utrecht",
+      "year": 1474,
+      "description": "treaty following the Anglo-Hanseatic war",
+      "typeIds": [
+        "Q131569"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q559400",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -252,6 +765,46 @@
       "location": null
     },
     {
+      "id": "wikidata:Q12562",
+      "wikidataId": "Q12562",
+      "name": "Protestant Reformation",
+      "year": 1517,
+      "description": "16th-century movement in Western Christianity",
+      "typeIds": [
+        "Q1128340",
+        "Q126288065"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12562",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q593267",
+      "wikidataId": "Q593267",
+      "name": "Fall of Tenochtitlan",
+      "year": 1521,
+      "description": "investment, capture and fall of Tenochtitlan by the Spanish Empire",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q593267",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q178510",
+      "wikidataId": "Q178510",
+      "name": "Battle of Mohács",
+      "year": 1526,
+      "description": "1526 major battle in 16th-century Central Europe",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q178510",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q207576",
       "wikidataId": "Q207576",
       "name": "First Turkish Siege of Vienna",
@@ -276,6 +829,178 @@
         "Q3839081"
       ],
       "source": "https://www.wikidata.org/wiki/Q2877472",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q172991",
+      "wikidataId": "Q172991",
+      "name": "Council of Trent",
+      "year": 1545,
+      "description": "19th Ecumenical Council of the Catholic Church",
+      "typeIds": [
+        "Q51645"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q172991",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q138481241",
+      "wikidataId": "Q138481241",
+      "name": "second period of the Council of Trent",
+      "year": 1551,
+      "description": "(1551–1552)",
+      "typeIds": [
+        "Q11514315",
+        "Q138482019",
+        "Q186081"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q138481241",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q154577",
+      "wikidataId": "Q154577",
+      "name": "Peace of Augsburg",
+      "year": 1555,
+      "description": "1555 peace treaty",
+      "typeIds": [
+        "Q625298"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154577",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q19885891",
+      "wikidataId": "Q19885891",
+      "name": "Siege of Orléans",
+      "year": 1563,
+      "description": "siege in 1563",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q19885891",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q165425",
+      "wikidataId": "Q165425",
+      "name": "Battle of Lepanto",
+      "year": 1571,
+      "description": "1571 naval battle between the Holy League and the Ottoman Empire",
+      "typeIds": [
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q165425",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q28810532",
+      "wikidataId": "Q28810532",
+      "name": "Battle of Zama",
+      "year": 1580,
+      "description": "painting by Roviale Spagnolo",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q28810532",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q125178968",
+      "wikidataId": "Q125178968",
+      "name": "Battle of Tours",
+      "year": 1589,
+      "description": "1589 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q125178968",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q110110496",
+      "wikidataId": "Q110110496",
+      "name": "First Council of Nicaea (Damaskinos)",
+      "year": 1591,
+      "description": "painting by Michael Damaskinos",
+      "typeIds": [
+        "Q3305213",
+        "Q132137"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q110110496",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q179788",
+      "wikidataId": "Q179788",
+      "name": "Edict of Nantes",
+      "year": 1598,
+      "description": "Edict granting rights for Huguenots",
+      "typeIds": [
+        "Q3579157"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q179788",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131543651",
+      "wikidataId": "Q131543651",
+      "name": "Battle of Lepanto",
+      "year": 1600,
+      "description": "painting by Andrea Vicentino in the Museo Correr",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q131543651",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q234188",
+      "wikidataId": "Q234188",
+      "name": "Battle of Sekigahara",
+      "year": 1600,
+      "description": "1600 battle preceding Tokugawa shogunate in Japan",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q234188",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q27107322",
+      "wikidataId": "Q27107322",
+      "name": "The Battle of Issus",
+      "year": 1602,
+      "description": "painting by Jan Brueghel the Elder",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q27107322",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q125847761",
+      "wikidataId": "Q125847761",
+      "name": "Battle of Lepanto",
+      "year": 1603,
+      "description": "1603 painting by Andrea Vicentino, Doge's Palace, Venice",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q125847761",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -319,6 +1044,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q2475657",
+      "wikidataId": "Q2475657",
+      "name": "Battle of Adwalton Moor",
+      "year": 1643,
+      "description": "1643 battle in Adwalton, West Yorkshire, England, part of the First English Civil War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2475657",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q150995",
       "wikidataId": "Q150995",
       "name": "Peace of Westph",
@@ -345,6 +1083,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q690470",
+      "wikidataId": "Q690470",
+      "name": "Battle of Mohács",
+      "year": 1687,
+      "description": "1687 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q690470",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q189508",
       "wikidataId": "Q189508",
       "name": "Glorious Revolution",
@@ -355,6 +1106,97 @@
         "Q10931"
       ],
       "source": "https://www.wikidata.org/wiki/Q189508",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q154635",
+      "wikidataId": "Q154635",
+      "name": "Battle of Blenheim",
+      "year": 1704,
+      "description": "1704 major battle of the War of the Spanish Succession",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154635",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q12145846",
+      "wikidataId": "Q12145846",
+      "name": "Northern War in Ukraine",
+      "year": 1708,
+      "description": "Ukrainian theatre in the Great Northern War (1700–1713)",
+      "typeIds": [
+        "Q350604"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12145846",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q152486",
+      "wikidataId": "Q152486",
+      "name": "Battle of Poltava",
+      "year": 1709,
+      "description": "decisive battle in the Great Northern War between Tsardom Russia and the Swedish Empire in 1709",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q152486",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5599700",
+      "wikidataId": "Q5599700",
+      "name": "Great Northern War plague outbreak",
+      "year": 1710,
+      "description": "Early 18th century Yersinia pestis epidemic",
+      "typeIds": [
+        "Q44512"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q5599700",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q154674",
+      "wikidataId": "Q154674",
+      "name": "Peace of Utrecht",
+      "year": 1713,
+      "description": "series of peace treaties ending the War of the Spanish Succession",
+      "typeIds": [
+        "Q625298"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154674",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q21723183",
+      "wikidataId": "Q21723183",
+      "name": "Battle of Poltava",
+      "year": 1718,
+      "description": "painting by Jean Marc Nattier",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q21723183",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q151616",
+      "wikidataId": "Q151616",
+      "name": "Great Northern War",
+      "year": 1721,
+      "description": "conflict between anti-Swedish coalition Led by Russia and Swedish empires in 1700–1721",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q151616",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -372,6 +1214,20 @@
       "location": null
     },
     {
+      "id": "wikidata:Q33143",
+      "wikidataId": "Q33143",
+      "name": "Seven Years' War",
+      "year": 1756,
+      "description": "global war among European powers (1756–1763)",
+      "typeIds": [
+        "Q198",
+        "Q103495"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q33143",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q1639638",
       "wikidataId": "Q1639638",
       "name": "Treaty of Versailles",
@@ -381,6 +1237,19 @@
         "Q131569"
       ],
       "source": "https://www.wikidata.org/wiki/Q1639638",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q203233",
+      "wikidataId": "Q203233",
+      "name": "Battle of Plassey",
+      "year": 1757,
+      "description": "1757 battle which established the British Raj in India",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q203233",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -427,6 +1296,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q2355467",
+      "wikidataId": "Q2355467",
+      "name": "Battle of Buxar",
+      "year": 1764,
+      "description": "_War between Alliance (Mir Qasim, Shuja-ud-Daulah and Shah Alam || ) and British",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2355467",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q961673",
       "wikidataId": "Q961673",
       "name": "Treaty of Versailles",
@@ -466,6 +1348,20 @@
       "location": null
     },
     {
+      "id": "wikidata:Q459447",
+      "wikidataId": "Q459447",
+      "name": "Siege of Yorktown",
+      "year": 1781,
+      "description": "siege, part of American Revolutionary War",
+      "typeIds": [
+        "Q178561",
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q459447",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q6534",
       "wikidataId": "Q6534",
       "name": "French Revolution",
@@ -494,6 +1390,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q572883",
+      "wikidataId": "Q572883",
+      "name": "Battle of Verdun",
+      "year": 1792,
+      "description": "1792 battle during the War of the First Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q572883",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3559235",
+      "wikidataId": "Q3559235",
+      "name": "Battle of Nicopolis",
+      "year": 1798,
+      "description": "Defeat of the French at Nicopolis and destruction of Preveza by Ali Pasha of Ioannina, which took place in October 1798",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3559235",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q78994",
       "wikidataId": "Q78994",
       "name": "Napoleonic Wars",
@@ -508,6 +1430,33 @@
       "location": null
     },
     {
+      "id": "wikidata:Q689128",
+      "wikidataId": "Q689128",
+      "name": "Haitian Revolution",
+      "year": 1804,
+      "description": "1791 slave revolt in the French colony of Saint-Domingue",
+      "typeIds": [
+        "Q10931",
+        "Q1155622"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q689128",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q134114",
+      "wikidataId": "Q134114",
+      "name": "Battle of Austerlitz",
+      "year": 1805,
+      "description": "1805 battle during the War of the Third Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q134114",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q171416",
       "wikidataId": "Q171416",
       "name": "Battle of Trafalgar",
@@ -517,6 +1466,19 @@
         "Q1261499"
       ],
       "source": "https://www.wikidata.org/wiki/Q171416",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q184320",
+      "wikidataId": "Q184320",
+      "name": "Battle of Borodino",
+      "year": 1812,
+      "description": "1812 battle during the French invasion of Russia",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q184320",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -573,6 +1535,87 @@
       "location": null
     },
     {
+      "id": "wikidata:Q28537097",
+      "wikidataId": "Q28537097",
+      "name": "Battle of Borodino",
+      "year": 1829,
+      "description": "painting by George Jones",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q28537097",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q235344",
+      "wikidataId": "Q235344",
+      "name": "Battle of the Alamo",
+      "year": 1836,
+      "description": "1836 major battle of the Texas Revolution",
+      "typeIds": [
+        "Q178561",
+        "Q188055",
+        "Q3817498"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q235344",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q134463223",
+      "wikidataId": "Q134463223",
+      "name": "Battle of Mohács in 1687",
+      "year": 1837,
+      "description": "painting by József Borsos (1821–1883)",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q134463223",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q191282",
+      "wikidataId": "Q191282",
+      "name": "First Opium War",
+      "year": 1839,
+      "description": "war between Great Britain and China in the 19th century",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q191282",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131726238",
+      "wikidataId": "Q131726238",
+      "name": "Battle of Vienna 1683",
+      "year": 1840,
+      "description": "painting by Jan Damel",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q131726238",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q238262",
+      "wikidataId": "Q238262",
+      "name": "Treaty of Nanjing",
+      "year": 1842,
+      "description": "1842 treaty between Qing China and Britain which ceded Hong Kong and ended the First Opium War",
+      "typeIds": [
+        "Q864737",
+        "Q625298"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q238262",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q19021",
       "wikidataId": "Q19021",
       "name": "Vienna Uprising",
@@ -625,6 +1668,20 @@
       "location": null
     },
     {
+      "id": "wikidata:Q192408",
+      "wikidataId": "Q192408",
+      "name": "Taiping Rebellion",
+      "year": 1850,
+      "description": "Qing Dynasty era rebellion (1851–1864)",
+      "typeIds": [
+        "Q124734",
+        "Q8465"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q192408",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q254106",
       "wikidataId": "Q254106",
       "name": "Crimean War",
@@ -638,6 +1695,46 @@
       "location": null
     },
     {
+      "id": "wikidata:Q418151",
+      "wikidataId": "Q418151",
+      "name": "Second Opium War",
+      "year": 1856,
+      "description": "1856–1860 war between British–French forces and China",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q418151",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q129864",
+      "wikidataId": "Q129864",
+      "name": "Indian Mutiny of 1857",
+      "year": 1857,
+      "description": "1857–58 uprising against British Company rule",
+      "typeIds": [
+        "Q21994376",
+        "Q124734"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q129864",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q26910860",
+      "wikidataId": "Q26910860",
+      "name": "Siege of Arrah",
+      "year": 1857,
+      "description": "This was the eight-day defence of a fortified outbuilding during the Indian Rebellion of 1857.",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q26910860",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q17539747",
       "wikidataId": "Q17539747",
       "name": "Battle of Waterloo",
@@ -647,6 +1744,60 @@
         "Q3305213"
       ],
       "source": "https://www.wikidata.org/wiki/Q17539747",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2551797",
+      "wikidataId": "Q2551797",
+      "name": "Siege of Yorktown",
+      "year": 1862,
+      "description": "1862 battle of the American Civil War",
+      "typeIds": [
+        "Q178561",
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2551797",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q27970740",
+      "wikidataId": "Q27970740",
+      "name": "Battle of Poltava",
+      "year": 1862,
+      "description": "painting by Alexander von Kotzebue",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q27970740",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q719252",
+      "wikidataId": "Q719252",
+      "name": "Battle of Antietam",
+      "year": 1862,
+      "description": "1862 major battle of the American Civil War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q719252",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1066253",
+      "wikidataId": "Q1066253",
+      "name": "Siege of Vicksburg",
+      "year": 1863,
+      "description": "1863 battle of the American Civil War",
+      "typeIds": [
+        "Q178561",
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1066253",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -678,6 +1829,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q154942",
+      "wikidataId": "Q154942",
+      "name": "Battle of Königgrätz",
+      "year": 1866,
+      "description": "1866 decisive battle of the Austro-Prussian War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154942",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q1540751",
       "wikidataId": "Q1540751",
       "name": "Glorious Revolution",
@@ -687,6 +1851,204 @@
         "Q10931"
       ],
       "source": "https://www.wikidata.org/wiki/Q1540751",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8707",
+      "wikidataId": "Q8707",
+      "name": "Meiji Restoration",
+      "year": 1868,
+      "description": "reform restoring the imperial rule in Japan in the last third of the 19th century",
+      "typeIds": [
+        "Q900406"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8707",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q117448821",
+      "wikidataId": "Q117448821",
+      "name": "The Battle of Königgrätz on July 3, 1866",
+      "year": 1869,
+      "description": "painting by Georg Bleibtreu",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q117448821",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q85745807",
+      "wikidataId": "Q85745807",
+      "name": "Battle of Adwa",
+      "year": 1871,
+      "description": "1871 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q85745807",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q205422",
+      "wikidataId": "Q205422",
+      "name": "Battle of the Little Bighorn",
+      "year": 1876,
+      "description": "June 1876 battle of the Great Sioux War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q205422",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1123353",
+      "wikidataId": "Q1123353",
+      "name": "Battle of Rorke's Drift",
+      "year": 1879,
+      "description": "battle in the Anglo-Zulu War, specifically the defence of the mission station of Rorke's Drift",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1123353",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q747589",
+      "wikidataId": "Q747589",
+      "name": "Battle of Isandlwana",
+      "year": 1879,
+      "description": "1879 first major encounter in the Anglo–Zulu War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q747589",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q28769346",
+      "wikidataId": "Q28769346",
+      "name": "Battle of Little Bighorn",
+      "year": 1890,
+      "description": "painting by White Swan",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q28769346",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q65507009",
+      "wikidataId": "Q65507009",
+      "name": "Battle of Antietam",
+      "year": 1893,
+      "description": "print in the National Gallery of Art (NGA 46411)",
+      "typeIds": [
+        "Q11060274"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q65507009",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q142107808",
+      "wikidataId": "Q142107808",
+      "name": "Battle of Saratoga",
+      "year": 1896,
+      "description": "1896 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q142107808",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q302519",
+      "wikidataId": "Q302519",
+      "name": "Battle of Adwa",
+      "year": 1896,
+      "description": "battle between the Ethiopian Empire and the Kingdom of Italy near the town of Adwa, the climactic battle of the First Italo-Ethiopian War, securing Ethiopian sovereignty",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q302519",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q150229",
+      "wikidataId": "Q150229",
+      "name": "Boxer Rebellion",
+      "year": 1899,
+      "description": "anti-imperialist uprising which took place in China 1899-1901",
+      "typeIds": [
+        "Q124734",
+        "Q12890393",
+        "Q11079230"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q150229",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1676845",
+      "wikidataId": "Q1676845",
+      "name": "Boer Wars",
+      "year": 1899,
+      "description": "war between the South African Republic and the United Kingdom",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1676845",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16867411",
+      "wikidataId": "Q16867411",
+      "name": "Six-Day War",
+      "year": 1899,
+      "description": "1899 war between the British Empire and insurgent forces in the New Territories",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q16867411",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q215112",
+      "wikidataId": "Q215112",
+      "name": "Second Boer War",
+      "year": 1899,
+      "description": "war between two Boer Republics (South African Republic and Orange Free State) and the United Kingdom",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q215112",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q139250878",
+      "wikidataId": "Q139250878",
+      "name": "Battle of Königgrätz",
+      "year": 1900,
+      "description": "tin figures by Ernst Heinrichsen",
+      "typeIds": [
+        "Q79938",
+        "Q17489659"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q139250878",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -704,6 +2066,20 @@
       "location": null
     },
     {
+      "id": "wikidata:Q159950",
+      "wikidataId": "Q159950",
+      "name": "Russo-Japanese War",
+      "year": 1904,
+      "description": "conflict between the Russian and Japanese empires from 1904 to 1905",
+      "typeIds": [
+        "Q198",
+        "Q12897867"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q159950",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q184928",
       "wikidataId": "Q184928",
       "name": "Russian Revolution of 1905",
@@ -717,6 +2093,205 @@
       "location": null
     },
     {
+      "id": "wikidata:Q208127",
+      "wikidataId": "Q208127",
+      "name": "Battle of Tsushima",
+      "year": 1905,
+      "description": "major naval battle between Russia and Japan during the Russo-Japanese War",
+      "typeIds": [
+        "Q876274"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q208127",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q214426",
+      "wikidataId": "Q214426",
+      "name": "Mexican Revolution",
+      "year": 1910,
+      "description": "nationwide armed struggle in Mexico (1910–1920)",
+      "typeIds": [
+        "Q10931",
+        "Q8465"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q214426",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q190517",
+      "wikidataId": "Q190517",
+      "name": "Xinhai Revolution",
+      "year": 1911,
+      "description": "revolution in China that overthrew the Qing dynasty and established the Republic of China",
+      "typeIds": [
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q190517",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8044582",
+      "wikidataId": "Q8044582",
+      "name": "Xinhai Revolution in Xinjiang",
+      "year": 1911,
+      "description": "",
+      "typeIds": [
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8044582",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2577588",
+      "wikidataId": "Q2577588",
+      "name": "sinking of the RMS Titanic",
+      "year": 1912,
+      "description": "maritime disaster in the North Atlantic Ocean on the night of 14–15 April 1912",
+      "typeIds": [
+        "Q906512",
+        "Q17633526"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2577588",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2887868",
+      "wikidataId": "Q2887868",
+      "name": "Battle of Adrianople",
+      "year": 1912,
+      "description": "1912 Decisive battle during the First Balkan War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2887868",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q190712",
+      "wikidataId": "Q190712",
+      "name": "First Battle of the Marne",
+      "year": 1914,
+      "description": "1914 First World War battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q190712",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q220766",
+      "wikidataId": "Q220766",
+      "name": "Battle of Manzikert",
+      "year": 1915,
+      "description": "1915 battle in World War I",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q220766",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q80034",
+      "wikidataId": "Q80034",
+      "name": "Armenian Genocide",
+      "year": 1915,
+      "description": "systematic destruction of the Armenian people and identity in the Ottoman Empire during World War I implemented by the Ottoman authorities through mass murder",
+      "typeIds": [
+        "Q41397",
+        "Q13634374",
+        "Q837556"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q80034",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q119175129",
+      "wikidataId": "Q119175129",
+      "name": "Battle of Jutland",
+      "year": 1916,
+      "description": "painting by E. Skeat, Royal Greenwich Heritage Trust",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q119175129",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q130847",
+      "wikidataId": "Q130847",
+      "name": "Battle of Verdun",
+      "year": 1916,
+      "description": "1916 battle on the Western Front during the First World War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q130847",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q132568",
+      "wikidataId": "Q132568",
+      "name": "Battle of the Somme",
+      "year": 1916,
+      "description": "battle of the Western Front, World War I",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q132568",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q156554",
+      "wikidataId": "Q156554",
+      "name": "Battle of Jutland",
+      "year": 1916,
+      "description": "1916 naval battle during World War I",
+      "typeIds": [
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q156554",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2662754",
+      "wikidataId": "Q2662754",
+      "name": "The Battle of the Somme",
+      "year": 1916,
+      "description": "1916 film by Geoffrey H. Malins",
+      "typeIds": [
+        "Q11424"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2662754",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3812622",
+      "wikidataId": "Q3812622",
+      "name": "Second Battle of Verdun",
+      "year": 1917,
+      "description": "World War I battle in 1917",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3812622",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q4157640",
       "wikidataId": "Q4157640",
       "name": "Russian Revolution Army",
@@ -726,6 +2301,19 @@
         "Q37726"
       ],
       "source": "https://www.wikidata.org/wiki/Q4157640",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q426227",
+      "wikidataId": "Q426227",
+      "name": "Third Battle of Ypres",
+      "year": 1917,
+      "description": "Battle in the First World War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q426227",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -756,6 +2344,33 @@
       "location": null
     },
     {
+      "id": "wikidata:Q1063735",
+      "wikidataId": "Q1063735",
+      "name": "Second Battle of the Somme",
+      "year": 1918,
+      "description": "1918 First World War battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1063735",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q122371",
+      "wikidataId": "Q122371",
+      "name": "Treaty of Brest-Litovsk",
+      "year": 1918,
+      "description": "peace treaty between the Soviet Russia and the Central Powers (3 March 1918)",
+      "typeIds": [
+        "Q625298",
+        "Q2300991"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q122371",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q178275",
       "wikidataId": "Q178275",
       "name": "1918–1920 flu pandemic",
@@ -766,6 +2381,20 @@
         "Q182672"
       ],
       "source": "https://www.wikidata.org/wiki/Q178275",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q179001",
+      "wikidataId": "Q179001",
+      "name": "Treaty of Brest-Litovsk",
+      "year": 1918,
+      "description": "peace treaty (9 Feb. 1918) between the Ukrainian People's Republic and the Central Powers",
+      "typeIds": [
+        "Q625298",
+        "Q2300991"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q179001",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -798,6 +2427,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q876417",
+      "wikidataId": "Q876417",
+      "name": "Second Battle of the Marne",
+      "year": 1918,
+      "description": "1918 last major German offensive on the Western Front during the First World War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q876417",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q96239861",
       "wikidataId": "Q96239861",
       "name": "Spanish flu in Austria",
@@ -822,6 +2464,20 @@
         "Q6934728"
       ],
       "source": "https://www.wikidata.org/wiki/Q8736",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q181902",
+      "wikidataId": "Q181902",
+      "name": "Treaty of Trianon",
+      "year": 1920,
+      "description": "1920 peace agreement formally ending World War I between most of the Allies of World War I and the Kingdom of Hungary",
+      "typeIds": [
+        "Q595819",
+        "Q625298"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q181902",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -851,6 +2507,51 @@
         "Q6428674"
       ],
       "source": "https://www.wikidata.org/wiki/Q8698",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q165058",
+      "wikidataId": "Q165058",
+      "name": "Holodomor",
+      "year": 1932,
+      "description": "man-made famine in Soviet Ukraine in 1932–33 that killed as many as seven million Ukrainians",
+      "typeIds": [
+        "Q168247",
+        "Q105967822",
+        "Q2235125",
+        "Q41397"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q165058",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2497254",
+      "wikidataId": "Q2497254",
+      "name": "Soviet famine of 1932–1933",
+      "year": 1932,
+      "description": "Man-made famine that mainly affected the major grain-producing areas of the Soviet Union",
+      "typeIds": [
+        "Q168247"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2497254",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3182723",
+      "wikidataId": "Q3182723",
+      "name": "Hindenburg disaster",
+      "year": 1937,
+      "description": "1937 airship accident in New Jersey",
+      "typeIds": [
+        "Q744913",
+        "Q3839081",
+        "Q168983",
+        "Q125146042"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3182723",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -934,6 +2635,125 @@
       "location": null
     },
     {
+      "id": "wikidata:Q130861",
+      "wikidataId": "Q130861",
+      "name": "Battle of Kursk",
+      "year": 1943,
+      "description": "World War II battle that took place in 1943",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q130861",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q151018",
+      "wikidataId": "Q151018",
+      "name": "Battle of the Bulge",
+      "year": 1944,
+      "description": "1944-1945 World War II battle",
+      "typeIds": [
+        "Q2001676"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q151018",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q23751276",
+      "wikidataId": "Q23751276",
+      "name": "Battle of Talasea",
+      "year": 1944,
+      "description": "1944 military engagement on New Britain, Pacific Ocean",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q23751276",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8641370",
+      "wikidataId": "Q8641370",
+      "name": "Operation Overlord",
+      "year": 1944,
+      "description": "1944 Allied liberation of German-occupied France during World War II",
+      "typeIds": [
+        "Q645883"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8641370",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q154182",
+      "wikidataId": "Q154182",
+      "name": "Battle of Berlin",
+      "year": 1945,
+      "description": "1945 last major offensive of the European theatre of World War Il",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154182",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q180182",
+      "wikidataId": "Q180182",
+      "name": "Battle of Iwo Jima",
+      "year": 1945,
+      "description": "1945 major battle in which US Forces captured the island of Iwo Jima from Japan during World War II",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q180182",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q192660",
+      "wikidataId": "Q192660",
+      "name": "Battle of Okinawa",
+      "year": 1945,
+      "description": "1945 major battle of the Pacific War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q192660",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q129053",
+      "wikidataId": "Q129053",
+      "name": "partition of India",
+      "year": 1947,
+      "description": "1947 Partition of British India",
+      "typeIds": [
+        "Q8465",
+        "Q518554",
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q129053",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q483039",
+      "wikidataId": "Q483039",
+      "name": "Battle of Inchon",
+      "year": 1950,
+      "description": "1950 amphibious invasion during the Korean War in Incheon resulting in a victory and strategic reversal in favor of the UN Command",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q483039",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q8663",
       "wikidataId": "Q8663",
       "name": "Korean War",
@@ -960,6 +2780,72 @@
       "location": null
     },
     {
+      "id": "wikidata:Q604897",
+      "wikidataId": "Q604897",
+      "name": "Battle of Dien Bien Phu",
+      "year": 1954,
+      "description": "The decisive battle of the First Indochina War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q604897",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q164348",
+      "wikidataId": "Q164348",
+      "name": "Hungarian Revolution of 1956",
+      "year": 1956,
+      "description": "1956 revolution in Hungary",
+      "typeIds": [
+        "Q124734"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q164348",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q49101",
+      "wikidataId": "Q49101",
+      "name": "Suez Crisis",
+      "year": 1957,
+      "description": "1956 invasion of Egypt by Israel, the United Kingdom, and France",
+      "typeIds": [
+        "Q1384277",
+        "Q2001676"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q49101",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q58715",
+      "wikidataId": "Q58715",
+      "name": "Great Leap Forward",
+      "year": 1958,
+      "description": "1958–1962 Chinese socioeconomic campaign",
+      "typeIds": [
+        "Q6056746"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q58715",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2454958",
+      "wikidataId": "Q2454958",
+      "name": "Great Chinese Famine",
+      "year": 1959,
+      "description": "period of widespread famine in the People's Republic of China between the years 1959 and 1961 during the Great Leap Forward",
+      "typeIds": [
+        "Q168247"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2454958",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q128160",
       "wikidataId": "Q128160",
       "name": "Cuban Missile Crisis",
@@ -975,6 +2861,86 @@
       "location": null
     },
     {
+      "id": "wikidata:Q8690",
+      "wikidataId": "Q8690",
+      "name": "Cultural Revolution",
+      "year": 1966,
+      "description": "1966–1976 Maoist sociopolitical movement in China",
+      "typeIds": [
+        "Q10931",
+        "Q119328980",
+        "Q5193493"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8690",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q49077",
+      "wikidataId": "Q49077",
+      "name": "Six-Day War",
+      "year": 1967,
+      "description": "1967 war between Israel and Egypt, Jordan, and Syria",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q49077",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q50320558",
+      "wikidataId": "Q50320558",
+      "name": "Council of Trent",
+      "year": 1967,
+      "description": "painting by Wesley Chamberlin",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q50320558",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q162401",
+      "wikidataId": "Q162401",
+      "name": "Prague Spring",
+      "year": 1968,
+      "description": "period of liberalisation in Czechoslovakia from 5 January to 21 August 1968",
+      "typeIds": [
+        "Q207639"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q162401",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q247253",
+      "wikidataId": "Q247253",
+      "name": "Battle of Khe Sanh",
+      "year": 1968,
+      "description": "battle in Vietnam War in 1968",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q247253",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q126065",
+      "wikidataId": "Q126065",
+      "name": "Iranian Revolution",
+      "year": 1970,
+      "description": "1978–1979 revolution that overthrew the Iranian monarchy",
+      "typeIds": [
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q126065",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q2487880",
       "wikidataId": "Q2487880",
       "name": "Korean War Veterans Parkway",
@@ -984,6 +2950,46 @@
         "Q34442"
       ],
       "source": "https://www.wikidata.org/wiki/Q2487880",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q49100",
+      "wikidataId": "Q49100",
+      "name": "Yom Kippur War",
+      "year": 1973,
+      "description": "October 1973 war between Egypt and Syria at one side and Israel on the other side",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q49100",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q16130550",
+      "wikidataId": "Q16130550",
+      "name": "Yom Kippur War campaign ribbon",
+      "year": 1974,
+      "description": "",
+      "typeIds": [
+        "Q12403638"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q16130550",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q193245",
+      "wikidataId": "Q193245",
+      "name": "Carnation Revolution",
+      "year": 1974,
+      "description": "1974 revolution in Portugal",
+      "typeIds": [
+        "Q45382",
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q193245",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1015,6 +3021,75 @@
       "location": null
     },
     {
+      "id": "wikidata:Q271110",
+      "wikidataId": "Q271110",
+      "name": "Islamic Revolutionary Guard Corps",
+      "year": 1979,
+      "description": "military organization to protect the political system of the Islamic Republic in Iran",
+      "typeIds": [
+        "Q207320",
+        "Q47913",
+        "Q772547",
+        "Q136787658"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q271110",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q82664",
+      "wikidataId": "Q82664",
+      "name": "Iran–Iraq War",
+      "year": 1980,
+      "description": "1980-1988 war between Iran and Iraq",
+      "typeIds": [
+        "Q198",
+        "Q474138"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q82664",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q109771852",
+      "wikidataId": "Q109771852",
+      "name": "Battle of Yorktown Bicentennial Celebration",
+      "year": 1981,
+      "description": "Celebration held in Virginia on 10/19/1981",
+      "typeIds": [
+        "Q200538"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q109771852",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q48249",
+      "wikidataId": "Q48249",
+      "name": "Falklands War",
+      "year": 1982,
+      "description": "undeclared war between Argentina and the United Kingdom in 1982",
+      "typeIds": [
+        "Q7883019"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q48249",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4410582",
+      "wikidataId": "Q4410582",
+      "name": "Aerospace Force of the Islamic Revolutionary Guard Corps",
+      "year": 1985,
+      "description": "aerospace service branch of Iran's Islamic Revolutionary Guard Corps",
+      "typeIds": [
+        "Q61883"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4410582",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q486",
       "wikidataId": "Q486",
       "name": "Chernobyl disaster",
@@ -1025,6 +3100,33 @@
         "Q3193890"
       ],
       "source": "https://www.wikidata.org/wiki/Q486",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q858145",
+      "wikidataId": "Q858145",
+      "name": "Space Shuttle Challenger disaster",
+      "year": 1986,
+      "description": "in-flight breakup of the Challenger space shuttle in US",
+      "typeIds": [
+        "Q744913",
+        "Q99654400"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q858145",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q182817",
+      "wikidataId": "Q182817",
+      "name": "Velvet Revolution",
+      "year": 1989,
+      "description": "democratization process in Czechoslovakia in 1989",
+      "typeIds": [
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q182817",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1043,6 +3145,45 @@
       "location": null
     },
     {
+      "id": "wikidata:Q175653",
+      "wikidataId": "Q175653",
+      "name": "Siege of Sarajevo",
+      "year": 1990,
+      "description": "the longest siege of a capital city in the history of modern warfare (1992–1996)",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q175653",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q37643",
+      "wikidataId": "Q37643",
+      "name": "Gulf War",
+      "year": 1990,
+      "description": "1990–1991 conflict between Iraq and a 42-country coalition",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q37643",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q28225900",
+      "wikidataId": "Q28225900",
+      "name": "Battle of Jutland",
+      "year": 1991,
+      "description": "football rivalry between Aalborg BK and Aarhus GF",
+      "typeIds": [
+        "Q116597750"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q28225900",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q5167679",
       "wikidataId": "Q5167679",
       "name": "dissolution of the Soviet Union",
@@ -1053,6 +3194,89 @@
         "Q22087155"
       ],
       "source": "https://www.wikidata.org/wiki/Q5167679",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131297",
+      "wikidataId": "Q131297",
+      "name": "1994 Genocide against Tutsi",
+      "year": 1994,
+      "description": "1994 genocide against the Tutsi in Rwanda in which 800,000 were killed",
+      "typeIds": [
+        "Q41397",
+        "Q180684"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q131297",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7307444",
+      "wikidataId": "Q7307444",
+      "name": "Reformation",
+      "year": 1996,
+      "description": "journal",
+      "typeIds": [
+        "Q5633421",
+        "Q737498"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q7307444",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3119043",
+      "wikidataId": "Q3119043",
+      "name": "Six-Day War",
+      "year": 2000,
+      "description": "2000 war between the Democratic Republic of Congo and Rwanda and Uganda",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3119043",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1633685",
+      "wikidataId": "Q1633685",
+      "name": "The Boxer Rebellion",
+      "year": 2001,
+      "description": "British band",
+      "typeIds": [
+        "Q215380"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1633685",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q33761",
+      "wikidataId": "Q33761",
+      "name": "Arab Spring",
+      "year": 2010,
+      "description": "protests and revolutions in the Arab world in the 2010s",
+      "typeIds": [
+        "Q273120",
+        "Q124734",
+        "Q8465",
+        "Q10931"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q33761",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q32171643",
+      "wikidataId": "Q32171643",
+      "name": "Memorial Museum of 1911 Revolution",
+      "year": 2011,
+      "description": "history museum in Huangpu District, Guangzhou City",
+      "typeIds": [
+        "Q33506"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q32171643",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1071,6 +3295,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q96057729",
+      "wikidataId": "Q96057729",
+      "name": "Rwandan Genocide memorial",
+      "year": 2014,
+      "description": "",
+      "typeIds": [
+        "Q575759"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q96057729",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q19928886",
       "wikidataId": "Q19928886",
       "name": "Magna Carta (An Embroidery)",
@@ -1080,6 +3317,75 @@
         "Q28966302"
       ],
       "source": "https://www.wikidata.org/wiki/Q19928886",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q51846024",
+      "wikidataId": "Q51846024",
+      "name": "2018 Armenian Revolution",
+      "year": 2018,
+      "description": "protests against Prime Minister Sersch Sargsyan and the government in Armenia in April and May 2018",
+      "typeIds": [
+        "Q273120"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q51846024",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q65084224",
+      "wikidataId": "Q65084224",
+      "name": "Second Arab Spring",
+      "year": 2018,
+      "description": "protests and revolutions in the Arab world in the late 2010s",
+      "typeIds": [
+        "Q175331"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q65084224",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q81068910",
+      "wikidataId": "Q81068910",
+      "name": "COVID-19 pandemic",
+      "year": 2019,
+      "description": "pandemic caused by SARS-CoV-2 (2019–2023)",
+      "typeIds": [
+        "Q12184",
+        "Q17076801",
+        "Q3241045",
+        "Q12367307"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q81068910",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q84055514",
+      "wikidataId": "Q84055514",
+      "name": "COVID-19 pandemic in India",
+      "year": 2020,
+      "description": "ongoing COVID-19 viral pandemic in India",
+      "typeIds": [
+        "Q3241045"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q84055514",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q86694873",
+      "wikidataId": "Q86694873",
+      "name": "COVID-19 pandemic in Africa",
+      "year": 2020,
+      "description": "ongoing coronavirus pandemic in Africa",
+      "typeIds": [
+        "Q3241045",
+        "Q83741704"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q86694873",
       "reviewStatus": "unreviewed",
       "location": null
     }
