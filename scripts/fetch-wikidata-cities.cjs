@@ -3,33 +3,28 @@
 // Paginated historical settlement import. Query results are unreviewed, not authoritative.
 const fs=require('node:fs');
 const endpoint='https://query.wikidata.org/sparql';
-const pageSize=Number(process.env.WIKIDATA_PAGE_SIZE||250);
-const maxPages=Number(process.env.WIKIDATA_MAX_PAGES||8);
+const pageSize=Number(process.env.WIKIDATA_PAGE_SIZE||100);
+const maxPages=Number(process.env.WIKIDATA_MAX_PAGES||12);
 if(!Number.isInteger(pageSize)||pageSize<1||pageSize>500||!Number.isInteger(maxPages)||maxPages<1||maxPages>100)throw Error('Invalid pagination limits');
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const yearOf=v=>{const m=String(v||'').match(/^([+-]?\d{1,16})-\d\d-\d\dT/);return m&&Number.isSafeInteger(Number(m[1]))?Number(m[1]):null};
 const qid=v=>String(v||'').match(/\/entity\/(Q[1-9]\d*)$/)?.[1]||null;
 function sparql(limit,offset){return `SELECT ?item ?itemLabel ?coord ?inception ?dissolution WHERE {
-  { SELECT DISTINCT ?item WHERE {
-      ?item wdt:P31/wdt:P279* wd:Q486972 .
-      ?item wdt:P625 ?location .
-      { ?item wdt:P571 ?start } UNION { ?item wdt:P1319 ?start }
-    } ORDER BY ?item LIMIT ${limit} OFFSET ${offset}
-  }
-  ?item wdt:P625 ?coord .
+  { SELECT ?item WHERE { ?item wdt:P31 wd:Q515 . } ORDER BY ?item LIMIT ${limit} OFFSET ${offset} }
+  OPTIONAL { ?item wdt:P625 ?coord }
   OPTIONAL { ?item wdt:P571 ?inception }
   OPTIONAL { ?item wdt:P576 ?dissolution }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en,hu". }
 } ORDER BY ?item`}
 async function page(index){
  const url=endpoint+'?'+new URLSearchParams({query:sparql(pageSize,index*pageSize),format:'json'});
- for(let attempt=0;attempt<3;attempt++){
+ for(let attempt=0;attempt<2;attempt++){
   try{
-   const response=await fetch(url,{headers:{'Accept':'application/sparql-results+json','User-Agent':'ChronoEarthHistoricalDatabase/0.2 (https://github.com/scarab0793/chronoearth)'} ,signal:AbortSignal.timeout(90000)});
+   const response=await fetch(url,{headers:{'Accept':'application/sparql-results+json','User-Agent':'ChronoEarthHistoricalDatabase/0.2 (https://github.com/scarab0793/chronoearth)'} ,signal:AbortSignal.timeout(25000)});
    if(!response.ok)throw Error('SPARQL HTTP '+response.status);
    const data=await response.json();if(!Array.isArray(data.results?.bindings))throw Error('Malformed SPARQL result');
    return data.results.bindings;
-  }catch(error){if(attempt===2)throw error;await sleep(3000*(attempt+1))}
+  }catch(error){if(attempt===1)throw error;await sleep(3000*(attempt+1))}
  }
 }
 async function main(){
