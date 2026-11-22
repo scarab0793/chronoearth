@@ -1,0 +1,32 @@
+{
+  "head": {
+    "vars": [
+      "item",
+      "itemLabel",
+      "inception",
+      "coord"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1748"
+        },
+        "itemLabel": {
+          "type": "literal",
+          "value": "Constantinople"
+        },
+        "inception": {
+          "type": "literal",
+          "value": "0330-05-11T00:00:00Z"
+        },
+        "coord": {
+          "type": "literal",
+          "value": "Point(28.976 41.012)"
+        }
+      }
+    ]
+  }
+}
