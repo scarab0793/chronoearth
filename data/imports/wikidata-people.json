@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 2,
+  "source": "Wikidata MediaWiki API",
+  "importedAt": "2026-11-22T16:20:17.703Z",
+  "reviewStatus": "unreviewed",
+  "people": [
+    {
+      "id": "wikidata:Q91",
+      "wikidataId": "Q91",
+      "name": "Abraham Lincoln",
+      "birthYear": 1809,
+      "deathYear": 1865,
+      "source": "https://www.wikidata.org/wiki/Q91",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q260",
+      "wikidataId": "Q260",
+      "name": "Jean-François Champollion",
+      "birthYear": 1790,
+      "deathYear": 1832,
+      "source": "https://www.wikidata.org/wiki/Q260",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q635",
+      "wikidataId": "Q635",
+      "name": "Cleopatra",
+      "birthYear": -69,
+      "deathYear": -30,
+      "source": "https://www.wikidata.org/wiki/Q635",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q692",
+      "wikidataId": "Q692",
+      "name": "William Shakespeare",
+      "birthYear": 1564,
+      "deathYear": 1616,
+      "source": "https://www.wikidata.org/wiki/Q692",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q720",
+      "wikidataId": "Q720",
+      "name": "Genghis Khan",
+      "birthYear": 1162,
+      "deathYear": 1227,
+      "source": "https://www.wikidata.org/wiki/Q720",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q762",
+      "wikidataId": "Q762",
+      "name": "Leonardo da Vinci",
+      "birthYear": 1452,
+      "deathYear": 1519,
+      "source": "https://www.wikidata.org/wiki/Q762",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q859",
+      "wikidataId": "Q859",
+      "name": "Plato",
+      "birthYear": -427,
+      "deathYear": -347,
+      "source": "https://www.wikidata.org/wiki/Q859",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q937",
+      "wikidataId": "Q937",
+      "name": "Albert Einstein",
+      "birthYear": 1879,
+      "deathYear": 1955,
+      "source": "https://www.wikidata.org/wiki/Q937",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1035",
+      "wikidataId": "Q1035",
+      "name": "Charles Darwin",
+      "birthYear": 1809,
+      "deathYear": 1882,
+      "source": "https://www.wikidata.org/wiki/Q1035",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1048",
+      "wikidataId": "Q1048",
+      "name": "Julius Caesar",
+      "birthYear": -100,
+      "deathYear": -44,
+      "source": "https://www.wikidata.org/wiki/Q1048",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1067",
+      "wikidataId": "Q1067",
+      "name": "Dante Alighieri",
+      "birthYear": 1265,
+      "deathYear": 1321,
+      "source": "https://www.wikidata.org/wiki/Q1067",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1233",
+      "wikidataId": "Q1233",
+      "name": "Sandro Pertini",
+      "birthYear": 1896,
+      "deathYear": 1990,
+      "source": "https://www.wikidata.org/wiki/Q1233",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1339",
+      "wikidataId": "Q1339",
+      "name": "Johann Sebastian Bach",
+      "birthYear": 1685,
+      "deathYear": 1750,
+      "source": "https://www.wikidata.org/wiki/Q1339",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5582",
+      "wikidataId": "Q5582",
+      "name": "Vincent van Gogh",
+      "birthYear": 1853,
+      "deathYear": 1890,
+      "source": "https://www.wikidata.org/wiki/Q5582",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5879",
+      "wikidataId": "Q5879",
+      "name": "Johann Wolfgang von Goethe",
+      "birthYear": 1749,
+      "deathYear": 1832,
+      "source": "https://www.wikidata.org/wiki/Q5879",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7186",
+      "wikidataId": "Q7186",
+      "name": "Q7186",
+      "birthYear": 1867,
+      "deathYear": 1934,
+      "source": "https://www.wikidata.org/wiki/Q7186",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7245",
+      "wikidataId": "Q7245",
+      "name": "Mark Twain",
+      "birthYear": 1835,
+      "deathYear": 1910,
+      "source": "https://www.wikidata.org/wiki/Q7245",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q7259",
+      "wikidataId": "Q7259",
+      "name": "Ada Lovelace",
+      "birthYear": 1815,
+      "deathYear": 1852,
+      "source": "https://www.wikidata.org/wiki/Q7259",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8007",
+      "wikidataId": "Q8007",
+      "name": "Franklin Delano Roosevelt",
+      "birthYear": 1882,
+      "deathYear": 1945,
+      "source": "https://www.wikidata.org/wiki/Q8007",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q8462",
+      "wikidataId": "Q8462",
+      "name": "Timur",
+      "birthYear": 1336,
+      "deathYear": 1405,
+      "source": "https://www.wikidata.org/wiki/Q8462",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q9036",
+      "wikidataId": "Q9036",
+      "name": "Nikola Tesla",
+      "birthYear": 1856,
+      "deathYear": 1943,
+      "source": "https://www.wikidata.org/wiki/Q9036",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q9061",
+      "wikidataId": "Q9061",
+      "name": "Karl Marx",
+      "birthYear": 1818,
+      "deathYear": 1883,
+      "source": "https://www.wikidata.org/wiki/Q9061",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q22670",
+      "wikidataId": "Q22670",
+      "name": "Friedrich Schiller",
+      "birthYear": 1759,
+      "deathYear": 1805,
+      "source": "https://www.wikidata.org/wiki/Q22670",
+      "reviewStatus": "unreviewed",
+      "location": null
+    }
+  ]
+}
