@@ -1,0 +1,38 @@
+name: Import Wikidata historical states
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-wikidata-states.yml'
+      - 'scripts/fetch-wikidata-states.cjs'
+  workflow_dispatch:
+  schedule:
+    - cron: '35 5 * * 4'
+permissions:
+  contents: write
+concurrency:
+  group: wikidata-states-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch historical polity candidates
+        run: node scripts/fetch-wikidata-states.cjs
+      - name: Validate polity catalogue
+        run: node -e "const j=require('./data/imports/wikidata-states.json');if(!Array.isArray(j.states)||!j.states.length||j.states.some(x=>!Number.isInteger(x.from)||!x.wikidataId||x.geometry!==null))process.exit(1)"
+      - name: Commit refreshed polity catalogue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/imports/wikidata-states.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh historical polity candidates"
+            git pull --rebase origin main
+            git push
+          fi
