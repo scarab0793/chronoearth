@@ -1,30 +1,60 @@
 #!/usr/bin/env node
 'use strict';
+// Paginated historical settlement import. Query results are unreviewed, not authoritative.
 const fs=require('node:fs');
-const ids=['Q1748','Q12544','Q34266','Q11772','Q28513','Q220','Q64','Q90','Q84','Q60','Q65','Q1490','Q1489','Q1524','Q1520','Q1780','Q1861','Q19660','Q12191','Q2449','Q649','Q25270','Q1439','Q8686','Q472','Q34692','Q242','Q34370','Q1435','Q1353','Q1311','Q1533','Q19689','Q1770','Q384','Q727','Q85','Q174','Q1740','Q1744','Q1764','Q1438','Q11194','Q1431','Q1563','Q1579','Q1580','Q1583','Q1587','Q1589'];
-const allowedCityIds=new Set(['Q727','Q1520','Q1524','Q1861','Q64','Q1780','Q19660','Q85','Q1533','Q1748','Q1353','Q1563','Q34692','Q84','Q65','Q1489','Q60','Q90','Q1764','Q220','Q174','Q11194','Q8686','Q19689','Q1490','Q1435']);
-const endpoint='https://www.wikidata.org/w/api.php';
-const params=new URLSearchParams({action:'wbgetentities',ids:ids.join('|'),props:'labels|claims',languages:'en|hu',format:'json'});
-async function main(){
- const response=await fetch(endpoint+'?'+params,{headers:{'User-Agent':'ChronoEarthHistoricalDatabase/0.1 (https://github.com/scarab0793/chronoearth)'}});
- if(!response.ok)throw Error('Wikidata API HTTP '+response.status);
- const data=await response.json();const cities=[];
- for(const [qid,e] of Object.entries(data.entities||{})){
-  if(e.missing||!allowedCityIds.has(qid))continue;
-  const claim=(prop)=>e.claims?.[prop]?.find(c=>c.mainsnak?.snaktype==='value')?.mainsnak?.datavalue?.value;
-  const coordinates=claim('P625');if(!coordinates||!Number.isFinite(coordinates.latitude)||!Number.isFinite(coordinates.longitude))continue;
-  const parseYear=(value)=>{if(!value?.time)return null;const match=value.time.match(/^([+-])(\d+)-/);if(!match)return null;const y=Number(match[2])*(match[1]==='-'?-1:1);return Number.isSafeInteger(y)?y:null};
-  const from=parseYear(claim('P571'))??parseYear(claim('P1319'));
-  const to=parseYear(claim('P576'))??parseYear(claim('P1326'));
-  // Do not invent a historical lifespan from present-day city status.
-  if(from===null&&to===null)continue;
-  const name=e.labels?.en?.value||e.labels?.hu?.value||qid;
-  cities.push({name,lat:coordinates.latitude,lng:coordinates.longitude,from:from??-10000,to:to??2026,region:'',source:'https://www.wikidata.org/wiki/'+qid,precision:'approximate',note:'Wikidata-derived dates and coordinates; historical interpretation requires verification.',wikidataId:qid,reviewStatus:'unreviewed'});
+const endpoint='https://query.wikidata.org/sparql';
+const pageSize=Number(process.env.WIKIDATA_PAGE_SIZE||250);
+const maxPages=Number(process.env.WIKIDATA_MAX_PAGES||8);
+if(!Number.isInteger(pageSize)||pageSize<1||pageSize>500||!Number.isInteger(maxPages)||maxPages<1||maxPages>100)throw Error('Invalid pagination limits');
+const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+const yearOf=v=>{const m=String(v||'').match(/^([+-]?\d{1,16})-\d\d-\d\dT/);return m&&Number.isSafeInteger(Number(m[1]))?Number(m[1]):null};
+const qid=v=>String(v||'').match(/\/entity\/(Q[1-9]\d*)$/)?.[1]||null;
+function sparql(limit,offset){return `SELECT ?item ?itemLabel ?coord ?inception ?dissolution WHERE {
+  { SELECT DISTINCT ?item WHERE {
+      ?item wdt:P31/wdt:P279* wd:Q486972 .
+      ?item wdt:P625 ?location .
+      { ?item wdt:P571 ?start } UNION { ?item wdt:P1319 ?start }
+    } ORDER BY ?item LIMIT ${limit} OFFSET ${offset}
+  }
+  ?item wdt:P625 ?coord .
+  OPTIONAL { ?item wdt:P571 ?inception }
+  OPTIONAL { ?item wdt:P576 ?dissolution }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,hu". }
+} ORDER BY ?item`}
+async function page(index){
+ const url=endpoint+'?'+new URLSearchParams({query:sparql(pageSize,index*pageSize),format:'json'});
+ for(let attempt=0;attempt<3;attempt++){
+  try{
+   const response=await fetch(url,{headers:{'Accept':'application/sparql-results+json','User-Agent':'ChronoEarthHistoricalDatabase/0.2 (https://github.com/scarab0793/chronoearth)'} ,signal:AbortSignal.timeout(90000)});
+   if(!response.ok)throw Error('SPARQL HTTP '+response.status);
+   const data=await response.json();if(!Array.isArray(data.results?.bindings))throw Error('Malformed SPARQL result');
+   return data.results.bindings;
+  }catch(error){if(attempt===2)throw error;await sleep(3000*(attempt+1))}
  }
- cities.sort((a,b)=>a.name.localeCompare(b.name));
- fs.mkdirSync('data/imports',{recursive:true});
- fs.writeFileSync('data/imports/wikidata-cities.json',JSON.stringify({schemaVersion:1,source:'Wikidata',reviewStatus:'unreviewed',importedAt:new Date().toISOString(),cities},null,2)+'\n');
- console.log('Wrote '+cities.length+' dated, geolocated Wikidata records');
- if(cities.length===0)throw Error('No dated and geolocated records returned; refusing empty replacement');
 }
-main().catch(e=>{console.error(e);process.exitCode=1});
+async function main(){
+ const byId=new Map();let pages=0;
+ for(let i=0;i<maxPages;i++){
+  const rows=await page(i);pages++;
+  for(const row of rows){
+   const value=k=>row[k]?.value;
+   const id=qid(value('item'));if(!id)continue;
+   const m=String(value('coord')||'').match(/^Point\((-?\d+(?:\.\d+)?) (-?\d+(?:\.\d+)?)\)$/);
+   if(!m)continue;
+   const lng=Number(m[1]),lat=Number(m[2]);if(Math.abs(lat)>90||Math.abs(lng)>180)continue;
+   const from=yearOf(value('inception'));const to=yearOf(value('dissolution'));
+   if(from===null)continue;
+   if(to!==null&&to<from)continue;
+   if(!byId.has(id))byId.set(id,{name:value('itemLabel')||id,lat,lng,from,to:to??2026,region:'',source:'https://www.wikidata.org/wiki/'+id,precision:'approximate',note:'Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.',wikidataId:id,reviewStatus:'unreviewed'});
+  }
+  console.log('Page '+(i+1)+': '+rows.length+' rows; '+byId.size+' distinct dated settlements');
+  if(rows.length<pageSize)break;
+  await sleep(1500);
+ }
+ if(byId.size===0)throw Error('No valid dated settlement records; keeping existing dataset');
+ const cities=[...byId.values()].sort((a,b)=>a.wikidataId.localeCompare(b.wikidataId,undefined,{numeric:true}));
+ fs.mkdirSync('data/imports',{recursive:true});
+ fs.writeFileSync('data/imports/wikidata-cities.json',JSON.stringify({schemaVersion:2,source:'Wikidata SPARQL',reviewStatus:'unreviewed',importedAt:new Date().toISOString(),pagesFetched:pages,cities},null,2)+'\n');
+ console.log('Wrote '+cities.length+' historical settlement records');
+}
+main().catch(error=>{console.error(error);process.exitCode=1});
