@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "Wikidata",
   "reviewStatus": "unreviewed",
-  "importedAt": "2026-11-22T10:29:31.013Z",
+  "importedAt": "2026-11-22T10:43:07.175Z",
   "cities": [
     {
       "name": "Amsterdam",
@@ -44,19 +44,6 @@
       "reviewStatus": "unreviewed"
     },
     {
-      "name": "Austria–Hungary",
-      "lat": 48.2075,
-      "lng": 16.365,
-      "from": 1867,
-      "to": 1918,
-      "region": "",
-      "source": "https://www.wikidata.org/wiki/Q28513",
-      "precision": "approximate",
-      "note": "Wikidata-derived dates and coordinates; historical interpretation requires verification.",
-      "wikidataId": "Q28513",
-      "reviewStatus": "unreviewed"
-    },
-    {
       "name": "Bangkok",
       "lat": 13.75,
       "lng": 100.51666666667,
@@ -67,19 +54,6 @@
       "precision": "approximate",
       "note": "Wikidata-derived dates and coordinates; historical interpretation requires verification.",
       "wikidataId": "Q1861",
-      "reviewStatus": "unreviewed"
-    },
-    {
-      "name": "Belize",
-      "lat": 17.066666666666666,
-      "lng": -88.7,
-      "from": 1981,
-      "to": 2026,
-      "region": "",
-      "source": "https://www.wikidata.org/wiki/Q242",
-      "precision": "approximate",
-      "note": "Wikidata-derived dates and coordinates; historical interpretation requires verification.",
-      "wikidataId": "Q242",
       "reviewStatus": "unreviewed"
     },
     {
@@ -122,19 +96,6 @@
       "reviewStatus": "unreviewed"
     },
     {
-      "name": "Byzantine Empire",
-      "lat": 41.0125,
-      "lng": 28.98,
-      "from": 395,
-      "to": 1453,
-      "region": "",
-      "source": "https://www.wikidata.org/wiki/Q12544",
-      "precision": "approximate",
-      "note": "Wikidata-derived dates and coordinates; historical interpretation requires verification.",
-      "wikidataId": "Q12544",
-      "reviewStatus": "unreviewed"
-    },
-    {
       "name": "Cairo",
       "lat": 30.044444444444444,
       "lng": 31.235833333333332,
@@ -145,19 +106,6 @@
       "precision": "approximate",
       "note": "Wikidata-derived dates and coordinates; historical interpretation requires verification.",
       "wikidataId": "Q85",
-      "reviewStatus": "unreviewed"
-    },
-    {
-      "name": "Campania",
-      "lat": 40.75,
-      "lng": 14.95,
-      "from": 1970,
-      "to": 2026,
-      "region": "",
-      "source": "https://www.wikidata.org/wiki/Q1438",
-      "precision": "approximate",
-      "note": "Wikidata-derived dates and coordinates; historical interpretation requires verification.",
-      "wikidataId": "Q1438",
       "reviewStatus": "unreviewed"
     },
     {
@@ -317,19 +265,6 @@
       "reviewStatus": "unreviewed"
     },
     {
-      "name": "Russian Empire",
-      "lat": 58.65,
-      "lng": 70.1167,
-      "from": 1721,
-      "to": 1917,
-      "region": "",
-      "source": "https://www.wikidata.org/wiki/Q34266",
-      "precision": "approximate",
-      "note": "Wikidata-derived dates and coordinates; historical interpretation requires verification.",
-      "wikidataId": "Q34266",
-      "reviewStatus": "unreviewed"
-    },
-    {
       "name": "São Paulo",
       "lat": -23.550394444444,
       "lng": -46.633947222222,
@@ -366,19 +301,6 @@
       "precision": "approximate",
       "note": "Wikidata-derived dates and coordinates; historical interpretation requires verification.",
       "wikidataId": "Q8686",
-      "reviewStatus": "unreviewed"
-    },
-    {
-      "name": "Texas",
-      "lat": 31,
-      "lng": -100,
-      "from": 1845,
-      "to": 2026,
-      "region": "",
-      "source": "https://www.wikidata.org/wiki/Q1439",
-      "precision": "approximate",
-      "note": "Wikidata-derived dates and coordinates; historical interpretation requires verification.",
-      "wikidataId": "Q1439",
       "reviewStatus": "unreviewed"
     },
     {
