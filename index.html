@@ -20,6 +20,25 @@ body:has(#details[style*="display: block"]) #coverage{display:none}
  #details{right:8px;top:calc(var(--header-bottom) + 8px);width:min(380px,calc(100vw - 16px));max-height:calc(100dvh - var(--header-bottom) - 29dvh - 16px)}
  #coverage{right:8px;bottom:calc(29dvh + 8px);max-width:190px}
 }
+
+/* Prevent header controls from forcing the globe viewport wider than the screen. */
+header .top{flex-wrap:wrap;min-width:0}
+header .top>div{display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
+header .timeline{min-width:0;flex-wrap:wrap}
+header .timeline input[type=range]{min-width:100px;flex:1 1 160px}
+#periods{max-height:72px;overflow-y:auto}
+#search,#region,#resultType,#resultPeriod{max-width:100%}
+@media(max-width:760px){
+ header .top{align-items:flex-start}
+ header .top>div{width:100%;justify-content:flex-start}
+ header .timeline{gap:6px}
+ #scale{flex:0 0 76px;max-width:76px}
+ #year{min-width:76px;font-size:13px}
+ #jumpyear{width:76px}
+ #periods{max-height:54px;overflow-y:auto}
+ #fineBox{flex-wrap:wrap}
+ #fineBox input[type=range]{min-width:100px;flex:1}
+}
 </style></head><body><header><div class="top"><h1>🌍 <em>ChronoEarth</em> <small style="font-size:11px;color:#b5c7d9">Explore history in 3D</small></h1><div><select id="language" aria-label="Language"><option value="en">English</option><option value="de">Deutsch</option><option value="es">Español</option><option value="fr">Français</option><option value="it">Italiano</option><option value="hu">Magyar</option><option value="pl">Polski</option></select> <button id="play">▶ Lejátszás</button> <button id="now">Ma</button> <button id="share" title="Copy link">🔗</button></div></div><div class="timeline"><select id="scale" aria-label="Timeline resolution"><option value="day">Nap</option><option value="week">Hét</option><option value="month">Hónap</option><option value="year" selected>Év</option><option value="10">10 év</option><option value="50">50 év</option><option value="100">100 év</option></select><span id="year">Kr. e. 44</span><input id="jumpyear" type="number" min="-10000" max="2026" value="-44" step="1" aria-label="Year (negative for BCE)" title="Negative years = BCE"><input id="time" type="range" min="-10000" max="2026" value="-44" step="1" aria-label="Év"><span>2026</span></div><div id="fineBox"><span id="fineLabel"></span><input type="range" id="fineTime" min="0" max="364" value="0"><span id="scalehint"></span></div><div id="periods"></div></header>
 <main><div id="globe"></div><aside><div class="filters"><input id="search" type="search" placeholder="Keresés: esemény, személy, település, ország…"><select id="region"><option value="">Minden térség</option><option>Európa</option><option>Ázsia</option><option>Amerika</option><option>Afrika</option></select><div id="searchFilters" style="display:none"><select id="resultType" aria-label="Result type"><option value="">Minden típus</option><option value="event">Esemény</option><option value="person">Személy</option><option value="city">Település</option><option value="country">Állam / birodalom</option><option value="route">Útvonal</option></select><label for="resultPeriod" style="font-size:11px;color:#b5c7d9">Időszak</label><select id="resultPeriod"><option value="all">Minden korszak</option><option value="current">Kiválasztott év</option><option value="ancient">Ókor (500 előtt)</option><option value="medieval">Középkor (500–1499)</option><option value="early">Kora újkor (1500–1799)</option><option value="modern">Újkor és jelenkor (1800–)</option></select></div><div id="count"></div><div id="modeinfo"></div></div><div class="events" id="events"></div></aside><div id="layerpanel"><label><input type="checkbox" id="borders" checked><span id="borderslabel">Schematic historical regions</span></label><label><input type="checkbox" id="cities" checked><span id="citieslabel">Historical settlements</span></label><label><input type="checkbox" id="routes" checked><span id="routeslabel">Historical routes</span></label><div id="layernote">Illustrative only — not verified borders</div><label for="snapshotJump" id="snapshotLabel" style="font-size:11px;margin-top:8px">Térképi pillanatképek</label><select id="snapshotJump" style="width:100%;font-size:11px;margin-top:4px"><option value="">Válassz történelmi térképet…</option></select><button id="mapInventoryToggle" type="button" style="width:100%;font-size:11px;margin-top:5px">Térképi lefedettség áttekintése</button><div id="mapInventory" hidden style="max-height:190px;overflow:auto;font-size:11px;margin-top:6px;border-top:1px solid #30465f;padding-top:6px"></div></div><div id="note">Forgatás: húzás · Nagyítás: görgő vagy két ujj · Kattints az eseményekre</div><div id="coverage" role="status" aria-live="polite"></div><div id="details"></div></main>
 <script src="https://unpkg.com/globe.gl"></script><script>
