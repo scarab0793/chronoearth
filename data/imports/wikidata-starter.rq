@@ -1,0 +1,10 @@
+# Export from https://query.wikidata.org/ as JSON, then run:
+# node scripts/import-wikidata.cjs wikidata-export.json data/imports/wikidata-batch.json
+# Small starter batch; expand with paging and rate limits rather than unbounded requests.
+SELECT ?item ?itemLabel ?inception ?dissolution ?coord WHERE {
+  VALUES ?item { wd:Q1748 wd:Q12544 wd:Q34266 wd:Q11772 wd:Q28513 }
+  OPTIONAL { ?item wdt:P571 ?inception. }
+  OPTIONAL { ?item wdt:P576 ?dissolution. }
+  OPTIONAL { ?item wdt:P625 ?coord. }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "hu,en". }
+}
