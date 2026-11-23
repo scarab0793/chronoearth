@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "Wikidata MediaWiki API",
-  "importedAt": "2026-11-22T16:49:42.871Z",
+  "importedAt": "2026-11-23T21:07:18.912Z",
   "reviewStatus": "unreviewed",
   "note": "Candidate event catalogue; each item needs historical type and date review.",
   "events": [
@@ -404,6 +404,71 @@
       "location": null
     },
     {
+      "id": "wikidata:Q486124",
+      "wikidataId": "Q486124",
+      "name": "Battle of Badr",
+      "year": 624,
+      "description": "624 battle between the Muslims and the Quraysh near Badr (present-day Saudi Arabia)",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q486124",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q488278",
+      "wikidataId": "Q488278",
+      "name": "Battle of Uhud",
+      "year": 625,
+      "description": "early Islamic battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q488278",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q565661",
+      "wikidataId": "Q565661",
+      "name": "Battle of Khaybar",
+      "year": 628,
+      "description": "7th-century battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q565661",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2542813",
+      "wikidataId": "Q2542813",
+      "name": "Battle of Ullais",
+      "year": 633,
+      "description": "633 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2542813",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q603549",
+      "wikidataId": "Q603549",
+      "name": "Battle of Nahāvand",
+      "year": 642,
+      "description": "battle between Arabs and the Sassanide Empire",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q603549",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q570140",
       "wikidataId": "Q570140",
       "name": "Taika Reform",
@@ -413,6 +478,32 @@
         "Q6103541"
       ],
       "source": "https://www.wikidata.org/wiki/Q570140",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q735876",
+      "wikidataId": "Q735876",
+      "name": "Battle of Siffin",
+      "year": 657,
+      "description": "battle of the First Fitna in 657 AD",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q735876",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q626058",
+      "wikidataId": "Q626058",
+      "name": "Battle of Karbala",
+      "year": 680,
+      "description": "battle in October 680 between the army of Ubayd Allah ibn Ziyad and al-Husayn ibn Ali",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q626058",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -443,6 +534,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q1430939",
+      "wikidataId": "Q1430939",
+      "name": "Battle of Fontenoy",
+      "year": 841,
+      "description": "841 middle ages battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1430939",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q979633",
       "wikidataId": "Q979633",
       "name": "Sack of Rome",
@@ -453,6 +557,45 @@
         "Q275918"
       ],
       "source": "https://www.wikidata.org/wiki/Q979633",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q697722",
+      "wikidataId": "Q697722",
+      "name": "Battle of Pressburg",
+      "year": 907,
+      "description": "battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q697722",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q17515491",
+      "wikidataId": "Q17515491",
+      "name": "Battle of Lechfeld",
+      "year": 910,
+      "description": "910 battle during the Hungarian invasions of Europe",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q17515491",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q273069",
+      "wikidataId": "Q273069",
+      "name": "Battle of Lechfeld",
+      "year": 955,
+      "description": "German war victory over Hungary in August, 955",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q273069",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -535,6 +678,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q4871252",
+      "wikidataId": "Q4871252",
+      "name": "Battle of Huete",
+      "year": 1164,
+      "description": "1164 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4871252",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q233568",
       "wikidataId": "Q233568",
       "name": "Battle of Hattin",
@@ -544,6 +700,19 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q233568",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q940026",
+      "wikidataId": "Q940026",
+      "name": "Battle of Arsuf",
+      "year": 1191,
+      "description": "1191 Christian Crusader victory against Saladin",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q940026",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -591,6 +760,71 @@
       "location": null
     },
     {
+      "id": "wikidata:Q705874",
+      "wikidataId": "Q705874",
+      "name": "Battle of Mohi",
+      "year": 1241,
+      "description": "1241 battle during the Mongol invasion of Hungary",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q705874",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q578201",
+      "wikidataId": "Q578201",
+      "name": "Battle of Forbie",
+      "year": 1244,
+      "description": "1244 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q578201",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q244356",
+      "wikidataId": "Q244356",
+      "name": "Battle of Ain Jalut",
+      "year": 1260,
+      "description": "1260 battle between the Mamluk Sultanate and the Mongol Empire",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q244356",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1098101",
+      "wikidataId": "Q1098101",
+      "name": "Battle of Isaszeg",
+      "year": 1265,
+      "description": "1265 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1098101",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5432145",
+      "wikidataId": "Q5432145",
+      "name": "Fall of Arsuf",
+      "year": 1265,
+      "description": "1265 battle in the later Crusades in Palestine",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q5432145",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q97999945",
       "wikidataId": "Q97999945",
       "name": "Battle of Tsushima (1274)",
@@ -617,6 +851,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q1265867",
+      "wikidataId": "Q1265867",
+      "name": "Battle of Gallipoli",
+      "year": 1312,
+      "description": "1312 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1265867",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q222520",
+      "wikidataId": "Q222520",
+      "name": "Battle of Bannockburn",
+      "year": 1314,
+      "description": "1314 battle during the First War of Scottish Independence",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q222520",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q12551",
       "wikidataId": "Q12551",
       "name": "Hundred Years' War",
@@ -626,6 +886,19 @@
         "Q198"
       ],
       "source": "https://www.wikidata.org/wiki/Q12551",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q27759",
+      "wikidataId": "Q27759",
+      "name": "Battle of Crécy",
+      "year": 1346,
+      "description": "1346 battle of the Hundred Years' War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q27759",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -670,6 +943,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q33570",
+      "wikidataId": "Q33570",
+      "name": "Battle of Grunwald",
+      "year": 1410,
+      "description": "1410 battle between the Teutonic Knights and Poland–Lithuania",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q33570",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q188495",
       "wikidataId": "Q188495",
       "name": "Battle of Agincourt",
@@ -684,6 +970,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q30600045",
+      "wikidataId": "Q30600045",
+      "name": "Battle of Gallipoli",
+      "year": 1416,
+      "description": "1416 battle between Venice and the Ottoman Sultanate; upset Venetian victory",
+      "typeIds": [
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q30600045",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q392213",
       "wikidataId": "Q392213",
       "name": "Siege of Orléans",
@@ -694,6 +993,32 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q392213",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q32832",
+      "wikidataId": "Q32832",
+      "name": "Battle of Varna",
+      "year": 1444,
+      "description": "1444 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q32832",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131625937",
+      "wikidataId": "Q131625937",
+      "name": "Battle of Crécy in 1346 between the English and French in the Hundred Years' War.",
+      "year": 1450,
+      "description": "Miniature by Loyset Liédet in a 15th century manuscript of the Chronicles by Jean Froissart",
+      "typeIds": [
+        "Q8362"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q131625937",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -713,6 +1038,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q932613",
+      "wikidataId": "Q932613",
+      "name": "Battle of Castillon",
+      "year": 1453,
+      "description": "1453 battle during the Hundred Years' War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q932613",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q20537847",
       "wikidataId": "Q20537847",
       "name": "Battle of Pharsalus and the Beheading of Pompey",
@@ -726,6 +1064,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q111242700",
+      "wikidataId": "Q111242700",
+      "name": "Battle of Nikopolis 1396",
+      "year": 1472,
+      "description": "painting by Sébastien Mamerot",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q111242700",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q559400",
       "wikidataId": "Q559400",
       "name": "Treaty of Utrecht",
@@ -735,6 +1086,19 @@
         "Q131569"
       ],
       "source": "https://www.wikidata.org/wiki/Q559400",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q222013",
+      "wikidataId": "Q222013",
+      "name": "Battle of Bosworth Field",
+      "year": 1485,
+      "description": "1485 last significant battle of the Wars of the Roses",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q222013",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -761,6 +1125,32 @@
         "Q131569"
       ],
       "source": "https://www.wikidata.org/wiki/Q180897",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1300742",
+      "wikidataId": "Q1300742",
+      "name": "Battle of Flodden",
+      "year": 1513,
+      "description": "1513 battle during the War of the League of Cambrai between England and Scotland",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1300742",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q745110",
+      "wikidataId": "Q745110",
+      "name": "Battle of Chaldiran",
+      "year": 1514,
+      "description": "1514 battle during the Ottoman–Persian Wars",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q745110",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -874,6 +1264,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q16113179",
+      "wikidataId": "Q16113179",
+      "name": "Siege of Szigetvár",
+      "year": 1556,
+      "description": "1556 siege",
+      "typeIds": [
+        "Q188055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q16113179",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q19885891",
       "wikidataId": "Q19885891",
       "name": "Siege of Orléans",
@@ -887,6 +1290,33 @@
       "location": null
     },
     {
+      "id": "wikidata:Q1362188",
+      "wikidataId": "Q1362188",
+      "name": "Battle of Talikota",
+      "year": 1565,
+      "description": "1565 battle between the Deccan Sultanates and Vijayanagara Empire",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1362188",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q606621",
+      "wikidataId": "Q606621",
+      "name": "Siege of Szigetvár",
+      "year": 1566,
+      "description": "1566 battle in Hungary during the Ottoman–Habsburg wars",
+      "typeIds": [
+        "Q188055",
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q606621",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q165425",
       "wikidataId": "Q165425",
       "name": "Battle of Lepanto",
@@ -896,6 +1326,19 @@
         "Q1261499"
       ],
       "source": "https://www.wikidata.org/wiki/Q165425",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3635360",
+      "wikidataId": "Q3635360",
+      "name": "Battle of Haldighati",
+      "year": 1576,
+      "description": "1576 battle of the Mughal-Rajput Wars",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3635360",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -936,6 +1379,19 @@
         "Q132137"
       ],
       "source": "https://www.wikidata.org/wiki/Q110110496",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q64667692",
+      "wikidataId": "Q64667692",
+      "name": "Battle of Pákozd",
+      "year": 1593,
+      "description": "1593 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q64667692",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1005,6 +1461,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q937332",
+      "wikidataId": "Q937332",
+      "name": "Battle of Kircholm",
+      "year": 1605,
+      "description": "1605 major battle of the Polish–Swedish War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q937332",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q932228",
+      "wikidataId": "Q932228",
+      "name": "Battle of Klushino",
+      "year": 1610,
+      "description": "1610 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q932228",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q2487",
       "wikidataId": "Q2487",
       "name": "Thirty Years' War",
@@ -1031,6 +1513,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q30005238",
+      "wikidataId": "Q30005238",
+      "name": "Battle of Klushino",
+      "year": 1620,
+      "description": "painting by Szymon Boguszowicz",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q30005238",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q3778626",
       "wikidataId": "Q3778626",
       "name": "Thirty Years War in France",
@@ -1044,6 +1539,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q1478525",
+      "wikidataId": "Q1478525",
+      "name": "Battle of Edgehill",
+      "year": 1642,
+      "description": "1642 battle during the English Civil War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1478525",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q2475657",
       "wikidataId": "Q2475657",
       "name": "Battle of Adwalton Moor",
@@ -1053,6 +1561,32 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q2475657",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q326417",
+      "wikidataId": "Q326417",
+      "name": "Battle of Marston Moor",
+      "year": 1644,
+      "description": "1644 battle of the First English Civil War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q326417",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q949724",
+      "wikidataId": "Q949724",
+      "name": "Battle of Naseby",
+      "year": 1645,
+      "description": "1645 battle of the First English Civil War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q949724",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1110,6 +1644,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q644960",
+      "wikidataId": "Q644960",
+      "name": "Battle of the Boyne",
+      "year": 1690,
+      "description": "1690 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q644960",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q517486",
+      "wikidataId": "Q517486",
+      "name": "Battle of Zenta",
+      "year": 1697,
+      "description": "battle on 11 September 1697, in the Great Turkish War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q517486",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q154635",
       "wikidataId": "Q154635",
       "name": "Battle of Blenheim",
@@ -1123,6 +1683,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q161325",
+      "wikidataId": "Q161325",
+      "name": "Battle of Ramillies",
+      "year": 1706,
+      "description": "1706 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q161325",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q12145846",
       "wikidataId": "Q12145846",
       "name": "Northern War in Ukraine",
@@ -1132,6 +1705,19 @@
         "Q350604"
       ],
       "source": "https://www.wikidata.org/wiki/Q12145846",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q316139",
+      "wikidataId": "Q316139",
+      "name": "Battle of Oudenarde",
+      "year": 1708,
+      "description": "battle in the War of the Spanish Succession, fought on 11 July 1708, in Belgium.",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q316139",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1162,6 +1748,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q17321427",
+      "wikidataId": "Q17321427",
+      "name": "Battle of the Boyne between James II and William III, 11 June 1690",
+      "year": 1711,
+      "description": "painting by Jan van Huchtenburg",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q17321427",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q154674",
       "wikidataId": "Q154674",
       "name": "Peace of Utrecht",
@@ -1171,6 +1770,19 @@
         "Q625298"
       ],
       "source": "https://www.wikidata.org/wiki/Q154674",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q690391",
+      "wikidataId": "Q690391",
+      "name": "Battle of Petrovaradin",
+      "year": 1716,
+      "description": "1716 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q690391",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1197,6 +1809,45 @@
         "Q198"
       ],
       "source": "https://www.wikidata.org/wiki/Q151616",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q140378233",
+      "wikidataId": "Q140378233",
+      "name": "Battle of Nahavand",
+      "year": 1730,
+      "description": "1730 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q140378233",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q569953",
+      "wikidataId": "Q569953",
+      "name": "Battle of Fontenoy",
+      "year": 1745,
+      "description": "battle in 1745",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q569953",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q651919",
+      "wikidataId": "Q651919",
+      "name": "Battle of Culloden",
+      "year": 1746,
+      "description": "final confrontation of the Jacobite rising of 1745 and part of a religious civil war in Britain",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q651919",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1250,6 +1901,45 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q203233",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q313435",
+      "wikidataId": "Q313435",
+      "name": "Battle of Leuthen",
+      "year": 1757,
+      "description": "1757 battle of the Seven Years' War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q313435",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q573972",
+      "wikidataId": "Q573972",
+      "name": "Battle of Rossbach",
+      "year": 1757,
+      "description": "1757 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q573972",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q170400",
+      "wikidataId": "Q170400",
+      "name": "Battle of Kunersdorf",
+      "year": 1759,
+      "description": "1759 battle of the Seven Years' War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q170400",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1390,6 +2080,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q4411",
+      "wikidataId": "Q4411",
+      "name": "Battle of Valmy",
+      "year": 1792,
+      "description": "1792 battle during the War of the First Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4411",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q572883",
       "wikidataId": "Q572883",
       "name": "Battle of Verdun",
@@ -1403,6 +2106,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q855271",
+      "wikidataId": "Q855271",
+      "name": "Battle of Jemappes",
+      "year": 1792,
+      "description": "1792 battle during the War of the First Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q855271",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q3559235",
       "wikidataId": "Q3559235",
       "name": "Battle of Nicopolis",
@@ -1412,6 +2128,32 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q3559235",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q273011",
+      "wikidataId": "Q273011",
+      "name": "Battle of Marengo",
+      "year": 1800,
+      "description": "1800 battle during the War of the Second Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q273011",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2095678",
+      "wikidataId": "Q2095678",
+      "name": "Battle of Assaye",
+      "year": 1803,
+      "description": "1803 battle of the Second Anglo-Maratha War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2095678",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1470,6 +2212,84 @@
       "location": null
     },
     {
+      "id": "wikidata:Q154426",
+      "wikidataId": "Q154426",
+      "name": "Battle of Jena–Auerstedt",
+      "year": 1806,
+      "description": "1806 pair of battles during the War of the Fourth Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154426",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q241108",
+      "wikidataId": "Q241108",
+      "name": "Battle of Friedland",
+      "year": 1807,
+      "description": "1807 battle during the War of the Fourth Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q241108",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q331347",
+      "wikidataId": "Q331347",
+      "name": "Battle of Eylau",
+      "year": 1807,
+      "description": "1807 battle during the War of the Fourth Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q331347",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1059938",
+      "wikidataId": "Q1059938",
+      "name": "Battle of Piave River",
+      "year": 1809,
+      "description": "1809 battle during the War of the Fifth Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1059938",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q467777",
+      "wikidataId": "Q467777",
+      "name": "Battle of Wagram",
+      "year": 1809,
+      "description": "1809 battle during the War of the Fifth Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q467777",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q541626",
+      "wikidataId": "Q541626",
+      "name": "Battle of Aspern-Essling",
+      "year": 1809,
+      "description": "1809 battle during the War of the Fifth Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q541626",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q184320",
       "wikidataId": "Q184320",
       "name": "Battle of Borodino",
@@ -1479,6 +2299,58 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q184320",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q708580",
+      "wikidataId": "Q708580",
+      "name": "Battle of Salamanca",
+      "year": 1812,
+      "description": "1812 battle during the Peninsular War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q708580",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q25185008",
+      "wikidataId": "Q25185008",
+      "name": "Battle of Arnhem",
+      "year": 1813,
+      "description": "1813 battle during the War of the Sixth Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q25185008",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q276059",
+      "wikidataId": "Q276059",
+      "name": "Battle of Vitoria",
+      "year": 1813,
+      "description": "1813 battle of the Peninsular War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q276059",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q131622990",
+      "wikidataId": "Q131622990",
+      "name": "Battle of Assaye",
+      "year": 1815,
+      "description": "",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q131622990",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1509,6 +2381,45 @@
       "location": null
     },
     {
+      "id": "wikidata:Q705936",
+      "wikidataId": "Q705936",
+      "name": "Battle of Quatre Bras",
+      "year": 1815,
+      "description": "1815 battle during the War of the Seventh Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q705936",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q855429",
+      "wikidataId": "Q855429",
+      "name": "Battle of Ligny",
+      "year": 1815,
+      "description": "1815 battle during the War of the Seventh Coalition",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q855429",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q3630511",
+      "wikidataId": "Q3630511",
+      "name": "Battle of Koregaon",
+      "year": 1818,
+      "description": "1818 battle fought between British East India Company (mostly Mahar soldiers) and the Peshwa faction of the Maratha Confederacy",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3630511",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q1772871",
       "wikidataId": "Q1772871",
       "name": "The Battle of Trafalgar",
@@ -1531,6 +2442,19 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q111911292",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2888510",
+      "wikidataId": "Q2888510",
+      "name": "Battle of Fontenoy, 11th of May 1745",
+      "year": 1828,
+      "description": "painting by Horace Vernet",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2888510",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1576,6 +2500,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q4871253",
+      "wikidataId": "Q4871253",
+      "name": "Battle of Huesca",
+      "year": 1837,
+      "description": "1837 battle of the First Carlist War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4871253",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1392699",
+      "wikidataId": "Q1392699",
+      "name": "Battle of Blood River",
+      "year": 1838,
+      "description": "part of the Great Trek, fought on the bank of the Ncome river in South Africa in 1838",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1392699",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q191282",
       "wikidataId": "Q191282",
       "name": "First Opium War",
@@ -1585,6 +2535,19 @@
         "Q198"
       ],
       "source": "https://www.wikidata.org/wiki/Q191282",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2888257",
+      "wikidataId": "Q2888257",
+      "name": "Battle of Castillon, July 17, 1453",
+      "year": 1839,
+      "description": "painting by Charles-Philippe Larivière",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2888257",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1616,6 +2579,33 @@
       "location": null
     },
     {
+      "id": "wikidata:Q110122519",
+      "wikidataId": "Q110122519",
+      "name": "Battle of Naseby",
+      "year": 1844,
+      "description": "engraving - print made by Edward Radclyffe",
+      "typeIds": [
+        "Q11835431",
+        "Q11060274"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q110122519",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1241936",
+      "wikidataId": "Q1241936",
+      "name": "Battle of Pákozd",
+      "year": 1848,
+      "description": "1848 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1241936",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q19021",
       "wikidataId": "Q19021",
       "name": "Vienna Uprising",
@@ -1625,6 +2615,19 @@
         "Q1323212"
       ],
       "source": "https://www.wikidata.org/wiki/Q19021",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q27977894",
+      "wikidataId": "Q27977894",
+      "name": "Battle of Kunersdorf on 1 August 1759",
+      "year": 1848,
+      "description": "painting by Alexander Ewstafijewitsch Kotzebu",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q27977894",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1664,6 +2667,45 @@
         "Q10931"
       ],
       "source": "https://www.wikidata.org/wiki/Q690959",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1098103",
+      "wikidataId": "Q1098103",
+      "name": "Battle of Isaszeg",
+      "year": 1849,
+      "description": "1849 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1098103",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q258069",
+      "wikidataId": "Q258069",
+      "name": "Battle of Segesvár",
+      "year": 1849,
+      "description": "1849 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q258069",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4870855",
+      "wikidataId": "Q4870855",
+      "name": "Battle of Debrecen",
+      "year": 1849,
+      "description": "1849 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4870855",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1731,6 +2773,58 @@
         "Q188055"
       ],
       "source": "https://www.wikidata.org/wiki/Q26910860",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5722862",
+      "wikidataId": "Q5722862",
+      "name": "Battle of Salamanca",
+      "year": 1858,
+      "description": "1858 battle in Mexico",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q5722862",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q324916",
+      "wikidataId": "Q324916",
+      "name": "Battle of Solferino",
+      "year": 1859,
+      "description": "1859 major battle of the Second Italian War of Independence",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q324916",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q681430",
+      "wikidataId": "Q681430",
+      "name": "Battle of Magenta",
+      "year": 1859,
+      "description": "1859 battle of the Second Italian War of Independence",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q681430",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q140130357",
+      "wikidataId": "Q140130357",
+      "name": "The Battle of Solferino",
+      "year": 1861,
+      "description": "painting by Adolphe Yvon",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q140130357",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1907,6 +3001,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q2667561",
+      "wikidataId": "Q2667561",
+      "name": "Battle of Nikopol",
+      "year": 1877,
+      "description": "1877 battle of the Russo-Turkish War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2667561",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2636368",
+      "wikidataId": "Q2636368",
+      "name": "Battle of Grunwald",
+      "year": 1878,
+      "description": "painting by Jan Matejko",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2636368",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q1123353",
       "wikidataId": "Q1123353",
       "name": "Battle of Rorke's Drift",
@@ -1920,6 +3040,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q2166177",
+      "wikidataId": "Q2166177",
+      "name": "Battle of Ulundi",
+      "year": 1879,
+      "description": "1879 last major battle of the Anglo-Zulu War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2166177",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q50896782",
+      "wikidataId": "Q50896782",
+      "name": "The Battle of Varna",
+      "year": 1879,
+      "description": "painting by Jan Matejko",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q50896782",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q747589",
       "wikidataId": "Q747589",
       "name": "Battle of Isandlwana",
@@ -1929,6 +3075,19 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q747589",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2063236",
+      "wikidataId": "Q2063236",
+      "name": "Majuba Hill",
+      "year": 1881,
+      "description": "1881 final battle of the First Boer War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2063236",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -1981,6 +3140,32 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q302519",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1137302",
+      "wikidataId": "Q1137302",
+      "name": "Battle of Omdurman",
+      "year": 1898,
+      "description": "battle between the Mahdists and Anglo-Sudanse in 1898.",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1137302",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1388058",
+      "wikidataId": "Q1388058",
+      "name": "Battle of Magersfontein",
+      "year": 1899,
+      "description": "1899 battle of the Second Boer War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1388058",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2039,6 +3224,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q868249",
+      "wikidataId": "Q868249",
+      "name": "Battle of Colenso",
+      "year": 1899,
+      "description": "battle between British and Boer forces, South Africa on 15 December 1899",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q868249",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1072592",
+      "wikidataId": "Q1072592",
+      "name": "Battle of Spion Kop",
+      "year": 1900,
+      "description": "1900 battle of the Second Boer War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1072592",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q139250878",
       "wikidataId": "Q139250878",
       "name": "Battle of Königgrätz",
@@ -2053,6 +3264,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q2237713",
+      "wikidataId": "Q2237713",
+      "name": "Battle of Paardeberg",
+      "year": 1900,
+      "description": "1900 battle of the Second Boer War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2237713",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q3173195",
       "wikidataId": "Q3173195",
       "name": "Declaration of Independence",
@@ -2062,6 +3286,19 @@
         "Q3305213"
       ],
       "source": "https://www.wikidata.org/wiki/Q3173195",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2888152",
+      "wikidataId": "Q2888152",
+      "name": "Battle of Blood River Poort",
+      "year": 1901,
+      "description": "1901 battle of the Second Boer War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2888152",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2106,6 +3343,33 @@
       "location": null
     },
     {
+      "id": "wikidata:Q77335255",
+      "wikidataId": "Q77335255",
+      "name": "Battle of Bosworth Field",
+      "year": 1905,
+      "description": "illustration from Flame-bearers of Welsh history",
+      "typeIds": [
+        "Q11060274",
+        "Q178659"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q77335255",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q11802722",
+      "wikidataId": "Q11802722",
+      "name": "Battle of Grunwald diorama",
+      "year": 1910,
+      "description": "1910 painting about a 1410 battle",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q11802722",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q214426",
       "wikidataId": "Q214426",
       "name": "Mexican Revolution",
@@ -2120,6 +3384,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q61115841",
+      "wikidataId": "Q61115841",
+      "name": "Battle of Bakhmut",
+      "year": 1910,
+      "description": "1918–1919",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q61115841",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q190517",
       "wikidataId": "Q190517",
       "name": "Xinhai Revolution",
@@ -2129,6 +3406,19 @@
         "Q10931"
       ],
       "source": "https://www.wikidata.org/wiki/Q190517",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2624980",
+      "wikidataId": "Q2624980",
+      "name": "Battle of Tobruk",
+      "year": 1911,
+      "description": "1911 battle, part of the 1911-1912 Italo-Turkish War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2624980",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2182,6 +3472,33 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q190712",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q129117",
+      "wikidataId": "Q129117",
+      "name": "Battle of Kitcheners' Wood",
+      "year": 1915,
+      "description": "1915 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q129117",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q164983",
+      "wikidataId": "Q164983",
+      "name": "Gallipoli Campaign",
+      "year": 1915,
+      "description": "1915–1916 military campaign during World War I",
+      "typeIds": [
+        "Q831663",
+        "Q2001676"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q164983",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2279,6 +3596,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q129893801",
+      "wikidataId": "Q129893801",
+      "name": "Battle of Vitoria monument",
+      "year": 1917,
+      "description": "",
+      "typeIds": [
+        "Q860861"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q129893801",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q242644",
+      "wikidataId": "Q242644",
+      "name": "Battle of Caporetto",
+      "year": 1917,
+      "description": "1917 battle of World War I",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q242644",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q3812622",
       "wikidataId": "Q3812622",
       "name": "Second Battle of Verdun",
@@ -2327,6 +3670,19 @@
         "Q10931"
       ],
       "source": "https://www.wikidata.org/wiki/Q42976",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q654374",
+      "wikidataId": "Q654374",
+      "name": "Battle of Cambrai",
+      "year": 1917,
+      "description": "1917 World War I battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q654374",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2423,6 +3779,19 @@
         "Q18123741"
       ],
       "source": "https://www.wikidata.org/wiki/Q56313318",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q662961",
+      "wikidataId": "Q662961",
+      "name": "Battle of Vittorio Veneto",
+      "year": 1918,
+      "description": "1918 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q662961",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2556,6 +3925,33 @@
       "location": null
     },
     {
+      "id": "wikidata:Q2038907",
+      "wikidataId": "Q2038907",
+      "name": "Battle of Wuhan",
+      "year": 1938,
+      "description": "large-scale battle of the Second Sino-Japanese War over 4 months in 1938",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2038907",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q157627",
+      "wikidataId": "Q157627",
+      "name": "Battle of the Atlantic",
+      "year": 1939,
+      "description": "1939 longest continuous military campaign in World War II",
+      "typeIds": [
+        "Q831663",
+        "Q1261499"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q157627",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q362",
       "wikidataId": "Q362",
       "name": "World War II",
@@ -2609,6 +4005,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q76643875",
+      "wikidataId": "Q76643875",
+      "name": "British capture of Tobruk",
+      "year": 1941,
+      "description": "1941 battle",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q76643875",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q173034",
       "wikidataId": "Q173034",
       "name": "Battle of Midway",
@@ -2618,6 +4027,32 @@
         "Q1261499"
       ],
       "source": "https://www.wikidata.org/wiki/Q173034",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q217145",
+      "wikidataId": "Q217145",
+      "name": "Guadalcanal campaign",
+      "year": 1942,
+      "description": "1942-1943 series of battles fought on and around Guadalcanal as part of World War II",
+      "typeIds": [
+        "Q831663"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q217145",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q327035",
+      "wikidataId": "Q327035",
+      "name": "Battle of Gazala",
+      "year": 1942,
+      "description": "battle of the Western Desert Campaign of World War II, fought around the port of Tobruk in Libya",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q327035",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2648,6 +4083,45 @@
       "location": null
     },
     {
+      "id": "wikidata:Q157873",
+      "wikidataId": "Q157873",
+      "name": "Third Battle of Kharkov",
+      "year": 1943,
+      "description": "1943 series of battles on the Eastern Front of World War II",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q157873",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q327099",
+      "wikidataId": "Q327099",
+      "name": "Battle of Kasserine Passe",
+      "year": 1943,
+      "description": "1943 battle in Tunisia",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q327099",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q709484",
+      "wikidataId": "Q709484",
+      "name": "Belgorod–Kharkov offensive operation",
+      "year": 1943,
+      "description": "August 1943 Soviet strategic summer offensive",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q709484",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q151018",
       "wikidataId": "Q151018",
       "name": "Battle of the Bulge",
@@ -2661,6 +4135,20 @@
       "location": null
     },
     {
+      "id": "wikidata:Q155103",
+      "wikidataId": "Q155103",
+      "name": "Siege of Budapest",
+      "year": 1944,
+      "description": "Soviet siege of Budapest 1944-1945",
+      "typeIds": [
+        "Q188055",
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q155103",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q23751276",
       "wikidataId": "Q23751276",
       "name": "Battle of Talasea",
@@ -2670,6 +4158,111 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q23751276",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q308999",
+      "wikidataId": "Q308999",
+      "name": "Battle of Leyte Gulf",
+      "year": 1944,
+      "description": "1944 the largest naval battle of World War II",
+      "typeIds": [
+        "Q1261499",
+        "Q830494"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q308999",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q335288",
+      "wikidataId": "Q335288",
+      "name": "Battle of Monte Cassino",
+      "year": 1944,
+      "description": "1944 assaults by the Allies against the Winter Line in Italy held by Axis forces during the Italian Campaign of World War II",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q335288",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q383614",
+      "wikidataId": "Q383614",
+      "name": "Battle of Kohima",
+      "year": 1944,
+      "description": "1944 battle around Kohima, Nagaland, India",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q383614",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q387093",
+      "wikidataId": "Q387093",
+      "name": "Battle of Arnhem",
+      "year": 1944,
+      "description": "battle of World War II",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q387093",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q582953",
+      "wikidataId": "Q582953",
+      "name": "Battle of Debrecen",
+      "year": 1944,
+      "description": "1944 battle of the Eastern Front of World War II",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q582953",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q696844",
+      "wikidataId": "Q696844",
+      "name": "Battle of Anzio",
+      "year": 1944,
+      "description": "1944 battle in Italy",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q696844",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q707238",
+      "wikidataId": "Q707238",
+      "name": "Battle of Imphal",
+      "year": 1944,
+      "description": "battle fought in 1944",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q707238",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q717146",
+      "wikidataId": "Q717146",
+      "name": "Budapest offensive",
+      "year": 1944,
+      "description": "Soviet military offensive 1944–1945",
+      "typeIds": [
+        "Q2001676"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q717146",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2741,6 +4334,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q277337",
+      "wikidataId": "Q277337",
+      "name": "Battle of Changjin Reservoir",
+      "year": 1950,
+      "description": "1950 battle in the Korean War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q277337",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q482979",
+      "wikidataId": "Q482979",
+      "name": "Battle of Pusan Perimeter",
+      "year": 1950,
+      "description": "1950 major battle of the Korean War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q482979",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q483039",
       "wikidataId": "Q483039",
       "name": "Battle of Inchon",
@@ -2754,6 +4373,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q4872128",
+      "wikidataId": "Q4872128",
+      "name": "Battle of Pusan Perimeter logistics",
+      "year": 1950,
+      "description": "1950 battle of Korean War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4872128",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q8663",
       "wikidataId": "Q8663",
       "name": "Korean War",
@@ -2763,6 +4395,20 @@
         "Q198"
       ],
       "source": "https://www.wikidata.org/wiki/Q8663",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q713018",
+      "wikidataId": "Q713018",
+      "name": "Battle of Kapyong",
+      "year": 1951,
+      "description": "1951 battle",
+      "typeIds": [
+        "Q178561",
+        "Q3817498"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q713018",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2861,6 +4507,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q714749",
+      "wikidataId": "Q714749",
+      "name": "Battle of Ia Drang",
+      "year": 1965,
+      "description": "1965 battle of the Vietnam War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q714749",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q8690",
       "wikidataId": "Q8690",
       "name": "Cultural Revolution",
@@ -2924,6 +4583,59 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q247253",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q65069176",
+      "wikidataId": "Q65069176",
+      "name": "Tet Offensive attack on US Embassy",
+      "year": 1968,
+      "description": "1968 Vietcong military offensive",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q65069176",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q697053",
+      "wikidataId": "Q697053",
+      "name": "Battle of Hue",
+      "year": 1968,
+      "description": "1968 battle of the Vietnam War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q697053",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q82542",
+      "wikidataId": "Q82542",
+      "name": "Tet Offensive",
+      "year": 1968,
+      "description": "1968 military campaign during the Vietnam War",
+      "typeIds": [
+        "Q831663",
+        "Q2001676"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q82542",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q247395",
+      "wikidataId": "Q247395",
+      "name": "Battle of Hamburger Hill",
+      "year": 1969,
+      "description": "symbolic Vietnam War battle, May 1969",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q247395",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -3064,6 +4776,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q2641750",
+      "wikidataId": "Q2641750",
+      "name": "Battle of Goose Green",
+      "year": 1982,
+      "description": "1982 engagement of the Falklands War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2641750",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4582489",
+      "wikidataId": "Q4582489",
+      "name": "Battle of Mount Tumbledown",
+      "year": 1982,
+      "description": "1982 engagement in the Falklands War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4582489",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q48249",
       "wikidataId": "Q48249",
       "name": "Falklands War",
@@ -3114,6 +4852,19 @@
         "Q99654400"
       ],
       "source": "https://www.wikidata.org/wiki/Q858145",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q386051",
+      "wikidataId": "Q386051",
+      "name": "Battle of Cuito Cuanavale",
+      "year": 1987,
+      "description": "1987 battle in the Angolan Civil War",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q386051",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -3252,6 +5003,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q4178089",
+      "wikidataId": "Q4178089",
+      "name": "Battle of Karbala",
+      "year": 2003,
+      "description": "took place during the 2003 invasion of Iraq",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4178089",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q33761",
       "wikidataId": "Q33761",
       "name": "Arab Spring",
@@ -3295,6 +5059,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q28309827",
+      "wikidataId": "Q28309827",
+      "name": "Battle of Artemivsk",
+      "year": 2014,
+      "description": "2014 engagement during the war in Donbas",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q28309827",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q96057729",
       "wikidataId": "Q96057729",
       "name": "Rwandan Genocide memorial",
@@ -3317,6 +5094,19 @@
         "Q28966302"
       ],
       "source": "https://www.wikidata.org/wiki/Q19928886",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q22117640",
+      "wikidataId": "Q22117640",
+      "name": "Battle of Avdiivka",
+      "year": 2017,
+      "description": "2017 battle during the War in Donbas",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q22117640",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -3363,6 +5153,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q111383245",
+      "wikidataId": "Q111383245",
+      "name": "Battle of Avdiivka",
+      "year": 2020,
+      "description": "2022–2024 military engagement during the Russian invasion of Ukraine",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q111383245",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q84055514",
       "wikidataId": "Q84055514",
       "name": "COVID-19 pandemic in India",
@@ -3386,6 +5189,32 @@
         "Q83741704"
       ],
       "source": "https://www.wikidata.org/wiki/Q86694873",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q112114958",
+      "wikidataId": "Q112114958",
+      "name": "Battle of Bakhmut",
+      "year": 2022,
+      "description": "battle in the Russian invasion of Ukraine in 2022 and 2023",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q112114958",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q119780528",
+      "wikidataId": "Q119780528",
+      "name": "Battle of Omdurman (2023 onwards)",
+      "year": 2023,
+      "description": "ongoing battle in Omdurman, Khartoum state, Sudan",
+      "typeIds": [
+        "Q178561"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q119780528",
       "reviewStatus": "unreviewed",
       "location": null
     }
