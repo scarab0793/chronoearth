@@ -4,7 +4,7 @@
 const fs=require('node:fs');
 const endpoint='https://query.wikidata.org/sparql';
 const pageSize=Number(process.env.WIKIDATA_PAGE_SIZE||100);
-const maxPages=Number(process.env.WIKIDATA_MAX_PAGES||12);
+const maxPages=Number(process.env.WIKIDATA_MAX_PAGES||30);
 if(!Number.isInteger(pageSize)||pageSize<1||pageSize>500||!Number.isInteger(maxPages)||maxPages<1||maxPages>100)throw Error('Invalid pagination limits');
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const yearOf=v=>{const m=String(v||'').match(/^([+-]?\d{1,16})-\d\d-\d\dT/);return m&&Number.isSafeInteger(Number(m[1]))?Number(m[1]):null};
