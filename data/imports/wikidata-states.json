@@ -1,10 +1,91 @@
 {
   "schemaVersion": 1,
   "source": "Wikidata MediaWiki API",
-  "importedAt": "2026-11-22T16:43:25.988Z",
+  "importedAt": "2026-11-23T21:03:31.821Z",
   "reviewStatus": "unreviewed",
   "note": "Candidate historical polities. Type, foundation/dissolution dates and boundaries require verification.",
   "states": [
+    {
+      "id": "wikidata:Q1524",
+      "wikidataId": "Q1524",
+      "name": "Athens",
+      "from": -7000,
+      "to": null,
+      "description": "capital and largest city of Greece",
+      "typeIds": [
+        "Q1549591",
+        "Q51929311",
+        "Q200250",
+        "Q5500203"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1524",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q844750",
+      "wikidataId": "Q844750",
+      "name": "Zapotec",
+      "from": -6700,
+      "to": 1201,
+      "description": "Mesoamerican civilization that flourished in the Valley of Oaxaca in Mesoamerica",
+      "typeIds": [
+        "Q116795925",
+        "Q8432"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q844750",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q153836",
+      "wikidataId": "Q153836",
+      "name": "Caral–Supe civilization",
+      "from": -3500,
+      "to": -1800,
+      "description": "complex pre-Columbian era society that included as many as 30 major population centers in what is now the Norte Chico region of north-central coastal Peru",
+      "typeIds": [
+        "Q465299",
+        "Q8432"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q153836",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q41642",
+      "wikidataId": "Q41642",
+      "name": "Phoenicia",
+      "from": -2500,
+      "to": -64,
+      "description": "ancient Semitic maritime civilization",
+      "typeIds": [
+        "Q3024240",
+        "Q1292119"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q41642",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q4461035",
+      "wikidataId": "Q4461035",
+      "name": "Akkadian Empire",
+      "from": -2334,
+      "to": -2154,
+      "description": "ancient empire in the Mesopotamia (2334–2154 BC)",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4461035",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
     {
       "id": "wikidata:Q28405",
       "wikidataId": "Q28405",
@@ -39,6 +120,334 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q1748182",
+      "wikidataId": "Q1748182",
+      "name": "Neo-Sumerian period",
+      "from": -2164,
+      "to": -2004,
+      "description": "Historical period of Mesopotamia",
+      "typeIds": [
+        "Q6428674"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1748182",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q723587",
+      "wikidataId": "Q723587",
+      "name": "Third Dynasty of Ur",
+      "from": -2112,
+      "to": -2004,
+      "description": "royal dynasty in Mesopotamia",
+      "typeIds": [
+        "Q164950",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q723587",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q169705",
+      "wikidataId": "Q169705",
+      "name": "Xia dynasty",
+      "from": -2070,
+      "to": -1600,
+      "description": "the first hereditary dynasty recorded in the Chinese dynasties (ca. 2100 BCE--1916 BCE), house of Xiahou",
+      "typeIds": [
+        "Q12857432",
+        "Q836688",
+        "Q18706315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q169705",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q41137",
+      "wikidataId": "Q41137",
+      "name": "Assyrian Empire",
+      "from": -2025,
+      "to": -609,
+      "description": "major Mesopotamian East Semitic kingdom",
+      "typeIds": [
+        "Q3024240",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q41137",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1471568",
+      "wikidataId": "Q1471568",
+      "name": "Old Babylonian Period",
+      "from": -2004,
+      "to": -1595,
+      "description": "period of the Babylonian civilization in Mesopotamia (ca 1900–1600 BCE)",
+      "typeIds": [
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1471568",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q28567",
+      "wikidataId": "Q28567",
+      "name": "Maya civilization",
+      "from": -2000,
+      "to": 1521,
+      "description": "Mesoamerican former civilization",
+      "typeIds": [
+        "Q3024240",
+        "Q8432",
+        "Q16887380",
+        "Q28171280",
+        "Q202390"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q28567",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q733897",
+      "wikidataId": "Q733897",
+      "name": "Old Babylonian Empire",
+      "from": -1830,
+      "to": -1750,
+      "description": "c. 1894 BC – c. 1595 BC dynasty of Babylonia",
+      "typeIds": [
+        "Q164950",
+        "Q7275",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q733897",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q178665",
+      "wikidataId": "Q178665",
+      "name": "Mitanni",
+      "from": -1650,
+      "to": -1260,
+      "description": "state in northern Syria and south-east Anatolia from ca. 1500 BC–1300 BC",
+      "typeIds": [
+        "Q3024240",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q178665",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q4496560",
+      "wikidataId": "Q4496560",
+      "name": "Hatti",
+      "from": -1650,
+      "to": -1178,
+      "description": "Empire of the Hittites",
+      "typeIds": [
+        "Q48349",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4496560",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q128938",
+      "wikidataId": "Q128938",
+      "name": "Shang dynasty",
+      "from": -1600,
+      "to": -1046,
+      "description": "the first ancient Chinese dynasty to leave historical records (1600-1046 BC); the empire ruled by this dynasty",
+      "typeIds": [
+        "Q836688",
+        "Q12857432",
+        "Q11042",
+        "Q1292119",
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q128938",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q135364",
+      "wikidataId": "Q135364",
+      "name": "Olmecas",
+      "from": -1400,
+      "to": null,
+      "description": "Mesoamerican civilization",
+      "typeIds": [
+        "Q465299",
+        "Q11042"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q135364",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q13341477",
+      "wikidataId": "Q13341477",
+      "name": "Chavín culture",
+      "from": -1300,
+      "to": -500,
+      "description": "pre-Columbian civilisation from Peru",
+      "typeIds": [
+        "Q465299"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q13341477",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q3185305",
+      "wikidataId": "Q3185305",
+      "name": "United Kingdom of Israel",
+      "from": -1050,
+      "to": -930,
+      "description": "a Israelite kingdom of Israel and Judah that might have existed (c. 1047–930 BCE)",
+      "typeIds": [
+        "Q3024240",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3185305",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1069609",
+      "wikidataId": "Q1069609",
+      "name": "Western Zhou",
+      "from": -1046,
+      "to": -771,
+      "description": "Chinese dynasty (c.1046-c,771 BCE)",
+      "typeIds": [
+        "Q12857432",
+        "Q836688",
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1069609",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q216068",
+      "wikidataId": "Q216068",
+      "name": "Sheba",
+      "from": -1000,
+      "to": 275,
+      "description": "Ancient South Arabian kingdom mentioned in multiple religious texts",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q216068",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q230407",
+      "wikidataId": "Q230407",
+      "name": "Kingdom of Israel",
+      "from": -930,
+      "to": -720,
+      "description": "Northern Israelite kingdom, c. 930–720 BCE",
+      "typeIds": [
+        "Q417175",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q230407",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q48685",
+      "wikidataId": "Q48685",
+      "name": "Kingdom of Judah",
+      "from": -930,
+      "to": -586,
+      "description": "Israelite Kingdom, whose capital was Jerusalem and Hebron, c. 930–586 BCE",
+      "typeIds": [
+        "Q3024240",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q48685",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q10914393",
+      "wikidataId": "Q10914393",
+      "name": "Neo-Assyrian Empire",
+      "from": -911,
+      "to": -609,
+      "description": "historical state in Mesopotamia",
+      "typeIds": [
+        "Q3024240",
+        "Q11514315",
+        "Q1292119",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q10914393",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q5690",
+      "wikidataId": "Q5690",
+      "name": "Sparta",
+      "from": -900,
+      "to": -192,
+      "description": "city and city-state in ancient Greece",
+      "typeIds": [
+        "Q15661340",
+        "Q148837",
+        "Q93342462"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q5690",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q185068",
+      "wikidataId": "Q185068",
+      "name": "Urartu",
+      "from": -860,
+      "to": -590,
+      "description": "Iron Age kingdom located in a large region around Lake Van",
+      "typeIds": [
+        "Q3024240",
+        "Q28171280"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q185068",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q83958",
       "wikidataId": "Q83958",
       "name": "Macedonia",
@@ -50,6 +459,101 @@
         "Q3024240"
       ],
       "source": "https://www.wikidata.org/wiki/Q83958",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q6343",
+      "wikidataId": "Q6343",
+      "name": "Carthage",
+      "from": -801,
+      "to": -146,
+      "description": "historical city in Tunisia",
+      "typeIds": [
+        "Q133442",
+        "Q655593",
+        "Q15661340"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q6343",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q307066",
+      "wikidataId": "Q307066",
+      "name": "Eastern Zhou",
+      "from": -771,
+      "to": -256,
+      "description": "second half of the Chinese Zhou dynasty (770 BCE–256 BCE)",
+      "typeIds": [
+        "Q6428674",
+        "Q12857432",
+        "Q836688",
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q307066",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2263327",
+      "wikidataId": "Q2263327",
+      "name": "Eastern Zhou",
+      "from": -770,
+      "to": -249,
+      "description": "ancient Chinese state during the Warring States period, vassal of the Zhou dynasty",
+      "typeIds": [
+        "Q836688"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2263327",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q624887",
+      "wikidataId": "Q624887",
+      "name": "Neo-Babylonian Empire",
+      "from": -626,
+      "to": -539,
+      "description": "former empire",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q624887",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q208404",
+      "wikidataId": "Q208404",
+      "name": "Kingdom of Armenia",
+      "from": -553,
+      "to": 428,
+      "description": "ancient state of Armenia",
+      "typeIds": [
+        "Q3932025"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q208404",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q208742",
+      "wikidataId": "Q208742",
+      "name": "Peloponnesian League",
+      "from": -550,
+      "to": -366,
+      "description": "military alliance in Ancient Greece",
+      "typeIds": [
+        "Q1778834"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q208742",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -89,6 +593,53 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q193235",
+      "wikidataId": "Q193235",
+      "name": "Delian League",
+      "from": -478,
+      "to": -403,
+      "description": "Association of ancient Greek city-states under Athenian hegemony",
+      "typeIds": [
+        "Q170156",
+        "Q1778834"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q193235",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2263351",
+      "wikidataId": "Q2263351",
+      "name": "Western Zhou",
+      "from": -440,
+      "to": -256,
+      "description": "Chinese state (440-256 BCE)",
+      "typeIds": [
+        "Q836688"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2263351",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q11029653",
+      "wikidataId": "Q11029653",
+      "name": "Nabataean kingdom",
+      "from": -400,
+      "to": 106,
+      "description": "ancient Arab Kingdom (3rd century BC - 106 AD)",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q11029653",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q139377",
       "wikidataId": "Q139377",
       "name": "Kingdom of Aksum",
@@ -102,6 +653,21 @@
         "Q1309121"
       ],
       "source": "https://www.wikidata.org/wiki/Q139377",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q31723",
+      "wikidataId": "Q31723",
+      "name": "Kingdom of Mauretania",
+      "from": -400,
+      "to": 40,
+      "description": "",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q31723",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -132,6 +698,22 @@
         "Q3024240"
       ],
       "source": "https://www.wikidata.org/wiki/Q62943",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q29654286",
+      "wikidataId": "Q29654286",
+      "name": "Kingdom of Cappadocia",
+      "from": -320,
+      "to": 17,
+      "description": "Iranian kingdom in Asia Minor (331 BC-17 AD)",
+      "typeIds": [
+        "Q417175",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q29654286",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -170,6 +752,90 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q151148",
+      "wikidataId": "Q151148",
+      "name": "Chola dynasty",
+      "from": -300,
+      "to": 1279,
+      "description": "dynasty of southern India",
+      "typeIds": [
+        "Q48349",
+        "Q3024240",
+        "Q1250464",
+        "Q11514315",
+        "Q15401699",
+        "Q164950"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q151148",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q19083",
+      "wikidataId": "Q19083",
+      "name": "Kingdom of Iberia",
+      "from": -299,
+      "to": 580,
+      "description": "ancient Georgian kingdom of Kartli",
+      "typeIds": [
+        "Q1250464",
+        "Q6256",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q19083",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2022162",
+      "wikidataId": "Q2022162",
+      "name": "Kingdom of Pergamon",
+      "from": -282,
+      "to": -133,
+      "description": "Greek state during the Hellenistic period",
+      "typeIds": [
+        "Q3932025"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2022162",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q7380487",
+      "wikidataId": "Q7380487",
+      "name": "Kingdom of Pontus",
+      "from": -281,
+      "to": 62,
+      "description": "Hellenistic-era kingdom centred in northern Anatolia (281 BC-62 AD)",
+      "typeIds": [
+        "Q3932025",
+        "Q48349",
+        "Q3932035"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q7380487",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q488880",
+      "wikidataId": "Q488880",
+      "name": "Greco-Bactrian Kingdom",
+      "from": -250,
+      "to": -125,
+      "description": "Hellenistic-era Greek kingdom (256–120 BCE)",
+      "typeIds": [
+        "Q3932025"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q488880",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q1986139",
       "wikidataId": "Q1986139",
       "name": "Parthian Empire",
@@ -182,6 +848,24 @@
         "Q816829"
       ],
       "source": "https://www.wikidata.org/wiki/Q1986139",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q5257",
+      "wikidataId": "Q5257",
+      "name": "Satavahana dynasty",
+      "from": -230,
+      "to": 220,
+      "description": "Indian dynasty (2nd century BCE–Early 3rd century CE)",
+      "typeIds": [
+        "Q164950",
+        "Q48349",
+        "Q3024240",
+        "Q11042"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q5257",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -225,6 +909,114 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q827040",
+      "wikidataId": "Q827040",
+      "name": "Nanyue",
+      "from": -204,
+      "to": -111,
+      "description": "ancient kingdom in East Asia",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q827040",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q102679",
+      "wikidataId": "Q102679",
+      "name": "Kingdom of Numidia",
+      "from": -202,
+      "to": -46,
+      "description": "Amazigh Kingdom in North Africa (Present-day Algeria) (202 BC - 40 AD)",
+      "typeIds": [
+        "Q3024240",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q102679",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q172613",
+      "wikidataId": "Q172613",
+      "name": "Teotihuacan",
+      "from": -180,
+      "to": 750,
+      "description": "ancient Mesoamerican city",
+      "typeIds": [
+        "Q839954",
+        "Q1081138"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q172613",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q215643",
+      "wikidataId": "Q215643",
+      "name": "Indo-Greek Kingdoms",
+      "from": -180,
+      "to": 10,
+      "description": "Hellenistic-era Greek kingdom in northwestern South Asia (200 BCE–10 CE)",
+      "typeIds": [
+        "Q3932025"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q215643",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q237234",
+      "wikidataId": "Q237234",
+      "name": "Osroene",
+      "from": -132,
+      "to": 214,
+      "description": "historical Arab kingdom in Upper Mesopotamia; semi-autonomous or independent from 132 BCE to 244 CE; Roman province from 244–608 CE",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q237234",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q289577",
+      "wikidataId": "Q289577",
+      "name": "Himyarite kingdom",
+      "from": -110,
+      "to": 525,
+      "description": "former country",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q289577",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q16000109",
+      "wikidataId": "Q16000109",
+      "name": "Herodian Kingdom of Judea",
+      "from": -37,
+      "to": -4,
+      "description": "client state of the Roman Republic from 37 BCE, when Herod the Great was appointed \"King of the Jews\" by the Roman Senate",
+      "typeIds": [
+        "Q3932035",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q16000109",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q28370",
       "wikidataId": "Q28370",
       "name": "Goguryeo",
@@ -258,6 +1050,40 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q208188",
+      "wikidataId": "Q208188",
+      "name": "Moche culture",
+      "from": 1,
+      "to": 700,
+      "description": "culture that flourished 100 to 700 during the Regional Development Epoch in modern Peru",
+      "typeIds": [
+        "Q465299",
+        "Q1292119",
+        "Q11042",
+        "Q8432"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q208188",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q25979",
+      "wikidataId": "Q25979",
+      "name": "Kushan Empire",
+      "from": 30,
+      "to": 375,
+      "description": "empire in Central and South Asia (30–375 AD)",
+      "typeIds": [
+        "Q3024240",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q25979",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q206789",
       "wikidataId": "Q206789",
       "name": "Ghana Empire",
@@ -268,6 +1094,25 @@
         "Q3024240"
       ],
       "source": "https://www.wikidata.org/wiki/Q206789",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q216786",
+      "wikidataId": "Q216786",
+      "name": "Champa",
+      "from": 192,
+      "to": 1832,
+      "description": "Civilization, comprised of multiple kingdoms, sometimes unified, sometimes not, in South-East Asia",
+      "typeIds": [
+        "Q1250464",
+        "Q48349",
+        "Q8432",
+        "Q1620908",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q216786",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -290,6 +1135,55 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q877875",
+      "wikidataId": "Q877875",
+      "name": "Palmyrene Empire",
+      "from": 270,
+      "to": 273,
+      "description": "breakaway state from the Roman Empire (270–273)",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q877875",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q466803",
+      "wikidataId": "Q466803",
+      "name": "Pallava dynasty",
+      "from": 275,
+      "to": 897,
+      "description": "Indian dynasty between the 3rd and 9th centuries CE",
+      "typeIds": [
+        "Q3024240",
+        "Q164950",
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q466803",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1307407",
+      "wikidataId": "Q1307407",
+      "name": "Tiwanaku polity",
+      "from": 300,
+      "to": 1150,
+      "description": "Pre-Columbian polity based in the city of Tiwanaku in western Bolivia that extended around Lake Titicaca and Peru",
+      "typeIds": [
+        "Q465299",
+        "Q3024240",
+        "Q8432"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1307407",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q11774",
       "wikidataId": "Q11774",
       "name": "Gupta Empire",
@@ -303,6 +1197,21 @@
         "Q6256"
       ],
       "source": "https://www.wikidata.org/wiki/Q11774",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q875305",
+      "wikidataId": "Q875305",
+      "name": "Northern Wei",
+      "from": 386,
+      "to": 535,
+      "description": "first dynasty of Northern dynasties during the Northern and Southern Dynasties period (386–535)",
+      "typeIds": [
+        "Q50068795"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q875305",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -345,6 +1254,121 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q61750",
+      "wikidataId": "Q61750",
+      "name": "Tiwanaku",
+      "from": 400,
+      "to": 900,
+      "description": "archaeological site in Bolivia",
+      "typeIds": [
+        "Q839954",
+        "Q15661340"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q61750",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q530670",
+      "wikidataId": "Q530670",
+      "name": "Kingdom of Burgundy",
+      "from": 411,
+      "to": 1030,
+      "description": "history of all the kingdoms and others states named Burgundy",
+      "typeIds": [
+        "Q133250",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q530670",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q3307686",
+      "wikidataId": "Q3307686",
+      "name": "Visigothic Kingdom of Tolosa",
+      "from": 418,
+      "to": 507,
+      "description": "(418-507) first period of the Visigothic Kingdom with capital in Tolosa",
+      "typeIds": [
+        "Q1250464",
+        "Q3024240",
+        "Q129224",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3307686",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q10416611",
+      "wikidataId": "Q10416611",
+      "name": "Vandal Kingdom",
+      "from": 435,
+      "to": 534,
+      "description": "Germanic Kingdom (435-534)",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464",
+        "Q5402094"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q10416611",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2247225",
+      "wikidataId": "Q2247225",
+      "name": "Tarumanagara",
+      "from": 450,
+      "to": 669,
+      "description": "former kingdom in Indonesia",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2247225",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q126936",
+      "wikidataId": "Q126936",
+      "name": "Visigothic Kingdom",
+      "from": 476,
+      "to": 718,
+      "description": "Period of Germanic rule on the Iberian Peninsula (418–720) as a successor state to the Western Roman Empire.",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464",
+        "Q3446291"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q126936",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q146246",
+      "wikidataId": "Q146246",
+      "name": "Francia",
+      "from": 481,
+      "to": 843,
+      "description": "Frankish Kingdom from 481 to 843",
+      "typeIds": [
+        "Q5402094",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q146246",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q583038",
       "wikidataId": "Q583038",
       "name": "Ostrogothic Kingdom",
@@ -357,6 +1381,165 @@
         "Q3446291"
       ],
       "source": "https://www.wikidata.org/wiki/Q583038",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q829356",
+      "wikidataId": "Q829356",
+      "name": "Kingdom of Makuria",
+      "from": 500,
+      "to": 1518,
+      "description": "Nubian kingdom in present-day Northern Sudan and Southern Egypt",
+      "typeIds": [
+        "Q3024240",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q829356",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q91329095",
+      "wikidataId": "Q91329095",
+      "name": "Kingdom of Burgundy",
+      "from": 534,
+      "to": 843,
+      "description": "kingdom of Burgundy from 543 to 843",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q91329095",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1395011",
+      "wikidataId": "Q1395011",
+      "name": "Chalukya dynasty",
+      "from": 543,
+      "to": 753,
+      "description": "classical Indian dynasty (543–753)",
+      "typeIds": [
+        "Q164950",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1395011",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1886032",
+      "wikidataId": "Q1886032",
+      "name": "Van Xuan",
+      "from": 544,
+      "to": 603,
+      "description": "6th-century kingdom in northern Vietnam under the Ly Dynasty",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1886032",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2940142",
+      "wikidataId": "Q2940142",
+      "name": "Kingdom of Toledo",
+      "from": 549,
+      "to": 711,
+      "description": "549-711 second period of the Visigothic Kingdom with capital in Toledo",
+      "typeIds": [
+        "Q1250464",
+        "Q3624078",
+        "Q3024240",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2940142",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1057118",
+      "wikidataId": "Q1057118",
+      "name": "Zhenla",
+      "from": 550,
+      "to": 706,
+      "description": "former country",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1057118",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q854415",
+      "wikidataId": "Q854415",
+      "name": "Kingdom of the Lombards",
+      "from": 568,
+      "to": 774,
+      "description": "Germanic successor state to the Western Roman Empire established by the Lombards, a Germanic people, on the Italian Peninsula (568–774)",
+      "typeIds": [
+        "Q3024240",
+        "Q417175",
+        "Q5402094"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q854415",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q7405",
+      "wikidataId": "Q7405",
+      "name": "Sui dynasty",
+      "from": 581,
+      "to": 618,
+      "description": "dynasty that ruled over China from 581 to 618",
+      "typeIds": [
+        "Q50068795"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q7405",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q923516",
+      "wikidataId": "Q923516",
+      "name": "Wari Empire",
+      "from": 600,
+      "to": 1100,
+      "description": "former country",
+      "typeIds": [
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q923516",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2431480",
+      "wikidataId": "Q2431480",
+      "name": "Tibetan Empire",
+      "from": 618,
+      "to": 842,
+      "description": "former empire (618–842) centered on the Tibetan Plateau",
+      "typeIds": [
+        "Q3024240",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2431480",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -376,6 +1559,23 @@
         "Q12857432"
       ],
       "source": "https://www.wikidata.org/wiki/Q9683",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q12490507",
+      "wikidataId": "Q12490507",
+      "name": "Rashidun Caliphate",
+      "from": 632,
+      "to": 661,
+      "description": "first caliphate established after the death of the Islamic prophet Muhammad (632–661)",
+      "typeIds": [
+        "Q4204060",
+        "Q1323642",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12490507",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -432,6 +1632,39 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q17523945",
+      "wikidataId": "Q17523945",
+      "name": "Toltec Empire",
+      "from": 674,
+      "to": 1122,
+      "description": "Mesoamerican empire",
+      "typeIds": [
+        "Q48349",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q17523945",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q203817",
+      "wikidataId": "Q203817",
+      "name": "First Bulgarian Empire",
+      "from": 681,
+      "to": 1018,
+      "description": "medieval Bulgar-Slavic and later Bulgarian state that existed in Southeastern Europe between the 7th and 11th centuries AD.",
+      "typeIds": [
+        "Q48349",
+        "Q3024240",
+        "Q2067184"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q203817",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q4948",
       "wikidataId": "Q4948",
       "name": "Republic of Venice",
@@ -444,6 +1677,83 @@
         "Q3024240"
       ],
       "source": "https://www.wikidata.org/wiki/Q4948",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1537016",
+      "wikidataId": "Q1537016",
+      "name": "Kanem Empire",
+      "from": 700,
+      "to": 1376,
+      "description": "former African empire",
+      "typeIds": [
+        "Q3024240",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1537016",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q137127247",
+      "wikidataId": "Q137127247",
+      "name": "Kerala architecture style",
+      "from": 701,
+      "to": null,
+      "description": "Characterized by sloping roofs, gabled windows, and the use of locally sourced materials like laterite and wood, Kerala architecture reflects the region's climate and cultural traditions. (ID: INHF-230819213-18-11-25-KE)",
+      "typeIds": [
+        "Q32880"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q137127247",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q137127248",
+      "wikidataId": "Q137127248",
+      "name": "Kerala Dravida architecture style",
+      "from": 701,
+      "to": null,
+      "description": "Kerala Dravida architecture, originating in Kerala, India, features distinctive sloping roofs, gabled structures, and ornate detailing, often incorporating locally sourced materials and responding to the region's climate and cultu",
+      "typeIds": [
+        "Q32880"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q137127248",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q231392",
+      "wikidataId": "Q231392",
+      "name": "Kingdom of Asturias",
+      "from": 718,
+      "to": 910,
+      "description": "former kingdom on the Iberian Peninsula",
+      "typeIds": [
+        "Q3024240",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q231392",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1045322",
+      "wikidataId": "Q1045322",
+      "name": "Kingdom of Nanzhao",
+      "from": 738,
+      "to": 902,
+      "description": "ancient kingdom situated in southeast Asian (including current day Yunnanm Guizhou, Sichuan provinces of China, Tibet, Vietnam, Cambodia) (738–902)",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1045322",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -464,6 +1774,106 @@
         "Q6256"
       ],
       "source": "https://www.wikidata.org/wiki/Q12536",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q668412",
+      "wikidataId": "Q668412",
+      "name": "Pala Empire",
+      "from": 750,
+      "to": 1174,
+      "description": "kingdom In North India",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q668412",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q856691",
+      "wikidataId": "Q856691",
+      "name": "Rashtrakuta dynasty",
+      "from": 753,
+      "to": 982,
+      "description": "early medieval period Indian dynasty (r. mid-6th to 10th century)",
+      "typeIds": [
+        "Q164950",
+        "Q3024240",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q856691",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q170174",
+      "wikidataId": "Q170174",
+      "name": "Papal States",
+      "from": 754,
+      "to": 1870,
+      "description": "territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078",
+        "Q10551526",
+        "Q4592997",
+        "Q107230986"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q170174",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q13107370",
+      "wikidataId": "Q13107370",
+      "name": "Principality of Serbia",
+      "from": 768,
+      "to": 969,
+      "description": "medieval principality in Eastern Europe",
+      "typeIds": [
+        "Q3024240",
+        "Q208500",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q13107370",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q431575",
+      "wikidataId": "Q431575",
+      "name": "Idrisid dynasty",
+      "from": 788,
+      "to": 974,
+      "description": "Arab Muslim dynasty that ruled parts of present-day Morocco and parts of western Algeria",
+      "typeIds": [
+        "Q164950",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q431575",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2460755",
+      "wikidataId": "Q2460755",
+      "name": "Kingdom of Sweden",
+      "from": 800,
+      "to": 1521,
+      "description": "800–1521 historical period of Sweden",
+      "typeIds": [
+        "Q17544377",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2460755",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -503,6 +1913,21 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q7703611",
+      "wikidataId": "Q7703611",
+      "name": "Duchy of Aquitaine",
+      "from": 841,
+      "to": 1449,
+      "description": "medieval duchy in southern France",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q7703611",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q230791",
       "wikidataId": "Q230791",
       "name": "Kingdom of Scotland",
@@ -515,6 +1940,86 @@
         "Q417175"
       ],
       "source": "https://www.wikidata.org/wiki/Q230791",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q888574",
+      "wikidataId": "Q888574",
+      "name": "Pagan kingdom",
+      "from": 849,
+      "to": 1297,
+      "description": "former country",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q888574",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q28846511",
+      "wikidataId": "Q28846511",
+      "name": "Kingdom of Denmark",
+      "from": 850,
+      "to": 1397,
+      "description": "historical country (9th-14th century)",
+      "typeIds": [
+        "Q6256",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q28846511",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q581741",
+      "wikidataId": "Q581741",
+      "name": "Chimor",
+      "from": 850,
+      "to": 1470,
+      "description": "political grouping of the Chimú culture that ruled the northern coast of Peru beginning around 850 and ending around 1470",
+      "typeIds": [
+        "Q3024240",
+        "Q465299"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q581741",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q157070",
+      "wikidataId": "Q157070",
+      "name": "County of Flanders",
+      "from": 866,
+      "to": 1797,
+      "description": "county and historic territory in the Low Countries",
+      "typeIds": [
+        "Q353344",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q157070",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2196956",
+      "wikidataId": "Q2196956",
+      "name": "Kingdom of Norway",
+      "from": 872,
+      "to": 1397,
+      "description": "former Kingdom from 872 to 1397",
+      "typeIds": [
+        "Q3024240",
+        "Q48349",
+        "Q7269"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2196956",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -554,6 +2059,72 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q154816",
+      "wikidataId": "Q154816",
+      "name": "Kingdom of the Iberians",
+      "from": 888,
+      "to": 1008,
+      "description": "medieval Georgian principality and kingdom, succeeding the Principality of Iberia",
+      "typeIds": [
+        "Q1250464",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154816",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q140446",
+      "wikidataId": "Q140446",
+      "name": "Zagwe dynasty",
+      "from": 900,
+      "to": 1270,
+      "description": "dynasty centered around Lalibela, ruling large parts of the territory from about 900 to 1270",
+      "typeIds": [
+        "Q164950",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q140446",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q34",
+      "wikidataId": "Q34",
+      "name": "Sweden",
+      "from": 900,
+      "to": null,
+      "description": "country in Northern Europe",
+      "typeIds": [
+        "Q3624078",
+        "Q6256",
+        "Q179164",
+        "Q63791824",
+        "Q41614"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q34",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q137127113",
+      "wikidataId": "Q137127113",
+      "name": "Kadamba architecture style",
+      "from": 901,
+      "to": null,
+      "description": "Characterized by its unique Kadamba Shikara, a stepped pyramidal tower, and influences from both Dravidian and Chalukya styles, primarily using stone. (ID: INHF-465301521-18-11-25-KE)",
+      "typeIds": [
+        "Q32880"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q137127113",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q160307",
       "wikidataId": "Q160307",
       "name": "Fatimid Caliphate",
@@ -572,6 +2143,55 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q175276",
+      "wikidataId": "Q175276",
+      "name": "Kingdom of Leon",
+      "from": 910,
+      "to": 1833,
+      "description": "independent medieval kingdom in the northwest of the Iberian Peninsula (910–1230), capital León",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q175276",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q842091",
+      "wikidataId": "Q842091",
+      "name": "Duchy of Normandy",
+      "from": 911,
+      "to": 1259,
+      "description": "former European sovereign state, then dukedom of France",
+      "typeIds": [
+        "Q3624078",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q842091",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q4958",
+      "wikidataId": "Q4958",
+      "name": "Liao dynasty",
+      "from": 916,
+      "to": 1125,
+      "description": "Khitan imperial dynasty in East Asia (916-1125), controlling northern and northeastern China, Mongolia, Russian Far East and North Korea",
+      "typeIds": [
+        "Q12857432",
+        "Q50068795"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4958",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q28208",
       "wikidataId": "Q28208",
       "name": "Goryeo",
@@ -583,6 +2203,22 @@
         "Q164950"
       ],
       "source": "https://www.wikidata.org/wiki/Q28208",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q858841",
+      "wikidataId": "Q858841",
+      "name": "Kingdom of Croatia",
+      "from": 925,
+      "to": 1102,
+      "description": "(925–1102) a medieval kingdom comprising most of what is today Croatia as well as, periodically, parts of Bosnia and Herzegovina",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q858841",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -621,6 +2257,54 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q26472",
+      "wikidataId": "Q26472",
+      "name": "Dali Kingdom",
+      "from": 937,
+      "to": 1253,
+      "description": "former kingdom, situated roughly in modern Yunnan province, China, from 937 to 1254",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q26472",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q71747",
+      "wikidataId": "Q71747",
+      "name": "Duchy of Brittany",
+      "from": 939,
+      "to": 1547,
+      "description": "former European sovereign state 939–1547, then dukedom of the Kingdom of France",
+      "typeIds": [
+        "Q3024240",
+        "Q154547",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q71747",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q842390",
+      "wikidataId": "Q842390",
+      "name": "Tuʻi Tonga Empire",
+      "from": 951,
+      "to": 1826,
+      "description": "former country",
+      "typeIds": [
+        "Q3024240",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q842390",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q7462",
       "wikidataId": "Q7462",
       "name": "Song dynasty",
@@ -649,6 +2333,61 @@
         "Q3024240"
       ],
       "source": "https://www.wikidata.org/wiki/Q12548",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q249578",
+      "wikidataId": "Q249578",
+      "name": "Ghaznavid Empire",
+      "from": 962,
+      "to": 1187,
+      "description": "former country",
+      "typeIds": [
+        "Q3024240",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q249578",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q756617",
+      "wikidataId": "Q756617",
+      "name": "Kingdom of Denmark",
+      "from": 965,
+      "to": null,
+      "description": "transcontinental sovereign state and constitutional monarchy",
+      "typeIds": [
+        "Q3624078",
+        "Q41614",
+        "Q417175",
+        "Q20181813",
+        "Q179164",
+        "Q1250464",
+        "Q1323642",
+        "Q6256"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q756617",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q205718",
+      "wikidataId": "Q205718",
+      "name": "Zirid Dynasty",
+      "from": 972,
+      "to": 1148,
+      "description": "Sanhaja Berber dynasty 972-1148",
+      "typeIds": [
+        "Q164950",
+        "Q8436",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q205718",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -703,6 +2442,139 @@
         "Q62825"
       ],
       "source": "https://www.wikidata.org/wiki/Q174306",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q154667",
+      "wikidataId": "Q154667",
+      "name": "Kingdom of Georgia",
+      "from": 1008,
+      "to": 1466,
+      "description": "medieval state in Eastern Europe",
+      "typeIds": [
+        "Q3024240",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154667",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q878309",
+      "wikidataId": "Q878309",
+      "name": "Ly dynasty",
+      "from": 1009,
+      "to": 1226,
+      "description": "Vietnam's monarch that ruled from 1009 to 1226.",
+      "typeIds": [
+        "Q164950",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q878309",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q199443",
+      "wikidataId": "Q199443",
+      "name": "Ghurid dynasty",
+      "from": 1011,
+      "to": 1215,
+      "description": "late 8th-century–1215 Iranian dynasty from Ghor, modern Afghanistan",
+      "typeIds": [
+        "Q164950",
+        "Q18608788"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q199443",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q199442",
+      "wikidataId": "Q199442",
+      "name": "Kingdom of Aragon",
+      "from": 1035,
+      "to": 1707,
+      "description": "medieval and early modern state in the Iberian Peninsula (1035-1707)",
+      "typeIds": [
+        "Q3024240",
+        "Q417175",
+        "Q3624078",
+        "Q3183364",
+        "Q471855",
+        "Q895526"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q199442",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q7427",
+      "wikidataId": "Q7427",
+      "name": "Western Xia",
+      "from": 1038,
+      "to": 1227,
+      "description": "kingdom or empire in ancient China (1038–1227)",
+      "typeIds": [
+        "Q50068795"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q7427",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q75613",
+      "wikidataId": "Q75613",
+      "name": "Almoravid dynasty",
+      "from": 1040,
+      "to": 1147,
+      "description": "Berber dynasty that once ruled over Al-Andalus and Maghreb",
+      "typeIds": [
+        "Q164950",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q75613",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q179293",
+      "wikidataId": "Q179293",
+      "name": "Kingdom of Castile",
+      "from": 1065,
+      "to": 1715,
+      "description": "European sovereign state (1065–1230)",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078",
+        "Q1250464",
+        "Q34876"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q179293",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q63134381",
+      "wikidataId": "Q63134381",
+      "name": "Khwarazmian Empire",
+      "from": 1077,
+      "to": 1231,
+      "description": "former empire in Central Asia",
+      "typeIds": [
+        "Q48349",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q63134381",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -769,6 +2641,225 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q1069411",
+      "wikidataId": "Q1069411",
+      "name": "Western Xia Mausoleums",
+      "from": 1100,
+      "to": null,
+      "description": "building in Western Xia mausoleums, China",
+      "typeIds": [
+        "Q200141",
+        "Q839954"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1069411",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q148540",
+      "wikidataId": "Q148540",
+      "name": "Republic of Florence",
+      "from": 1115,
+      "to": 1569,
+      "description": "city-state on the Appenine Peninsula between 1115–1532/69",
+      "typeIds": [
+        "Q3624078",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q148540",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q199688",
+      "wikidataId": "Q199688",
+      "name": "Almohad Caliphate",
+      "from": 1121,
+      "to": 1269,
+      "description": "1121–1269 Berber empire in North Africa and Iberia",
+      "typeIds": [
+        "Q131401",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q199688",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q188586",
+      "wikidataId": "Q188586",
+      "name": "Kingdom of Sicily",
+      "from": 1130,
+      "to": 1816,
+      "description": "former state in southern Italy, 1130–1816",
+      "typeIds": [
+        "Q417175",
+        "Q3624078",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q188586",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q151536",
+      "wikidataId": "Q151536",
+      "name": "Novgorod Republic",
+      "from": 1136,
+      "to": 1478,
+      "description": "Russian city-state (1136–1478)",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q151536",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q204920",
+      "wikidataId": "Q204920",
+      "name": "Crown of Aragon",
+      "from": 1137,
+      "to": 1715,
+      "description": "composite monarchy which existed between 1137–1715",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078",
+        "Q5156764",
+        "Q5473816",
+        "Q188800",
+        "Q1102202"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q204920",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q45670",
+      "wikidataId": "Q45670",
+      "name": "Kingdom of Portugal",
+      "from": 1139,
+      "to": 1910,
+      "description": "kingdom in Southwestern Europe (1139–1910)",
+      "typeIds": [
+        "Q417175",
+        "Q2994894",
+        "Q3024240",
+        "Q417175",
+        "Q20181813"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q45670",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q200262",
+      "wikidataId": "Q200262",
+      "name": "Kingdom of Navarre",
+      "from": 1162,
+      "to": 1841,
+      "description": "Basque medieval kingdom that occupied lands on either side of the western Pyrenees, alongside the Atlantic Ocean (1162–1512)",
+      "typeIds": [
+        "Q1250464",
+        "Q3024240",
+        "Q1088391"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q200262",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q171203",
+      "wikidataId": "Q171203",
+      "name": "Benin Empire",
+      "from": 1170,
+      "to": 1897,
+      "description": "West African kingdom (1180–1897)",
+      "typeIds": [
+        "Q3024240",
+        "Q18920569",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q171203",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q180114",
+      "wikidataId": "Q180114",
+      "name": "Ayyubid dynasty",
+      "from": 1171,
+      "to": 1341,
+      "description": "Islamic dynasty from 1171 to 1341",
+      "typeIds": [
+        "Q164950",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q180114",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q3973995",
+      "wikidataId": "Q3973995",
+      "name": "Ayyubid Egypt",
+      "from": 1171,
+      "to": 1250,
+      "description": "",
+      "typeIds": [
+        "Q816829"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3973995",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q159856",
+      "wikidataId": "Q159856",
+      "name": "Duchy of Brabant",
+      "from": 1183,
+      "to": 1795,
+      "description": "state of the Holy Roman Empire",
+      "typeIds": [
+        "Q154547",
+        "Q26830017",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q159856",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q420759",
+      "wikidataId": "Q420759",
+      "name": "Second Bulgarian Empire",
+      "from": 1185,
+      "to": 1396,
+      "description": "Medieval Bulgarian state (1185–1396)",
+      "typeIds": [
+        "Q48349",
+        "Q2067184",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q420759",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q42585",
       "wikidataId": "Q42585",
       "name": "Kingdom of Bohemia",
@@ -821,6 +2912,136 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q847420",
+      "wikidataId": "Q847420",
+      "name": "Mamluk Sultanate",
+      "from": 1206,
+      "to": 1290,
+      "description": "first dynasty in Delhi Sultanate",
+      "typeIds": [
+        "Q164950"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q847420",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q582861",
+      "wikidataId": "Q582861",
+      "name": "Marinid dynasty",
+      "from": 1215,
+      "to": 1465,
+      "description": "Muslim Berber dynasty (1244–1465)",
+      "typeIds": [
+        "Q3024240",
+        "Q164950"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q582861",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2415003",
+      "wikidataId": "Q2415003",
+      "name": "Kingdom of Serbia",
+      "from": 1217,
+      "to": 1346,
+      "description": "1217–1346 Medieval kingdom in Eastern Europe",
+      "typeIds": [
+        "Q417175",
+        "Q3624078",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2415003",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2060657",
+      "wikidataId": "Q2060657",
+      "name": "Singhasari Kingdom",
+      "from": 1222,
+      "to": 1292,
+      "description": "Kingdoms in Southeast Asia",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2060657",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q487829",
+      "wikidataId": "Q487829",
+      "name": "Chagatai Khanate",
+      "from": 1225,
+      "to": 1687,
+      "description": "1226–1347 Turkicized Mongol khanate in Central Asia",
+      "typeIds": [
+        "Q3024240",
+        "Q331644",
+        "Q1345055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q487829",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q3111454",
+      "wikidataId": "Q3111454",
+      "name": "Tran dynasty",
+      "from": 1226,
+      "to": 1400,
+      "description": "Imperial Vietnamese dynasty (1225–1400)",
+      "typeIds": [
+        "Q164950",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3111454",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2553863",
+      "wikidataId": "Q2553863",
+      "name": "White Horde",
+      "from": 1227,
+      "to": 1500,
+      "description": "Mongol horde of the 13th-15th century, controlling the western territory of the Golden Horde",
+      "typeIds": [
+        "Q3024240",
+        "Q1345055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2553863",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q752662",
+      "wikidataId": "Q752662",
+      "name": "Hafsid dynasty",
+      "from": 1229,
+      "to": 1574,
+      "description": "Sunni Muslim dynasty of Amazigh (Berber) descent",
+      "typeIds": [
+        "Q164950",
+        "Q3024240",
+        "Q12759805"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q752662",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q184536",
       "wikidataId": "Q184536",
       "name": "Mali Empire",
@@ -852,6 +3073,21 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q863279",
+      "wikidataId": "Q863279",
+      "name": "Sukhothai Kingdom",
+      "from": 1238,
+      "to": 1438,
+      "description": "early kingdom in the area around the city Sukhothai, in north central Thailand",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q863279",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q79965",
       "wikidataId": "Q79965",
       "name": "Golden Horde",
@@ -865,6 +3101,40 @@
         "Q1345055"
       ],
       "source": "https://www.wikidata.org/wiki/Q79965",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q282428",
+      "wikidataId": "Q282428",
+      "name": "Mamluk Sultanate of Egypt",
+      "from": 1250,
+      "to": 1517,
+      "description": "Egyptian state spanning in Hejaz and the Levant (1250–1517)",
+      "typeIds": [
+        "Q12759805",
+        "Q1620908",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q282428",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q178084",
+      "wikidataId": "Q178084",
+      "name": "Ilkhanate",
+      "from": 1256,
+      "to": 1335,
+      "description": "breakaway khanate of the Mongol Empire ruler of Iran (1256–1335)",
+      "typeIds": [
+        "Q331644",
+        "Q2495771",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q178084",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -903,6 +3173,54 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q170770",
+      "wikidataId": "Q170770",
+      "name": "Grand Principality of Moscow",
+      "from": 1263,
+      "to": 1478,
+      "description": "Russian principality (1263–1547)",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q170770",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q207521",
+      "wikidataId": "Q207521",
+      "name": "Ethiopian Empire",
+      "from": 1270,
+      "to": 1975,
+      "description": "1270–1974 state in the Horn of Africa",
+      "typeIds": [
+        "Q3024240",
+        "Q48349",
+        "Q6256"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q207521",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q256187",
+      "wikidataId": "Q256187",
+      "name": "House of Solomon",
+      "from": 1270,
+      "to": null,
+      "description": "former Imperial House of Ethiopia",
+      "typeIds": [
+        "Q1156073"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q256187",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q7313",
       "wikidataId": "Q7313",
       "name": "Yuan dynasty",
@@ -926,6 +3244,55 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q173065",
+      "wikidataId": "Q173065",
+      "name": "Kingdom of Naples",
+      "from": 1282,
+      "to": 1816,
+      "description": "Italian state (1282–1816)",
+      "typeIds": [
+        "Q3024240",
+        "Q26879763",
+        "Q3624078",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q173065",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1059707",
+      "wikidataId": "Q1059707",
+      "name": "Lanna",
+      "from": 1292,
+      "to": 1775,
+      "description": "Indianized state centered in present-day Northern Thailand from the 13th to 18th centuries",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1059707",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2605410",
+      "wikidataId": "Q2605410",
+      "name": "Tarascan State",
+      "from": 1300,
+      "to": 1530,
+      "description": "state in present-day central Mexico (c. 1300-1530)",
+      "typeIds": [
+        "Q48349",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2605410",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q12560",
       "wikidataId": "Q12560",
       "name": "Ottoman Empire",
@@ -938,6 +3305,36 @@
         "Q12759805"
       ],
       "source": "https://www.wikidata.org/wiki/Q12560",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q109284974",
+      "wikidataId": "Q109284974",
+      "name": "Duchy of Warsaw (Middle Ages)",
+      "from": 1310,
+      "to": null,
+      "description": "former Duchy of Poland (1310–1370, 1381–1488)",
+      "typeIds": [
+        "Q111748796"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q109284974",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q55599391",
+      "wikidataId": "Q55599391",
+      "name": "Kingdom of Sardinia",
+      "from": 1324,
+      "to": 1848,
+      "description": "historic state 1324-1713",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q55599391",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -960,6 +3357,77 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q389004",
+      "wikidataId": "Q389004",
+      "name": "Principality of Wallachia",
+      "from": 1330,
+      "to": 1859,
+      "description": "principality in Southeast Europe between 1310–1859",
+      "typeIds": [
+        "Q2560551",
+        "Q208500",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q389004",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q167639",
+      "wikidataId": "Q167639",
+      "name": "Vijayanagara Empire",
+      "from": 1336,
+      "to": 1646,
+      "description": "Hindu kingdom in Southern India (14th-17th century)",
+      "typeIds": [
+        "Q3024240",
+        "Q11514315",
+        "Q15401699",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q167639",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q10957559",
+      "wikidataId": "Q10957559",
+      "name": "Principality of Moldavia",
+      "from": 1346,
+      "to": 1859,
+      "description": "principality in Southeast Europe between 1346–1859",
+      "typeIds": [
+        "Q208500",
+        "Q3024240",
+        "Q3624078",
+        "Q1371288",
+        "Q164142",
+        "Q1371288"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q10957559",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1406298",
+      "wikidataId": "Q1406298",
+      "name": "Serbian Empire",
+      "from": 1346,
+      "to": 1371,
+      "description": "1346–1371 empire in the Balkan Peninsula",
+      "typeIds": [
+        "Q3024240",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1406298",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q841364",
       "wikidataId": "Q841364",
       "name": "Ayutthaya Kingdom",
@@ -970,6 +3438,39 @@
         "Q3024240"
       ],
       "source": "https://www.wikidata.org/wiki/Q841364",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q853477",
+      "wikidataId": "Q853477",
+      "name": "Lan Xang",
+      "from": 1354,
+      "to": 1707,
+      "description": "unified kingdom from 1354 to 1707, one of the largest kingdoms in Southeast Asia",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q853477",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q208169",
+      "wikidataId": "Q208169",
+      "name": "Republic of Ragusa",
+      "from": 1358,
+      "to": 1808,
+      "description": "former maritime republic in southeast Europe (1358–1808)",
+      "typeIds": [
+        "Q3024240",
+        "Q1371288",
+        "Q133442",
+        "Q62825"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q208169",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1010,6 +3511,39 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q2980623",
+      "wikidataId": "Q2980623",
+      "name": "Kingdom of Bosnia",
+      "from": 1377,
+      "to": 1463,
+      "description": "1377–1463 Bosnian medieval state, evolved from the Banate of Bosnia",
+      "typeIds": [
+        "Q3024240",
+        "Q417175",
+        "Q11458389"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2980623",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q157109",
+      "wikidataId": "Q157109",
+      "name": "Burgundian Netherlands",
+      "from": 1384,
+      "to": 1482,
+      "description": "portion of the Low Countries ruled by the Dukes of Burgundy in the period from 1384 to 1482",
+      "typeIds": [
+        "Q3024240",
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q157109",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q1649871",
       "wikidataId": "Q1649871",
       "name": "Kingdom of Poland",
@@ -1044,6 +3578,22 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q894030",
+      "wikidataId": "Q894030",
+      "name": "Bornu Empire",
+      "from": 1387,
+      "to": 1893,
+      "description": "historical African empire that existed from 1380 to 1893",
+      "typeIds": [
+        "Q3024240",
+        "Q12759805"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q894030",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q28179",
       "wikidataId": "Q28179",
       "name": "Joseon",
@@ -1058,6 +3608,94 @@
         "Q164950"
       ],
       "source": "https://www.wikidata.org/wiki/Q28179",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q153529",
+      "wikidataId": "Q153529",
+      "name": "Duchy of Milan",
+      "from": 1395,
+      "to": 1797,
+      "description": "former duchy in Italy (1395–1447; 1450–1796)",
+      "typeIds": [
+        "Q3024240",
+        "Q154547",
+        "Q26830017"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q153529",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q796583",
+      "wikidataId": "Q796583",
+      "name": "Kingdom of Kongo",
+      "from": 1395,
+      "to": 1914,
+      "description": "former African kingdom located in west central Africa",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464",
+        "Q1292119",
+        "Q11042"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q796583",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q62623",
+      "wikidataId": "Q62623",
+      "name": "Kalmar Union",
+      "from": 1397,
+      "to": 1523,
+      "description": "former country. personal union of the three kingdoms of Denmark, Sweden and Norway (1397–1523)",
+      "typeIds": [
+        "Q3024240",
+        "Q188800",
+        "Q417175",
+        "Q170156",
+        "Q1102202"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q62623",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q46652",
+      "wikidataId": "Q46652",
+      "name": "Malacca sultanate",
+      "from": 1400,
+      "to": 1511,
+      "description": "1400–1511 state on the Malay Peninsula",
+      "typeIds": [
+        "Q3024240",
+        "Q12759805"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q46652",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q849623",
+      "wikidataId": "Q849623",
+      "name": "Oyo Empire",
+      "from": 1400,
+      "to": 1905,
+      "description": "former imperial state",
+      "typeIds": [
+        "Q3024240",
+        "Q18920569",
+        "Q48349",
+        "Q16242623"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q849623",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1081,6 +3719,55 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q426025",
+      "wikidataId": "Q426025",
+      "name": "Duchy of Savoy",
+      "from": 1416,
+      "to": 1860,
+      "description": "state in Western Europe that existed from 1416 to 1848",
+      "typeIds": [
+        "Q26830017",
+        "Q3024240",
+        "Q3624078",
+        "Q154547",
+        "Q6256"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q426025",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q473748",
+      "wikidataId": "Q473748",
+      "name": "Buganda",
+      "from": 1420,
+      "to": 1966,
+      "description": "a Bantu kingdom within Uganda, the kingdom of Baganda people",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q473748",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q10800789",
+      "wikidataId": "Q10800789",
+      "name": "Lê dynasty",
+      "from": 1428,
+      "to": 1788,
+      "description": "imperial dynasty in Vietnam",
+      "typeIds": [
+        "Q164950"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q10800789",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q794210",
       "wikidataId": "Q794210",
       "name": "Aztec Triple Alliance",
@@ -1091,6 +3778,37 @@
         "Q3024240"
       ],
       "source": "https://www.wikidata.org/wiki/Q794210",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q878276",
+      "wikidataId": "Q878276",
+      "name": "Later Lê dynasty",
+      "from": 1428,
+      "to": 1789,
+      "description": "former Vietnamese imperial dynasty ruled from 1428 to 1789",
+      "typeIds": [
+        "Q164950",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q878276",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q854468",
+      "wikidataId": "Q854468",
+      "name": "Kingdom of Mutapa",
+      "from": 1430,
+      "to": 1760,
+      "description": "kingdom in southern Africa between 1430 and 1760",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q854468",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1112,6 +3830,36 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q186537",
+      "wikidataId": "Q186537",
+      "name": "Khanate of Qazan",
+      "from": 1438,
+      "to": 1552,
+      "description": "former country",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q186537",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2244677",
+      "wikidataId": "Q2244677",
+      "name": "Lan Xang interregnum  (1438–1441)",
+      "from": 1438,
+      "to": 1441,
+      "description": "",
+      "typeIds": [
+        "Q22771585"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2244677",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q28573",
       "wikidataId": "Q28573",
       "name": "Inca Empire",
@@ -1127,6 +3875,38 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q631210",
+      "wikidataId": "Q631210",
+      "name": "Nogai Horde",
+      "from": 1440,
+      "to": 1634,
+      "description": "former country",
+      "typeIds": [
+        "Q3024240",
+        "Q1345055"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q631210",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q160440",
+      "wikidataId": "Q160440",
+      "name": "Crimean Khanate",
+      "from": 1441,
+      "to": 1783,
+      "description": "former state at the Crimean Peninsula until April 1783",
+      "typeIds": [
+        "Q3024240",
+        "Q331644"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q160440",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q202687",
       "wikidataId": "Q202687",
       "name": "Songhai Empire",
@@ -1137,6 +3917,38 @@
         "Q3024240"
       ],
       "source": "https://www.wikidata.org/wiki/Q202687",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q210163",
+      "wikidataId": "Q210163",
+      "name": "Astrakhan Khanate",
+      "from": 1466,
+      "to": 1556,
+      "description": "medieval state",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q210163",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q519718",
+      "wikidataId": "Q519718",
+      "name": "Taungoo dynasty",
+      "from": 1485,
+      "to": 1752,
+      "description": "ruling dynasty of Burma (Myanmar) from the mid-16th century to 1752",
+      "typeIds": [
+        "Q164950",
+        "Q3024240",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q519718",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1177,6 +3989,21 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q137127586",
+      "wikidataId": "Q137127586",
+      "name": "Madurai Nayak architecture style",
+      "from": 1501,
+      "to": null,
+      "description": "Characterized by towering gopurams, intricate stucco work, and expansive mandapas, this style flourished under the Nayak rulers of Madurai, representing a late phase of Dravidian temple building. (ID: INHF-962374235-18-11-25-MC)",
+      "typeIds": [
+        "Q32880"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q137127586",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q18234383",
       "wikidataId": "Q18234383",
       "name": "Safavid Iran",
@@ -1190,6 +4017,83 @@
         "Q19953632"
       ],
       "source": "https://www.wikidata.org/wiki/Q18234383",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q111628725",
+      "wikidataId": "Q111628725",
+      "name": "Kingdom of Navarre",
+      "from": 1512,
+      "to": 1841,
+      "description": "kingdom (1512–1841), occupied in 1512 and annexed to the Crown of Castile in 1515",
+      "typeIds": [
+        "Q20203507",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q111628725",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q3128518",
+      "wikidataId": "Q3128518",
+      "name": "Upper Navarre",
+      "from": 1512,
+      "to": 1512,
+      "description": "Kingdom of Navarre on the side of the Pyrenees involved only Upper Navarre incorporated into the Kingdom of Castile in 1515",
+      "typeIds": [
+        "Q183366",
+        "Q56061"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3128518",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1796232",
+      "wikidataId": "Q1796232",
+      "name": "Kingdom of Ndongo",
+      "from": 1518,
+      "to": 1683,
+      "description": "which preceded Portuguese rule",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1796232",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q170603",
+      "wikidataId": "Q170603",
+      "name": "New Spain",
+      "from": 1521,
+      "to": 1821,
+      "description": "viceroyalty of the Spanish Empire (1535-1821)",
+      "typeIds": [
+        "Q20203507"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q170603",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q689987",
+      "wikidataId": "Q689987",
+      "name": "Tlaxcala de Xicoténcatl",
+      "from": 1525,
+      "to": null,
+      "description": "capital of the Mexican state of Tlaxcala",
+      "typeIds": [
+        "Q20202352"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q689987",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1230,6 +4134,147 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q872301",
+      "wikidataId": "Q872301",
+      "name": "Serbian Empire of Jovan Nenad",
+      "from": 1526,
+      "to": 1527,
+      "description": "",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q872301",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q623573",
+      "wikidataId": "Q623573",
+      "name": "Kingdom of Croatia",
+      "from": 1527,
+      "to": 1868,
+      "description": "administrative division that existed between 1527 and 1868 within the Habsburg Monarchy",
+      "typeIds": [
+        "Q681026",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q623573",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1150344",
+      "wikidataId": "Q1150344",
+      "name": "Johor Sultanate",
+      "from": 1528,
+      "to": 1946,
+      "description": "sultanate",
+      "typeIds": [
+        "Q12759805",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1150344",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q170604",
+      "wikidataId": "Q170604",
+      "name": "New France",
+      "from": 1534,
+      "to": 1763,
+      "description": "area colonized by France in North America",
+      "typeIds": [
+        "Q133156",
+        "Q12356456"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q170604",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q111777877",
+      "wikidataId": "Q111777877",
+      "name": "Kingdom of Guatemala",
+      "from": 1540,
+      "to": null,
+      "description": "former territorial entity of the Spanish Empire",
+      "typeIds": [
+        "Q1250464",
+        "Q19953632",
+        "Q3822336"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q111777877",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2077243",
+      "wikidataId": "Q2077243",
+      "name": "Captaincy General of Guatemala",
+      "from": 1542,
+      "to": 1821,
+      "description": "Spanish 1540-1821 possession in Central America; administrative division of the Spanish Empire, under the viceroyalty of New Spain",
+      "typeIds": [
+        "Q5036886"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2077243",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q211435",
+      "wikidataId": "Q211435",
+      "name": "Viceroyalty of Peru",
+      "from": 1542,
+      "to": 1824,
+      "description": "viceroyalty of the Spanish Empire",
+      "typeIds": [
+        "Q20203507"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q211435",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q186096",
+      "wikidataId": "Q186096",
+      "name": "Tsardom of Russia",
+      "from": 1547,
+      "to": 1721,
+      "description": "Russian state from 1547 to 1721",
+      "typeIds": [
+        "Q3624078",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q186096",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1479630",
+      "wikidataId": "Q1479630",
+      "name": "Kingdom of Loango",
+      "from": 1550,
+      "to": 1883,
+      "description": "pre-colonial African state, during approximately the 16th to 19th centuries",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1479630",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q910648",
       "wikidataId": "Q910648",
       "name": "Spanish East Indies",
@@ -1241,6 +4286,25 @@
         "Q34876"
       ],
       "source": "https://www.wikidata.org/wiki/Q910648",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q154849",
+      "wikidataId": "Q154849",
+      "name": "Grand Duchy of Tuscany",
+      "from": 1569,
+      "to": 1860,
+      "description": "former Italian state (1569–1801; 1815–1859)",
+      "typeIds": [
+        "Q165116",
+        "Q26830017",
+        "Q188063",
+        "Q1151405",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154849",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1258,6 +4322,24 @@
         "Q1088391"
       ],
       "source": "https://www.wikidata.org/wiki/Q172107",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q655621",
+      "wikidataId": "Q655621",
+      "name": "Principality of Transylvania",
+      "from": 1570,
+      "to": 1711,
+      "description": "semi-independent principality in Eastern Europe between 1570 and 1711",
+      "typeIds": [
+        "Q208500",
+        "Q3024240",
+        "Q1371288",
+        "Q2560551"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q655621",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1281,6 +4363,22 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q622783",
+      "wikidataId": "Q622783",
+      "name": "Spanish Netherlands",
+      "from": 1581,
+      "to": 1714,
+      "description": "parts of the Netherlands held by the Spanish crown (1581-1714)",
+      "typeIds": [
+        "Q26830017",
+        "Q188800"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q622783",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q8680",
       "wikidataId": "Q8680",
       "name": "British Empire",
@@ -1292,6 +4390,75 @@
         "Q1620908"
       ],
       "source": "https://www.wikidata.org/wiki/Q8680",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q402145",
+      "wikidataId": "Q402145",
+      "name": "Mataram Sultanate",
+      "from": 1586,
+      "to": 1755,
+      "description": "former sovereign state in Java",
+      "typeIds": [
+        "Q3624078",
+        "Q12759805",
+        "Q3024240",
+        "Q6256"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q402145",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q468814",
+      "wikidataId": "Q468814",
+      "name": "Dahomey",
+      "from": 1600,
+      "to": 1894,
+      "description": "1600–1904 kingdom in West Africa",
+      "typeIds": [
+        "Q3024240",
+        "Q1371288",
+        "Q164142"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q468814",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q215443",
+      "wikidataId": "Q215443",
+      "name": "Swedish Empire",
+      "from": 1611,
+      "to": 1721,
+      "description": "the years 1611–1721 in the history of Sweden",
+      "typeIds": [
+        "Q48349",
+        "Q17544377",
+        "Q17524420",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q215443",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q849680",
+      "wikidataId": "Q849680",
+      "name": "American Indian Wars",
+      "from": 1622,
+      "to": 1924,
+      "description": "frontier conflicts between American, Canadian and European settlers and Indigenous peoples of the Americas",
+      "typeIds": [
+        "Q104212151",
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q849680",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1318,6 +4485,69 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q722071",
+      "wikidataId": "Q722071",
+      "name": "Ashanti Empire",
+      "from": 1670,
+      "to": 1902,
+      "description": "former Akan empire centered around modern day Ghana",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q722071",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q83618",
+      "wikidataId": "Q83618",
+      "name": "Maratha Empire",
+      "from": 1674,
+      "to": 1818,
+      "description": "1674–1818 empire in the Indian subcontinent",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q83618",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1192936",
+      "wikidataId": "Q1192936",
+      "name": "Kingdom of Burundi",
+      "from": 1680,
+      "to": 1966,
+      "description": "former kingdom in Central/Eastern Africa up to 1966",
+      "typeIds": [
+        "Q417175",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1192936",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q706018",
+      "wikidataId": "Q706018",
+      "name": "Electorate of Hanover",
+      "from": 1692,
+      "to": 1814,
+      "description": "former principality of the Holy Roman Empire",
+      "typeIds": [
+        "Q1621034",
+        "Q26830017",
+        "Q20521456"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q706018",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q27306",
       "wikidataId": "Q27306",
       "name": "Kingdom of Prussia",
@@ -1339,6 +4569,38 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q3113481",
+      "wikidataId": "Q3113481",
+      "name": "Principality of Transylvania",
+      "from": 1711,
+      "to": 1867,
+      "description": "former principality in Central Europe (1711-1867)",
+      "typeIds": [
+        "Q3024240",
+        "Q681026",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3113481",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q700283",
+      "wikidataId": "Q700283",
+      "name": "Austrian Netherlands",
+      "from": 1714,
+      "to": 1797,
+      "description": "major part of the Southern Netherlands region between 1714 and 1797",
+      "typeIds": [
+        "Q26830017"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q700283",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q303598",
       "wikidataId": "Q303598",
       "name": "Austrian colonies",
@@ -1349,6 +4611,71 @@
         "Q1790360"
       ],
       "source": "https://www.wikidata.org/wiki/Q303598",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q8965",
+      "wikidataId": "Q8965",
+      "name": "Viceroyalty of New Granada",
+      "from": 1717,
+      "to": 1819,
+      "description": "viceroyalty of the Spanish Empire in the Americas (1717-1819)",
+      "typeIds": [
+        "Q20203507",
+        "Q15893266"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q8965",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2603851",
+      "wikidataId": "Q2603851",
+      "name": "Kingdom of Serbia",
+      "from": 1718,
+      "to": 1739,
+      "description": "crownland of the Habsburg monarchy between 1718–1739",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2603851",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q165154",
+      "wikidataId": "Q165154",
+      "name": "Kingdom of Sardinia",
+      "from": 1720,
+      "to": 1861,
+      "description": "state in Southern Europe from 1324 to 1861",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q165154",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2577303",
+      "wikidataId": "Q2577303",
+      "name": "Kingdom of Sardinia",
+      "from": 1720,
+      "to": 1861,
+      "description": "kingdom from 1720 to 1861",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464",
+        "Q3591895"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2577303",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1373,6 +4700,136 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q179997",
+      "wikidataId": "Q179997",
+      "name": "Thirteen Colonies",
+      "from": 1732,
+      "to": 1776,
+      "description": "group of 13 North American colonies of Great Britain from the founding of Georgia until American Independence (1732–1776)",
+      "typeIds": [
+        "Q133156",
+        "Q34876",
+        "Q1351282",
+        "Q93465891"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q179997",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q83572",
+      "wikidataId": "Q83572",
+      "name": "Sikh Empire",
+      "from": 1733,
+      "to": 1849,
+      "description": "Empire on the Indian subcontinent (1799–1849)",
+      "typeIds": [
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q83572",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q3932079",
+      "wikidataId": "Q3932079",
+      "name": "Kingdom of Sicily",
+      "from": 1734,
+      "to": 1816,
+      "description": "(1734-1816)",
+      "typeIds": [
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3932079",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q388739",
+      "wikidataId": "Q388739",
+      "name": "Afsharid dynasty",
+      "from": 1736,
+      "to": 1796,
+      "description": "Imperial Iranian dynasty of the 18th century",
+      "typeIds": [
+        "Q164950"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q388739",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q180393",
+      "wikidataId": "Q180393",
+      "name": "Kingdom of the Two Sicilies",
+      "from": 1738,
+      "to": 1861,
+      "description": "state formed from the kingdoms of Sicily and Naples (1815–1861)",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078",
+        "Q29431432"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q180393",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q467627",
+      "wikidataId": "Q467627",
+      "name": "Durrani Empire",
+      "from": 1747,
+      "to": 1826,
+      "description": "1747–1823 Afghan empire founded by Ahmad Shah Durrani",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q467627",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1062422",
+      "wikidataId": "Q1062422",
+      "name": "Konbaung dynasty",
+      "from": 1752,
+      "to": 1885,
+      "description": "Last dynasty of Myanmar, that ruled the Third Empire of Myanmar",
+      "typeIds": [
+        "Q13417114",
+        "Q1250464",
+        "Q417175",
+        "Q48349",
+        "Q836",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1062422",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1115291",
+      "wikidataId": "Q1115291",
+      "name": "Thonburi Kingdom",
+      "from": 1768,
+      "to": 1782,
+      "description": "former country",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1115291",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q869",
       "wikidataId": "Q869",
       "name": "Thailand",
@@ -1386,6 +4843,37 @@
         "Q179164"
       ],
       "source": "https://www.wikidata.org/wiki/Q869",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1993002",
+      "wikidataId": "Q1993002",
+      "name": "Carthage",
+      "from": 1776,
+      "to": null,
+      "description": "town in Moore County, North Carolina, United States of America",
+      "typeIds": [
+        "Q15127012",
+        "Q132680629"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1993002",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q210551",
+      "wikidataId": "Q210551",
+      "name": "Viceroyalty of the Río de la Plata",
+      "from": 1776,
+      "to": 1810,
+      "description": "(1776-1814) Viceroyalty of the Spanish Empire in America",
+      "typeIds": [
+        "Q20203507"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q210551",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1427,6 +4915,74 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q1155700",
+      "wikidataId": "Q1155700",
+      "name": "Rattanakosin Kingdom",
+      "from": 1782,
+      "to": 1932,
+      "description": "fourth traditional centre of power in the history of Thailand (1782 to 24 June 1932)",
+      "typeIds": [
+        "Q11514315",
+        "Q6256",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1155700",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q63158027",
+      "wikidataId": "Q63158027",
+      "name": "Qajar Iran",
+      "from": 1789,
+      "to": 1925,
+      "description": "country in Western Asia (1789–1925)",
+      "typeIds": [
+        "Q816829",
+        "Q3024240",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q63158027",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q156418",
+      "wikidataId": "Q156418",
+      "name": "Kingdom of Hawaiʻi",
+      "from": 1795,
+      "to": 1895,
+      "description": "historical kingdom in the Hawaiian Islands (1778–1893)",
+      "typeIds": [
+        "Q3624078",
+        "Q417175",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q156418",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q370736",
+      "wikidataId": "Q370736",
+      "name": "Cape Colony",
+      "from": 1795,
+      "to": 1910,
+      "description": "British colony in Southern Africa",
+      "typeIds": [
+        "Q3024240",
+        "Q133156",
+        "Q1351282"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q370736",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q175881",
       "wikidataId": "Q175881",
       "name": "Roman Republic",
@@ -1438,6 +4994,38 @@
         "Q472538"
       ],
       "source": "https://www.wikidata.org/wiki/Q175881",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q6500483",
+      "wikidataId": "Q6500483",
+      "name": "Nguyen dynasty",
+      "from": 1802,
+      "to": 1945,
+      "description": "imperial Vietnamese dynasty, 1802-1945",
+      "typeIds": [
+        "Q164950",
+        "Q19953632",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q6500483",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q600524",
+      "wikidataId": "Q600524",
+      "name": "Sokoto Caliphate",
+      "from": 1804,
+      "to": 1903,
+      "description": "independent Islamic Caliphate, in West Africa from 1804 to 1903",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q600524",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1471,6 +5059,269 @@
         "Q26879763"
       ],
       "source": "https://www.wikidata.org/wiki/Q223936",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q153015",
+      "wikidataId": "Q153015",
+      "name": "Kingdom of Saxony",
+      "from": 1806,
+      "to": 1918,
+      "description": "former German state (1806-1918)",
+      "typeIds": [
+        "Q3024240",
+        "Q26879769",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q153015",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q154195",
+      "wikidataId": "Q154195",
+      "name": "Kingdom of Bavaria",
+      "from": 1806,
+      "to": 1918,
+      "description": "kingdom in Central Europe between 1806 and 1918, from January 1871 part of the German Empire",
+      "typeIds": [
+        "Q3024240",
+        "Q26879769",
+        "Q1250464",
+        "Q113136497"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154195",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q154741",
+      "wikidataId": "Q154741",
+      "name": "Confederation of the Rhine",
+      "from": 1806,
+      "to": 1813,
+      "description": "confederation of client states of the First French Empire",
+      "typeIds": [
+        "Q170156",
+        "Q3024240",
+        "Q26879763"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154741",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q159631",
+      "wikidataId": "Q159631",
+      "name": "Kingdom of Württemberg",
+      "from": 1806,
+      "to": 1918,
+      "description": "kingdom in Central Europe between 1806–1918, from January 1871 part of the German Empire",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078",
+        "Q26879769",
+        "Q4057683",
+        "Q113136497"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q159631",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q186320",
+      "wikidataId": "Q186320",
+      "name": "Grand Duchy of Baden",
+      "from": 1806,
+      "to": 1918,
+      "description": "German grand duchy (1806-1918)",
+      "typeIds": [
+        "Q165116",
+        "Q26879769",
+        "Q3024240",
+        "Q107390",
+        "Q113136497"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q186320",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q203263",
+      "wikidataId": "Q203263",
+      "name": "Athens",
+      "from": 1806,
+      "to": null,
+      "description": "consolidated city-county and county seat of Clarke County, Georgia, United States",
+      "typeIds": [
+        "Q1093829",
+        "Q76514543",
+        "Q3301053",
+        "Q1549591",
+        "Q62049"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q203263",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q48779892",
+      "wikidataId": "Q48779892",
+      "name": "Kingdom of Naples",
+      "from": 1806,
+      "to": 1815,
+      "description": "former country, established in 1806 as Napoleonic client state and dissolved in 1815 by the Congress of Vienna",
+      "typeIds": [
+        "Q26879763",
+        "Q7275",
+        "Q3024240",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q48779892",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q152115",
+      "wikidataId": "Q152115",
+      "name": "Duchy of Warsaw",
+      "from": 1807,
+      "to": 1815,
+      "description": "Napoleonic client state (1807–1815)",
+      "typeIds": [
+        "Q1151405",
+        "Q26879763",
+        "Q3024240",
+        "Q208500"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q152115",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q153943",
+      "wikidataId": "Q153943",
+      "name": "Kingdom of Westphalia",
+      "from": 1807,
+      "to": 1813,
+      "description": "former country during Napoleon era (1807-1813)",
+      "typeIds": [
+        "Q3024240",
+        "Q26879769",
+        "Q417175",
+        "Q1679711"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q153943",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q11709372",
+      "wikidataId": "Q11709372",
+      "name": "coat of arms of the Grand Duchy of Finland",
+      "from": 1809,
+      "to": null,
+      "description": "",
+      "typeIds": [
+        "Q14659"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q11709372",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q62633",
+      "wikidataId": "Q62633",
+      "name": "Grand Duchy of Finland",
+      "from": 1809,
+      "to": 1917,
+      "description": "predecessor state of modern Finland",
+      "typeIds": [
+        "Q3024240",
+        "Q165116",
+        "Q671370",
+        "Q19832712"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q62633",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q738144",
+      "wikidataId": "Q738144",
+      "name": "United Provinces of the Río de la Plata",
+      "from": 1810,
+      "to": 1831,
+      "description": "country in South America (1816–1831)",
+      "typeIds": [
+        "Q3624078",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q738144",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q164079",
+      "wikidataId": "Q164079",
+      "name": "Kingdom of Hanover",
+      "from": 1814,
+      "to": 1866,
+      "description": "German kingdom established in 1814",
+      "typeIds": [
+        "Q3624078",
+        "Q3024240",
+        "Q417175",
+        "Q113136497"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q164079",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2597352",
+      "wikidataId": "Q2597352",
+      "name": "Kingdom of Norway",
+      "from": 1814,
+      "to": 1814,
+      "description": "short-lived monarchy in Northern Europe (1814)",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078",
+        "Q10711424"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2597352",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q151624",
+      "wikidataId": "Q151624",
+      "name": "German Confederation",
+      "from": 1815,
+      "to": 1866,
+      "description": "Confederation of States in Germany from 1815 to 1866",
+      "typeIds": [
+        "Q170156",
+        "Q56061"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q151624",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1511,6 +5362,188 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q3367022",
+      "wikidataId": "Q3367022",
+      "name": "coat of arms of Congress Poland",
+      "from": 1815,
+      "to": null,
+      "description": "Polish coat of arms",
+      "typeIds": [
+        "Q14659"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3367022",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q684030",
+      "wikidataId": "Q684030",
+      "name": "Principality of Serbia",
+      "from": 1815,
+      "to": 1882,
+      "description": "1815-1882 principality in Southeastern Europe",
+      "typeIds": [
+        "Q208500",
+        "Q3024240",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q684030",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q79439",
+      "wikidataId": "Q79439",
+      "name": "Athens",
+      "from": 1818,
+      "to": null,
+      "description": "county seat of Limestone County, Alabama, United States",
+      "typeIds": [
+        "Q1093829",
+        "Q62049"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q79439",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q199821",
+      "wikidataId": "Q199821",
+      "name": "Gran Colombia",
+      "from": 1819,
+      "to": 1831,
+      "description": "republic in South and Central America from 1819 to 1831",
+      "typeIds": [
+        "Q3624078",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q199821",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q157734",
+      "wikidataId": "Q157734",
+      "name": "Muscat and Oman",
+      "from": 1820,
+      "to": 1970,
+      "description": "monarchy on the Arab Peninsula between 1820-1970",
+      "typeIds": [
+        "Q3024240",
+        "Q12759805",
+        "Q21479969",
+        "Q6256"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q157734",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q217230",
+      "wikidataId": "Q217230",
+      "name": "Empire of Brazil",
+      "from": 1822,
+      "to": 1889,
+      "description": "empire in South America between 1822 and 1889",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q217230",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q285658",
+      "wikidataId": "Q285658",
+      "name": "First Mexican Empire",
+      "from": 1822,
+      "to": 1823,
+      "description": "former empire in America (1821-1823)",
+      "typeIds": [
+        "Q3024240",
+        "Q48349",
+        "Q11514315"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q285658",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1335260",
+      "wikidataId": "Q1335260",
+      "name": "Emirate of Afghanistan",
+      "from": 1823,
+      "to": 1926,
+      "description": "monarchy in Central Asia from 1823 to 1926",
+      "typeIds": [
+        "Q3024240",
+        "Q189898"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1335260",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q190025",
+      "wikidataId": "Q190025",
+      "name": "Federal Republic of Central America",
+      "from": 1823,
+      "to": 1841,
+      "description": "former country in Central America (1823–1839/1841)",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078",
+        "Q6256"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q190025",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1972316",
+      "wikidataId": "Q1972316",
+      "name": "Gran Colombia–Peru War",
+      "from": 1828,
+      "to": 1829,
+      "description": "1828-1829 war between Colombia and Peru",
+      "typeIds": [
+        "Q198"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1972316",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q31",
+      "wikidataId": "Q31",
+      "name": "Belgium",
+      "from": 1830,
+      "to": null,
+      "description": "country in western Europe",
+      "typeIds": [
+        "Q3624078",
+        "Q6256",
+        "Q20181813",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q31",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q58202",
       "wikidataId": "Q58202",
       "name": "July Monarchy",
@@ -1523,6 +5556,53 @@
         "Q11514315"
       ],
       "source": "https://www.wikidata.org/wiki/Q58202",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q209065",
+      "wikidataId": "Q209065",
+      "name": "Kingdom of Greece",
+      "from": 1832,
+      "to": 1973,
+      "description": "period of Greek statehood from 1832 to 1924 and 1935 to 1973",
+      "typeIds": [
+        "Q417175",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q209065",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q170588",
+      "wikidataId": "Q170588",
+      "name": "Republic of Texas",
+      "from": 1836,
+      "to": 1846,
+      "description": "sovereign nation (not recognized by Mexico) in North America that existed from March 2, 1836, to February 19, 1846",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q170588",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q461289",
+      "wikidataId": "Q461289",
+      "name": "Grand Duchy of Baden State Railway",
+      "from": 1840,
+      "to": 1920,
+      "description": "transport company",
+      "typeIds": [
+        "Q740752"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q461289",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1546,6 +5626,23 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q550374",
+      "wikidataId": "Q550374",
+      "name": "South African Republic",
+      "from": 1852,
+      "to": 1902,
+      "description": "independent Boer-ruled country in Southern Africa between 1856–1902",
+      "typeIds": [
+        "Q3624078",
+        "Q3024240",
+        "Q1010624"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q550374",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q71092",
       "wikidataId": "Q71092",
       "name": "Second French Empire",
@@ -1557,6 +5654,69 @@
         "Q5589178"
       ],
       "source": "https://www.wikidata.org/wiki/Q71092",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q218023",
+      "wikidataId": "Q218023",
+      "name": "Orange Free State",
+      "from": 1854,
+      "to": 1902,
+      "description": "independent Boer sovereign republic in Southern Africa between 1854–1902",
+      "typeIds": [
+        "Q3624078",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q218023",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q96314868",
+      "wikidataId": "Q96314868",
+      "name": "Parliament of Cape Colony",
+      "from": 1854,
+      "to": 1910,
+      "description": "historic legislature of the British Cape Colony",
+      "typeIds": [
+        "Q35749"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q96314868",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q157904",
+      "wikidataId": "Q157904",
+      "name": "Sultanate of Zanzibar",
+      "from": 1856,
+      "to": 1890,
+      "description": "1856–1964 monarchy in the Indian Ocean",
+      "typeIds": [
+        "Q3024240",
+        "Q12759805",
+        "Q48349"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q157904",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q82681",
+      "wikidataId": "Q82681",
+      "name": "Tlaxcala",
+      "from": 1857,
+      "to": null,
+      "description": "state of Mexico",
+      "typeIds": [
+        "Q15149663"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q82681",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1609,6 +5769,87 @@
         "Q10711424"
       ],
       "source": "https://www.wikidata.org/wiki/Q81931",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q371334",
+      "wikidataId": "Q371334",
+      "name": "Second Mexican Empire",
+      "from": 1864,
+      "to": 1867,
+      "description": "Imperial Mexican state ruled by King Maximilian I for the duration of it's short existence",
+      "typeIds": [
+        "Q3024240",
+        "Q1151405"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q371334",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q770839",
+      "wikidataId": "Q770839",
+      "name": "North German Confederation Treaty",
+      "from": 1866,
+      "to": null,
+      "description": "treaty of Prussia with other states in 1866",
+      "typeIds": [
+        "Q131569"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q770839",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q150981",
+      "wikidataId": "Q150981",
+      "name": "North German Confederation",
+      "from": 1867,
+      "to": 1870,
+      "description": "historical federal state in today's Northern Germany (1867–1871)",
+      "typeIds": [
+        "Q3024240",
+        "Q43702"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q150981",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1520743",
+      "wikidataId": "Q1520743",
+      "name": "Canadian Confederation",
+      "from": 1867,
+      "to": null,
+      "description": "process by which the British colonies of Canada, Nova Scotia, and New Brunswick were united into one Dominion of Canada on July 1, 1867",
+      "typeIds": [
+        "Q3249551"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1520743",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q16",
+      "wikidataId": "Q16",
+      "name": "Canada",
+      "from": 1867,
+      "to": null,
+      "description": "country in North America",
+      "typeIds": [
+        "Q223832",
+        "Q202686",
+        "Q3624078",
+        "Q6256",
+        "Q43702"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q16",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1703,6 +5944,54 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q203493",
+      "wikidataId": "Q203493",
+      "name": "Kingdom of Romania",
+      "from": 1881,
+      "to": 1947,
+      "description": "kingdom in Southeastern Europe between 1881 and 1947",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078",
+        "Q417175"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q203493",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q241748",
+      "wikidataId": "Q241748",
+      "name": "Kingdom of Serbia",
+      "from": 1882,
+      "to": 1918,
+      "description": "1882–1918 kingdom in Southeastern Europe",
+      "typeIds": [
+        "Q3024240",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q241748",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q209895",
+      "wikidataId": "Q209895",
+      "name": "Sparta Rotterdam",
+      "from": 1888,
+      "to": null,
+      "description": "Dutch association football club",
+      "typeIds": [
+        "Q476028"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q209895",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q112629004",
       "wikidataId": "Q112629004",
       "name": "Polish-Lithuanian Commonwealth cavalrymen.",
@@ -1713,6 +6002,150 @@
         "Q3305213"
       ],
       "source": "https://www.wikidata.org/wiki/Q112629004",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1686",
+      "wikidataId": "Q1686",
+      "name": "Butuan",
+      "from": 1901,
+      "to": null,
+      "description": "city of the Philippines",
+      "typeIds": [
+        "Q29946056",
+        "Q1549591"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1686",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q20",
+      "wikidataId": "Q20",
+      "name": "Norway",
+      "from": 1905,
+      "to": null,
+      "description": "country in Northern Europe",
+      "typeIds": [
+        "Q3624078",
+        "Q6256"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q20",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q38610",
+      "wikidataId": "Q38610",
+      "name": "Dominion of Newfoundland",
+      "from": 1907,
+      "to": 1949,
+      "description": "UK possession in North America between 1907 and 1949",
+      "typeIds": [
+        "Q223832",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q38610",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q43310",
+      "wikidataId": "Q43310",
+      "name": "Germany men's national association football team",
+      "from": 1908,
+      "to": null,
+      "description": "German men's national association football team",
+      "typeIds": [
+        "Q135408445"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q43310",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q193619",
+      "wikidataId": "Q193619",
+      "name": "Union of South Africa",
+      "from": 1910,
+      "to": 1961,
+      "description": "state in southern Africa from 1910 to 1961, predecessor to the Republic of South Africa",
+      "typeIds": [
+        "Q223832",
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q193619",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1971200",
+      "wikidataId": "Q1971200",
+      "name": "Orange Free State Province",
+      "from": 1910,
+      "to": 1994,
+      "description": "former South African province (1910–1994)",
+      "typeIds": [
+        "Q19953632",
+        "Q191093"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1971200",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q2444884",
+      "wikidataId": "Q2444884",
+      "name": "Tibet",
+      "from": 1912,
+      "to": 1959,
+      "description": "former de facto state in East Asia",
+      "typeIds": [
+        "Q3024240",
+        "Q10711424",
+        "Q15239622"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2444884",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q766411",
+      "wikidataId": "Q766411",
+      "name": "South African Republic",
+      "from": 1914,
+      "to": 1915,
+      "description": "1914-1915",
+      "typeIds": [
+        "Q3024240"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q766411",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q207272",
+      "wikidataId": "Q207272",
+      "name": "Second Polish Republic",
+      "from": 1918,
+      "to": 1939,
+      "description": "country in Central and Eastern Europe (1918–1939)",
+      "typeIds": [
+        "Q11514315",
+        "Q3024240",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q207272",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1842,6 +6275,37 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q207991",
+      "wikidataId": "Q207991",
+      "name": "Pahlavi dynasty",
+      "from": 1925,
+      "to": 1979,
+      "description": "Iranian royal dynasty (1925–1979)",
+      "typeIds": [
+        "Q164950"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q207991",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1138904",
+      "wikidataId": "Q1138904",
+      "name": "Kingdom of Afghanistan",
+      "from": 1926,
+      "to": 1973,
+      "description": "kingdom in Central Asia between 1926–1973",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1138904",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q191077",
       "wikidataId": "Q191077",
       "name": "Kingdom of Yugoslavia",
@@ -1855,6 +6319,21 @@
         "Q859563"
       ],
       "source": "https://www.wikidata.org/wiki/Q191077",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q85759154",
+      "wikidataId": "Q85759154",
+      "name": "Emirate of Afghanistan",
+      "from": 1929,
+      "to": 1929,
+      "description": "former unrecognized state in Central Asia",
+      "typeIds": [
+        "Q21512251"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q85759154",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1907,6 +6386,85 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q114289502",
+      "wikidataId": "Q114289502",
+      "name": "Ethiopian Empire in exile",
+      "from": 1936,
+      "to": 1941,
+      "description": "",
+      "typeIds": [
+        "Q678116"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q114289502",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1358836",
+      "wikidataId": "Q1358836",
+      "name": "4th of August Regime",
+      "from": 1936,
+      "to": 1941,
+      "description": "military dictatorship of Greece from 1936 to 1941",
+      "typeIds": [
+        "Q7188",
+        "Q19953632"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1358836",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q12714608",
+      "wikidataId": "Q12714608",
+      "name": "Fascist Romania",
+      "from": 1937,
+      "to": 1938,
+      "description": "kingdom in Europe under Fascist rule between 1937 and 1944",
+      "typeIds": [
+        "Q3024240",
+        "Q1250464"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12714608",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q6459251",
+      "wikidataId": "Q6459251",
+      "name": "LNER Class A4 4488 “Union of South Africa”",
+      "from": 1937,
+      "to": null,
+      "description": "LNER Class A4 steam locomotive built in Doncaster in 1937",
+      "typeIds": [
+        "Q20650761"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q6459251",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q211274",
+      "wikidataId": "Q211274",
+      "name": "Polish People's Republic",
+      "from": 1944,
+      "to": 1989,
+      "description": "country of the Warsaw Pact and Eastern Bloc from 1947 to 1989",
+      "typeIds": [
+        "Q3024240",
+        "Q465613",
+        "Q109614735"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q211274",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q56143",
       "wikidataId": "Q56143",
       "name": "Chosun University",
@@ -1917,6 +6475,77 @@
         "Q902104"
       ],
       "source": "https://www.wikidata.org/wiki/Q56143",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q16957",
+      "wikidataId": "Q16957",
+      "name": "East Germany",
+      "from": 1949,
+      "to": 1990,
+      "description": "1949–1990 country in central Europe, unified into modern Germany",
+      "typeIds": [
+        "Q3024240",
+        "Q325261",
+        "Q7275",
+        "Q17007978"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q16957",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q190854",
+      "wikidataId": "Q190854",
+      "name": "German Confederation of Skilled Crafts",
+      "from": 1949,
+      "to": null,
+      "description": "eingetragener Verein",
+      "typeIds": [
+        "Q1391517",
+        "Q1666019",
+        "Q79913",
+        "Q43229"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q190854",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q713750",
+      "wikidataId": "Q713750",
+      "name": "West Germany",
+      "from": 1949,
+      "to": 1990,
+      "description": "Federal Republic of Germany in the period between its formation on 23 May 1949 and German reunification on 3 October 1990",
+      "typeIds": [
+        "Q7275",
+        "Q11514315",
+        "Q3024240",
+        "Q3624078"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q713750",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q796920",
+      "wikidataId": "Q796920",
+      "name": "BRD",
+      "from": 1949,
+      "to": 1990,
+      "description": "unofficial Cold War-era abbreviation for the Federal Republic of Germany",
+      "typeIds": [
+        "Q82799",
+        "Q102786",
+        "Q2101619"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q796920",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1937,6 +6566,213 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q9337412",
+      "wikidataId": "Q9337412",
+      "name": "Polish People's Republic Armed Forces",
+      "from": 1952,
+      "to": 1989,
+      "description": "combined military forces of Poland during the period of Polish People's Republic (1952–1989)",
+      "typeIds": [
+        "Q772547"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q9337412",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q4488240",
+      "wikidataId": "Q4488240",
+      "name": "flag of the Federation of Rhodesia and Nyasaland",
+      "from": 1953,
+      "to": null,
+      "description": "flag of the 1953–1963 British territory in Southern Africa",
+      "typeIds": [
+        "Q186516"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4488240",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q654342",
+      "wikidataId": "Q654342",
+      "name": "Federation of Rhodesia and Nyasaland",
+      "from": 1953,
+      "to": 1963,
+      "description": "colonial federation in southern Africa (1953–1963) comprising Southern Rhodesia, Northern Rhodesia, and Nyasaland; dissolved in 1963, leading to the independence of Malawi, Zambia and the continuation of Southern Rhodesia",
+      "typeIds": [
+        "Q3024240",
+        "Q223832"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q654342",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q11455808",
+      "wikidataId": "Q11455808",
+      "name": "Funan",
+      "from": 1955,
+      "to": 1960,
+      "description": "dissolved municipality in Nakaniikawa district, Toyama prefecture, Japan",
+      "typeIds": [
+        "Q18663566"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q11455808",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1028",
+      "wikidataId": "Q1028",
+      "name": "Morocco",
+      "from": 1956,
+      "to": null,
+      "description": "sovereign state in North Africa",
+      "typeIds": [
+        "Q41614",
+        "Q3624078",
+        "Q51576574",
+        "Q6256"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1028",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q7686915",
+      "wikidataId": "Q7686915",
+      "name": "Tarumanagara University",
+      "from": 1959,
+      "to": null,
+      "description": "university in Indonesia",
+      "typeIds": [
+        "Q3918",
+        "Q45400320"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q7686915",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q877367",
+      "wikidataId": "Q877367",
+      "name": "Roman Catholic Diocese of Tlaxcala",
+      "from": 1959,
+      "to": null,
+      "description": "Catholic diocese in Mexico founded in 1959",
+      "typeIds": [
+        "Q3146899",
+        "Q373074"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q877367",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q962",
+      "wikidataId": "Q962",
+      "name": "Benin",
+      "from": 1960,
+      "to": null,
+      "description": "sovereign state in West Africa",
+      "typeIds": [
+        "Q3624078",
+        "Q6256"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q962",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q9009773",
+      "wikidataId": "Q9009773",
+      "name": "Isla de Pascua",
+      "from": 1966,
+      "to": null,
+      "description": "commune of Chile",
+      "typeIds": [
+        "Q1840161"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q9009773",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q842",
+      "wikidataId": "Q842",
+      "name": "Oman",
+      "from": 1970,
+      "to": null,
+      "description": "sovereign state in western Asia",
+      "typeIds": [
+        "Q3624078",
+        "Q6256",
+        "Q12759805"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q842",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q3056578",
+      "wikidataId": "Q3056578",
+      "name": "Oman TV",
+      "from": 1974,
+      "to": null,
+      "description": "national broadcaster of Oman",
+      "typeIds": [
+        "Q1616075"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3056578",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q954",
+      "wikidataId": "Q954",
+      "name": "Zimbabwe",
+      "from": 1980,
+      "to": null,
+      "description": "sovereign state in southern Africa",
+      "typeIds": [
+        "Q7270",
+        "Q3624078",
+        "Q123480",
+        "Q6256"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q954",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q7353928",
+      "wikidataId": "Q7353928",
+      "name": "Malacca Sultanate Palace Museum",
+      "from": 1986,
+      "to": null,
+      "description": "museum in Malacca, Malaysia",
+      "typeIds": [
+        "Q33506"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q7353928",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q1104597",
       "wikidataId": "Q1104597",
       "name": "Tang Dynasty",
@@ -1947,6 +6783,53 @@
         "Q215380"
       ],
       "source": "https://www.wikidata.org/wiki/Q1104597",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q160284",
+      "wikidataId": "Q160284",
+      "name": "Free State",
+      "from": 1994,
+      "to": null,
+      "description": "province of South Africa",
+      "typeIds": [
+        "Q191093"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q160284",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q1740592",
+      "wikidataId": "Q1740592",
+      "name": "Western Zhou Yan State Capital Museum",
+      "from": 1995,
+      "to": null,
+      "description": "archaeological site, History museum in Beijing",
+      "typeIds": [
+        "Q839954"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1740592",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q5600321",
+      "wikidataId": "Q5600321",
+      "name": "Great Zimbabwe University",
+      "from": 1995,
+      "to": null,
+      "description": "university in Masvingo, Zimbabwe",
+      "typeIds": [
+        "Q3918",
+        "Q5341295",
+        "Q38723"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q5600321",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
@@ -1983,6 +6866,22 @@
       "geometry": null
     },
     {
+      "id": "wikidata:Q108940612",
+      "wikidataId": "Q108940612",
+      "name": "Singhasari Museum",
+      "from": 2015,
+      "to": null,
+      "description": "museum in Indonesia",
+      "typeIds": [
+        "Q33506",
+        "Q41176"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q108940612",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
       "id": "wikidata:Q60992353",
       "wikidataId": "Q60992353",
       "name": "Qin Dynasty Epic",
@@ -1993,6 +6892,24 @@
         "Q5398426"
       ],
       "source": "https://www.wikidata.org/wiki/Q60992353",
+      "reviewStatus": "unreviewed",
+      "borderStatus": "unmapped",
+      "geometry": null
+    },
+    {
+      "id": "wikidata:Q139677270",
+      "wikidataId": "Q139677270",
+      "name": "Canada–Denmark border",
+      "from": 2023,
+      "to": null,
+      "description": "international border",
+      "typeIds": [
+        "Q133346",
+        "Q15104814",
+        "Q3089219",
+        "Q12413618"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q139677270",
       "reviewStatus": "unreviewed",
       "borderStatus": "unmapped",
       "geometry": null
