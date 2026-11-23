@@ -48,7 +48,7 @@ async function main(){
  if(fs.existsSync(previousPath)){
   const previous=JSON.parse(fs.readFileSync(previousPath,'utf8'));
   for(const old of previous.events||[]){
-   if(!/^Q[1-9]\\d*$/.test(old.wikidataId||'')||!Number.isSafeInteger(old.year)||old.reviewStatus!=='unreviewed')continue;
+   if(!/^Q[1-9]\d*$/.test(old.wikidataId||'')||!Number.isSafeInteger(old.year)||old.reviewStatus!=='unreviewed')continue;
    if(!events.has(old.wikidataId)){events.set(old.wikidataId,old);retained++}
   }
  }
