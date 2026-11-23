@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "Wikidata MediaWiki API",
-  "importedAt": "2026-11-22T16:50:51.429Z",
+  "importedAt": "2026-11-23T21:09:10.107Z",
   "reviewStatus": "unreviewed",
   "people": [
     {
@@ -1127,7 +1127,7 @@
     {
       "id": "wikidata:Q25098",
       "wikidataId": "Q25098",
-      "name": "Pope Theodosius II of Alexandria",
+      "name": "Pope Theodosius I of Alexandria",
       "birthYear": 650,
       "deathYear": 742,
       "source": "https://www.wikidata.org/wiki/Q25098",
