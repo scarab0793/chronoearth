@@ -42,6 +42,17 @@ async function main(){
   await wait(300);
  }
  if(!events.size)throw Error('No dated event candidates; preserve existing data');
+ // Preserve previously imported candidates: a fresh search must not silently delete history.
+ const previousPath='data/imports/wikidata-events.json';
+ let retained=0;
+ if(fs.existsSync(previousPath)){
+  const previous=JSON.parse(fs.readFileSync(previousPath,'utf8'));
+  for(const old of previous.events||[]){
+   if(!/^Q[1-9]\\d*$/.test(old.wikidataId||'')||!Number.isSafeInteger(old.year)||old.reviewStatus!=='unreviewed')continue;
+   if(!events.has(old.wikidataId)){events.set(old.wikidataId,old);retained++}
+  }
+ }
+ console.log('Retained '+retained+' historical event candidates from earlier imports');
  const records=[...events.values()].sort((a,b)=>a.year-b.year||a.wikidataId.localeCompare(b.wikidataId));
  fs.mkdirSync('data/imports',{recursive:true});
  fs.writeFileSync('data/imports/wikidata-events.json',JSON.stringify({schemaVersion:1,source:'Wikidata MediaWiki API',importedAt:new Date().toISOString(),reviewStatus:'unreviewed',note:'Candidate event catalogue; each item needs historical type and date review.',events:records},null,2)+'\n');
