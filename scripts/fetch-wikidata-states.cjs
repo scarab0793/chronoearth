@@ -40,6 +40,16 @@ async function main(){
  }
  if(!states.size)throw Error('No dated polity candidates; preserve previous data');
  fs.mkdirSync('data/imports',{recursive:true});
+ const previousFile='data/imports/wikidata-states.json';
+ let retained=0;
+ if(fs.existsSync(previousFile)){
+  const previous=JSON.parse(fs.readFileSync(previousFile,'utf8'));
+  for(const old of previous.states||[]){
+   if(!/^Q[1-9]\d*$/.test(old.wikidataId||'')||!Number.isSafeInteger(old.from)||old.reviewStatus!=='unreviewed')continue;
+   if(!states.has(old.wikidataId)){states.set(old.wikidataId,old);retained++}
+  }
+ }
+ console.log('Retained '+retained+' previously imported states records');
  const records=[...states.values()].sort((a,b)=>a.from-b.from||a.wikidataId.localeCompare(b.wikidataId));
  fs.writeFileSync('data/imports/wikidata-states.json',JSON.stringify({schemaVersion:1,source:'Wikidata MediaWiki API',importedAt:new Date().toISOString(),reviewStatus:'unreviewed',note:'Candidate historical polities. Type, foundation/dissolution dates and boundaries require verification.',states:records},null,2)+'\n');
  console.log('Imported '+records.length+' historical polity candidates');
