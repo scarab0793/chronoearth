@@ -43,6 +43,16 @@ async function main(){
  }
  if(!people.size)throw Error('No verified-human historical records; existing data unchanged');
  fs.mkdirSync('data/imports',{recursive:true});
+ const previousFile='data/imports/wikidata-people.json';
+ let retained=0;
+ if(fs.existsSync(previousFile)){
+  const previous=JSON.parse(fs.readFileSync(previousFile,'utf8'));
+  for(const old of previous.people||[]){
+   if(!/^Q[1-9]\d*$/.test(old.wikidataId||'')||!Number.isSafeInteger(old.birthYear)||old.reviewStatus!=='unreviewed')continue;
+   if(!people.has(old.wikidataId)){people.set(old.wikidataId,old);retained++}
+  }
+ }
+ console.log('Retained '+retained+' previously imported people records');
  const records=[...people.values()].sort((a,b)=>a.wikidataId.localeCompare(b.wikidataId,undefined,{numeric:true}));
  fs.writeFileSync('data/imports/wikidata-people.json',JSON.stringify({schemaVersion:2,source:'Wikidata MediaWiki API',importedAt:new Date().toISOString(),reviewStatus:'unreviewed',people:records},null,2)+'\n');
  console.log('Imported '+records.length+' historical people');
