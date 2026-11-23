@@ -21,7 +21,15 @@ const claim=(e,p)=>e.claims?.[p]?.find(c=>c.mainsnak?.snaktype==='value')?.mains
 const year=v=>{const m=String(v?.time||'').match(/^([+-])(\d+)-/);if(!m)return null;const y=Number(m[2])*(m[1]==='-'?-1:1);return Number.isSafeInteger(y)?y:null};
 async function main(){
  const ids=new Set();
- for(const term of [...new Set([...terms,...additionalTerms,...furtherTerms,...scienceAndWorldTerms])]){
+ const allTerms=[...new Set([...terms,...additionalTerms,...furtherTerms,...scienceAndWorldTerms])];
+ const batchSize=Number(process.env.EVENT_BATCH_SIZE||80);
+ const runNumber=Number(process.env.GITHUB_RUN_NUMBER||1);
+ if(!Number.isSafeInteger(batchSize)||batchSize<1||batchSize>200||!Number.isSafeInteger(runNumber)||runNumber<1)throw Error('Invalid event import batch configuration');
+ const batchCount=Math.ceil(allTerms.length/batchSize);
+ const batchIndex=(runNumber-1)%batchCount;
+ const selectedTerms=allTerms.slice(batchIndex*batchSize,(batchIndex+1)*batchSize);
+ console.log('Event import batch '+(batchIndex+1)+'/'+batchCount+': '+selectedTerms.length+' of '+allTerms.length+' search terms');
+ for(const term of selectedTerms){
   const j=await get({action:'wbsearchentities',search:term,language:'en',type:'item',limit:'3'});
   for(const hit of j.search||[])if(/^Q[1-9]\d*$/.test(hit.id))ids.add(hit.id);
   await wait(850);
