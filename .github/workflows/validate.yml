@@ -18,6 +18,8 @@ jobs:
         run: node scripts/validate-data.cjs
       - name: Validate imported historical records and provenance
         run: node scripts/validate-imports.cjs
+      - name: Summarize historical import coverage by century
+        run: node scripts/import-coverage-report.cjs
       - name: Summarize map coverage and unverified boundaries
         if: always()
         run: node scripts/map-coverage-report.cjs
