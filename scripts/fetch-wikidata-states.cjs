@@ -7,12 +7,12 @@ const additionalTerms=["Sumer","Akkadian Empire","Neo-Sumerian Empire","Old Baby
 const api='https://www.wikidata.org/w/api.php';
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 async function get(params){
- for(let attempt=0;attempt<3;attempt++){
+ for(let attempt=0;attempt<5;attempt++){
   try{
    const r=await fetch(api+'?'+new URLSearchParams({...params,format:'json'}),{headers:{'User-Agent':'ChronoEarthHistoricalDatabase/0.5 (https://github.com/scarab0793/chronoearth)'},signal:AbortSignal.timeout(20000)});
    if(!r.ok)throw Error('Wikidata HTTP '+r.status);
    const j=await r.json();if(j.error)throw Error(JSON.stringify(j.error));return j;
-  }catch(e){if(attempt===2)throw e;await wait(1500*(attempt+1))}
+  }catch(e){if(attempt===4)throw e;await wait(String(e.message).includes('429')?15000*(attempt+1):1500*(attempt+1))}
  }
 }
 const claim=(e,p)=>e.claims?.[p]?.find(c=>c.mainsnak?.snaktype==='value')?.mainsnak?.datavalue?.value;
@@ -22,7 +22,7 @@ async function main(){
  for(const term of [...terms,...additionalTerms]){
   const j=await get({action:'wbsearchentities',search:term,language:'en',type:'item',limit:'3'});
   for(const x of j.search||[])if(/^Q[1-9]\d*$/.test(x.id))ids.add(x.id);
-  await wait(100);
+  await wait(1100);
  }
  const states=new Map(),all=[...ids];
  for(let i=0;i<all.length;i+=40){
