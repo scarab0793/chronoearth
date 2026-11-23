@@ -1,10 +1,38 @@
 {
   "schemaVersion": 1,
   "source": "Wikidata MediaWiki API",
-  "importedAt": "2026-11-23T21:07:18.912Z",
+  "importedAt": "2026-11-23T21:22:36.272Z",
   "reviewStatus": "unreviewed",
   "note": "Candidate event catalogue; each item needs historical type and date review.",
   "events": [
+    {
+      "id": "wikidata:Q5692110",
+      "wikidataId": "Q5692110",
+      "name": "solar eclipse of August 14, 1919 BC",
+      "year": -1919,
+      "description": "solar eclipse",
+      "typeIds": [
+        "Q3887",
+        "Q11086064"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q5692110",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q5693370",
+      "wikidataId": "Q5693370",
+      "name": "solar eclipse of February 18, 1919 BC",
+      "year": -1919,
+      "description": "solar eclipse",
+      "typeIds": [
+        "Q3887",
+        "Q5691927"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q5693370",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
     {
       "id": "wikidata:Q76026",
       "wikidataId": "Q76026",
@@ -305,6 +333,19 @@
         "Q1261499"
       ],
       "source": "https://www.wikidata.org/wiki/Q160387",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q215231",
+      "wikidataId": "Q215231",
+      "name": "Great Fire of Rome",
+      "year": 64,
+      "description": "urban fire in Ancient Rome of July AD 64",
+      "typeIds": [
+        "Q838718"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q215231",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2038,6 +2079,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q21002732",
+      "wikidataId": "Q21002732",
+      "name": "discovery of Uranus",
+      "year": 1781,
+      "description": "",
+      "typeIds": [
+        "Q12772819"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q21002732",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q459447",
       "wikidataId": "Q459447",
       "name": "Siege of Yorktown",
@@ -2381,6 +2435,22 @@
       "location": null
     },
     {
+      "id": "wikidata:Q51122",
+      "wikidataId": "Q51122",
+      "name": "Unification of Italy",
+      "year": 1815,
+      "description": "creation of the politically and administratively integrated nation of Italy (1815–1871)",
+      "typeIds": [
+        "Q2738074",
+        "Q49773",
+        "Q11514315",
+        "Q1140229"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q51122",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q705936",
       "wikidataId": "Q705936",
       "name": "Battle of Quatre Bras",
@@ -2579,6 +2649,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q7837132",
+      "wikidataId": "Q7837132",
+      "name": "Treaty of Maastricht",
+      "year": 1843,
+      "description": "1843 treaty between Belgium and Nederlands",
+      "typeIds": [
+        "Q131569"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q7837132",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q110122519",
       "wikidataId": "Q110122519",
       "name": "Battle of Naseby",
@@ -2589,6 +2672,32 @@
         "Q11060274"
       ],
       "source": "https://www.wikidata.org/wiki/Q110122519",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q188371",
+      "wikidataId": "Q188371",
+      "name": "Great Irish Famine",
+      "year": 1845,
+      "description": "1845–1852 famine in Ireland",
+      "typeIds": [
+        "Q168247"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q188371",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1356165",
+      "wikidataId": "Q1356165",
+      "name": "discovery of Neptune",
+      "year": 1846,
+      "description": "human discovery of the planet Neptune",
+      "typeIds": [
+        "Q12772819"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1356165",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2737,6 +2846,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q1259178",
+      "wikidataId": "Q1259178",
+      "name": "third plague pandemic",
+      "year": 1855,
+      "description": "bubonic plague pandemic that began in Yunnan province in China in 1855",
+      "typeIds": [
+        "Q1516910"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1259178",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q418151",
       "wikidataId": "Q418151",
       "name": "Second Opium War",
@@ -2799,6 +2921,20 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q324916",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q662051",
+      "wikidataId": "Q662051",
+      "name": "solar storm of 1859",
+      "year": 1859,
+      "description": "geomagnetic solar storm",
+      "typeIds": [
+        "Q129890",
+        "Q130011"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q662051",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -2975,6 +3111,33 @@
       "location": null
     },
     {
+      "id": "wikidata:Q154705",
+      "wikidataId": "Q154705",
+      "name": "unification of Germany",
+      "year": 1871,
+      "description": "creation of a politically and administratively integrated nation state of German-speaking populations on 18 January 1871, in the form of the German Empire",
+      "typeIds": [
+        "Q11827304",
+        "Q1140229"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154705",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q70520",
+      "wikidataId": "Q70520",
+      "name": "Great Chicago Fire",
+      "year": 1871,
+      "description": "1871 conflagration in Chicago, Illinois",
+      "typeIds": [
+        "Q838718"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q70520",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q85745807",
       "wikidataId": "Q85745807",
       "name": "Battle of Adwa",
@@ -3092,6 +3255,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q957317",
+      "wikidataId": "Q957317",
+      "name": "Exposition Universelle of 1889",
+      "year": 1889,
+      "description": "World's Fair held in Paris, France",
+      "typeIds": [
+        "Q172754"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q957317",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q28769346",
       "wikidataId": "Q28769346",
       "name": "Battle of Little Bighorn",
@@ -3105,6 +3281,45 @@
       "location": null
     },
     {
+      "id": "wikidata:Q1516738",
+      "wikidataId": "Q1516738",
+      "name": "invention of radio",
+      "year": 1891,
+      "description": "aspect of history relating to the invention of radio",
+      "typeIds": [
+        "Q108696953"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1516738",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q108829901",
+      "wikidataId": "Q108829901",
+      "name": "World's Columbian Exposition, Chicago, 1893. New South Wales Courts",
+      "year": 1893,
+      "description": "Exhibition of items in the New South Wales Courts at the World's Columbian Exposition, Chicago, 1893",
+      "typeIds": [
+        "Q464980"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q108829901",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q285406",
+      "wikidataId": "Q285406",
+      "name": "World's Columbian Exposition",
+      "year": 1893,
+      "description": "1893 World's Fair held in Chicago, Illinois",
+      "typeIds": [
+        "Q172754"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q285406",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q65507009",
       "wikidataId": "Q65507009",
       "name": "Battle of Antietam",
@@ -3114,6 +3329,19 @@
         "Q11060274"
       ],
       "source": "https://www.wikidata.org/wiki/Q65507009",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q103943798",
+      "wikidataId": "Q103943798",
+      "name": "World's Columbian Exposition",
+      "year": 1894,
+      "description": "painting by Theodore Robinson",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q103943798",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -3353,6 +3581,19 @@
         "Q178659"
       ],
       "source": "https://www.wikidata.org/wiki/Q77335255",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q125953",
+      "wikidataId": "Q125953",
+      "name": "Tunguska event",
+      "year": 1908,
+      "description": "powerful explosion that occurred near the Podkamennaya Tunguska River",
+      "typeIds": [
+        "Q179057"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q125953",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -3880,6 +4121,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q726501",
+      "wikidataId": "Q726501",
+      "name": "Dust Bowl",
+      "year": 1930,
+      "description": "period of severe dust storms in North America",
+      "typeIds": [
+        "Q3193890"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q726501",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q165058",
       "wikidataId": "Q165058",
       "name": "Holodomor",
@@ -3905,6 +4159,19 @@
         "Q168247"
       ],
       "source": "https://www.wikidata.org/wiki/Q2497254",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q20489646",
+      "wikidataId": "Q20489646",
+      "name": "Dust Bowl",
+      "year": 1933,
+      "description": "painting by Alexandre Hogue",
+      "typeIds": [
+        "Q3305213"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q20489646",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -4105,6 +4372,19 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q327099",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q522837",
+      "wikidataId": "Q522837",
+      "name": "Bengal famine of 1943",
+      "year": 1943,
+      "description": "Famine in British India during World War II",
+      "typeIds": [
+        "Q168247"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q522837",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -4334,6 +4614,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q12177407",
+      "wikidataId": "Q12177407",
+      "name": "Berlin Airlift",
+      "year": 1948,
+      "description": "1948-1949 air transportation campaign to supply West Berlin",
+      "typeIds": [
+        "Q256905"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12177407",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q151349",
+      "wikidataId": "Q151349",
+      "name": "Berlin Blockade",
+      "year": 1948,
+      "description": "blockade on Berlin imposed by the USSR from 1948 to 1949",
+      "typeIds": [
+        "Q273976"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q151349",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q277337",
       "wikidataId": "Q277337",
       "name": "Battle of Changjin Reservoir",
@@ -4413,6 +4719,33 @@
       "location": null
     },
     {
+      "id": "wikidata:Q913640",
+      "wikidataId": "Q913640",
+      "name": "Great Smog of London",
+      "year": 1952,
+      "description": "1952 air pollution event in London, England",
+      "typeIds": [
+        "Q3839081",
+        "Q169994"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q913640",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4198739",
+      "wikidataId": "Q4198739",
+      "name": "invention of the integrated circuit",
+      "year": 1953,
+      "description": "aspect of history relating to the invention of integrated circuits",
+      "typeIds": [
+        "Q108696953"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4198739",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q4333027",
       "wikidataId": "Q4333027",
       "name": "Oktyabrskaya Revolutsia",
@@ -4452,6 +4785,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q3015194",
+      "wikidataId": "Q3015194",
+      "name": "Vostok-1",
+      "year": 1957,
+      "description": "Antarctic research station",
+      "typeIds": [
+        "Q749622"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q3015194",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q49101",
       "wikidataId": "Q49101",
       "name": "Suez Crisis",
@@ -4475,6 +4821,19 @@
         "Q6056746"
       ],
       "source": "https://www.wikidata.org/wiki/Q58715",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q182814",
+      "wikidataId": "Q182814",
+      "name": "Antarctic Treaty System",
+      "year": 1959,
+      "description": "international treaties concerning Antarctica",
+      "typeIds": [
+        "Q131569"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q182814",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -4507,6 +4866,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q278960",
+      "wikidataId": "Q278960",
+      "name": "Partial Nuclear Test Ban Treaty",
+      "year": 1963,
+      "description": "1963 limited test ban treaty",
+      "typeIds": [
+        "Q131569"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q278960",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q714749",
       "wikidataId": "Q714749",
       "name": "Battle of Ia Drang",
@@ -4516,6 +4888,21 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q714749",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q722791",
+      "wikidataId": "Q722791",
+      "name": "Voskhod 2",
+      "year": 1965,
+      "description": "Soviet crewed spacecraft",
+      "typeIds": [
+        "Q7217761",
+        "Q841176",
+        "Q752783"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q722791",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -4531,6 +4918,20 @@
         "Q5193493"
       ],
       "source": "https://www.wikidata.org/wiki/Q8690",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q256608",
+      "wikidataId": "Q256608",
+      "name": "Outer Space Treaty",
+      "year": 1967,
+      "description": "treaty that forms the basis of international space law",
+      "typeIds": [
+        "Q6934728",
+        "Q1691434"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q256608",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -4570,6 +4971,19 @@
         "Q207639"
       ],
       "source": "https://www.wikidata.org/wiki/Q162401",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q186444",
+      "wikidataId": "Q186444",
+      "name": "Treaty on the Non-Proliferation of Nuclear Weapons",
+      "year": 1968,
+      "description": "international treaty limiting the spread of nuclear weapons",
+      "typeIds": [
+        "Q131569"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q186444",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -4706,6 +5120,21 @@
       "location": null
     },
     {
+      "id": "wikidata:Q208759",
+      "wikidataId": "Q208759",
+      "name": "Apollo–Soyuz",
+      "year": 1975,
+      "description": "joint Soviet-American human spaceflight",
+      "typeIds": [
+        "Q13226541",
+        "Q21605492",
+        "Q849730"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q208759",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q8740",
       "wikidataId": "Q8740",
       "name": "Vietnam War",
@@ -4745,6 +5174,19 @@
         "Q136787658"
       ],
       "source": "https://www.wikidata.org/wiki/Q271110",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q840847",
+      "wikidataId": "Q840847",
+      "name": "Three Mile Island accident",
+      "year": 1979,
+      "description": "nuclear accident",
+      "typeIds": [
+        "Q1620824"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q840847",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -4815,6 +5257,32 @@
       "location": null
     },
     {
+      "id": "wikidata:Q129029",
+      "wikidataId": "Q129029",
+      "name": "Bhopal disaster",
+      "year": 1984,
+      "description": "gas leak accident in Bhopal, India on 3 December 1984",
+      "typeIds": [
+        "Q977367"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q129029",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q2822795",
+      "wikidataId": "Q2822795",
+      "name": "Schengen Agreement",
+      "year": 1985,
+      "description": "treaty which led to the creation of Europe's Schengen Area, in which internal border checks have largely been abolished",
+      "typeIds": [
+        "Q131569"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2822795",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q4410582",
       "wikidataId": "Q4410582",
       "name": "Aerospace Force of the Islamic Revolutionary Guard Corps",
@@ -4856,6 +5324,20 @@
       "location": null
     },
     {
+      "id": "wikidata:Q219438",
+      "wikidataId": "Q219438",
+      "name": "Montreal Protocol",
+      "year": 1987,
+      "description": "environmental protocol designed to protect the ozone layer",
+      "typeIds": [
+        "Q131569",
+        "Q5381350"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q219438",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q386051",
       "wikidataId": "Q386051",
       "name": "Battle of Cuito Cuanavale",
@@ -4865,6 +5347,20 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q386051",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1196587",
+      "wikidataId": "Q1196587",
+      "name": "Exxon Valdez disaster",
+      "year": 1989,
+      "description": "oil spill",
+      "typeIds": [
+        "Q220187",
+        "Q3193890"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1196587",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -4909,6 +5405,20 @@
       "location": null
     },
     {
+      "id": "wikidata:Q192446",
+      "wikidataId": "Q192446",
+      "name": "Human Genome Project",
+      "year": 1990,
+      "description": "research program for sequencing the human genome",
+      "typeIds": [
+        "Q7315176",
+        "Q2273828"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q192446",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q37643",
       "wikidataId": "Q37643",
       "name": "Gulf War",
@@ -4918,6 +5428,19 @@
         "Q198"
       ],
       "source": "https://www.wikidata.org/wiki/Q37643",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q83356",
+      "wikidataId": "Q83356",
+      "name": "Schengen Implementing Convention",
+      "year": 1990,
+      "description": "",
+      "typeIds": [
+        "Q6934728"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q83356",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -4949,6 +5472,46 @@
       "location": null
     },
     {
+      "id": "wikidata:Q56039",
+      "wikidataId": "Q56039",
+      "name": "German reunification",
+      "year": 1991,
+      "description": "process in 1990 in which the German Democratic Republic became part of the Federal Republic of Germany",
+      "typeIds": [
+        "Q1140229",
+        "Q50844387"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q56039",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q1059215",
+      "wikidataId": "Q1059215",
+      "name": "dissolution of Czechoslovakia",
+      "year": 1992,
+      "description": "process that led to the creation of two independent nations, the Czech Republic and Slovakia",
+      "typeIds": [
+        "Q18603729"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1059215",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q11146",
+      "wikidataId": "Q11146",
+      "name": "Maastricht Treaty",
+      "year": 1992,
+      "description": "Founding treaty of the European Union, signed in 1992 and effective from 1993",
+      "typeIds": [
+        "Q11122"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q11146",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q131297",
       "wikidataId": "Q131297",
       "name": "1994 Genocide against Tutsi",
@@ -4963,6 +5526,19 @@
       "location": null
     },
     {
+      "id": "wikidata:Q4780280",
+      "wikidataId": "Q4780280",
+      "name": "Apollo 13",
+      "year": 1995,
+      "description": "1995 pinball machine",
+      "typeIds": [
+        "Q653928"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4780280",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q7307444",
       "wikidataId": "Q7307444",
       "name": "Reformation",
@@ -4973,6 +5549,19 @@
         "Q737498"
       ],
       "source": "https://www.wikidata.org/wiki/Q7307444",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q47359",
+      "wikidataId": "Q47359",
+      "name": "Kyoto Protocol",
+      "year": 1997,
+      "description": "international treaty to reduce greenhouse gas emissions",
+      "typeIds": [
+        "Q5381350"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q47359",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -5003,6 +5592,20 @@
       "location": null
     },
     {
+      "id": "wikidata:Q1633808",
+      "wikidataId": "Q1633808",
+      "name": "Secretariat of the Antarctic Treaty",
+      "year": 2003,
+      "description": "organization",
+      "typeIds": [
+        "Q43229",
+        "Q859482"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1633808",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q4178089",
       "wikidataId": "Q4178089",
       "name": "Battle of Karbala",
@@ -5012,6 +5615,32 @@
         "Q178561"
       ],
       "source": "https://www.wikidata.org/wiki/Q4178089",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q580867",
+      "wikidataId": "Q580867",
+      "name": "Space Shuttle Columbia disaster",
+      "year": 2003,
+      "description": "2003 fatal incident in a United States space program",
+      "typeIds": [
+        "Q744913"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q580867",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q20467666",
+      "wikidataId": "Q20467666",
+      "name": "Kyoto Protocol",
+      "year": 2008,
+      "description": "Malaysian rock band",
+      "typeIds": [
+        "Q215380"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q20467666",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -5032,6 +5661,34 @@
       "location": null
     },
     {
+      "id": "wikidata:Q4735638",
+      "wikidataId": "Q4735638",
+      "name": "Deepwater Horizon oil spill",
+      "year": 2010,
+      "description": "oil spill that began in April 2010 in the Gulf of Mexico",
+      "typeIds": [
+        "Q220187",
+        "Q3193890",
+        "Q5683226"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4735638",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q171178",
+      "wikidataId": "Q171178",
+      "name": "Fukushima Daiichi nuclear disaster",
+      "year": 2011,
+      "description": "2011 nuclear disaster in Japan",
+      "typeIds": [
+        "Q15725976"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q171178",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
       "id": "wikidata:Q32171643",
       "wikidataId": "Q32171643",
       "name": "Memorial Museum of 1911 Revolution",
@@ -5041,6 +5698,20 @@
         "Q33506"
       ],
       "source": "https://www.wikidata.org/wiki/Q32171643",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q4661508",
+      "wikidataId": "Q4661508",
+      "name": "Chelyabinsk meteor",
+      "year": 2013,
+      "description": "near-Earth asteroid that fell over Russia in 2013",
+      "typeIds": [
+        "Q217526",
+        "Q131136"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4661508",
       "reviewStatus": "unreviewed",
       "location": null
     },
@@ -5094,6 +5765,19 @@
         "Q28966302"
       ],
       "source": "https://www.wikidata.org/wiki/Q19928886",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q24331674",
+      "wikidataId": "Q24331674",
+      "name": "Human Genome Project–Write",
+      "year": 2016,
+      "description": "project to synthesize the human genome",
+      "typeIds": [
+        "Q170584"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q24331674",
       "reviewStatus": "unreviewed",
       "location": null
     },
