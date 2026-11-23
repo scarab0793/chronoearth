@@ -47,6 +47,16 @@ async function main(){
   await sleep(1500);
  }
  if(byId.size===0)throw Error('No valid dated settlement records; keeping existing dataset');
+ const previousFile='data/imports/wikidata-cities.json';
+ let retained=0;
+ if(fs.existsSync(previousFile)){
+  const previous=JSON.parse(fs.readFileSync(previousFile,'utf8'));
+  for(const old of previous.cities||[]){
+   if(!/^Q[1-9]\d*$/.test(old.wikidataId||'')||!Number.isFinite(old.lat)||!Number.isFinite(old.lng)||!Number.isSafeInteger(old.from)||!Number.isSafeInteger(old.to)||old.reviewStatus!=='unreviewed')continue;
+   if(!byId.has(old.wikidataId)){byId.set(old.wikidataId,old);retained++}
+  }
+ }
+ console.log('Preserved '+retained+' historical settlement records from previous imports');
  const cities=[...byId.values()].sort((a,b)=>a.wikidataId.localeCompare(b.wikidataId,undefined,{numeric:true}));
  fs.mkdirSync('data/imports',{recursive:true});
  fs.writeFileSync('data/imports/wikidata-cities.json',JSON.stringify({schemaVersion:2,source:'Wikidata SPARQL',reviewStatus:'unreviewed',importedAt:new Date().toISOString(),pagesFetched:pages,cities},null,2)+'\n');
