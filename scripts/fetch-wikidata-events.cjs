@@ -9,11 +9,11 @@ const scienceAndWorldTerms=["Discovery of penicillin","Discovery of X-rays","Dis
 const api='https://www.wikidata.org/w/api.php';
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 async function get(params){
- for(let n=0;n<3;n++){
+ for(let n=0;n<5;n++){
   try{
    const response=await fetch(api+'?'+new URLSearchParams({...params,format:'json'}),{headers:{'User-Agent':'ChronoEarthHistoricalDatabase/0.4 (https://github.com/scarab0793/chronoearth)'},signal:AbortSignal.timeout(20000)});
    if(!response.ok)throw Error('Wikidata HTTP '+response.status);
-   const j=await response.json();if(j.error)throw Error(JSON.stringify(j.error));return j;
+   const j=await response.json();if(!j||typeof j!=='object')throw Error('Empty Wikidata response');if(j.error)throw Error(JSON.stringify(j.error));if(params.action==='wbsearchentities'&&!Array.isArray(j.search))throw Error('Invalid Wikidata search response');if(params.action==='wbgetentities'&&(!j.entities||typeof j.entities!=='object'))throw Error('Invalid Wikidata entity response');return j;
   }catch(e){if(n===4)throw e;await wait(String(e.message).includes('429')?15000*(n+1):1500*(n+1))}
  }
 }
@@ -32,7 +32,7 @@ async function main(){
  for(const term of selectedTerms){
   const j=await get({action:'wbsearchentities',search:term,language:'en',type:'item',limit:'3'});
   for(const hit of j.search||[])if(/^Q[1-9]\d*$/.test(hit.id))ids.add(hit.id);
-  await wait(850);
+  await wait(1100);
  }
  const events=new Map(),all=[...ids];
  for(let i=0;i<all.length;i+=40){
