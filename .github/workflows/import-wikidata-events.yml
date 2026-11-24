@@ -7,7 +7,7 @@ on:
       - 'scripts/fetch-wikidata-events.cjs'
   workflow_dispatch:
   schedule:
-    - cron: '15 5 * * 3'
+    - cron: '15 5 * * *'
 permissions:
   contents: write
 concurrency:
