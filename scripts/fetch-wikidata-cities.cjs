@@ -22,19 +22,19 @@ function sparql(limit,offset){return `SELECT ?item ?itemLabel ?coord ?inception 
 } ORDER BY ?item`}
 async function page(index){
  const url=endpoint+'?'+new URLSearchParams({query:sparql(pageSize,index*pageSize),format:'json'});
- for(let attempt=0;attempt<2;attempt++){
+ for(let attempt=0;attempt<4;attempt++){
   try{
-   const response=await fetch(url,{headers:{'Accept':'application/sparql-results+json','User-Agent':'ChronoEarthHistoricalDatabase/0.2 (https://github.com/scarab0793/chronoearth)'} ,signal:AbortSignal.timeout(25000)});
+   const response=await fetch(url,{headers:{'Accept':'application/sparql-results+json','User-Agent':'ChronoEarthHistoricalDatabase/0.2 (https://github.com/scarab0793/chronoearth)'} ,signal:AbortSignal.timeout(60000)});
    if(!response.ok)throw Error('SPARQL HTTP '+response.status);
    const data=await response.json();if(!Array.isArray(data.results?.bindings))throw Error('Malformed SPARQL result');
    return data.results.bindings;
-  }catch(error){if(attempt===1)throw error;await sleep(3000*(attempt+1))}
+  }catch(error){if(attempt===3)throw error;console.warn('Page '+(index+1)+' retry '+(attempt+1)+': '+error.message);await sleep(5000*2**attempt)}
  }
 }
 async function main(){
  const byId=new Map();let pages=0;
  for(let i=startPage;i<startPage+maxPages;i++){
-  const rows=await page(i);pages++;
+  let rows;try{rows=await page(i)}catch(error){console.warn('Stopping at page '+(i+1)+'; preserving completed pages: '+error.message);if(pages===0)throw error;break;}pages++;
   for(const row of rows){
    const value=k=>row[k]?.value;
    const id=qid(value('item'));if(!id)continue;
@@ -63,7 +63,7 @@ async function main(){
  console.log('Preserved '+retained+' historical settlement records from previous imports');
  const cities=[...byId.values()].sort((a,b)=>a.wikidataId.localeCompare(b.wikidataId,undefined,{numeric:true}));
  fs.mkdirSync('data/imports',{recursive:true});
- fs.writeFileSync('data/imports/wikidata-cities.json',JSON.stringify({schemaVersion:2,source:'Wikidata SPARQL',reviewStatus:'unreviewed',importedAt:new Date().toISOString(),pagesFetched:pages,cities},null,2)+'\n');
+ fs.writeFileSync('data/imports/wikidata-cities.json',JSON.stringify({schemaVersion:2,source:'Wikidata SPARQL',reviewStatus:'unreviewed',importedAt:new Date().toISOString(),pagesFetched:pages,startPage,nextPage:startPage+pages,settlementClass,cities},null,2)+'\n');
  console.log('Wrote '+cities.length+' historical settlement records');
 }
 main().catch(error=>{console.error(error);process.exitCode=1});
