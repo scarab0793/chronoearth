@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "source": "Wikidata SPARQL",
   "reviewStatus": "unreviewed",
-  "importedAt": "2026-11-24T15:06:17.062Z",
-  "pagesFetched": 33,
+  "importedAt": "2026-11-24T15:20:59.534Z",
+  "pagesFetched": 40,
   "cities": [
     {
       "name": "New York City",
@@ -5713,6 +5713,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Volksrust",
+      "lat": -27.366666666,
+      "lng": 29.883333333,
+      "from": 1881,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q118638",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q118638",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Port Shepstone",
+      "lat": -30.741111111,
+      "lng": 30.454722222,
+      "from": 1867,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q121395",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q121395",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Lubango",
       "lat": -14.916666666,
       "lng": 13.5,
@@ -5765,6 +5791,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Kiuruvesi",
+      "lat": 63.652777777,
+      "lng": 26.619444444,
+      "from": 1873,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q124919",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q124919",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Vaasa",
       "lat": 63.095833333,
       "lng": 21.615277777,
@@ -5788,6 +5827,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q125434",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kimberley",
+      "lat": -28.738333333,
+      "lng": 24.763888888,
+      "from": 1873,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q125905",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q125905",
       "reviewStatus": "unreviewed"
     },
     {
@@ -5999,6 +6051,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Polokwane",
+      "lat": -23.9,
+      "lng": 29.45,
+      "from": 1886,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q131662",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q131662",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Hanover",
+      "lat": 43.7,
+      "lng": -72.283333333,
+      "from": 1761,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q131908",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q131908",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Saint-Marc",
       "lat": 19.116666666,
       "lng": -72.7,
@@ -6116,6 +6194,84 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Turčianske Teplice",
+      "lat": 48.858888888,
+      "lng": 18.863611111,
+      "from": 1281,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q135647",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q135647",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Šaštín-Stráže",
+      "lat": 48.635,
+      "lng": 17.14,
+      "from": 1960,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q135649",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q135649",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Rajecké Teplice",
+      "lat": 49.133333333,
+      "lng": 18.683333333,
+      "from": 1376,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q135655",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q135655",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kráľovský Chlmec",
+      "lat": 48.423333333,
+      "lng": 21.979722222,
+      "from": 1214,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q135667",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q135667",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Medzev",
+      "lat": 48.700277777,
+      "lng": 20.892777777,
+      "from": 1359,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q135727",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q135727",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Brezová pod Bradlom",
+      "lat": 48.665277777,
+      "lng": 17.537222222,
+      "from": 1262,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q135818",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q135818",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Santa Elena",
       "lat": -2.2267,
       "lng": -80.8583,
@@ -6126,6 +6282,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q135864",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Caacupé",
+      "lat": -25.386111,
+      "lng": -57.140833,
+      "from": 1770,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q135959",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q135959",
       "reviewStatus": "unreviewed"
     },
     {
@@ -6178,6 +6347,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q135993",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Zababdeh",
+      "lat": 32.385341666,
+      "lng": 35.323172222,
+      "from": 1834,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q136690",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q136690",
       "reviewStatus": "unreviewed"
     },
     {
@@ -6272,6 +6454,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Chandler",
+      "lat": 48.35,
+      "lng": -64.6833,
+      "from": 1729,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q142206",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q142206",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Normandin",
+      "lat": 48.833333333,
+      "lng": -72.533333333,
+      "from": 1878,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q142402",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q142402",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Dazaifu",
       "lat": 33.51454167,
       "lng": 130.51514444,
@@ -6282,6 +6490,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q144845",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Svolvær",
+      "lat": 68.233333333,
+      "lng": 14.566666666,
+      "from": 1918,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q145948",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q145948",
       "reviewStatus": "unreviewed"
     },
     {
@@ -6308,6 +6529,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q146509",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Malbork",
+      "lat": 54.02846,
+      "lng": 19.04435,
+      "from": 1201,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q146820",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q146820",
       "reviewStatus": "unreviewed"
     },
     {
@@ -6363,6 +6597,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Zarrentin am Schaalsee",
+      "lat": 53.55,
+      "lng": 10.916388888,
+      "from": 1938,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q148091",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q148091",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Zaruma",
       "lat": -3.683333333,
       "lng": -79.6,
@@ -6373,6 +6620,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q148121",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Zastron",
+      "lat": -30.3,
+      "lng": 27.083333333,
+      "from": 1875,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q148289",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q148289",
       "reviewStatus": "unreviewed"
     },
     {
@@ -6701,6 +6961,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Pilot Mound",
+      "lat": 49.2014,
+      "lng": -98.8939,
+      "from": 1881,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q153470",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q153470",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Carúpano",
       "lat": 10.672222222,
       "lng": -63.240277777,
@@ -6724,6 +6997,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q154897",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Lady Grey",
+      "lat": -30.7,
+      "lng": 27.233333333,
+      "from": 1857,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q155456",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q155456",
       "reviewStatus": "unreviewed"
     },
     {
@@ -17530,6 +17816,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Springhill",
+      "lat": 45.6667,
+      "lng": -64.0667,
+      "from": 1790,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1000316",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1000316",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Huancavelica",
       "lat": -12.785,
       "lng": -74.971388888,
@@ -17540,6 +17839,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1000333",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Tonk",
+      "lat": 26.166666666,
+      "lng": 75.783333333,
+      "from": 1818,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1000511",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1000511",
       "reviewStatus": "unreviewed"
     },
     {
@@ -17660,6 +17972,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Nea Kios",
+      "lat": 37.5875,
+      "lng": 22.744444444,
+      "from": 1927,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1001857",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1001857",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Ifrane",
       "lat": 33.533333333,
       "lng": -5.116666666,
@@ -17673,6 +17998,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Sastamala",
+      "lat": 61.341666666,
+      "lng": 22.908333333,
+      "from": 2009,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1001927",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1001927",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "San José de las Lajas",
       "lat": 22.967777777,
       "lng": -82.155833333,
@@ -17683,6 +18021,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1001941",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Middelburg",
+      "lat": -31.493888888,
+      "lng": 25.017222222,
+      "from": 1852,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1002188",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1002188",
       "reviewStatus": "unreviewed"
     },
     {
@@ -17725,6 +18076,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Laverton",
+      "lat": -28.628,
+      "lng": 122.403,
+      "from": 1898,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1002750",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1002750",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Ivanjica",
       "lat": 43.581111111,
       "lng": 20.229722222,
@@ -17751,6 +18115,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Ross",
+      "lat": -42.03,
+      "lng": 147.491944444,
+      "from": 1812,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1002974",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1002974",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Koniecpol",
       "lat": 50.783333333,
       "lng": 19.683333333,
@@ -17761,6 +18138,240 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1003267",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kleinfontein",
+      "lat": -25.832,
+      "lng": 28.501,
+      "from": 1992,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003309",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003309",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Nieu-Bethesda",
+      "lat": -31.866666666,
+      "lng": 24.55,
+      "from": 1875,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003313",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003313",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Moorreesburg",
+      "lat": -33.15,
+      "lng": 18.666666666,
+      "from": 1882,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003332",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003332",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Greyton",
+      "lat": -34.05,
+      "lng": 19.616666666,
+      "from": 1854,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003335",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003335",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Keimoes",
+      "lat": -28.7,
+      "lng": 20.966666666,
+      "from": 1899,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003338",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003338",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Molteno",
+      "lat": -31.3961,
+      "lng": 26.3631,
+      "from": 1874,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003348",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003348",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Villiersdorp",
+      "lat": -33.983333333,
+      "lng": 19.283333333,
+      "from": 1841,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003349",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003349",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Underberg",
+      "lat": -29.793196,
+      "lng": 29.494853,
+      "from": 1917,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003352",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003352",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Loeriesfontein",
+      "lat": -30.95,
+      "lng": 19.433333333,
+      "from": 1894,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003353",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003353",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Okiep",
+      "lat": -29.595833333,
+      "lng": 17.880833333,
+      "from": 1862,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003356",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003356",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Citrusdal",
+      "lat": -32.589444444,
+      "lng": 19.014722222,
+      "from": 1916,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003362",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003362",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Darling",
+      "lat": -33.383333333,
+      "lng": 18.383333333,
+      "from": 1853,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003369",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003369",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Graafwater",
+      "lat": -32.15,
+      "lng": 18.6,
+      "from": 1920,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003374",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003374",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Steytlerville",
+      "lat": -33.332777777,
+      "lng": 24.344722222,
+      "from": 1875,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003376",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003376",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Porterville",
+      "lat": -33,
+      "lng": 18.983333333,
+      "from": 1863,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003379",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003379",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Touws River",
+      "lat": -33.316944444,
+      "lng": 20.031944444,
+      "from": 1877,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1003389",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1003389",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Craigavon",
+      "lat": 54.4472,
+      "lng": -6.38833,
+      "from": 1965,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1004085",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1004085",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Saint Boniface",
+      "lat": 49.9,
+      "lng": -97.1,
+      "from": 1818,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1004192",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1004192",
       "reviewStatus": "unreviewed"
     },
     {
@@ -17803,6 +18414,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Pozantı district",
+      "lat": 37.427777777,
+      "lng": 34.871111111,
+      "from": 1954,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1004432",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1004432",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Palandöken district",
+      "lat": 39.88777778,
+      "lng": 41.26444444,
+      "from": 1993,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1004488",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1004488",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Graaff-Reinet",
+      "lat": -32.252222222,
+      "lng": 24.540555555,
+      "from": 1786,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1004667",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1004667",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Sandnessjøen",
       "lat": 66.016666666,
       "lng": 12.633333333,
@@ -17813,6 +18463,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1004686",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Hluhluwe",
+      "lat": -28.018888888,
+      "lng": 32.2675,
+      "from": 2000,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1004768",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1004768",
       "reviewStatus": "unreviewed"
     },
     {
@@ -17894,6 +18557,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Joaquín Suárez",
+      "lat": -34.733611111,
+      "lng": -56.036666666,
+      "from": 1880,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1005809",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1005809",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Lwówek",
       "lat": 52.447777777,
       "lng": 16.180833333,
@@ -17904,6 +18580,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1005905",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Cardwell",
+      "lat": -18.266666666,
+      "lng": 146.033333333,
+      "from": 1864,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1005913",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1005913",
       "reviewStatus": "unreviewed"
     },
     {
@@ -17972,6 +18661,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Gawler",
+      "lat": -34.598055555,
+      "lng": 138.745,
+      "from": 1836,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1007201",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1007201",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "San Juan de Payara",
       "lat": 7.65,
       "lng": -67.6,
@@ -17995,6 +18697,32 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1007342",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Cobourg",
+      "lat": 43.966666666,
+      "lng": -78.166666666,
+      "from": 1798,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1007418",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1007418",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Dadaab",
+      "lat": 0.05217,
+      "lng": 40.30705,
+      "from": 1991,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1007680",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1007680",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18024,6 +18752,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Smithers",
+      "lat": 54.7819,
+      "lng": -127.168,
+      "from": 1913,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1009247",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1009247",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Ipswich",
       "lat": -27.616666666,
       "lng": 152.766666666,
@@ -18050,6 +18791,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Campbell Town",
+      "lat": -41.932777777,
+      "lng": 147.492777777,
+      "from": 1821,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1009703",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1009703",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Shediac",
+      "lat": 46.216666666,
+      "lng": -64.533333333,
+      "from": 1914,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1009713",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1009713",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Sępopol",
       "lat": 54.268888888,
       "lng": 21.014444444,
@@ -18060,6 +18827,123 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1010153",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Fortrose",
+      "lat": 57.5815,
+      "lng": -4.13237,
+      "from": 1444,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1010212",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1010212",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Pargas",
+      "lat": 60.3,
+      "lng": 22.3,
+      "from": 2009,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1010550",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1010550",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Mount Barker",
+      "lat": -35.0667,
+      "lng": 138.85,
+      "from": 1839,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1010639",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1010639",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Vani",
+      "lat": 42.083888888,
+      "lng": 42.511944444,
+      "from": 1981,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1011003",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1011003",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Orania",
+      "lat": -29.816666666,
+      "lng": 24.4,
+      "from": 1990,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1011020",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1011020",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Taiping",
+      "lat": 4.85,
+      "lng": 100.733333333,
+      "from": 1874,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1011190",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1011190",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Torbalı district",
+      "lat": 38.1513559,
+      "lng": 27.3616214,
+      "from": 1926,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1011344",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1011344",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Metula",
+      "lat": 33.278888888,
+      "lng": 35.576666666,
+      "from": 1896,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1011497",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1011497",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Girvan",
+      "lat": 55.2382,
+      "lng": -4.85614,
+      "from": 1668,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1011787",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1011787",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18089,6 +18973,71 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Varkala",
+      "lat": 8.733055555,
+      "lng": 76.716944444,
+      "from": 1980,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1012951",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1012951",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Hay River",
+      "lat": 60.8331,
+      "lng": -115.778,
+      "from": 1963,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1013062",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1013062",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Simon's Town",
+      "lat": -34.193194444,
+      "lng": 18.435916666,
+      "from": 1680,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1013370",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1013370",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Paulpietersburg",
+      "lat": -27.416666666,
+      "lng": 30.816666666,
+      "from": 1888,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1013413",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1013413",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Ulundi",
+      "lat": -28.335,
+      "lng": 31.416111111,
+      "from": 1873,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1013421",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1013421",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Villa General Belgrano",
       "lat": -31.966666666,
       "lng": -64.566666666,
@@ -18115,6 +19064,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Elmalı",
+      "lat": 36.735833333,
+      "lng": 29.917777777,
+      "from": 1868,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1013462",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1013462",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Elmwood Park",
+      "lat": 41.9225,
+      "lng": -87.815555555,
+      "from": 1914,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1013490",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1013490",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Puerto Ayora",
       "lat": -0.744444444,
       "lng": -90.313888888,
@@ -18125,6 +19100,32 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1013526",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Mtubatuba",
+      "lat": -28.416666666,
+      "lng": 32.183333333,
+      "from": 1903,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1013531",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1013531",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Lascano",
+      "lat": -33.673055555,
+      "lng": -54.207777777,
+      "from": 1876,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1013691",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1013691",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18193,6 +19194,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Oxapampa",
+      "lat": -10.58,
+      "lng": -75.4,
+      "from": 1891,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1014523",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1014523",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Shinahota",
       "lat": -16.996666666,
       "lng": -65.245555555,
@@ -18219,6 +19233,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Ficksburg",
+      "lat": -28.873694444,
+      "lng": 27.878111111,
+      "from": 1891,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1014580",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1014580",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Lules",
       "lat": -26.922777777,
       "lng": -65.3375,
@@ -18229,6 +19256,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1014661",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Burgersdorp",
+      "lat": -30.992222222,
+      "lng": 26.324722222,
+      "from": 1846,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1014910",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1014910",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18245,6 +19285,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Kumlu district",
+      "lat": 36.362777777,
+      "lng": 36.451111111,
+      "from": 1990,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1015322",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1015322",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Welkom",
+      "lat": -27.983055555,
+      "lng": 26.720833333,
+      "from": 1947,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1015631",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1015631",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Prince Rupert",
       "lat": 54.312194444,
       "lng": -130.327083333,
@@ -18255,6 +19321,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1015639",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Klerksdorp",
+      "lat": -26.866666666,
+      "lng": 26.666666666,
+      "from": 1837,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1015647",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1015647",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18310,6 +19389,58 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Healesville",
+      "lat": -37.6561,
+      "lng": 145.514,
+      "from": 1864,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1015813",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1015813",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Qonce",
+      "lat": -32.883333333,
+      "lng": 27.4,
+      "from": 1835,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1016100",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1016100",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Burketown",
+      "lat": -17.74027778,
+      "lng": 139.54722222,
+      "from": 1865,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1016404",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1016404",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Hinton",
+      "lat": 53.399813055,
+      "lng": -117.588343888,
+      "from": 1911,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1016692",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1016692",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Cruz del Eje",
       "lat": -30.733333333,
       "lng": -64.8,
@@ -18333,6 +19464,32 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1016881",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Mänttä-Vilppula",
+      "lat": 62.033333333,
+      "lng": 24.616666666,
+      "from": 2009,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1016922",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1016922",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Lochgilphead",
+      "lat": 56.04,
+      "lng": -5.44,
+      "from": 1790,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1017159",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1017159",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18453,6 +19610,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Wewak",
+      "lat": -3.55,
+      "lng": 143.633333333,
+      "from": 1919,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1017763",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1017763",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Tabubil",
       "lat": -5.275,
       "lng": 141.226388888,
@@ -18463,6 +19633,32 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1017801",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Paarl",
+      "lat": -33.724167,
+      "lng": 18.955833,
+      "from": 1657,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1018144",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1018144",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Butterworth, Eastern Cape",
+      "lat": -32.333333333,
+      "lng": 28.15,
+      "from": 1827,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1018158",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1018158",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18505,6 +19701,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Ilfracombe",
+      "lat": 51.208,
+      "lng": -4.12,
+      "from": 1321,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1018429",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1018429",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Karkamış district",
+      "lat": 36.83452,
+      "lng": 37.9983,
+      "from": 1990,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1018531",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1018531",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Ekinözü district",
+      "lat": 38.061666666,
+      "lng": 37.192777777,
+      "from": 1990,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1018536",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1018536",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Villa Nueva",
       "lat": 14.5314,
       "lng": -90.5964,
@@ -18515,6 +19750,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1018584",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Red Lake",
+      "lat": 51.01676,
+      "lng": -93.83374,
+      "from": 1926,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1018643",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1018643",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18541,6 +19789,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1018781",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Hartland",
+      "lat": 46.3,
+      "lng": -67.516666666,
+      "from": 1813,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1019096",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1019096",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18661,6 +19922,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Egersund",
+      "lat": 58.45,
+      "lng": 6.006666666,
+      "from": 1798,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1020025",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1020025",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Yasynuvata",
       "lat": 48.116666666,
       "lng": 37.833333333,
@@ -18684,6 +19958,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1020087",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Princeton",
+      "lat": 49.458916666,
+      "lng": -120.506027777,
+      "from": 1858,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1020218",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1020218",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18778,6 +20065,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Sincan district",
+      "lat": 39.967777777,
+      "lng": 32.579722222,
+      "from": 1983,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1020659",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1020659",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Cooktown",
+      "lat": -15.468333333,
+      "lng": 145.250277777,
+      "from": 1873,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1020734",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1020734",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Loreto",
+      "lat": 26.01217,
+      "lng": -111.34888,
+      "from": 1697,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1020758",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1020758",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Cabo San Lucas",
       "lat": 22.894722222,
       "lng": -109.915277777,
@@ -18804,6 +20130,240 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Mthatha",
+      "lat": -31.588611111,
+      "lng": 28.79,
+      "from": 1876,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1020914",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1020914",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Furulund",
+      "lat": 55.773308857,
+      "lng": 13.090667997,
+      "from": 1886,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021155",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021155",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Hanover",
+      "lat": -31.068333333,
+      "lng": 24.439722222,
+      "from": 1854,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021157",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021157",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Keçiören district",
+      "lat": 39.9776661,
+      "lng": 32.8670147,
+      "from": 1983,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021220",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021220",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Peggys Cove",
+      "lat": 44.492777777,
+      "lng": -63.9175,
+      "from": 1811,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021695",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021695",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Hoedspruit",
+      "lat": -24.3534,
+      "lng": 30.9517,
+      "from": 1869,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021715",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021715",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Prieska",
+      "lat": -29.668333333,
+      "lng": 22.743888888,
+      "from": 1882,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021731",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021731",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Senekal",
+      "lat": -28.31971,
+      "lng": 27.62082,
+      "from": 1877,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021742",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021742",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Clarens",
+      "lat": -28.516666666,
+      "lng": 28.416666666,
+      "from": 1912,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021877",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021877",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Carnarvon",
+      "lat": -24.883888888,
+      "lng": 113.656944444,
+      "from": 1883,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021880",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021880",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Q1021884",
+      "lat": -32.566666666,
+      "lng": 27.416666666,
+      "from": 1876,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021884",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021884",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Greytown",
+      "lat": -29.066666666,
+      "lng": 30.583333333,
+      "from": 1854,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021891",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021891",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Riebeek West",
+      "lat": -33.350469444,
+      "lng": 18.867366666,
+      "from": 1858,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021895",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021895",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "KwaNojoli",
+      "lat": -32.716666666,
+      "lng": 25.583333333,
+      "from": 1825,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021900",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021900",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "De Rust",
+      "lat": -33.488888888,
+      "lng": 22.533333333,
+      "from": 1900,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021906",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021906",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "McGregor, Western Cape",
+      "lat": -33.95,
+      "lng": 19.833333333,
+      "from": 1861,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021911",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021911",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kranskop",
+      "lat": -28.966666666,
+      "lng": 30.85,
+      "from": 1894,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021915",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021915",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Heidelberg",
+      "lat": -34.083333333,
+      "lng": 20.95,
+      "from": 1855,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1021918",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1021918",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Rîșcani",
       "lat": 47.956088,
       "lng": 27.553643,
@@ -18814,6 +20374,32 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1022131",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Oğuzeli district",
+      "lat": 36.965,
+      "lng": 37.509166666,
+      "from": 1946,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1022230",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1022230",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Medzhybizh",
+      "lat": 49.436,
+      "lng": 27.395,
+      "from": 1146,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1022485",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1022485",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18840,6 +20426,71 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1022984",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Vryheid",
+      "lat": -27.769444444,
+      "lng": 30.791388888,
+      "from": 1884,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1023254",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1023254",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Swellendam",
+      "lat": -34.023055555,
+      "lng": 20.44,
+      "from": 1746,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1023257",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1023257",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kocaköy district",
+      "lat": 38.289722222,
+      "lng": 40.501388888,
+      "from": 1990,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1023277",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1023277",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Eğil district",
+      "lat": 38.257222222,
+      "lng": 40.084722222,
+      "from": 1987,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1023322",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1023322",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Nagyturány",
+      "lat": 49.116666666,
+      "lng": 19.033333333,
+      "from": 1319,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1023443",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1023443",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18908,6 +20559,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Triabunna",
+      "lat": -42.508888888,
+      "lng": 147.908888888,
+      "from": 1830,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1024041",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1024041",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Huntsville",
+      "lat": 45.333333333,
+      "lng": -79.216666666,
+      "from": 1869,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1024091",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1024091",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Ikeja",
       "lat": 6.583333333,
       "lng": 3.333333333,
@@ -18918,6 +20595,45 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1024647",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Q1024935",
+      "lat": 52.860438888,
+      "lng": -4.105488888,
+      "from": 1283,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1024935",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1024935",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Cabramurra",
+      "lat": -36.015,
+      "lng": 148.4844444,
+      "from": 1954,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1024944",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1024944",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Franschhoek",
+      "lat": -33.916666666,
+      "lng": 19.133333333,
+      "from": 1688,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1025086",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1025086",
       "reviewStatus": "unreviewed"
     },
     {
@@ -18986,6 +20702,71 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Worcester",
+      "lat": -33.645,
+      "lng": 19.443611111,
+      "from": 1819,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1025649",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1025649",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Thohoyandou",
+      "lat": -22.95,
+      "lng": 30.483333333,
+      "from": 1979,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1025654",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1025654",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Clanwilliam",
+      "lat": -32.178611111,
+      "lng": 18.891111111,
+      "from": 1806,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1025657",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1025657",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Musina",
+      "lat": -22.338055555,
+      "lng": 30.041666666,
+      "from": 1968,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1025661",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1025661",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kuruman",
+      "lat": -27.459722222,
+      "lng": 23.4125,
+      "from": 1887,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1025965",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1025965",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Calabozo",
       "lat": 8.921944444,
       "lng": -67.428333333,
@@ -19035,6 +20816,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1026284",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Chuy",
+      "lat": -33.698728995,
+      "lng": -53.463754065,
+      "from": 1888,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1026307",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1026307",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19090,6 +20884,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Castlegar",
+      "lat": 49.326111111,
+      "lng": -117.664722222,
+      "from": 1946,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1026779",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1026779",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Carmel City",
       "lat": 32.693611111,
       "lng": 35.040833333,
@@ -19129,6 +20936,71 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Calitzdorp",
+      "lat": -33.537386111,
+      "lng": 21.685163888,
+      "from": 1821,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1027048",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1027048",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Yazıhan district",
+      "lat": 38.595555555,
+      "lng": 38.179722222,
+      "from": 1990,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1027147",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1027147",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Virginia",
+      "lat": -28.116666666,
+      "lng": 26.9,
+      "from": 1970,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1027286",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1027286",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Newcastle",
+      "lat": -27.746388888,
+      "lng": 29.932777777,
+      "from": 1864,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1027294",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1027294",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Ermelo",
+      "lat": -26.533333333,
+      "lng": 29.983333333,
+      "from": 1880,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1027521",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1027521",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Tortkul",
       "lat": 41.55,
       "lng": 61,
@@ -19142,6 +21014,71 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Kapuskasing",
+      "lat": 49.415277777,
+      "lng": -82.416944444,
+      "from": 1911,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1027634",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1027634",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Calvinia",
+      "lat": -31.4674,
+      "lng": 19.7742,
+      "from": 1847,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1027757",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1027757",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Whittlesea, Eastern Cape",
+      "lat": -32.166666666,
+      "lng": 26.816666666,
+      "from": 1847,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1027839",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1027839",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Richfield",
+      "lat": 41.2336,
+      "lng": -81.6322,
+      "from": 1809,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1028063",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1028063",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Cambourne",
+      "lat": 52.218138888,
+      "lng": -0.069555555,
+      "from": 1998,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1028175",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1028175",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Cambridge",
       "lat": 43.36,
       "lng": -80.3125,
@@ -19152,6 +21089,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1028279",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Etimesgut district",
+      "lat": 39.948888888,
+      "lng": 32.661666666,
+      "from": 1990,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1029159",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1029159",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19181,6 +21131,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Camperdown",
+      "lat": -29.7333,
+      "lng": 30.5333,
+      "from": 1865,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1030948",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1030948",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kangaba",
+      "lat": 11.933333333,
+      "lng": -8.416666666,
+      "from": 1050,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1031919",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1031919",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Harstad",
       "lat": 68.79888889,
       "lng": 16.53138889,
@@ -19191,6 +21167,45 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1034159",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Caraquet",
+      "lat": 47.785277777,
+      "lng": -64.959166666,
+      "from": 1903,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1035422",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1035422",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Carleton Place",
+      "lat": 45.133333333,
+      "lng": -76.133333333,
+      "from": 1870,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1041701",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1041701",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Banatski Karlovac",
+      "lat": 45.047222222,
+      "lng": 21.016111111,
+      "from": 1802,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1042129",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1042129",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19207,6 +21222,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Carterton",
+      "lat": -41.025,
+      "lng": 175.5275,
+      "from": 1857,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1045948",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1045948",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Sibu",
+      "lat": 2.3,
+      "lng": 111.816666666,
+      "from": 1862,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1048700",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1048700",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Booué",
+      "lat": -0.1,
+      "lng": 11.933333333,
+      "from": 1883,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1052014",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1052014",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Cedarburg",
       "lat": 43.288333333,
       "lng": -87.9875,
@@ -19217,6 +21271,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1052560",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Centurion",
+      "lat": -25.860277777,
+      "lng": 28.189444444,
+      "from": 1902,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1054450",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1054450",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19259,6 +21326,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Chimanimani",
+      "lat": -20.18333333,
+      "lng": 32.86666667,
+      "from": 1892,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1073089",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1073089",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Pembroke",
       "lat": 45.8167,
       "lng": -77.1167,
@@ -19295,6 +21375,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1075607",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Christiana",
+      "lat": -27.933333333,
+      "lng": 25.15,
+      "from": 1870,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1082602",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1082602",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19363,6 +21456,71 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Claremont",
+      "lat": 43.9725,
+      "lng": -79.1292,
+      "from": 1840,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1095333",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1095333",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Carlyle",
+      "lat": 49.6333,
+      "lng": -102.267,
+      "from": 1883,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1099089",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1099089",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Canora",
+      "lat": 51.6339,
+      "lng": -102.437,
+      "from": 1904,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1099134",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1099134",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Carnduff",
+      "lat": 49.167,
+      "lng": -101.783,
+      "from": 1884,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1099427",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1099427",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Clocolan",
+      "lat": -28.9,
+      "lng": 27.566666666,
+      "from": 1907,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1102116",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1102116",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Venta",
       "lat": 56.191666666,
       "lng": 22.7,
@@ -19428,6 +21586,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Carrot River",
+      "lat": 53.2833,
+      "lng": -103.583,
+      "from": 1931,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1134786",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1134786",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Cradock",
+      "lat": -32.165,
+      "lng": 25.6175,
+      "from": 1816,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1138465",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1138465",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Ciudad de la Paz",
       "lat": 1.591666666,
       "lng": 10.822222222,
@@ -19438,6 +21622,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1140136",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Cyberjaya",
+      "lat": 2.9225,
+      "lng": 101.655,
+      "from": 1997,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1147163",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1147163",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19467,6 +21664,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Delmas",
+      "lat": -26.15,
+      "lng": 28.683333333,
+      "from": 1907,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1184513",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1184513",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Tangkak",
+      "lat": 2.27,
+      "lng": 102.55,
+      "from": 1976,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1187522",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1187522",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Godoy Cruz",
       "lat": -32.916666666,
       "lng": -68.833333333,
@@ -19477,6 +21700,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1189982",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Livingston",
+      "lat": 15.83,
+      "lng": -88.75,
+      "from": 1831,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1192713",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1192713",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19493,6 +21729,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Kluang",
+      "lat": 2.033611111,
+      "lng": 103.319444444,
+      "from": 1915,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1200738",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1200738",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Owando",
+      "lat": -0.483333333,
+      "lng": 15.8975,
+      "from": 1903,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1201732",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1201732",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Gananoque",
+      "lat": 44.333333333,
+      "lng": -76.166666666,
+      "from": 1789,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1208051",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1208051",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Hankou",
       "lat": 30.581179,
       "lng": 114.272597,
@@ -19503,6 +21778,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1208250",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Richmond",
+      "lat": -41.333333333,
+      "lng": 173.183333333,
+      "from": 1854,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1208462",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1208462",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19519,6 +21807,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Masterton",
+      "lat": -40.966666666,
+      "lng": 175.65,
+      "from": 1854,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1223916",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1223916",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Jaén",
       "lat": -5.69918,
       "lng": -78.8009,
@@ -19529,6 +21830,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1229885",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Heilbron",
+      "lat": -27.283611111,
+      "lng": 27.970833333,
+      "from": 1872,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1233509",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1233509",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19594,6 +21908,32 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1252806",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Thaba 'Nchu",
+      "lat": -29.2,
+      "lng": 26.833333333,
+      "from": 1892,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1256430",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1256430",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Dundee",
+      "lat": -28.166666666,
+      "lng": 30.233611111,
+      "from": 1835,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1265538",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1265538",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19740,6 +22080,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Empangeni",
+      "lat": -28.75,
+      "lng": 31.9,
+      "from": 1851,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1339143",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1339143",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Nambour",
+      "lat": -26.626944444,
+      "lng": 152.959166666,
+      "from": 1870,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1343166",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1343166",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Miramichi",
       "lat": 47.0225,
       "lng": -65.508888888,
@@ -19779,6 +22145,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Kirkland Lake",
+      "lat": 48.15,
+      "lng": -80.033333333,
+      "from": 1919,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1362758",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1362758",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Eshowe",
+      "lat": -28.888333333,
+      "lng": 31.448333333,
+      "from": 1880,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1367652",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1367652",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Mezitli",
+      "lat": 36.75,
+      "lng": 34.53333333,
+      "from": 2008,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1367930",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1367930",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Esperanza",
       "lat": -31.448888888,
       "lng": -60.931666666,
@@ -19789,6 +22194,45 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1368165",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Colonsay",
+      "lat": 51.9833,
+      "lng": -105.883,
+      "from": 1908,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1380418",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1380418",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Craik",
+      "lat": 51.047222,
+      "lng": -105.818056,
+      "from": 1903,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1381546",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1381546",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Fort Campbell",
+      "lat": 36.65,
+      "lng": -87.4667,
+      "from": 1941,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1385040",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1385040",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19805,6 +22249,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Piet Retief",
+      "lat": -27,
+      "lng": 30.8,
+      "from": 1882,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1395427",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1395427",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Oranjemund",
       "lat": -28.55,
       "lng": 16.43333,
@@ -19815,6 +22272,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1404518",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Filskov",
+      "lat": 55.8127,
+      "lng": 9.0289,
+      "from": 1101,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1415508",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1415508",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19831,6 +22301,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Dundurn",
+      "lat": 51.8096,
+      "lng": -106.508,
+      "from": 1894,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1427108",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1427108",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Davidson",
+      "lat": 51.26676,
+      "lng": -105.98449,
+      "from": 1903,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1427885",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1427885",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Sarıçam district",
+      "lat": 37.040323,
+      "lng": 35.419341,
+      "from": 2008,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1430729",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1430729",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Tamworth",
       "lat": -31.090555555,
       "lng": 150.9316667,
@@ -19841,6 +22350,45 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1434796",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "LaSalle",
+      "lat": 42.2167,
+      "lng": -83.0667,
+      "from": 1991,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1435042",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1435042",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Morganza",
+      "lat": 30.735555555,
+      "lng": -91.593333333,
+      "from": 1908,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1436146",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1436146",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Fordon",
+      "lat": 53.1475,
+      "lng": 18.16777778,
+      "from": 1382,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1437058",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1437058",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19870,6 +22418,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Freeling",
+      "lat": -34.454,
+      "lng": 138.81,
+      "from": 1860,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1453565",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1453565",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Petawawa",
+      "lat": 45.9,
+      "lng": -77.283333333,
+      "from": 1997,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1455440",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1455440",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Malerkotla",
       "lat": 30.5167,
       "lng": 75.8833,
@@ -19880,6 +22454,71 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1470987",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Richards Bay",
+      "lat": -28.782777777,
+      "lng": 32.0375,
+      "from": 1879,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1471757",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1471757",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Gansbaai",
+      "lat": -34.583611111,
+      "lng": 19.3425,
+      "from": 1881,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1493629",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1493629",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Gaziemir district",
+      "lat": 38.325833333,
+      "lng": 27.137222222,
+      "from": 1992,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1496685",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1496685",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Genadendal",
+      "lat": -34.033333333,
+      "lng": 19.55,
+      "from": 1738,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1501295",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1501295",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Howick",
+      "lat": -29.486077777,
+      "lng": 30.230597222,
+      "from": 1850,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1503458",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1503458",
       "reviewStatus": "unreviewed"
     },
     {
@@ -19935,6 +22574,58 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Sophiatown",
+      "lat": -26.1767,
+      "lng": 27.9816,
+      "from": 1899,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1517405",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1517405",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Eastend",
+      "lat": 49.5167,
+      "lng": -108.817,
+      "from": 1914,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1521430",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1521430",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Elrose",
+      "lat": 51.2003,
+      "lng": -108.033,
+      "from": 1909,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1521613",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1521613",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Giyani",
+      "lat": -23.316666666,
+      "lng": 30.716666666,
+      "from": 1903,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1528852",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1528852",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Gladbach-Rheydt",
       "lat": 51.1772,
       "lng": 6.43902,
@@ -19958,6 +22649,58 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1530936",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Prince Albert",
+      "lat": -33.225277777,
+      "lng": 22.03,
+      "from": 1842,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1533623",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1533623",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Wellington",
+      "lat": -33.633333333,
+      "lng": 18.983333333,
+      "from": 1840,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1534385",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1534385",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Leipoldtville",
+      "lat": -32.222,
+      "lng": 18.481,
+      "from": 1905,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1536549",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1536549",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Grabouw",
+      "lat": -34.15,
+      "lng": 19.016666666,
+      "from": 1856,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1540958",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1540958",
       "reviewStatus": "unreviewed"
     },
     {
@@ -20000,6 +22743,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Güzelbahçe district",
+      "lat": 38.359722222,
+      "lng": 26.888055555,
+      "from": 1993,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1562333",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1562333",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Wakkerstroom",
+      "lat": -27.359722222,
+      "lng": 30.137222222,
+      "from": 1859,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1565776",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1565776",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Rawabi",
       "lat": 32.01,
       "lng": 35.185,
@@ -20010,6 +22779,58 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1570801",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kempton Park",
+      "lat": -26.1,
+      "lng": 28.2333,
+      "from": 1903,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1576076",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1576076",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Hanover",
+      "lat": 44.15,
+      "lng": -81.0333,
+      "from": 1849,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1576700",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1576700",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Guatapé",
+      "lat": 6.2325,
+      "lng": -75.158611111,
+      "from": 1811,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1578769",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1578769",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Harrismith",
+      "lat": -28.283333333,
+      "lng": 29.133333333,
+      "from": 1849,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1586262",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1586262",
       "reviewStatus": "unreviewed"
     },
     {
@@ -20052,6 +22873,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Hermannsburg",
+      "lat": -29.042222222,
+      "lng": 30.795833333,
+      "from": 1854,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1613385",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1613385",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Hermanus",
+      "lat": -34.416667,
+      "lng": 19.3,
+      "from": 1891,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1613480",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1613480",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Herschel",
+      "lat": -30.61611111,
+      "lng": 27.16194444,
+      "from": 1879,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1614521",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1614521",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Caesarea",
       "lat": 32.5,
       "lng": 34.9,
@@ -20062,6 +22922,32 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1615560",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Himeville",
+      "lat": -29.75,
+      "lng": 29.5,
+      "from": 1905,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1619054",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1619054",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Villanueva de la Vera",
+      "lat": 40.130555555,
+      "lng": -5.463888888,
+      "from": 1640,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1629837",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1629837",
       "reviewStatus": "unreviewed"
     },
     {
@@ -23692,6 +26578,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Ngcobo",
+      "lat": -31.67638889,
+      "lng": 28.00111111,
+      "from": 1876,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q10610936",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q10610936",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Porsgrunn",
       "lat": 59.14054,
       "lng": 9.6561,
@@ -23718,6 +26617,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "KwaDukuza",
+      "lat": -29.328055555,
+      "lng": 31.289444444,
+      "from": 1825,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q10676708",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q10676708",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Shang-hai",
       "lat": 31.22397,
       "lng": 121.48669,
@@ -23731,6 +26643,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Venterspos",
+      "lat": -26.2667,
+      "lng": 27.6333,
+      "from": 1937,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q10954427",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q10954427",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Healdtown",
+      "lat": -32.716666666,
+      "lng": 26.716666666,
+      "from": 1853,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q10969056",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q10969056",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Magogong",
+      "lat": -27.654,
+      "lng": 24.815,
+      "from": 1934,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q11135251",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q11135251",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Jipijapa",
       "lat": -1.348611111,
       "lng": -80.578611111,
@@ -23741,6 +26692,110 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q11249733",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Nakamachi",
+      "lat": 35.55,
+      "lng": 139.4477778,
+      "from": 1965,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q11366790",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q11366790",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Ō",
+      "lat": 36.502972222,
+      "lng": 137.851166666,
+      "from": 1889,
+      "to": 1954,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q11437983",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q11437983",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Gibsons",
+      "lat": 49.402777777,
+      "lng": -123.503611111,
+      "from": 1886,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q11483763",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q11483763",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Naruse-Gaoka",
+      "lat": 35.53444444,
+      "lng": 139.4713889,
+      "from": 1986,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q11495528",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q11495528",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Asahimachi",
+      "lat": 35.55555556,
+      "lng": 139.4375,
+      "from": 1966,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q11511842",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q11511842",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kiso-Higashi",
+      "lat": 35.55833333,
+      "lng": 139.4291667,
+      "from": 2007,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q11518573",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q11518573",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Tamagawa-Gakuen",
+      "lat": 35.56277778,
+      "lng": 139.4633333,
+      "from": 1967,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q11572560",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q11572560",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kanai",
+      "lat": 35.57527778,
+      "lng": 139.4522222,
+      "from": 1990,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q11646324",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q11646324",
       "reviewStatus": "unreviewed"
     },
     {
@@ -23848,6 +26903,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Oqeirbat",
+      "lat": 35.040277777,
+      "lng": 37.463888888,
+      "from": 1900,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q12227483",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q12227483",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "New Qena",
       "lat": 26.231805555,
       "lng": 32.739111111,
@@ -23874,6 +26942,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Bruunshåb",
+      "lat": 56.42164,
+      "lng": 9.440672,
+      "from": 1821,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q12304475",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q12304475",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Kerto",
       "lat": -7.871138888,
       "lng": 110.400694444,
@@ -23887,6 +26968,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Kulai",
+      "lat": 1.666666666,
+      "lng": 103.6,
+      "from": 1890,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q12492866",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q12492866",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Grimstad",
+      "lat": 58.3405,
+      "lng": 8.5934,
+      "from": 1816,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q12715142",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q12715142",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Roossenekal",
+      "lat": -25.195,
+      "lng": 29.925,
+      "from": 1886,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q12739584",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q12739584",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Colón City",
       "lat": 9.359752777,
       "lng": -79.900419444,
@@ -23897,6 +27017,32 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q12825018",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "New Guelderland",
+      "lat": -29.32,
+      "lng": 31.332,
+      "from": 1859,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q13035626",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q13035626",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Pevensey",
+      "lat": -29.783,
+      "lng": 29.5,
+      "from": 1917,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q13035767",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q13035767",
       "reviewStatus": "unreviewed"
     },
     {
@@ -23952,6 +27098,71 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Chūō",
+      "lat": 35.451694444,
+      "lng": 139.392041666,
+      "from": 1991,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q13849166",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q13849166",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kokubu-Kita",
+      "lat": 35.462622222,
+      "lng": 139.401563888,
+      "from": 1991,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q13849213",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q13849213",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kokubu-Minami",
+      "lat": 35.449991666,
+      "lng": 139.402058333,
+      "from": 1991,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q13849223",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q13849223",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kokubunjidai",
+      "lat": 35.440277777,
+      "lng": 139.404722222,
+      "from": 1974,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q13849240",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q13849240",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Hamadachō",
+      "lat": 35.44261111,
+      "lng": 139.4018611,
+      "from": 1980,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q13849252",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q13849252",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Buer",
       "lat": 51.5798968,
       "lng": 7.0527181,
@@ -23965,6 +27176,58 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Chakpikarong",
+      "lat": 24.31666667,
+      "lng": 93.98333333,
+      "from": 1781,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q15208842",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q15208842",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Clarkebury",
+      "lat": -31.789,
+      "lng": 28.28,
+      "from": 1830,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q15210835",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q15210835",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Lime Acres",
+      "lat": -28.374,
+      "lng": 23.461,
+      "from": 1964,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q15242360",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q15242360",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Sint-Truiden",
+      "lat": 50.815605555,
+      "lng": 5.18685,
+      "from": 601,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q15281225",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q15281225",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Tainan City",
       "lat": 22.99083,
       "lng": 120.21333,
@@ -23975,6 +27238,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q15895448",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Altıeylül district",
+      "lat": 39.64527778,
+      "lng": 27.88333333,
+      "from": 2012,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q16028029",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q16028029",
       "reviewStatus": "unreviewed"
     },
     {
@@ -24654,6 +27930,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Reno",
+      "lat": 38.952777777,
+      "lng": -77.078333333,
+      "from": 1860,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q106887201",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q106887201",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Astaneh-ye Sara",
       "lat": 36.638947222,
       "lng": 52.500072222,
@@ -24706,6 +27995,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Chaguaramas",
+      "lat": 9.3398676,
+      "lng": -66.254983,
+      "from": 1728,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q113973951",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q113973951",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Alviso",
+      "lat": 37.426111111,
+      "lng": -121.975277777,
+      "from": 1852,
+      "to": 1968,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q114414879",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q114414879",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Willow Grove",
+      "lat": 36.5870072,
+      "lng": -85.3421857,
+      "from": 1800,
+      "to": 1942,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q115812680",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q115812680",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Madrid city",
       "lat": 40.40841191,
       "lng": -3.68760088,
@@ -24729,6 +28057,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q116813782",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Guardatinajas",
+      "lat": 9.03333,
+      "lng": -67.6333,
+      "from": 1790,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q117038414",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q117038414",
       "reviewStatus": "unreviewed"
     },
     {
@@ -24797,6 +28138,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Manhala",
+      "lat": 31.5288,
+      "lng": 74.5433,
+      "from": 1590,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q122463569",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q122463569",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Q125450392",
       "lat": 39.90362,
       "lng": 116.646333,
@@ -24862,6 +28216,123 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Strachan, Western Australia",
+      "lat": -34.402478805,
+      "lng": 116.46199727,
+      "from": 1957,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q130425652",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q130425652",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Moornaming, Western Australia",
+      "lat": -33.566666666,
+      "lng": 118.083333333,
+      "from": 1915,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q130483898",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q130483898",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Kundip",
+      "lat": -33.689397279,
+      "lng": 120.185653438,
+      "from": 1902,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q131442205",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q131442205",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Desmond",
+      "lat": -33.627944396,
+      "lng": 120.144237604,
+      "from": 1909,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q131442213",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q131442213",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Red Lake",
+      "lat": -33.1448041,
+      "lng": 121.705947305,
+      "from": 1922,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q131544826",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q131544826",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Dowak",
+      "lat": -32.885559433,
+      "lng": 121.600173986,
+      "from": 1928,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q131545629",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q131545629",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Truslove",
+      "lat": -33.34265,
+      "lng": 121.71703,
+      "from": 1927,
+      "to": 1976,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q131565002",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q131565002",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Wharton, Western Australia",
+      "lat": -33.92503,
+      "lng": 122.5783,
+      "from": 1964,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q131567180",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q131567180",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Shark Lake",
+      "lat": -33.77206,
+      "lng": 121.86283,
+      "from": 1967,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q131573568",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q131573568",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Mangalagiri - Tadepalli",
       "lat": 16.445,
       "lng": 80.585,
@@ -24872,6 +28343,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q137137402",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Chandler",
+      "lat": 48.35,
+      "lng": -64.683333333,
+      "from": 1916,
+      "to": 2001,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q138026030",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q138026030",
       "reviewStatus": "unreviewed"
     },
     {
