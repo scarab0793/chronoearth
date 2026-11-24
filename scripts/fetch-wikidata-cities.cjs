@@ -4,8 +4,10 @@
 const fs=require('node:fs');
 const endpoint='https://query.wikidata.org/sparql';
 const pageSize=Number(process.env.WIKIDATA_PAGE_SIZE||100);
-const maxPages=Number(process.env.WIKIDATA_MAX_PAGES||60);
+const maxPages=Number(process.env.WIKIDATA_MAX_PAGES||40);
 if(!Number.isInteger(pageSize)||pageSize<1||pageSize>500||!Number.isInteger(maxPages)||maxPages<1||maxPages>100)throw Error('Invalid pagination limits');
+const startPage=Number(process.env.WIKIDATA_START_PAGE||60);
+if(!Number.isSafeInteger(startPage)||startPage<0)throw Error('Invalid start page');
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const yearOf=v=>{const m=String(v||'').match(/^([+-]?\d{1,16})-\d\d-\d\dT/);return m&&Number.isSafeInteger(Number(m[1]))?Number(m[1]):null};
 const qid=v=>String(v||'').match(/\/entity\/(Q[1-9]\d*)$/)?.[1]||null;
@@ -29,7 +31,7 @@ async function page(index){
 }
 async function main(){
  const byId=new Map();let pages=0;
- for(let i=0;i<maxPages;i++){
+ for(let i=startPage;i<startPage+maxPages;i++){
   const rows=await page(i);pages++;
   for(const row of rows){
    const value=k=>row[k]?.value;
@@ -43,7 +45,7 @@ async function main(){
    if(!byId.has(id))byId.set(id,{name:value('itemLabel')||id,lat,lng,from,to:to??2026,region:'',source:'https://www.wikidata.org/wiki/'+id,precision:'approximate',note:'Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.',wikidataId:id,reviewStatus:'unreviewed'});
   }
   console.log('Page '+(i+1)+': '+rows.length+' rows; '+byId.size+' distinct dated settlements');
-  if(rows.length<pageSize)break;
+  if(rows.length===0)break;
   await sleep(1500);
  }
  if(byId.size===0)throw Error('No valid dated settlement records; keeping existing dataset');
