@@ -6,13 +6,15 @@ const endpoint='https://query.wikidata.org/sparql';
 const pageSize=Number(process.env.WIKIDATA_PAGE_SIZE||100);
 const maxPages=Number(process.env.WIKIDATA_MAX_PAGES||40);
 if(!Number.isInteger(pageSize)||pageSize<1||pageSize>500||!Number.isInteger(maxPages)||maxPages<1||maxPages>100)throw Error('Invalid pagination limits');
-const startPage=Number(process.env.WIKIDATA_START_PAGE||100);
+const startPage=Number(process.env.WIKIDATA_START_PAGE||0);
 if(!Number.isSafeInteger(startPage)||startPage<0)throw Error('Invalid start page');
+const settlementClass=process.env.WIKIDATA_SETTLEMENT_CLASS||'Q3957';
+if(!/^Q[1-9]\d*$/.test(settlementClass))throw Error('Invalid settlement class');
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const yearOf=v=>{const m=String(v||'').match(/^([+-]?\d{1,16})-\d\d-\d\dT/);return m&&Number.isSafeInteger(Number(m[1]))?Number(m[1]):null};
 const qid=v=>String(v||'').match(/\/entity\/(Q[1-9]\d*)$/)?.[1]||null;
 function sparql(limit,offset){return `SELECT ?item ?itemLabel ?coord ?inception ?dissolution WHERE {
-  { SELECT ?item WHERE { ?item wdt:P31 wd:Q515 . } ORDER BY ?item LIMIT ${limit} OFFSET ${offset} }
+  { SELECT ?item WHERE { ?item wdt:P31 wd:${settlementClass} . } ORDER BY ?item LIMIT ${limit} OFFSET ${offset} }
   OPTIONAL { ?item wdt:P625 ?coord }
   OPTIONAL { ?item wdt:P571 ?inception }
   OPTIONAL { ?item wdt:P576 ?dissolution }
@@ -48,7 +50,7 @@ async function main(){
   if(rows.length===0)break;
   await sleep(1500);
  }
- if(byId.size===0)throw Error('No valid dated settlement records; keeping existing dataset');
+ if(byId.size===0){console.log('No new dated settlements; keeping existing dataset');return;}
  const previousFile='data/imports/wikidata-cities.json';
  let retained=0;
  if(fs.existsSync(previousFile)){
