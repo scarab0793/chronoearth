@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "Wikidata MediaWiki API",
-  "importedAt": "2026-11-23T21:09:10.107Z",
+  "importedAt": "2026-11-24T15:16:25.254Z",
   "reviewStatus": "unreviewed",
   "people": [
     {
@@ -4871,6 +4871,16 @@
       "birthYear": 1803,
       "deathYear": 1865,
       "source": "https://www.wikidata.org/wiki/Q18577038",
+      "reviewStatus": "unreviewed",
+      "location": null
+    },
+    {
+      "id": "wikidata:Q18670923",
+      "wikidataId": "Q18670923",
+      "name": "Claudius Gilbert the younger",
+      "birthYear": 1670,
+      "deathYear": 1742,
+      "source": "https://www.wikidata.org/wiki/Q18670923",
       "reviewStatus": "unreviewed",
       "location": null
     },
