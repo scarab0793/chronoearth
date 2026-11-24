@@ -6,7 +6,7 @@ const endpoint='https://query.wikidata.org/sparql';
 const pageSize=Number(process.env.WIKIDATA_PAGE_SIZE||100);
 const maxPages=Number(process.env.WIKIDATA_MAX_PAGES||40);
 if(!Number.isInteger(pageSize)||pageSize<1||pageSize>500||!Number.isInteger(maxPages)||maxPages<1||maxPages>100)throw Error('Invalid pagination limits');
-const startPage=Number(process.env.WIKIDATA_START_PAGE||0);
+const startPage=Number(process.env.WIKIDATA_START_PAGE||40);
 if(!Number.isSafeInteger(startPage)||startPage<0)throw Error('Invalid start page');
 const settlementClass=process.env.WIKIDATA_SETTLEMENT_CLASS||'Q3957';
 if(!/^Q[1-9]\d*$/.test(settlementClass))throw Error('Invalid settlement class');
