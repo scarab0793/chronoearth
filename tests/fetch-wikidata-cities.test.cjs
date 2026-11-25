@@ -12,7 +12,7 @@ const root=path.resolve(__dirname,'..');
 const script=path.join(root,'scripts/fetch-wikidata-cities.cjs');
 const stub=path.join(__dirname,'stub-wikidata-fetch.cjs');
 
-const row=(q,year=1200,coord='Point(19.04 47.5)')=>({item:{value:'http://www.wikidata.org/entity/Q'+q},itemLabel:{value:'Place '+q},coord:{value:coord},inception:{value:'+'+year+'-01-01T00:00:00Z'}});
+const row=(q,year=1200,coord='Point(19.04 47.5)',precision=9)=>({item:{value:'http://www.wikidata.org/entity/Q'+q},itemLabel:{value:'Place '+q},coord:{value:coord},inception:{value:(year<0?'-':'+')+String(Math.abs(year)).padStart(4,'0')+'-01-01T00:00:00Z'},inceptionPrecision:{value:String(precision)}});
 const baseState=()=>({schemaVersion:1,settlements:{activeCategory:'village',queue:['town','village'],categories:{
  town:{wikidataClass:'Q3957',strategy:'offset-v1',status:'exhausted',nextPage:167},
  village:{wikidataClass:'Q532',strategy:'offset-v1',status:'in_progress',nextPage:200}},consecutiveFailures:0,lastRun:null}});
@@ -123,6 +123,16 @@ test('reviewed records are never overwritten; unreviewed ones are refreshed',()=
  assert.equal(q1.from,1111);
  assert.equal(q2.reviewStatus,'verified');assert.equal(q2.note,'KEEP');assert.equal(q2.from,900);
  assert.equal(r.state.settlements.lastRun.newRecords,0);
+});
+
+test('BCE years are converted from SPARQL astronomical numbering only at year precision',()=>{
+ // SPARQL returns 331 BCE (year precision) as -0330, but a 7th-century-BCE value as -0601 unchanged.
+ const r=run({pages:{200:[row(87,-330,undefined,9),row(3579,-601,undefined,7),row(99,0,undefined,9)]}},{env:{WIKIDATA_MAX_PAGES:'1'}});
+ assert.equal(r.code,0,r.stderr);
+ const by=id=>r.data.cities.find(c=>c.wikidataId===id);
+ assert.equal(by('Q87').from,-331);
+ assert.equal(by('Q3579').from,-601);
+ assert.equal(by('Q99').from,-1,'astronomical year 0 is 1 BCE');
 });
 
 test('manual start page override never moves the checkpoint backwards',()=>{

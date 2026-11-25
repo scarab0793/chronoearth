@@ -28,6 +28,7 @@ for(const [kind,file,key] of definitions){
   if(kind==='cities'){
    check(Number.isFinite(p.lat)&&Math.abs(p.lat)<=90&&Number.isFinite(p.lng)&&Math.abs(p.lng)<=180,prefix+': invalid coordinates');
    check(Number.isSafeInteger(p.from)&&Number.isSafeInteger(p.to)&&p.from<=p.to,prefix+': invalid time range');
+   check(p.from!==0&&p.to!==0,prefix+': year 0 does not exist in historical numbering');
   }else if(kind==='people'){
    check(Number.isSafeInteger(p.birthYear)&&p.birthYear<=1900,prefix+': invalid birth year');
    check(p.deathYear===null||Number.isSafeInteger(p.deathYear)&&p.deathYear>=p.birthYear,prefix+': invalid death year');

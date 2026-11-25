@@ -33,7 +33,10 @@ if(!Number.isInteger(pageSize)||pageSize<1||pageSize>500||!Number.isInteger(maxP
 if(!Number.isInteger(timeBudgetMs)||timeBudgetMs<1)throw Error('Invalid time budget');
 
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
-const yearOf=v=>{const m=String(v||'').match(/^([+-]?\d{1,16})-\d\d-\d\dT/);return m&&Number.isSafeInteger(Number(m[1]))?Number(m[1]):null};
+// The SPARQL service returns year-or-finer dates with astronomical numbering (216 BCE as -0215),
+// but leaves decade/century/millennium values unshifted. The project stores historical years
+// (negative = BCE, no year 0), so shift non-positive years back by one when precision >= 9.
+const yearOf=(v,precision)=>{const m=String(v||'').match(/^([+-]?\d{1,16})-\d\d-\d\dT/);if(!m||!Number.isSafeInteger(Number(m[1])))return null;const y=Number(m[1]);return y<=0&&Number(precision)>=9?y-1:y};
 const qid=v=>String(v||'').match(/\/entity\/(Q[1-9]\d*)$/)?.[1]||null;
 const nowIso=()=>new Date().toISOString();
 
@@ -58,11 +61,11 @@ function loadState(){
  return state;
 }
 
-function sparql(settlementClass,limit,offset){return `SELECT ?item ?itemLabel ?coord ?inception ?dissolution WHERE {
+function sparql(settlementClass,limit,offset){return `SELECT ?item ?itemLabel ?coord ?inception ?inceptionPrecision ?dissolution ?dissolutionPrecision WHERE {
   { SELECT ?item WHERE { ?item wdt:P31 wd:${settlementClass} . } ORDER BY ?item LIMIT ${limit} OFFSET ${offset} }
   OPTIONAL { ?item wdt:P625 ?coord }
-  OPTIONAL { ?item wdt:P571 ?inception }
-  OPTIONAL { ?item wdt:P576 ?dissolution }
+  OPTIONAL { ?item p:P571 ?inceptionStatement . ?inceptionStatement a wikibase:BestRank; psv:P571 [ wikibase:timeValue ?inception; wikibase:timePrecision ?inceptionPrecision ] }
+  OPTIONAL { ?item p:P576 ?dissolutionStatement . ?dissolutionStatement a wikibase:BestRank; psv:P576 [ wikibase:timeValue ?dissolution; wikibase:timePrecision ?dissolutionPrecision ] }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en,hu". }
 } ORDER BY ?item`}
 
@@ -107,7 +110,7 @@ function toRecord(row){
  const m=String(value('coord')||'').match(/^Point\((-?\d+(?:\.\d+)?) (-?\d+(?:\.\d+)?)\)$/);
  if(!m)return null;
  const lng=Number(m[1]),lat=Number(m[2]);if(Math.abs(lat)>90||Math.abs(lng)>180)return null;
- const from=yearOf(value('inception'));const to=yearOf(value('dissolution'));
+ const from=yearOf(value('inception'),value('inceptionPrecision'));const to=yearOf(value('dissolution'),value('dissolutionPrecision'));
  if(from===null)return null;
  if(to!==null&&to<from)return null;
  return {name:value('itemLabel')||id,lat,lng,from,to:to??2026,region:'',source:'https://www.wikidata.org/wiki/'+id,precision:'approximate',note:'Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.',wikidataId:id,reviewStatus:'unreviewed'};
