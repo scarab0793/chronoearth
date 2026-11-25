@@ -76,5 +76,59 @@
     },
     "consecutiveFailures": 0,
     "lastRun": null
+  },
+  "ancientSettlements": {
+    "activeCategory": "ancient_city",
+    "queue": [
+      "ancient_city",
+      "former_settlement",
+      "abandoned_village",
+      "ghost_town",
+      "archaeological_site"
+    ],
+    "categories": {
+      "ancient_city": {
+        "wikidataClass": "Q15661340",
+        "description": "Ancient city (direct P31) with coordinates and a start date or time period",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "former_settlement": {
+        "wikidataClass": "Q22674925",
+        "description": "Former settlement (direct P31) with coordinates and a start date or time period",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "abandoned_village": {
+        "wikidataClass": "Q350895",
+        "description": "Abandoned village (direct P31) with coordinates and a start date or time period",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "ghost_town": {
+        "wikidataClass": "Q74047",
+        "description": "Ghost town (direct P31) with coordinates and a start date or time period",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "archaeological_site": {
+        "wikidataClass": "Q839954",
+        "description": "Archaeological site (direct P31) with coordinates and a start date or time period",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      }
+    },
+    "consecutiveFailures": 0,
+    "lastRun": null
   }
 }

@@ -8,7 +8,8 @@ const definitions=[
  ['events','data/imports/wikidata-events.json','events'],
  ['states','data/imports/wikidata-states.json','states'],
  ['battles','data/imports/wikidata-battles.json','battles'],
- ['capitals','data/imports/wikidata-capitals.json','capitals']
+ ['capitals','data/imports/wikidata-capitals.json','capitals'],
+ ['ancientSettlements','data/imports/wikidata-ancient-settlements.json','settlements']
 ];
 let errors=0;
 function check(ok,message){if(!ok){console.error('ERROR: '+message);errors++}}
@@ -46,6 +47,11 @@ for(const [kind,file,key] of definitions){
     check(Number.isSafeInteger(c.from)&&Number.isSafeInteger(c.to)&&c.from!==0&&c.to!==0&&c.from<=c.to&&c.to<=2026&&c.from>=-10000,cp+': invalid period');
     check(['qualifier','state-dissolution','present'].includes(c.periodEnd),cp+': invalid periodEnd');
    }
+  }else if(kind==='ancientSettlements'){
+   check(['ancient-city','former-settlement','abandoned-village','ghost-town','archaeological-site'].includes(p.kind),prefix+': invalid settlement kind');
+   check(Number.isFinite(p.lat)&&Math.abs(p.lat)<=90&&Number.isFinite(p.lng)&&Math.abs(p.lng)<=180,prefix+': invalid coordinates');
+   check(Number.isSafeInteger(p.from)&&Number.isSafeInteger(p.to)&&p.from!==0&&p.to!==0&&p.from<=p.to&&p.from>=-10000&&p.to<=2026,prefix+': invalid time range (historical numbering, no year 0)');
+   check(p.dateBasis==='own'||p.dateBasis==='period'&&Array.isArray(p.periodIds)&&p.periodIds.length>0&&p.periodIds.every(q=>/^Q[1-9]\d*$/.test(q)),prefix+': dateBasis must be own, or period with periodIds');
   }else if(kind==='battles'){
    check(p.kind==='battle'||p.kind==='siege',prefix+': kind must be battle or siege');
    check(Number.isSafeInteger(p.y)&&p.y!==0&&p.y>=-10000&&p.y<=2026,prefix+': invalid year (historical numbering, no year 0)');

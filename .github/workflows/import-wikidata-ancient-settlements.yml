@@ -1,0 +1,64 @@
+name: Import Wikidata ancient and abandoned settlements
+# Resumes automatically from the "ancientSettlements" section of data/import-state.json.
+on:
+  workflow_dispatch:
+    inputs:
+      max_pages:
+        description: 'Pages of 50 sites to fetch in this run (1-200)'
+        required: false
+        default: '60'
+  schedule:
+    # Twice a day; roughly 300 pages over five categories, so the first pass takes
+    # a few days, then an exhausted queue makes later runs no-ops.
+    - cron: '5 1,13 * * *'
+permissions:
+  contents: write
+concurrency:
+  # Shared with the other imports: all write data/import-state.json.
+  group: chronoearth-wikidata-checkpoint
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch ancient and abandoned settlements from Wikidata (checkpointed)
+        env:
+          WIKIDATA_MAX_PAGES: ${{ inputs.max_pages || '60' }}
+          WIKIDATA_TIME_BUDGET_MS: '1200000'
+        run: node scripts/fetch-wikidata-ancient-settlements.cjs
+      - name: Validate imported data and checkpoint
+        id: validate
+        if: always()
+        run: |
+          node -e "const s=require('./data/import-state.json').ancientSettlements;if(!s||!s.categories[s.activeCategory])process.exit(1)"
+          node scripts/validate-data.cjs
+          node scripts/validate-imports.cjs
+      - name: Commit dataset and checkpoint
+        if: always() && steps.validate.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/import-state.json
+          if [ -f data/imports/wikidata-ancient-settlements.json ]; then git add data/imports/wikidata-ancient-settlements.json; fi
+          if git diff --cached --quiet; then
+            echo "No data change; nothing to commit"
+            exit 0
+          fi
+          if git diff --cached --quiet -- data/imports/wikidata-ancient-settlements.json; then
+            git commit -m "data: update ancient settlement import checkpoint"
+          else
+            git commit -m "data: refresh Wikidata ancient settlement records"
+          fi
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed; retrying"
+            sleep $((attempt * 10))
+          done
+          exit 1
