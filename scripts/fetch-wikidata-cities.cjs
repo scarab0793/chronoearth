@@ -6,7 +6,7 @@ const endpoint='https://query.wikidata.org/sparql';
 const pageSize=Number(process.env.WIKIDATA_PAGE_SIZE||100);
 const maxPages=Number(process.env.WIKIDATA_MAX_PAGES||40);
 if(!Number.isInteger(pageSize)||pageSize<1||pageSize>500||!Number.isInteger(maxPages)||maxPages<1||maxPages>100)throw Error('Invalid pagination limits');
-const startPage=Number(process.env.WIKIDATA_START_PAGE||120);
+const startPage=Number(process.env.WIKIDATA_START_PAGE||160);
 if(!Number.isSafeInteger(startPage)||startPage<0)throw Error('Invalid start page');
 const settlementClass=process.env.WIKIDATA_SETTLEMENT_CLASS||'Q532';
 if(!/^Q[1-9]\d*$/.test(settlementClass))throw Error('Invalid settlement class');
@@ -56,8 +56,10 @@ async function main(){
  if(fs.existsSync(previousFile)){
   const previous=JSON.parse(fs.readFileSync(previousFile,'utf8'));
   for(const old of previous.cities||[]){
-   if(!/^Q[1-9]\d*$/.test(old.wikidataId||'')||!Number.isFinite(old.lat)||!Number.isFinite(old.lng)||!Number.isSafeInteger(old.from)||!Number.isSafeInteger(old.to)||old.reviewStatus!=='unreviewed')continue;
+   if(!/^Q[1-9]\d*$/.test(old.wikidataId||'')||!Number.isFinite(old.lat)||!Number.isFinite(old.lng)||!Number.isSafeInteger(old.from)||!Number.isSafeInteger(old.to))continue;
+   // Keep previous records regardless of review status; a reviewed record is never overwritten by a fresh unreviewed import.
    if(!byId.has(old.wikidataId)){byId.set(old.wikidataId,old);retained++}
+   else if(old.reviewStatus&&old.reviewStatus!=='unreviewed')byId.set(old.wikidataId,old);
   }
  }
  console.log('Preserved '+retained+' historical settlement records from previous imports');
