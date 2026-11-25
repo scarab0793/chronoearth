@@ -58,5 +58,23 @@
     },
     "consecutiveFailures": 0,
     "lastRun": null
+  },
+  "capitals": {
+    "activeCategory": "capital",
+    "queue": [
+      "capital"
+    ],
+    "categories": {
+      "capital": {
+        "wikidataClass": "Q5119",
+        "description": "States (direct P31 in the importer STATE_CLASSES list) with capital statements (P36)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      }
+    },
+    "consecutiveFailures": 0,
+    "lastRun": null
   }
 }
