@@ -9,7 +9,8 @@ const definitions=[
  ['states','data/imports/wikidata-states.json','states'],
  ['battles','data/imports/wikidata-battles.json','battles'],
  ['capitals','data/imports/wikidata-capitals.json','capitals'],
- ['ancientSettlements','data/imports/wikidata-ancient-settlements.json','settlements']
+ ['ancientSettlements','data/imports/wikidata-ancient-settlements.json','settlements'],
+ ['castles','data/imports/wikidata-castles.json','castles']
 ];
 let errors=0;
 function check(ok,message){if(!ok){console.error('ERROR: '+message);errors++}}
@@ -52,6 +53,12 @@ for(const [kind,file,key] of definitions){
    check(Number.isFinite(p.lat)&&Math.abs(p.lat)<=90&&Number.isFinite(p.lng)&&Math.abs(p.lng)<=180,prefix+': invalid coordinates');
    check(Number.isSafeInteger(p.from)&&Number.isSafeInteger(p.to)&&p.from!==0&&p.to!==0&&p.from<=p.to&&p.from>=-10000&&p.to<=2026,prefix+': invalid time range (historical numbering, no year 0)');
    check(p.dateBasis==='own'||p.dateBasis==='period'&&Array.isArray(p.periodIds)&&p.periodIds.length>0&&p.periodIds.every(q=>/^Q[1-9]\d*$/.test(q)),prefix+': dateBasis must be own, or period with periodIds');
+  }else if(kind==='castles'){
+   check(['castle','fort','fortification','hillfort'].includes(p.kind),prefix+': invalid fortification kind');
+   check(Number.isSafeInteger(p.y)&&p.y!==0&&p.y>=-10000&&p.y<=2026,prefix+': invalid inception year (historical numbering, no year 0)');
+   check(p.end===undefined||Number.isSafeInteger(p.end)&&p.end>p.y&&p.end<=2026,prefix+': invalid end year');
+   check(['day','month','year','decade','century','millennium'].includes(p.datePrecision),prefix+': invalid date precision');
+   check(Number.isFinite(p.lat)&&Math.abs(p.lat)<=90&&Number.isFinite(p.lng)&&Math.abs(p.lng)<=180&&p.precision==='exact',prefix+': needs the structure\'s own coordinates');
   }else if(kind==='battles'){
    check(p.kind==='battle'||p.kind==='siege',prefix+': kind must be battle or siege');
    check(Number.isSafeInteger(p.y)&&p.y!==0&&p.y>=-10000&&p.y<=2026,prefix+': invalid year (historical numbering, no year 0)');

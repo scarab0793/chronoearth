@@ -31,6 +31,8 @@ jobs:
         run: node tests/fetch-wikidata-capitals.test.cjs
       - name: Test ancient settlement importer (offline)
         run: node tests/fetch-wikidata-ancient-settlements.test.cjs
+      - name: Test castle importer (offline)
+        run: node tests/fetch-wikidata-castles.test.cjs
       - name: Smoke test Wikidata importer
         run: |
           node scripts/import-wikidata.cjs tests/fixtures/wikidata-sparql.json /tmp/chronoearth-wikidata-test.json
