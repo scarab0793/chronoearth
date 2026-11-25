@@ -21,7 +21,8 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: wikidata-cities-import
+  # Shared with the battle import: both write data/import-state.json.
+  group: chronoearth-wikidata-checkpoint
   cancel-in-progress: false
 jobs:
   import:

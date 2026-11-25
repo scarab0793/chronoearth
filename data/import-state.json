@@ -33,5 +33,30 @@
     },
     "consecutiveFailures": 0,
     "lastRun": null
+  },
+  "battles": {
+    "activeCategory": "battle",
+    "queue": [
+      "battle",
+      "siege"
+    ],
+    "categories": {
+      "battle": {
+        "wikidataClass": "Q178561",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "siege": {
+        "wikidataClass": "Q188055",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      }
+    },
+    "consecutiveFailures": 0,
+    "lastRun": null
   }
 }
