@@ -162,7 +162,8 @@ async function runCheckpointedImport(o){
  };
 
  if(!category){
-  run.outcome='all_exhausted';run.stopReason='Every category in the queue is exhausted';finish();
+  // Nothing to do: leave the checkpoint untouched so the workflow makes no commit.
+  run.outcome='all_exhausted';run.stopReason='Every category in the queue is exhausted';
   console.log(run.stopReason+'; nothing to fetch');summarize(['### '+o.title,run.stopReason]);
   return;
  }
@@ -180,7 +181,8 @@ async function runCheckpointedImport(o){
   const records=[...byId.values()].sort((a,b)=>a.wikidataId.localeCompare(b.wikidataId,undefined,{numeric:true}));
   if(records.length<baseline)throw Error('Data-loss guard: '+records.length+' records would replace '+baseline);
   const {[o.recordsKey]:_old,...prevMeta}=previous;
-  writeJsonAtomic(o.dataFile,{...prevMeta,...o.meta,importedAt:nowIso(),[o.recordsKey]:records});
+  // Do not create an empty dataset: validation requires at least one record.
+  if(records.length)writeJsonAtomic(o.dataFile,{...prevMeta,...o.meta,importedAt:nowIso(),[o.recordsKey]:records});
   s.activeCategory=category;
   writeJsonAtomic(o.stateFile,state);
  };

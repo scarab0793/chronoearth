@@ -27,6 +27,8 @@ jobs:
         run: node tests/fetch-wikidata-cities.test.cjs
       - name: Test shared import engine and battle importer (offline)
         run: node tests/fetch-wikidata-battles.test.cjs
+      - name: Test historical capital importer (offline)
+        run: node tests/fetch-wikidata-capitals.test.cjs
       - name: Smoke test Wikidata importer
         run: |
           node scripts/import-wikidata.cjs tests/fixtures/wikidata-sparql.json /tmp/chronoearth-wikidata-test.json

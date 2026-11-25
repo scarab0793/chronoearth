@@ -115,7 +115,8 @@ test('reviewed records are never overwritten',()=>{
 
 test('deprecated date statements are ignored',()=>{
  const r=run({classes:{Q178561:[battle(11)]},claims:{Q11:{P585:{time:'+1500-01-01T00:00:00Z',precision:9,rank:'deprecated'}}}},{env:{WIKIDATA_MAX_PAGES:'1'}});
- assert.equal(r.data.battles.length,0);
+ assert.equal(r.data,null,'no usable record, so no empty dataset is written');
+ assert.equal(r.state.battles.categories.battle.cursor,'http://www.wikidata.org/entity/Q11');
 });
 
 let failed=0;

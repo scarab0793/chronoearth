@@ -7,7 +7,8 @@ const definitions=[
  ['people','data/imports/wikidata-people.json','people'],
  ['events','data/imports/wikidata-events.json','events'],
  ['states','data/imports/wikidata-states.json','states'],
- ['battles','data/imports/wikidata-battles.json','battles']
+ ['battles','data/imports/wikidata-battles.json','battles'],
+ ['capitals','data/imports/wikidata-capitals.json','capitals']
 ];
 let errors=0;
 function check(ok,message){if(!ok){console.error('ERROR: '+message);errors++}}
@@ -36,6 +37,15 @@ for(const [kind,file,key] of definitions){
   }else if(kind==='events'){
    check(Number.isSafeInteger(p.year)&&p.year>=-10000&&p.year<=2026,prefix+': invalid event year');
    check(p.location===null,prefix+': unverified event location must remain null');
+  }else if(kind==='capitals'){
+   check(Array.isArray(p.capitals)&&p.capitals.length>0,prefix+': state without capital periods');
+   for(const [j,c] of (p.capitals||[]).entries()){
+    const cp=prefix+' capital['+j+']';
+    check(/^Q[1-9]\d*$/.test(c.cityId||'')&&typeof c.name==='string'&&c.name.trim().length>0,cp+': invalid city');
+    check(Number.isFinite(c.lat)&&Math.abs(c.lat)<=90&&Number.isFinite(c.lng)&&Math.abs(c.lng)<=180,cp+': invalid coordinates');
+    check(Number.isSafeInteger(c.from)&&Number.isSafeInteger(c.to)&&c.from!==0&&c.to!==0&&c.from<=c.to&&c.to<=2026&&c.from>=-10000,cp+': invalid period');
+    check(['qualifier','state-dissolution','present'].includes(c.periodEnd),cp+': invalid periodEnd');
+   }
   }else if(kind==='battles'){
    check(p.kind==='battle'||p.kind==='siege',prefix+': kind must be battle or siege');
    check(Number.isSafeInteger(p.y)&&p.y!==0&&p.y>=-10000&&p.y<=2026,prefix+': invalid year (historical numbering, no year 0)');
