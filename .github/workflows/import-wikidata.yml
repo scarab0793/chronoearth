@@ -1,13 +1,23 @@
 name: Import Wikidata historical cities
+# Resumes automatically from data/import-state.json; no code edits are needed between runs.
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/import-wikidata.yml'
-      - 'scripts/fetch-wikidata-cities.cjs'
   workflow_dispatch:
+    inputs:
+      category:
+        description: 'Category from data/import-state.json (empty = active category)'
+        required: false
+        default: ''
+      start_page:
+        description: '0-based start page override (empty = checkpoint). Never moves the checkpoint backwards.'
+        required: false
+        default: ''
+      max_pages:
+        description: 'Pages to fetch in this run (1-100)'
+        required: false
+        default: '40'
   schedule:
-    - cron: '20 3 * * 1'
+    # Four runs a day, ~160 Wikidata queries in total.
+    - cron: '20 */6 * * *'
 permissions:
   contents: write
 concurrency:
@@ -16,24 +26,50 @@ concurrency:
 jobs:
   import:
     runs-on: ubuntu-latest
+    # The importer stops itself after 20 minutes so there is always time to commit.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Fetch historical entities from Wikidata
+      - name: Fetch historical settlements from Wikidata (checkpointed)
+        id: fetch
+        env:
+          WIKIDATA_CATEGORY: ${{ inputs.category }}
+          WIKIDATA_START_PAGE: ${{ inputs.start_page }}
+          WIKIDATA_MAX_PAGES: ${{ inputs.max_pages || '40' }}
+          WIKIDATA_TIME_BUDGET_MS: '1200000'
         run: node scripts/fetch-wikidata-cities.cjs
-      - name: Validate imported JSON
+      - name: Validate imported data and checkpoint
+        id: validate
+        # Runs even when the fetch step failed, so partial progress can still be saved.
+        if: always()
         run: |
           node -e "const j=require('./data/imports/wikidata-cities.json');if(!Array.isArray(j.cities)||!j.cities.length)process.exit(1)"
+          node -e "const s=require('./data/import-state.json').settlements;if(!s||!s.categories[s.activeCategory])process.exit(1)"
           node scripts/validate-data.cjs
-      - name: Commit refreshed dataset
+          node scripts/validate-imports.cjs
+      - name: Commit dataset and checkpoint
+        if: always() && steps.validate.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/imports/wikidata-cities.json
-          if ! git diff --cached --quiet; then
-            git commit -m "data: refresh Wikidata historical city records"
-            git pull --rebase origin main
-            git push
+          git add data/imports/wikidata-cities.json data/import-state.json
+          if git diff --cached --quiet; then
+            echo "No data change; nothing to commit"
+            exit 0
           fi
+          if git diff --cached --quiet -- data/imports/wikidata-cities.json; then
+            git commit -m "data: update settlement import checkpoint"
+          else
+            git commit -m "data: refresh Wikidata historical city records"
+          fi
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed; retrying"
+            sleep $((attempt * 10))
+          done
+          exit 1

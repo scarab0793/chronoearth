@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "note": "Durable import checkpoint. 'exhausted' means only that this query strategy returned an empty page; it does not mean every historical settlement of the class was found.",
+  "settlements": {
+    "activeCategory": "village",
+    "queue": [
+      "city",
+      "town",
+      "village"
+    ],
+    "categories": {
+      "city": {
+        "wikidataClass": "Q515",
+        "strategy": "offset-v1",
+        "status": "exhausted",
+        "nextPage": 140,
+        "lastSuccessAt": "2026-11-24T15:17:22Z"
+      },
+      "town": {
+        "wikidataClass": "Q3957",
+        "strategy": "offset-v1",
+        "status": "exhausted",
+        "nextPage": 167,
+        "lastSuccessAt": "2026-11-24T15:38:39Z"
+      },
+      "village": {
+        "wikidataClass": "Q532",
+        "strategy": "offset-v1",
+        "status": "in_progress",
+        "nextPage": 200,
+        "lastSuccessAt": "2026-11-25T17:02:05Z"
+      }
+    },
+    "consecutiveFailures": 0,
+    "lastRun": null
+  }
+}
