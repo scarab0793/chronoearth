@@ -25,6 +25,8 @@ jobs:
         run: node scripts/map-coverage-report.cjs
       - name: Test checkpointed settlement importer (offline)
         run: node tests/fetch-wikidata-cities.test.cjs
+      - name: Test shared import engine and battle importer (offline)
+        run: node tests/fetch-wikidata-battles.test.cjs
       - name: Smoke test Wikidata importer
         run: |
           node scripts/import-wikidata.cjs tests/fixtures/wikidata-sparql.json /tmp/chronoearth-wikidata-test.json

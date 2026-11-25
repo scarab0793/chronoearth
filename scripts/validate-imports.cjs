@@ -6,7 +6,8 @@ const definitions=[
  ['cities','data/imports/wikidata-cities.json','cities'],
  ['people','data/imports/wikidata-people.json','people'],
  ['events','data/imports/wikidata-events.json','events'],
- ['states','data/imports/wikidata-states.json','states']
+ ['states','data/imports/wikidata-states.json','states'],
+ ['battles','data/imports/wikidata-battles.json','battles']
 ];
 let errors=0;
 function check(ok,message){if(!ok){console.error('ERROR: '+message);errors++}}
@@ -34,6 +35,15 @@ for(const [kind,file,key] of definitions){
   }else if(kind==='events'){
    check(Number.isSafeInteger(p.year)&&p.year>=-10000&&p.year<=2026,prefix+': invalid event year');
    check(p.location===null,prefix+': unverified event location must remain null');
+  }else if(kind==='battles'){
+   check(p.kind==='battle'||p.kind==='siege',prefix+': kind must be battle or siege');
+   check(Number.isSafeInteger(p.y)&&p.y!==0&&p.y>=-10000&&p.y<=2026,prefix+': invalid year (historical numbering, no year 0)');
+   check(p.end===undefined||Number.isSafeInteger(p.end)&&p.end>p.y&&p.end<=2026,prefix+': invalid end year');
+   check(['day','month','year','decade','century','millennium'].includes(p.datePrecision),prefix+': invalid date precision');
+   check(p.month===undefined||Number.isInteger(p.month)&&p.month>=1&&p.month<=12,prefix+': invalid month');
+   check(p.day===undefined||Number.isInteger(p.day)&&p.day>=1&&p.day<=31&&p.month!==undefined,prefix+': invalid day');
+   check(Number.isFinite(p.lat)&&Math.abs(p.lat)<=90&&Number.isFinite(p.lng)&&Math.abs(p.lng)<=180,prefix+': invalid coordinates');
+   check(p.precision==='exact'||p.precision==='location-derived'&&/^Q[1-9]\d*$/.test(p.locationId||''),prefix+': location-derived records need locationId');
   }else{
    check(Number.isSafeInteger(p.from)&&p.from<=2026,prefix+': invalid foundation year');
    check(p.to===null||Number.isSafeInteger(p.to)&&p.to>=p.from,prefix+': invalid dissolution year');
