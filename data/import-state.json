@@ -130,5 +130,50 @@
     },
     "consecutiveFailures": 0,
     "lastRun": null
+  },
+  "castles": {
+    "activeCategory": "castle",
+    "queue": [
+      "castle",
+      "fort",
+      "fortification",
+      "hillfort"
+    ],
+    "categories": {
+      "castle": {
+        "wikidataClass": "Q23413",
+        "description": "Castles (direct P31) with coordinates and inception (P571)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "fort": {
+        "wikidataClass": "Q1785071",
+        "description": "Forts (direct P31) with coordinates and inception (P571)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "fortification": {
+        "wikidataClass": "Q57821",
+        "description": "Fortifications (direct P31) with coordinates and inception (P571)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "hillfort": {
+        "wikidataClass": "Q744099",
+        "description": "Hillforts (direct P31) with coordinates and inception (P571)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      }
+    },
+    "consecutiveFailures": 0,
+    "lastRun": null
   }
 }

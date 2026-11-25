@@ -2,7 +2,7 @@
 'use strict';
 // Reproducible coverage snapshot from committed import data; no invented records.
 const fs=require('node:fs');
-const kinds=['cities','people','events','states','battles','ancient-settlements'];
+const kinds=['cities','people','events','states','battles','ancient-settlements','castles'];
 const KEYS={'ancient-settlements':'settlements'};
 const report={schemaVersion:1,generatedAt:new Date().toISOString(),total:0,byCategory:{},centuries:{},warnings:[]};
 for(const kind of kinds){
@@ -10,7 +10,7 @@ for(const kind of kinds){
  if(!fs.existsSync(file)){report.warnings.push(file+' missing');continue}
  const rows=JSON.parse(fs.readFileSync(file,'utf8'))[KEYS[kind]||kind];
  if(!Array.isArray(rows))throw Error(file+' invalid records');
- const years=rows.map(r=>kind==='people'?r.birthYear:kind==='events'?r.year:kind==='battles'?r.y:r.from).filter(Number.isSafeInteger);
+ const years=rows.map(r=>kind==='people'?r.birthYear:kind==='events'?r.year:kind==='battles'||kind==='castles'?r.y:r.from).filter(Number.isSafeInteger);
  const unreviewed=rows.filter(r=>r.reviewStatus==='unreviewed').length;
  const withSource=rows.filter(r=>r.source==='https://www.wikidata.org/wiki/'+r.wikidataId).length;
  report.byCategory[kind]={count:rows.length,unreviewed,withSource,earliestYear:years.length?Math.min(...years):null,latestYear:years.length?Math.max(...years):null};
