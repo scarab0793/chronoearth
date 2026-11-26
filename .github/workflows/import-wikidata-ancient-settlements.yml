@@ -6,13 +6,15 @@ on:
       max_pages:
         description: 'Pages of 50 sites to fetch in this run (1-200)'
         required: false
-        default: '60'
+        default: '150'
   schedule:
     # Twice a day; roughly 300 pages over five categories, so the first pass takes
     # a few days, then an exhausted queue makes later runs no-ops.
     - cron: '5 1,13 * * *'
 permissions:
   contents: write
+  # Needed to start the next run of this workflow (see the last step).
+  actions: write
 concurrency:
   # Shared with the other imports: all write data/import-state.json.
   group: chronoearth-wikidata-checkpoint
@@ -30,7 +32,7 @@ jobs:
           node-version: '22'
       - name: Fetch ancient and abandoned settlements from Wikidata (checkpointed)
         env:
-          WIKIDATA_MAX_PAGES: ${{ inputs.max_pages || '60' }}
+          WIKIDATA_MAX_PAGES: ${{ inputs.max_pages || '150' }}
           WIKIDATA_TIME_BUDGET_MS: '1200000'
         run: node scripts/fetch-wikidata-ancient-settlements.cjs
       - name: Validate imported data and checkpoint
@@ -41,6 +43,7 @@ jobs:
           node scripts/validate-data.cjs
           node scripts/validate-imports.cjs
       - name: Commit dataset and checkpoint
+        id: commit
         if: always() && steps.validate.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
@@ -62,3 +65,23 @@ jobs:
             sleep $((attempt * 10))
           done
           exit 1
+      - name: Start the next run while work remains
+        # GitHub often delays or skips scheduled runs. After a run that made progress
+        # without errors, the import starts its own next run, at most 8 a day; the
+        # schedule above stays as a safety net. Failures wait for the schedule.
+        if: steps.commit.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(node scripts/should-continue-import.cjs ancientSettlements)" != "yes" ]; then
+            echo "Nothing left to chain (finished queue or a failed run)"
+            exit 0
+          fi
+          today=$(date -u +%Y-%m-%d)
+          runs=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow import-wikidata-ancient-settlements.yml --event workflow_dispatch --created ">=$today" --limit 50 --json databaseId --jq length)
+          if [ "$runs" -ge 8 ]; then
+            echo "Daily limit of 8 chained runs reached; waiting for the schedule"
+            exit 0
+          fi
+          gh workflow run import-wikidata-ancient-settlements.yml --repo "$GITHUB_REPOSITORY" --ref main
+          echo "Started the next run ($((runs + 1)) today)"

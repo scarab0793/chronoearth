@@ -1,27 +1,23 @@
 name: Import Wikidata historical cities
-# Resumes automatically from data/import-state.json; no code edits are needed between runs.
+# Resumes automatically from the "datedSettlements" section of data/import-state.json;
+# no code edits are needed between runs. The older offset scan (scripts/fetch-wikidata-cities.cjs,
+# section "settlements") is no longer scheduled.
 on:
   workflow_dispatch:
     inputs:
-      category:
-        description: 'Category from data/import-state.json (empty = active category)'
-        required: false
-        default: ''
-      start_page:
-        description: '0-based start page override (empty = checkpoint). Never moves the checkpoint backwards.'
-        required: false
-        default: ''
       max_pages:
-        description: 'Pages to fetch in this run (1-100)'
+        description: 'Pages of 50 settlements to fetch in this run (1-200)'
         required: false
-        default: '40'
+        default: '150'
   schedule:
-    # Four runs a day, ~160 Wikidata queries in total.
+    # Four runs a day as a safety net; runs also chain themselves (last step).
     - cron: '20 */6 * * *'
 permissions:
   contents: write
+  # Needed to start the next run of this workflow (see the last step).
+  actions: write
 concurrency:
-  # Shared with the battle import: both write data/import-state.json.
+  # Shared with the other imports: all write data/import-state.json.
   group: chronoearth-wikidata-checkpoint
   cancel-in-progress: false
 jobs:
@@ -36,24 +32,23 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Fetch historical settlements from Wikidata (checkpointed)
+      - name: Fetch dated settlements from Wikidata (checkpointed)
         id: fetch
         env:
-          WIKIDATA_CATEGORY: ${{ inputs.category }}
-          WIKIDATA_START_PAGE: ${{ inputs.start_page }}
-          WIKIDATA_MAX_PAGES: ${{ inputs.max_pages || '40' }}
+          WIKIDATA_MAX_PAGES: ${{ inputs.max_pages || '150' }}
           WIKIDATA_TIME_BUDGET_MS: '1200000'
-        run: node scripts/fetch-wikidata-cities.cjs
+        run: node scripts/fetch-wikidata-dated-settlements.cjs
       - name: Validate imported data and checkpoint
         id: validate
         # Runs even when the fetch step failed, so partial progress can still be saved.
         if: always()
         run: |
           node -e "const j=require('./data/imports/wikidata-cities.json');if(!Array.isArray(j.cities)||!j.cities.length)process.exit(1)"
-          node -e "const s=require('./data/import-state.json').settlements;if(!s||!s.categories[s.activeCategory])process.exit(1)"
+          node -e "const s=require('./data/import-state.json').datedSettlements;if(!s||!s.categories[s.activeCategory])process.exit(1)"
           node scripts/validate-data.cjs
           node scripts/validate-imports.cjs
       - name: Commit dataset and checkpoint
+        id: commit
         if: always() && steps.validate.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
@@ -74,3 +69,23 @@ jobs:
             sleep $((attempt * 10))
           done
           exit 1
+      - name: Start the next run while work remains
+        # GitHub often delays or skips scheduled runs. After a run that made progress
+        # without errors, the import starts its own next run, at most 8 a day; the
+        # schedule above stays as a safety net. Failures wait for the schedule.
+        if: steps.commit.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(node scripts/should-continue-import.cjs datedSettlements)" != "yes" ]; then
+            echo "Nothing left to chain (finished queue or a failed run)"
+            exit 0
+          fi
+          today=$(date -u +%Y-%m-%d)
+          runs=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow import-wikidata.yml --event workflow_dispatch --created ">=$today" --limit 50 --json databaseId --jq length)
+          if [ "$runs" -ge 8 ]; then
+            echo "Daily limit of 8 chained runs reached; waiting for the schedule"
+            exit 0
+          fi
+          gh workflow run import-wikidata.yml --repo "$GITHUB_REPOSITORY" --ref main
+          echo "Started the next run ($((runs + 1)) today)"

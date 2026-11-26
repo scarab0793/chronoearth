@@ -322,7 +322,8 @@
       ],
       "pagesFetched": 40,
       "newRecords": 0
-    }
+    },
+    "note": "Offset-based scan, superseded on 2026-11-26 by the datedSettlements keyset import (only dated items with coordinates). Kept as a record of the scanned range."
   },
   "battles": {
     "activeCategory": "battle",
@@ -1882,6 +1883,24 @@
       "sovereign_state": {
         "wikidataClass": "Q3624078",
         "description": "Sovereign states (direct P31) with inception or start time",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      }
+    },
+    "consecutiveFailures": 0,
+    "lastRun": null
+  },
+  "datedSettlements": {
+    "activeCategory": "village",
+    "queue": [
+      "village"
+    ],
+    "categories": {
+      "village": {
+        "wikidataClass": "Q532",
+        "description": "Villages (direct P31) with coordinates and inception (P571); replaces the offset scan in the settlements section",
         "strategy": "keyset-v1",
         "status": "pending",
         "cursor": "",

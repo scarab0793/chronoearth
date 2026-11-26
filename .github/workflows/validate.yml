@@ -35,6 +35,8 @@ jobs:
         run: node tests/fetch-wikidata-castles.test.cjs
       - name: Test class-based historical state importer (offline)
         run: node tests/fetch-wikidata-historical-states.test.cjs
+      - name: Test keyset settlement importer and run chaining (offline)
+        run: node tests/fetch-wikidata-dated-settlements.test.cjs
       - name: Smoke test Wikidata importer
         run: |
           node scripts/import-wikidata.cjs tests/fixtures/wikidata-sparql.json /tmp/chronoearth-wikidata-test.json
