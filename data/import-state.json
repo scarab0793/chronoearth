@@ -790,13 +790,74 @@
         "wikidataClass": "Q5119",
         "description": "States (direct P31 in the importer STATE_CLASSES list) with capital statements (P36)",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q983",
+        "pagesDone": 6,
+        "lastSuccessAt": "2026-11-26T14:19:01.617Z",
+        "exhaustedAt": "2026-11-26T14:19:10.303Z"
       }
     },
     "consecutiveFailures": 0,
-    "lastRun": null
+    "lastRun": {
+      "startedAt": "2026-11-26T14:18:35.465Z",
+      "finishedAt": "2026-11-26T14:19:10.310Z",
+      "outcome": "exhausted",
+      "stopReason": "All categories exhausted",
+      "error": null,
+      "pages": [
+        {
+          "category": "capital",
+          "cursor": "http://www.wikidata.org/entity/Q146862",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "capital",
+          "cursor": "http://www.wikidata.org/entity/Q200464",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "capital",
+          "cursor": "http://www.wikidata.org/entity/Q30253177",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "capital",
+          "cursor": "http://www.wikidata.org/entity/Q56695793",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "capital",
+          "cursor": "http://www.wikidata.org/entity/Q8733",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "capital",
+          "cursor": "http://www.wikidata.org/entity/Q983",
+          "items": 11,
+          "newRecords": 11,
+          "result": "new_records"
+        },
+        {
+          "category": "capital",
+          "cursor": "http://www.wikidata.org/entity/Q983",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        }
+      ],
+      "pagesFetched": 6,
+      "newRecords": 250
+    }
   },
   "ancientSettlements": {
     "activeCategory": "archaeological_site",
