@@ -1304,9 +1304,10 @@
         "wikidataClass": "Q23413",
         "description": "Castles (direct P31) with coordinates and inception (P571)",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "in_progress",
+        "cursor": "http://www.wikidata.org/entity/Q4923314",
+        "pagesDone": 60,
+        "lastSuccessAt": "2026-11-26T13:20:35.380Z"
       },
       "fort": {
         "wikidataClass": "Q1785071",
@@ -1334,6 +1335,436 @@
       }
     },
     "consecutiveFailures": 0,
-    "lastRun": null
+    "lastRun": {
+      "startedAt": "2026-11-26T13:07:21.821Z",
+      "finishedAt": "2026-11-26T13:20:35.440Z",
+      "outcome": "complete",
+      "stopReason": null,
+      "error": null,
+      "pages": [
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1011119",
+          "items": 49,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1011527",
+          "items": 49,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1012040",
+          "items": 47,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1012479",
+          "items": 46,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1012930",
+          "items": 48,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1013243",
+          "items": 47,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1013577",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1013891",
+          "items": 48,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1014232",
+          "items": 47,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1014568",
+          "items": 46,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1015689",
+          "items": 48,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1048842",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q106073136",
+          "items": 49,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q106077945",
+          "items": 49,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q106205538",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q108761821",
+          "items": 48,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q11124333",
+          "items": 48,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q11243252",
+          "items": 50,
+          "newRecords": 32,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q11354311",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q116565455",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q11900869",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q12020942",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q12047651",
+          "items": 49,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1238871",
+          "items": 49,
+          "newRecords": 43,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q12878525",
+          "items": 48,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q13433945",
+          "items": 49,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1408453",
+          "items": 50,
+          "newRecords": 40,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1496740",
+          "items": 48,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q15353952",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q15940225",
+          "items": 49,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q16268259",
+          "items": 49,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q16653091",
+          "items": 48,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1757862",
+          "items": 49,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q1761393",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q18003869",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q18820",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q19609290",
+          "items": 49,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q20058171",
+          "items": 48,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q20875459",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q21534400",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q22035524",
+          "items": 49,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q2272243",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q24074734",
+          "items": 49,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q2520943",
+          "items": 46,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q265890",
+          "items": 49,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q281623",
+          "items": 48,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q2968378",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q2969461",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q2970853",
+          "items": 49,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q30041254",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q3077976",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q3402621",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q3662360",
+          "items": 49,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q3662533",
+          "items": 47,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q3662821",
+          "items": 48,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q368261",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q3995255",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q43124016",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q4699438",
+          "items": 48,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "castle",
+          "cursor": "http://www.wikidata.org/entity/Q4923314",
+          "items": 48,
+          "newRecords": 41,
+          "result": "new_records"
+        }
+      ],
+      "pagesFetched": 60,
+      "newRecords": 2823
+    }
   }
 }
