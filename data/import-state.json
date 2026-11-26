@@ -27,301 +27,301 @@
         "wikidataClass": "Q532",
         "strategy": "offset-v1",
         "status": "in_progress",
-        "nextPage": 300,
-        "lastSuccessAt": "2026-11-26T01:51:53.298Z"
+        "nextPage": 340,
+        "lastSuccessAt": "2026-11-26T17:03:17.363Z"
       }
     },
     "consecutiveFailures": 0,
     "lastRun": {
-      "startedAt": "2026-11-26T01:48:29.172Z",
-      "finishedAt": "2026-11-26T01:51:53.360Z",
+      "startedAt": "2026-11-26T16:59:30.561Z",
+      "finishedAt": "2026-11-26T17:03:17.408Z",
       "outcome": "complete",
       "stopReason": null,
       "error": null,
       "pages": [
         {
           "category": "village",
-          "page": 260,
-          "rows": 101,
-          "newRecords": 1,
-          "result": "new_records"
-        },
-        {
-          "category": "village",
-          "page": 261,
-          "rows": 101,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 262,
+          "page": 300,
           "rows": 100,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 263,
-          "rows": 105,
-          "newRecords": 1,
-          "result": "new_records"
-        },
-        {
-          "category": "village",
-          "page": 264,
-          "rows": 100,
-          "newRecords": 9,
-          "result": "new_records"
-        },
-        {
-          "category": "village",
-          "page": 265,
-          "rows": 116,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 266,
-          "rows": 139,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 267,
-          "rows": 118,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 268,
-          "rows": 139,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 269,
+          "page": 301,
           "rows": 100,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 270,
-          "rows": 102,
+          "page": 302,
+          "rows": 100,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 271,
-          "rows": 105,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 272,
-          "rows": 147,
-          "newRecords": 1,
-          "result": "new_records"
-        },
-        {
-          "category": "village",
-          "page": 273,
+          "page": 303,
           "rows": 101,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 274,
-          "rows": 130,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 275,
+          "page": 304,
           "rows": 100,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 276,
-          "rows": 136,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 277,
-          "rows": 149,
-          "newRecords": 1,
-          "result": "new_records"
-        },
-        {
-          "category": "village",
-          "page": 278,
-          "rows": 147,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 279,
-          "rows": 185,
-          "newRecords": 1,
-          "result": "new_records"
-        },
-        {
-          "category": "village",
-          "page": 280,
-          "rows": 117,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 281,
+          "page": 305,
           "rows": 100,
-          "newRecords": 3,
-          "result": "new_records"
+          "newRecords": 0,
+          "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 282,
+          "page": 306,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 307,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 308,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 309,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 310,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 311,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 312,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 313,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 314,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 315,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 316,
           "rows": 101,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 283,
+          "page": 317,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 318,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 319,
           "rows": 101,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 284,
+          "page": 320,
           "rows": 100,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 285,
-          "rows": 102,
+          "page": 321,
+          "rows": 100,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 286,
+          "page": 322,
           "rows": 101,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 287,
+          "page": 323,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 324,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 325,
           "rows": 101,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 288,
-          "rows": 100,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 289,
-          "rows": 100,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 290,
+          "page": 326,
           "rows": 101,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 291,
+          "page": 327,
           "rows": 100,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 292,
+          "page": 328,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 329,
           "rows": 101,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 293,
-          "rows": 100,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 294,
-          "rows": 100,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "village",
-          "page": 295,
+          "page": 330,
           "rows": 101,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 296,
-          "rows": 100,
-          "newRecords": 1,
-          "result": "new_records"
-        },
-        {
-          "category": "village",
-          "page": 297,
+          "page": 331,
           "rows": 100,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 298,
+          "page": 332,
           "rows": 100,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "page": 299,
+          "page": 333,
           "rows": 101,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 334,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 335,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 336,
+          "rows": 101,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 337,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 338,
+          "rows": 100,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "village",
+          "page": 339,
+          "rows": 100,
           "newRecords": 0,
           "result": "no_new_records"
         }
       ],
       "pagesFetched": 40,
-      "newRecords": 18
+      "newRecords": 0
     }
   },
   "battles": {

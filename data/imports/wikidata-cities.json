@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "source": "Wikidata SPARQL",
   "reviewStatus": "unreviewed",
-  "importedAt": "2026-11-26T01:51:53.337Z",
+  "importedAt": "2026-11-26T17:03:17.388Z",
   "pagesFetched": 40,
-  "startPage": 260,
-  "nextPage": 300,
+  "startPage": 300,
+  "nextPage": 340,
   "settlementClass": "Q532",
   "cities": [
     {
