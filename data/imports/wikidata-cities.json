@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "source": "Wikidata SPARQL",
   "reviewStatus": "unreviewed",
-  "importedAt": "2026-11-25T18:56:28.248Z",
-  "pagesFetched": 60,
-  "startPage": 200,
-  "nextPage": 260,
+  "importedAt": "2026-11-26T01:51:53.337Z",
+  "pagesFetched": 40,
+  "startPage": 260,
+  "nextPage": 300,
   "settlementClass": "Q532",
   "cities": [
     {
@@ -7000,6 +7000,19 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q126269",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Nizhnyaya Pyosha",
+      "lat": 66.751963888,
+      "lng": 47.755886111,
+      "from": 1831,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q126362",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q126362",
       "reviewStatus": "unreviewed"
     },
     {
@@ -40504,6 +40517,32 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Răcăteșu",
+      "lat": 47.382332,
+      "lng": 24.196417,
+      "from": 1956,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1245619",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1245619",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Sârbi",
+      "lat": 45.92638889,
+      "lng": 27.325,
+      "from": 1437,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1249323",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1249323",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Gojra",
       "lat": 31.15,
       "lng": 72.683333333,
@@ -40543,6 +40582,71 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Runc",
+      "lat": 46.890453055,
+      "lng": 25.442448055,
+      "from": 1956,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1251784",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1251784",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Rusești",
+      "lat": 46.317635,
+      "lng": 22.772184,
+      "from": 1954,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1251818",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1251818",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Rațiu",
+      "lat": 47.439884,
+      "lng": 22.609065,
+      "from": 1954,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1252149",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1252149",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Ranta",
+      "lat": 46.484924,
+      "lng": 24.131495,
+      "from": 1954,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1252602",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1252602",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Recea",
+      "lat": 46.900785,
+      "lng": 25.728719,
+      "from": 1956,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1252728",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1252728",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Mandi Bahauddin",
       "lat": 32.586111111,
       "lng": 73.491666666,
@@ -40556,6 +40660,45 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Poiana",
+      "lat": 47.296522,
+      "lng": 22.352157,
+      "from": 1954,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1253070",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1253070",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Nima Râciului",
+      "lat": 46.703652,
+      "lng": 24.443567,
+      "from": 1913,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1253859",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1253859",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Răcaș",
+      "lat": 46.874004,
+      "lng": 22.331084,
+      "from": 1954,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1253888",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1253888",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Thaba 'Nchu",
       "lat": -29.2,
       "lng": 26.833333333,
@@ -40566,6 +40709,45 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q1256430",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Volochayevka-1",
+      "lat": 48.563888888,
+      "lng": 134.483333333,
+      "from": 1908,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1258828",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1258828",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Eyik",
+      "lat": 66.035,
+      "lng": 117.394166666,
+      "from": 1934,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1260353",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1260353",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Merimde culture",
+      "lat": 30.320833333,
+      "lng": 30.848888888,
+      "from": -4800,
+      "to": -4300,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q1262502",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q1262502",
       "reviewStatus": "unreviewed"
     },
     {
@@ -111744,6 +111926,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Dolgy Most",
+      "lat": 56.747622,
+      "lng": 96.804832,
+      "from": 1902,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q12653135",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q12653135",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Grimstad",
       "lat": 58.3405,
       "lng": 8.5934,
@@ -114175,6 +114370,19 @@
       "reviewStatus": "unreviewed"
     },
     {
+      "name": "Aragba Orogun",
+      "lat": 5.6502,
+      "lng": 5.9603,
+      "from": 2000,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q125207966",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q125207966",
+      "reviewStatus": "unreviewed"
+    },
+    {
       "name": "Q125450392",
       "lat": 39.90362,
       "lng": 116.646333,
@@ -114198,6 +114406,32 @@
       "precision": "approximate",
       "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
       "wikidataId": "Q125698430",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Santa Rosa de Saccllani",
+      "lat": -13.986666666,
+      "lng": -73.921666666,
+      "from": 19,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q126107691",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q126107691",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "name": "Tomayrica",
+      "lat": -9.9363,
+      "lng": -75.906,
+      "from": 1998,
+      "to": 2026,
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q126366039",
+      "precision": "approximate",
+      "note": "Automatically imported settlement; dates and coordinates are unverified and may refer to a modern site.",
+      "wikidataId": "Q126366039",
       "reviewStatus": "unreviewed"
     },
     {
