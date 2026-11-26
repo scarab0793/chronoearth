@@ -1903,736 +1903,1072 @@
         "description": "Villages (direct P31) with coordinates and inception (P571); replaces the offset scan in the settlements section",
         "strategy": "keyset-v1",
         "status": "in_progress",
-        "cursor": "http://www.wikidata.org/entity/Q12167177",
-        "pagesDone": 102,
-        "lastSuccessAt": "2026-11-26T20:22:38.147Z"
+        "cursor": "http://www.wikidata.org/entity/Q6455505",
+        "pagesDone": 252,
+        "lastSuccessAt": "2026-11-26T20:41:07.144Z"
       }
     },
     "consecutiveFailures": 0,
     "lastRun": {
-      "startedAt": "2026-11-26T20:02:31.603Z",
-      "finishedAt": "2026-11-26T20:22:39.716Z",
-      "outcome": "partial",
-      "stopReason": "time_budget",
+      "startedAt": "2026-11-26T20:22:54.279Z",
+      "finishedAt": "2026-11-26T20:41:07.275Z",
+      "outcome": "complete",
+      "stopReason": null,
       "error": null,
       "pages": [
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1011624",
+          "cursor": "http://www.wikidata.org/entity/Q12167995",
           "items": 50,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1025145",
+          "cursor": "http://www.wikidata.org/entity/Q12169152",
           "items": 50,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1036184",
+          "cursor": "http://www.wikidata.org/entity/Q12170254",
           "items": 50,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1055981",
+          "cursor": "http://www.wikidata.org/entity/Q12170812",
           "items": 50,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1066259",
+          "cursor": "http://www.wikidata.org/entity/Q12171992",
           "items": 50,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q107343921",
+          "cursor": "http://www.wikidata.org/entity/Q12173412",
           "items": 50,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1077876",
+          "cursor": "http://www.wikidata.org/entity/Q1243511",
           "items": 50,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1084767",
+          "cursor": "http://www.wikidata.org/entity/Q12724956",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 31,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1088279",
+          "cursor": "http://www.wikidata.org/entity/Q127691390",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1092596",
+          "cursor": "http://www.wikidata.org/entity/Q131830505",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 48,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1094538",
+          "cursor": "http://www.wikidata.org/entity/Q13570094",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1105249",
+          "cursor": "http://www.wikidata.org/entity/Q13640267",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q111745071",
+          "cursor": "http://www.wikidata.org/entity/Q13651161",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q113129868",
+          "cursor": "http://www.wikidata.org/entity/Q13667528",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1176493",
+          "cursor": "http://www.wikidata.org/entity/Q140478",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1188619",
+          "cursor": "http://www.wikidata.org/entity/Q14227651",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q1191338",
+          "cursor": "http://www.wikidata.org/entity/Q14813623",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12073217",
+          "cursor": "http://www.wikidata.org/entity/Q15241591",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12074138",
+          "cursor": "http://www.wikidata.org/entity/Q15242057",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12077071",
+          "cursor": "http://www.wikidata.org/entity/Q15267428",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12078937",
+          "cursor": "http://www.wikidata.org/entity/Q1528219",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12080689",
+          "cursor": "http://www.wikidata.org/entity/Q15651139",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12081492",
+          "cursor": "http://www.wikidata.org/entity/Q15918941",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12081826",
+          "cursor": "http://www.wikidata.org/entity/Q16015105",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12082437",
+          "cursor": "http://www.wikidata.org/entity/Q16016952",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12082904",
+          "cursor": "http://www.wikidata.org/entity/Q16207439",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12083729",
+          "cursor": "http://www.wikidata.org/entity/Q16658204",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12084458",
+          "cursor": "http://www.wikidata.org/entity/Q1706759",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12084794",
+          "cursor": "http://www.wikidata.org/entity/Q1799536",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12085236",
+          "cursor": "http://www.wikidata.org/entity/Q18406621",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12085766",
+          "cursor": "http://www.wikidata.org/entity/Q18766219",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12087020",
+          "cursor": "http://www.wikidata.org/entity/Q18780204",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12087456",
+          "cursor": "http://www.wikidata.org/entity/Q18798589",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12087581",
+          "cursor": "http://www.wikidata.org/entity/Q1896955",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 39,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12088054",
+          "cursor": "http://www.wikidata.org/entity/Q19639165",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 34,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12089288",
+          "cursor": "http://www.wikidata.org/entity/Q19813834",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 31,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12089917",
+          "cursor": "http://www.wikidata.org/entity/Q1994321",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 35,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12093445",
+          "cursor": "http://www.wikidata.org/entity/Q2045879",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 45,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12094554",
+          "cursor": "http://www.wikidata.org/entity/Q2100084",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 47,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12096103",
+          "cursor": "http://www.wikidata.org/entity/Q2127277",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 40,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12097547",
+          "cursor": "http://www.wikidata.org/entity/Q21641207",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 37,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12098385",
+          "cursor": "http://www.wikidata.org/entity/Q221069",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 36,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12098993",
+          "cursor": "http://www.wikidata.org/entity/Q225868",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12100117",
+          "cursor": "http://www.wikidata.org/entity/Q2291888",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12101464",
+          "cursor": "http://www.wikidata.org/entity/Q2301008",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12102276",
+          "cursor": "http://www.wikidata.org/entity/Q2371320",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12102785",
+          "cursor": "http://www.wikidata.org/entity/Q2410884",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 43,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12103081",
+          "cursor": "http://www.wikidata.org/entity/Q24485023",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 46,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12104947",
+          "cursor": "http://www.wikidata.org/entity/Q24684121",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12107398",
+          "cursor": "http://www.wikidata.org/entity/Q24728344",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 43,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12109500",
+          "cursor": "http://www.wikidata.org/entity/Q24728729",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 33,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12109742",
+          "cursor": "http://www.wikidata.org/entity/Q24729039",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 41,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12109999",
+          "cursor": "http://www.wikidata.org/entity/Q2484442",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12111528",
+          "cursor": "http://www.wikidata.org/entity/Q2534279",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12112682",
+          "cursor": "http://www.wikidata.org/entity/Q2539215",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12113318",
+          "cursor": "http://www.wikidata.org/entity/Q254703",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12113980",
+          "cursor": "http://www.wikidata.org/entity/Q2549789",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12115197",
+          "cursor": "http://www.wikidata.org/entity/Q25506239",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 31,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12116047",
+          "cursor": "http://www.wikidata.org/entity/Q25509281",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 32,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12117007",
+          "cursor": "http://www.wikidata.org/entity/Q25726200",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 38,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12117886",
+          "cursor": "http://www.wikidata.org/entity/Q25730230",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 13,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12118902",
+          "cursor": "http://www.wikidata.org/entity/Q25734528",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 10,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12120141",
+          "cursor": "http://www.wikidata.org/entity/Q2602387",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 32,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12121686",
+          "cursor": "http://www.wikidata.org/entity/Q2606046",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12122663",
+          "cursor": "http://www.wikidata.org/entity/Q2608618",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12123181",
+          "cursor": "http://www.wikidata.org/entity/Q2650568",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12124082",
+          "cursor": "http://www.wikidata.org/entity/Q27157125",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12130032",
+          "cursor": "http://www.wikidata.org/entity/Q2717149",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12131279",
+          "cursor": "http://www.wikidata.org/entity/Q2718391",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12131787",
+          "cursor": "http://www.wikidata.org/entity/Q27194615",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12133552",
+          "cursor": "http://www.wikidata.org/entity/Q2720630",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12134902",
+          "cursor": "http://www.wikidata.org/entity/Q2721565",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12136012",
+          "cursor": "http://www.wikidata.org/entity/Q27469086",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 35,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12137081",
+          "cursor": "http://www.wikidata.org/entity/Q2780030",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 35,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12139316",
+          "cursor": "http://www.wikidata.org/entity/Q2841635",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12140111",
+          "cursor": "http://www.wikidata.org/entity/Q28513041",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 39,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12140682",
+          "cursor": "http://www.wikidata.org/entity/Q28514191",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 44,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12141100",
+          "cursor": "http://www.wikidata.org/entity/Q28529164",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 29,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12142321",
+          "cursor": "http://www.wikidata.org/entity/Q2908710",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 43,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12143092",
+          "cursor": "http://www.wikidata.org/entity/Q2943821",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12143834",
+          "cursor": "http://www.wikidata.org/entity/Q3046504",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12145595",
+          "cursor": "http://www.wikidata.org/entity/Q3205854",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 48,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12146913",
+          "cursor": "http://www.wikidata.org/entity/Q3294218",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12147390",
+          "cursor": "http://www.wikidata.org/entity/Q341968",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12148013",
+          "cursor": "http://www.wikidata.org/entity/Q3464385",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12148986",
+          "cursor": "http://www.wikidata.org/entity/Q3594593",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12150290",
+          "cursor": "http://www.wikidata.org/entity/Q3692492",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12151655",
+          "cursor": "http://www.wikidata.org/entity/Q3742242",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12152455",
+          "cursor": "http://www.wikidata.org/entity/Q383099",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12153492",
+          "cursor": "http://www.wikidata.org/entity/Q3888465",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12154625",
+          "cursor": "http://www.wikidata.org/entity/Q3890091",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12157920",
+          "cursor": "http://www.wikidata.org/entity/Q3892335",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12158436",
+          "cursor": "http://www.wikidata.org/entity/Q3894343",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12159437",
+          "cursor": "http://www.wikidata.org/entity/Q40038",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12160518",
+          "cursor": "http://www.wikidata.org/entity/Q4061543",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12161917",
+          "cursor": "http://www.wikidata.org/entity/Q4070388",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12162837",
+          "cursor": "http://www.wikidata.org/entity/Q4078100",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12164454",
+          "cursor": "http://www.wikidata.org/entity/Q4085433",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 47,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12164835",
+          "cursor": "http://www.wikidata.org/entity/Q4091910",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12165729",
+          "cursor": "http://www.wikidata.org/entity/Q4098740",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 50,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12166286",
+          "cursor": "http://www.wikidata.org/entity/Q4107958",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 45,
+          "result": "new_records"
         },
         {
           "category": "village",
-          "cursor": "http://www.wikidata.org/entity/Q12167177",
+          "cursor": "http://www.wikidata.org/entity/Q4112859",
           "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4126701",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4142498",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4159188",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4170699",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4182005",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4194504",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4208370",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4217549",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4225270",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4236294",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4241777",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4253027",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4266923",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4278606",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4292446",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4308409",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4319356",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4324190",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4326673",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4334417",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4349467",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4367846",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4381912",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4398840",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4410168",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4424989",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4439676",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4447106",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4456735",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4467550",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4478752",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4502555",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4519632",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4534399",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q48273",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q4968843",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q5065980",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q517234",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q531848",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q550716",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q564545",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q578327",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q589519",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q602578",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q612878",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q6271035",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q633314",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "village",
+          "cursor": "http://www.wikidata.org/entity/Q6455505",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
         }
       ],
-      "pagesFetched": 102,
-      "newRecords": 0
+      "pagesFetched": 150,
+      "newRecords": 6707
     }
   }
 }
