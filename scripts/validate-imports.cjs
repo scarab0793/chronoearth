@@ -69,7 +69,8 @@ for(const [kind,file,key] of definitions){
    check(Number.isFinite(p.lat)&&Math.abs(p.lat)<=90&&Number.isFinite(p.lng)&&Math.abs(p.lng)<=180,prefix+': invalid coordinates');
    check(p.precision==='exact'||p.precision==='location-derived'&&/^Q[1-9]\d*$/.test(p.locationId||''),prefix+': location-derived records need locationId');
   }else{
-   check(Number.isSafeInteger(p.from)&&p.from<=2026,prefix+': invalid foundation year');
+   check(Number.isSafeInteger(p.from)&&p.from<=2026&&p.from!==0,prefix+': invalid foundation year');
+   check(p.endStatus===undefined||p.endStatus==='recorded'&&p.to!==null||p.endStatus==='not-recorded'&&p.to===null,prefix+': endStatus does not match the end year');
    check(p.to===null||Number.isSafeInteger(p.to)&&p.to>=p.from,prefix+': invalid dissolution year');
    check(p.geometry===null&&p.borderStatus==='unmapped',prefix+': missing verified boundaries must remain unmapped');
   }

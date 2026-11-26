@@ -1827,5 +1827,68 @@
       "pagesFetched": 60,
       "newRecords": 2823
     }
+  },
+  "states": {
+    "activeCategory": "historical_country",
+    "queue": [
+      "historical_country",
+      "kingdom",
+      "realm",
+      "empire",
+      "city_state",
+      "sovereign_state"
+    ],
+    "categories": {
+      "historical_country": {
+        "wikidataClass": "Q3024240",
+        "description": "Historical countries (direct P31) with inception or start time",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "kingdom": {
+        "wikidataClass": "Q417175",
+        "description": "Kingdoms (direct P31) with inception or start time",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "realm": {
+        "wikidataClass": "Q1250464",
+        "description": "Realms (direct P31) with inception or start time",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "empire": {
+        "wikidataClass": "Q48349",
+        "description": "Empires (direct P31) with inception or start time",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "city_state": {
+        "wikidataClass": "Q133442",
+        "description": "City-states (direct P31) with inception or start time",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "sovereign_state": {
+        "wikidataClass": "Q3624078",
+        "description": "Sovereign states (direct P31) with inception or start time",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      }
+    },
+    "consecutiveFailures": 0,
+    "lastRun": null
   }
 }
