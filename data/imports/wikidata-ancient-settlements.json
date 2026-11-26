@@ -3,7 +3,7 @@
   "source": "Wikidata SPARQL + MediaWiki API",
   "reviewStatus": "unreviewed",
   "note": "Candidate ancient, former and abandoned settlements and archaeological sites. dateBasis \"own\" uses the site's recorded start and end; \"period\" uses the span of its recorded time periods (P2348) and is coarse. Years use historical numbering (negative = BCE, no year 0).",
-  "importedAt": "2026-11-26T22:25:07.591Z",
+  "importedAt": "2026-11-26T22:25:36.056Z",
   "settlements": [
     {
       "name": "odeon of Lyon",
@@ -3539,7 +3539,7 @@
     },
     {
       "name": "Bucknowle Farm",
-      "kind": "former-settlement",
+      "kind": "archaeological-site",
       "lat": 50.633177,
       "lng": -2.0664034,
       "from": -2600,
@@ -3557,7 +3557,7 @@
         "Q277399",
         "Q4096987"
       ],
-      "note": "Automatically imported from Wikidata (former settlement); not yet historically reviewed. Time span derived from the archaeological or historical period(s) recorded for the site, not from dates of the site itself."
+      "note": "Automatically imported from Wikidata (archaeological site); not yet historically reviewed. Time span derived from the archaeological or historical period(s) recorded for the site, not from dates of the site itself."
     },
     {
       "name": "Jarmo",
@@ -29314,6 +29314,66 @@
       "reviewStatus": "unreviewed",
       "periodIds": [
         "Q486761"
+      ],
+      "note": "Automatically imported from Wikidata (archaeological site); not yet historically reviewed. Time span derived from the archaeological or historical period(s) recorded for the site, not from dates of the site itself."
+    },
+    {
+      "name": "Velizhan sanctuary",
+      "kind": "archaeological-site",
+      "lat": 57.563453,
+      "lng": 65.760904,
+      "from": -7500,
+      "to": -5500,
+      "fromPrecision": "century",
+      "toPrecision": "century",
+      "dateBasis": "period",
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q98930303",
+      "precision": "approximate",
+      "wikidataId": "Q98930303",
+      "reviewStatus": "unreviewed",
+      "periodIds": [
+        "Q130253"
+      ],
+      "note": "Automatically imported from Wikidata (archaeological site); not yet historically reviewed. Time span derived from the archaeological or historical period(s) recorded for the site, not from dates of the site itself."
+    },
+    {
+      "name": "Can Solà del Racó",
+      "kind": "archaeological-site",
+      "lat": 41.611492097,
+      "lng": 2.032608512,
+      "from": 235,
+      "to": 476,
+      "fromPrecision": "year",
+      "toPrecision": "year",
+      "dateBasis": "period",
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q99014777",
+      "precision": "approximate",
+      "wikidataId": "Q99014777",
+      "reviewStatus": "unreviewed",
+      "periodIds": [
+        "Q2886278"
+      ],
+      "note": "Automatically imported from Wikidata (archaeological site); not yet historically reviewed. Time span derived from the archaeological or historical period(s) recorded for the site, not from dates of the site itself."
+    },
+    {
+      "name": "Tombes de Can Robert",
+      "kind": "archaeological-site",
+      "lat": 41.634533333,
+      "lng": 2.005763888,
+      "from": 476,
+      "to": 1500,
+      "fromPrecision": "year",
+      "toPrecision": "decade",
+      "dateBasis": "period",
+      "region": "",
+      "source": "https://www.wikidata.org/wiki/Q99014920",
+      "precision": "approximate",
+      "wikidataId": "Q99014920",
+      "reviewStatus": "unreviewed",
+      "periodIds": [
+        "Q12554"
       ],
       "note": "Automatically imported from Wikidata (archaeological site); not yet historically reviewed. Time span derived from the archaeological or historical period(s) recorded for the site, not from dates of the site itself."
     },
