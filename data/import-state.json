@@ -915,442 +915,1072 @@
         "description": "Archaeological site (direct P31) with coordinates and a start date or time period",
         "strategy": "keyset-v1",
         "status": "in_progress",
-        "cursor": "http://www.wikidata.org/entity/Q12905876",
-        "pagesDone": 23,
-        "lastSuccessAt": "2026-11-26T09:30:42.702Z"
+        "cursor": "http://www.wikidata.org/entity/Q98361988",
+        "pagesDone": 173,
+        "lastSuccessAt": "2026-11-26T22:25:07.566Z"
       }
     },
     "consecutiveFailures": 0,
     "lastRun": {
-      "startedAt": "2026-11-26T09:21:52.712Z",
-      "finishedAt": "2026-11-26T09:30:42.720Z",
-      "outcome": "exhausted",
+      "startedAt": "2026-11-26T22:14:32.430Z",
+      "finishedAt": "2026-11-26T22:25:07.602Z",
+      "outcome": "complete",
       "stopReason": null,
       "error": null,
       "pages": [
         {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q16548926",
-          "items": 46,
-          "newRecords": 41,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q16622363",
-          "items": 43,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q17622773",
-          "items": 44,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q18285687",
-          "items": 38,
-          "newRecords": 34,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q2088586",
-          "items": 42,
-          "newRecords": 33,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q25352142",
-          "items": 41,
-          "newRecords": 35,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q337381",
-          "items": 43,
-          "newRecords": 30,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q4135566",
-          "items": 40,
-          "newRecords": 28,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q48781686",
-          "items": 40,
-          "newRecords": 33,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q5684",
-          "items": 43,
-          "newRecords": 38,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q60791654",
-          "items": 40,
-          "newRecords": 35,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q6948303",
-          "items": 42,
-          "newRecords": 35,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q7861543",
-          "items": 38,
-          "newRecords": 30,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q999468",
-          "items": 28,
-          "newRecords": 14,
-          "result": "new_records"
-        },
-        {
-          "category": "ancient_city",
-          "cursor": "http://www.wikidata.org/entity/Q999468",
-          "items": 0,
-          "newRecords": 0,
-          "result": "exhausted"
-        },
-        {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q11815679",
-          "items": 48,
-          "newRecords": 10,
-          "result": "new_records"
-        },
-        {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q137302095",
-          "items": 50,
-          "newRecords": 15,
-          "result": "new_records"
-        },
-        {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q16677538",
-          "items": 49,
-          "newRecords": 13,
-          "result": "new_records"
-        },
-        {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q28504213",
-          "items": 50,
-          "newRecords": 13,
-          "result": "new_records"
-        },
-        {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q28505480",
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q12906711",
           "items": 50,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q28829756",
-          "items": 50,
-          "newRecords": 0,
-          "result": "no_new_records"
-        },
-        {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q29401628",
-          "items": 50,
-          "newRecords": 4,
-          "result": "new_records"
-        },
-        {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q3917357",
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q12907856",
           "items": 50,
           "newRecords": 3,
           "result": "new_records"
         },
         {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q4506968",
-          "items": 49,
-          "newRecords": 10,
-          "result": "new_records"
-        },
-        {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q928641",
-          "items": 50,
-          "newRecords": 22,
-          "result": "new_records"
-        },
-        {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q999861",
-          "items": 12,
-          "newRecords": 2,
-          "result": "new_records"
-        },
-        {
-          "category": "former_settlement",
-          "cursor": "http://www.wikidata.org/entity/Q999861",
-          "items": 0,
-          "newRecords": 0,
-          "result": "exhausted"
-        },
-        {
-          "category": "abandoned_village",
-          "cursor": "http://www.wikidata.org/entity/Q1422898",
-          "items": 49,
-          "newRecords": 12,
-          "result": "new_records"
-        },
-        {
-          "category": "abandoned_village",
-          "cursor": "http://www.wikidata.org/entity/Q603914",
-          "items": 50,
-          "newRecords": 14,
-          "result": "new_records"
-        },
-        {
-          "category": "abandoned_village",
-          "cursor": "http://www.wikidata.org/entity/Q992093",
-          "items": 19,
-          "newRecords": 11,
-          "result": "new_records"
-        },
-        {
-          "category": "abandoned_village",
-          "cursor": "http://www.wikidata.org/entity/Q992093",
-          "items": 0,
-          "newRecords": 0,
-          "result": "exhausted"
-        },
-        {
-          "category": "ghost_town",
-          "cursor": "http://www.wikidata.org/entity/Q23016560",
-          "items": 49,
-          "newRecords": 9,
-          "result": "new_records"
-        },
-        {
-          "category": "ghost_town",
-          "cursor": "http://www.wikidata.org/entity/Q4883878",
-          "items": 48,
-          "newRecords": 9,
-          "result": "new_records"
-        },
-        {
-          "category": "ghost_town",
-          "cursor": "http://www.wikidata.org/entity/Q5663342",
-          "items": 50,
-          "newRecords": 6,
-          "result": "new_records"
-        },
-        {
-          "category": "ghost_town",
-          "cursor": "http://www.wikidata.org/entity/Q7438734",
-          "items": 50,
-          "newRecords": 9,
-          "result": "new_records"
-        },
-        {
-          "category": "ghost_town",
-          "cursor": "http://www.wikidata.org/entity/Q962201",
-          "items": 33,
-          "newRecords": 4,
-          "result": "new_records"
-        },
-        {
-          "category": "ghost_town",
-          "cursor": "http://www.wikidata.org/entity/Q962201",
-          "items": 0,
-          "newRecords": 0,
-          "result": "exhausted"
-        },
-        {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q1012936",
-          "items": 42,
-          "newRecords": 5,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q1015704",
-          "items": 42,
+          "cursor": "http://www.wikidata.org/entity/Q12908364",
+          "items": 50,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q103945195",
-          "items": 49,
+          "cursor": "http://www.wikidata.org/entity/Q12909323",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q12909890",
+          "items": 50,
+          "newRecords": 2,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q12910229",
+          "items": 50,
+          "newRecords": 2,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q12910702",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q12911517",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q12911997",
+          "items": 50,
+          "newRecords": 2,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q130582881",
+          "items": 50,
           "newRecords": 6,
           "result": "new_records"
         },
         {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q105081326",
-          "items": 48,
-          "newRecords": 22,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q105975601",
-          "items": 48,
-          "newRecords": 40,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q106212572",
-          "items": 49,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q106417682",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q107272192",
-          "items": 50,
-          "newRecords": 30,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q109843713",
-          "items": 48,
-          "newRecords": 18,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q111918207",
-          "items": 50,
-          "newRecords": 28,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q11370708",
-          "items": 47,
-          "newRecords": 20,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q11551440",
-          "items": 48,
-          "newRecords": 19,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q117202900",
+          "cursor": "http://www.wikidata.org/entity/Q131787640",
           "items": 49,
           "newRecords": 13,
           "result": "new_records"
         },
         {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q11920666",
-          "items": 46,
-          "newRecords": 10,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q12203030",
-          "items": 47,
-          "newRecords": 18,
-          "result": "new_records"
-        },
-        {
-          "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q123470641",
+          "cursor": "http://www.wikidata.org/entity/Q133980610",
           "items": 48,
-          "newRecords": 14,
+          "newRecords": 21,
           "result": "new_records"
         },
         {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q124336628",
+          "cursor": "http://www.wikidata.org/entity/Q136312582",
           "items": 48,
-          "newRecords": 17,
+          "newRecords": 11,
           "result": "new_records"
         },
         {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q125148701",
+          "cursor": "http://www.wikidata.org/entity/Q136678419",
+          "items": 48,
+          "newRecords": 3,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q138005110",
+          "items": 48,
+          "newRecords": 12,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q139593589",
           "items": 50,
-          "newRecords": 16,
+          "newRecords": 40,
           "result": "new_records"
         },
         {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q126369522",
+          "cursor": "http://www.wikidata.org/entity/Q139593639",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q139593693",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q139593747",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q139593798",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q139593854",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q139593907",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q139593964",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q139594015",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q140175719",
+          "items": 50,
+          "newRecords": 43,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q140175794",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q140175862",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q140175931",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q140176030",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q140987505",
+          "items": 50,
+          "newRecords": 37,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q141509585",
+          "items": 50,
+          "newRecords": 32,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q141810188",
+          "items": 49,
+          "newRecords": 2,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q1478519",
+          "items": 48,
+          "newRecords": 11,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q1548813",
+          "items": 47,
+          "newRecords": 21,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q16242556",
+          "items": 46,
+          "newRecords": 13,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q16842866",
+          "items": 47,
+          "newRecords": 13,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q17390156",
+          "items": 45,
+          "newRecords": 15,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q17643298",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q17674926",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q1807968",
+          "items": 44,
+          "newRecords": 15,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q192418",
+          "items": 45,
+          "newRecords": 13,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20102486",
+          "items": 48,
+          "newRecords": 11,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20105129",
+          "items": 50,
+          "newRecords": 2,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20106103",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20108796",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20562436",
+          "items": 49,
+          "newRecords": 12,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20564331",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20565207",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20565795",
+          "items": 50,
+          "newRecords": 2,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20566043",
+          "items": 50,
+          "newRecords": 2,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20566572",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20566807",
+          "items": 50,
+          "newRecords": 2,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20567238",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20567711",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20568049",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20568386",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20569014",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20569228",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20569428",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20569607",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20569780",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20570041",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20570251",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q20570567",
+          "items": 50,
+          "newRecords": 3,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q208379",
+          "items": 50,
+          "newRecords": 3,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q21027197",
           "items": 50,
           "newRecords": 7,
           "result": "new_records"
         },
         {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q12874094",
-          "items": 50,
+          "cursor": "http://www.wikidata.org/entity/Q21645296",
+          "items": 49,
+          "newRecords": 16,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q2246884",
+          "items": 47,
+          "newRecords": 15,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q23037852",
+          "items": 46,
+          "newRecords": 5,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q23769837",
+          "items": 46,
+          "newRecords": 5,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q2458352",
+          "items": 49,
+          "newRecords": 10,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q25553816",
+          "items": 46,
+          "newRecords": 16,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q27044096",
+          "items": 46,
+          "newRecords": 14,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q28714942",
+          "items": 49,
+          "newRecords": 18,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q29584683",
+          "items": 47,
+          "newRecords": 20,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q30625593",
+          "items": 49,
+          "newRecords": 4,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q31361363",
+          "items": 46,
           "newRecords": 8,
           "result": "new_records"
         },
         {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q12905104",
+          "cursor": "http://www.wikidata.org/entity/Q3408322",
           "items": 49,
-          "newRecords": 3,
+          "newRecords": 9,
           "result": "new_records"
         },
         {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q12905628",
+          "cursor": "http://www.wikidata.org/entity/Q3657072",
+          "items": 47,
+          "newRecords": 13,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q38280988",
+          "items": 48,
+          "newRecords": 18,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q4070684",
+          "items": 49,
+          "newRecords": 17,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q4274972",
+          "items": 50,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q459608",
+          "items": 46,
+          "newRecords": 11,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q48792290",
+          "items": 48,
+          "newRecords": 14,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q5172163",
+          "items": 47,
+          "newRecords": 14,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q5471533",
+          "items": 47,
+          "newRecords": 10,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q56346686",
+          "items": 49,
+          "newRecords": 13,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q5843680",
+          "items": 45,
+          "newRecords": 11,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q60986981",
+          "items": 48,
+          "newRecords": 13,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q61120072",
+          "items": 49,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q61121242",
           "items": 50,
           "newRecords": 0,
           "result": "no_new_records"
         },
         {
           "category": "archaeological_site",
-          "cursor": "http://www.wikidata.org/entity/Q12905876",
+          "cursor": "http://www.wikidata.org/entity/Q63122013",
+          "items": 49,
+          "newRecords": 20,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q65210724",
+          "items": 48,
+          "newRecords": 14,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q673607",
+          "items": 50,
+          "newRecords": 12,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q7056545",
+          "items": 46,
+          "newRecords": 17,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q7401208",
+          "items": 48,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q7697916",
+          "items": 49,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q80344288",
+          "items": 49,
+          "newRecords": 12,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q84951353",
+          "items": 48,
+          "newRecords": 15,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q85993022",
+          "items": 44,
+          "newRecords": 7,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q89124317",
+          "items": 47,
+          "newRecords": 9,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q950970",
+          "items": 49,
+          "newRecords": 21,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q97230239",
+          "items": 50,
+          "newRecords": 9,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q97231718",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q97232845",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q97233550",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q97286692",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q97616850",
+          "items": 50,
+          "newRecords": 2,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98059194",
+          "items": 46,
+          "newRecords": 4,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98059657",
+          "items": 50,
+          "newRecords": 3,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98059781",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98059842",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98089849",
           "items": 50,
           "newRecords": 1,
           "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98356758",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98356858",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98356974",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98357085",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98357236",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98357349",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98357477",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98357620",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98357772",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98357915",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98358049",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98358202",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98358352",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98358516",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98358650",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98358789",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98358936",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98359083",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98359221",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98359365",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98359449",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98359546",
+          "items": 50,
+          "newRecords": 6,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98359633",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98359762",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98359864",
+          "items": 49,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98360021",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98360345",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98360596",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98360763",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98360927",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98361044",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98361194",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98361365",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98361530",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98361681",
+          "items": 50,
+          "newRecords": 1,
+          "result": "new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98361865",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "archaeological_site",
+          "cursor": "http://www.wikidata.org/entity/Q98361988",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
         }
       ],
-      "pagesFetched": 60,
-      "newRecords": 1151
+      "pagesFetched": 150,
+      "newRecords": 1543
     }
   },
   "castles": {
