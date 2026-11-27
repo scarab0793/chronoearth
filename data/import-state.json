@@ -2719,7 +2719,7 @@
     }
   },
   "locatedEvents": {
-    "activeCategory": "treaty",
+    "activeCategory": "massacre",
     "queue": [
       "treaty",
       "war",
@@ -2739,41 +2739,50 @@
         "wikidataClass": "Q131569",
         "description": "Treaties (direct P31) with a date (P585/P580)",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q999456",
+        "pagesDone": 42,
+        "lastSuccessAt": "2026-11-27T21:51:11.199Z",
+        "exhaustedAt": "2026-11-27T21:51:14.380Z"
       },
       "war": {
         "wikidataClass": "Q198",
         "description": "Wars (direct P31) with a date (P585/P580)",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q99888314",
+        "pagesDone": 35,
+        "lastSuccessAt": "2026-11-27T21:58:16.404Z",
+        "exhaustedAt": "2026-11-27T21:58:21.962Z"
       },
       "rebellion": {
         "wikidataClass": "Q124734",
         "description": "Rebellions (direct P31) with a date (P585/P580)",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q99887663",
+        "pagesDone": 24,
+        "lastSuccessAt": "2026-11-27T22:03:26.059Z",
+        "exhaustedAt": "2026-11-27T22:03:34.944Z"
       },
       "revolution": {
         "wikidataClass": "Q10931",
         "description": "Revolutions (direct P31) with a date (P585/P580)",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q97642232",
+        "pagesDone": 4,
+        "lastSuccessAt": "2026-11-27T22:03:49.683Z",
+        "exhaustedAt": "2026-11-27T22:03:52.837Z"
       },
       "massacre": {
         "wikidataClass": "Q3199915",
         "description": "Massacres (direct P31) with a date (P585/P580)",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "in_progress",
+        "cursor": "http://www.wikidata.org/entity/Q20717538",
+        "pagesDone": 37,
+        "lastSuccessAt": "2026-11-27T22:09:01.965Z"
       },
       "earthquake": {
         "wikidataClass": "Q7944",
@@ -2833,7 +2842,1039 @@
       }
     },
     "consecutiveFailures": 0,
-    "lastRun": null
+    "lastRun": {
+      "startedAt": "2026-11-27T21:48:49.087Z",
+      "finishedAt": "2026-11-27T22:09:03.600Z",
+      "outcome": "partial",
+      "stopReason": "time_budget",
+      "error": null,
+      "pages": [
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q106159145",
+          "items": 50,
+          "newRecords": 18,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q106161448",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q106162551",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q106164565",
+          "items": 50,
+          "newRecords": 0,
+          "result": "no_new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q109621866",
+          "items": 50,
+          "newRecords": 10,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q113588323",
+          "items": 50,
+          "newRecords": 29,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q116842059",
+          "items": 50,
+          "newRecords": 18,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q12113285",
+          "items": 50,
+          "newRecords": 14,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q125549285",
+          "items": 50,
+          "newRecords": 15,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q130466015",
+          "items": 50,
+          "newRecords": 23,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q136306618",
+          "items": 50,
+          "newRecords": 23,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q141921174",
+          "items": 50,
+          "newRecords": 17,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q154255",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q16330706",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q1724505",
+          "items": 50,
+          "newRecords": 22,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q19032039",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q19423265",
+          "items": 50,
+          "newRecords": 18,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q1995471",
+          "items": 50,
+          "newRecords": 18,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q20990931",
+          "items": 50,
+          "newRecords": 15,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q23035649",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q2518876",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q26833034",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q28503191",
+          "items": 50,
+          "newRecords": 29,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q306535",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q3360281",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q3536801",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q368235",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q4288198",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q478383",
+          "items": 50,
+          "newRecords": 23,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q516768",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q5601730",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q6061826",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q6151972",
+          "items": 50,
+          "newRecords": 15,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q65408512",
+          "items": 50,
+          "newRecords": 22,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q693566",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q7382322",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q7837052",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q7837201",
+          "items": 50,
+          "newRecords": 42,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q810862",
+          "items": 50,
+          "newRecords": 34,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q882631",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q95997193",
+          "items": 50,
+          "newRecords": 22,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q999456",
+          "items": 31,
+          "newRecords": 16,
+          "result": "new_records"
+        },
+        {
+          "category": "treaty",
+          "cursor": "http://www.wikidata.org/entity/Q999456",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q1076902",
+          "items": 50,
+          "newRecords": 17,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q111914367",
+          "items": 50,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q1164157",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q120266106",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q1230787",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q1249250",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q12786750",
+          "items": 50,
+          "newRecords": 29,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q131626511",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q1348785",
+          "items": 50,
+          "newRecords": 23,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q137921461",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q1432300",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q158677",
+          "items": 50,
+          "newRecords": 20,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q1669192",
+          "items": 50,
+          "newRecords": 20,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q18191972",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q1966558",
+          "items": 50,
+          "newRecords": 29,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q208694",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q21656674",
+          "items": 50,
+          "newRecords": 14,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q233538",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q249232",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q2634908",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q28963610",
+          "items": 50,
+          "newRecords": 23,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q3119025",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q3445341",
+          "items": 50,
+          "newRecords": 34,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q3953988",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q431001",
+          "items": 50,
+          "newRecords": 22,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q4850322",
+          "items": 50,
+          "newRecords": 20,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q5453870",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q60489",
+          "items": 50,
+          "newRecords": 23,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q632787",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q676068",
+          "items": 50,
+          "newRecords": 22,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q722713",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q7828916",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q86669104",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q950121",
+          "items": 50,
+          "newRecords": 22,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q99888314",
+          "items": 45,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "war",
+          "cursor": "http://www.wikidata.org/entity/Q99888314",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q10998106",
+          "items": 50,
+          "newRecords": 23,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q1145411",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q119241110",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q124759135",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q13012471",
+          "items": 50,
+          "newRecords": 20,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q135225723",
+          "items": 50,
+          "newRecords": 22,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q14814581",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q164348",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q181146",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q202578",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q2382102",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q266909",
+          "items": 50,
+          "newRecords": 29,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q2980852",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q3411960",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q4096157",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q4442941",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q48873513",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q5602435",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q6088499",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q643925",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q7023336",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q7731362",
+          "items": 50,
+          "newRecords": 35,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q9008826",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q99887663",
+          "items": 38,
+          "newRecords": 17,
+          "result": "new_records"
+        },
+        {
+          "category": "rebellion",
+          "cursor": "http://www.wikidata.org/entity/Q99887663",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "revolution",
+          "cursor": "http://www.wikidata.org/entity/Q16976566",
+          "items": 50,
+          "newRecords": 13,
+          "result": "new_records"
+        },
+        {
+          "category": "revolution",
+          "cursor": "http://www.wikidata.org/entity/Q2745716",
+          "items": 50,
+          "newRecords": 17,
+          "result": "new_records"
+        },
+        {
+          "category": "revolution",
+          "cursor": "http://www.wikidata.org/entity/Q6507837",
+          "items": 50,
+          "newRecords": 13,
+          "result": "new_records"
+        },
+        {
+          "category": "revolution",
+          "cursor": "http://www.wikidata.org/entity/Q97642232",
+          "items": 25,
+          "newRecords": 8,
+          "result": "new_records"
+        },
+        {
+          "category": "revolution",
+          "cursor": "http://www.wikidata.org/entity/Q97642232",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q105102335",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q106645628",
+          "items": 50,
+          "newRecords": 37,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q108085687",
+          "items": 50,
+          "newRecords": 34,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q109345905",
+          "items": 50,
+          "newRecords": 35,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q110714848",
+          "items": 50,
+          "newRecords": 20,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q111941644",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q113785120",
+          "items": 50,
+          "newRecords": 29,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q11611",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q11771063",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q119691996",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q12241904",
+          "items": 50,
+          "newRecords": 21,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q123059058",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q123385188",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q123691659",
+          "items": 50,
+          "newRecords": 23,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q123737605",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q123786223",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q124261358",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q125216987",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q126389700",
+          "items": 50,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q12747413",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q130101659",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q130548426",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q131625496",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q134305092",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q135837501",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q137258551",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q138681084",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q140321161",
+          "items": 50,
+          "newRecords": 29,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q1472293",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q1582140",
+          "items": 50,
+          "newRecords": 36,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q16254529",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q16901719",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q1719033",
+          "items": 50,
+          "newRecords": 40,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q18424482",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q1929123",
+          "items": 50,
+          "newRecords": 38,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q20106023",
+          "items": 50,
+          "newRecords": 34,
+          "result": "new_records"
+        },
+        {
+          "category": "massacre",
+          "cursor": "http://www.wikidata.org/entity/Q20717538",
+          "items": 50,
+          "newRecords": 23,
+          "result": "new_records"
+        }
+      ],
+      "pagesFetched": 142,
+      "newRecords": 3621
+    }
   },
   "people": {
     "activeCategory": "monarch",
