@@ -1,0 +1,87 @@
+name: Import Wikidata notable people
+# Resumes automatically from the "people" section of data/import-state.json.
+on:
+  workflow_dispatch:
+    inputs:
+      max_pages:
+        description: 'Pages of 50 people to fetch in this run (1-200)'
+        required: false
+        default: '150'
+  schedule:
+    # Twice a day as a safety net; about 15,000 people (~300 pages) over thirteen
+    # occupations, and runs chain themselves (last step).
+    - cron: '15 2,14 * * *'
+permissions:
+  contents: write
+  # Needed to start the next run of this workflow (see the last step).
+  actions: write
+concurrency:
+  # Shared with the other imports: all write data/import-state.json.
+  group: chronoearth-wikidata-checkpoint
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch notable people from Wikidata (checkpointed)
+        env:
+          WIKIDATA_MAX_PAGES: ${{ inputs.max_pages || '150' }}
+          WIKIDATA_TIME_BUDGET_MS: '1200000'
+        run: node scripts/fetch-wikidata-notable-people.cjs
+      - name: Validate imported data and checkpoint
+        id: validate
+        if: always()
+        run: |
+          node -e "const s=require('./data/import-state.json').people;if(!s||!s.categories[s.activeCategory])process.exit(1)"
+          node scripts/validate-data.cjs
+          node scripts/validate-imports.cjs
+      - name: Commit dataset and checkpoint
+        id: commit
+        if: always() && steps.validate.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/import-state.json
+          if [ -f data/imports/wikidata-people.json ]; then git add data/imports/wikidata-people.json; fi
+          if git diff --cached --quiet; then
+            echo "No data change; nothing to commit"
+            exit 0
+          fi
+          if git diff --cached --quiet -- data/imports/wikidata-people.json; then
+            git commit -m "data: update people import checkpoint"
+          else
+            git commit -m "data: refresh Wikidata historical people records"
+          fi
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed; retrying"
+            sleep $((attempt * 10))
+          done
+          exit 1
+      - name: Start the next run while work remains
+        # GitHub often delays or skips scheduled runs. After a run that made progress
+        # without errors, the import starts its own next run, at most 8 a day; the
+        # schedule above stays as a safety net. Failures wait for the schedule.
+        if: steps.commit.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(node scripts/should-continue-import.cjs people)" != "yes" ]; then
+            echo "Nothing left to chain (finished queue or a failed run)"
+            exit 0
+          fi
+          today=$(date -u +%Y-%m-%d)
+          runs=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow import-wikidata-notable-people.yml --event workflow_dispatch --created ">=$today" --limit 50 --json databaseId --jq length)
+          if [ "$runs" -ge 8 ]; then
+            echo "Daily limit of 8 chained runs reached; waiting for the schedule"
+            exit 0
+          fi
+          gh workflow run import-wikidata-notable-people.yml --repo "$GITHUB_REPOSITORY" --ref main
+          echo "Started the next run ($((runs + 1)) today)"
