@@ -3178,7 +3178,7 @@
     }
   },
   "people": {
-    "activeCategory": "sculptor",
+    "activeCategory": "architect",
     "queue": [
       "monarch",
       "military",
@@ -3309,689 +3309,153 @@
         "wikidataClass": "Q1281618",
         "description": "People with occupation (P106) Q1281618, born by 1900, >=20 sitelinks, birthplace with coordinates",
         "strategy": "keyset-v1",
-        "status": "in_progress",
-        "cursor": "http://www.wikidata.org/entity/Q311031",
-        "pagesDone": 3,
-        "lastSuccessAt": "2026-11-27T22:53:19.507Z"
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q983422",
+        "pagesDone": 8,
+        "lastSuccessAt": "2026-11-27T22:54:15.592Z",
+        "exhaustedAt": "2026-11-27T22:54:19.675Z"
       },
       "architect": {
         "wikidataClass": "Q42973",
         "description": "People with occupation (P106) Q42973, born by 1900, >=20 sitelinks, birthplace with coordinates",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q983291",
+        "pagesDone": 10,
+        "lastSuccessAt": "2026-11-27T22:55:42.874Z",
+        "exhaustedAt": "2026-11-27T22:55:46.622Z"
       }
     },
     "consecutiveFailures": 0,
     "lastRun": {
-      "startedAt": "2026-11-27T22:33:13.573Z",
-      "finishedAt": "2026-11-27T22:53:21.225Z",
-      "outcome": "partial",
-      "stopReason": "time_budget",
+      "startedAt": "2026-11-27T22:53:35.040Z",
+      "finishedAt": "2026-11-27T22:55:46.687Z",
+      "outcome": "exhausted",
+      "stopReason": "All categories exhausted",
       "error": null,
       "pages": [
         {
-          "category": "physicist",
-          "cursor": "http://www.wikidata.org/entity/Q76889",
+          "category": "sculptor",
+          "cursor": "http://www.wikidata.org/entity/Q371979",
+          "items": 50,
+          "newRecords": 18,
+          "result": "new_records"
+        },
+        {
+          "category": "sculptor",
+          "cursor": "http://www.wikidata.org/entity/Q465917",
+          "items": 50,
+          "newRecords": 16,
+          "result": "new_records"
+        },
+        {
+          "category": "sculptor",
+          "cursor": "http://www.wikidata.org/entity/Q559559",
+          "items": 50,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "sculptor",
+          "cursor": "http://www.wikidata.org/entity/Q739286",
+          "items": 50,
+          "newRecords": 16,
+          "result": "new_records"
+        },
+        {
+          "category": "sculptor",
+          "cursor": "http://www.wikidata.org/entity/Q983422",
+          "items": 29,
+          "newRecords": 6,
+          "result": "new_records"
+        },
+        {
+          "category": "sculptor",
+          "cursor": "http://www.wikidata.org/entity/Q983422",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q154083",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q2424824",
+          "items": 50,
+          "newRecords": 17,
+          "result": "new_records"
+        },
+        {
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q312627",
+          "items": 50,
+          "newRecords": 21,
+          "result": "new_records"
+        },
+        {
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q352451",
+          "items": 50,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q44323",
+          "items": 50,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q518898",
+          "items": 50,
+          "newRecords": 18,
+          "result": "new_records"
+        },
+        {
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q610556",
           "items": 50,
           "newRecords": 25,
           "result": "new_records"
         },
         {
-          "category": "physicist",
-          "cursor": "http://www.wikidata.org/entity/Q893636",
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q726082",
           "items": 50,
-          "newRecords": 19,
-          "result": "new_records"
-        },
-        {
-          "category": "physicist",
-          "cursor": "http://www.wikidata.org/entity/Q994738",
-          "items": 50,
-          "newRecords": 24,
-          "result": "new_records"
-        },
-        {
-          "category": "physicist",
-          "cursor": "http://www.wikidata.org/entity/Q994738",
-          "items": 0,
-          "newRecords": 0,
-          "result": "exhausted"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q1267054",
-          "items": 50,
-          "newRecords": 14,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q176287",
-          "items": 50,
-          "newRecords": 8,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q215830",
-          "items": 50,
-          "newRecords": 8,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q279202",
-          "items": 50,
-          "newRecords": 16,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q31278",
-          "items": 50,
-          "newRecords": 16,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q34943",
-          "items": 50,
-          "newRecords": 16,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q39978",
-          "items": 50,
-          "newRecords": 13,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q460747",
-          "items": 50,
-          "newRecords": 19,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q531345",
-          "items": 50,
-          "newRecords": 22,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q58328",
-          "items": 50,
-          "newRecords": 19,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q69521",
-          "items": 50,
-          "newRecords": 16,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q76325",
-          "items": 50,
-          "newRecords": 10,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q8963",
-          "items": 50,
-          "newRecords": 15,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q983371",
-          "items": 25,
-          "newRecords": 6,
-          "result": "new_records"
-        },
-        {
-          "category": "astronomer",
-          "cursor": "http://www.wikidata.org/entity/Q983371",
-          "items": 0,
-          "newRecords": 0,
-          "result": "exhausted"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q155759",
-          "items": 50,
-          "newRecords": 29,
-          "result": "new_records"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q1932828",
-          "items": 50,
-          "newRecords": 24,
-          "result": "new_records"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q270085",
-          "items": 50,
-          "newRecords": 31,
-          "result": "new_records"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q313603",
-          "items": 50,
-          "newRecords": 29,
-          "result": "new_records"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q356696",
-          "items": 50,
-          "newRecords": 26,
-          "result": "new_records"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q447716",
-          "items": 50,
-          "newRecords": 28,
-          "result": "new_records"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q546204",
-          "items": 50,
-          "newRecords": 36,
-          "result": "new_records"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q61149",
-          "items": 50,
-          "newRecords": 26,
-          "result": "new_records"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q717731",
-          "items": 50,
-          "newRecords": 29,
-          "result": "new_records"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q81130",
-          "items": 50,
-          "newRecords": 28,
-          "result": "new_records"
-        },
-        {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q983422",
-          "items": 44,
           "newRecords": 27,
           "result": "new_records"
         },
         {
-          "category": "inventor",
-          "cursor": "http://www.wikidata.org/entity/Q983422",
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q93847",
+          "items": 50,
+          "newRecords": 23,
+          "result": "new_records"
+        },
+        {
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q983291",
+          "items": 8,
+          "newRecords": 3,
+          "result": "new_records"
+        },
+        {
+          "category": "architect",
+          "cursor": "http://www.wikidata.org/entity/Q983291",
           "items": 0,
           "newRecords": 0,
           "result": "exhausted"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q128746",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q153455",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q161328",
-          "items": 50,
-          "newRecords": 40,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q18821",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q210962",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q225307",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q259670",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q305202",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q313584",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q321660",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q354101",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q368583",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q4214",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q44862",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q464636",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q505921",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q545830",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q57285",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q61567",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q708911",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q742149",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q817524",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q983169",
-          "items": 47,
-          "newRecords": 40,
-          "result": "new_records"
-        },
-        {
-          "category": "composer",
-          "cursor": "http://www.wikidata.org/entity/Q983169",
-          "items": 0,
-          "newRecords": 0,
-          "result": "exhausted"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q123732",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q1356502",
-          "items": 50,
-          "newRecords": 41,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q152094",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q15790",
-          "items": 50,
-          "newRecords": 40,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q166379",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q1827236",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q203715",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q214043",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q2343934",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q248615",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q266637",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q282043",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q3100592",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q315102",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q333323",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q353014",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q367120",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q380708",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q433067",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q447682",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q456971",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q465163",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q481550",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q520573",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q544622",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q5593",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q588124",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q638183",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q702272",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q719428",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q741375",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q79012",
-          "items": 50,
-          "newRecords": 41,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q927190",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q969083",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q9994",
-          "items": 29,
-          "newRecords": 24,
-          "result": "new_records"
-        },
-        {
-          "category": "painter",
-          "cursor": "http://www.wikidata.org/entity/Q9994",
-          "items": 0,
-          "newRecords": 0,
-          "result": "exhausted"
-        },
-        {
-          "category": "sculptor",
-          "cursor": "http://www.wikidata.org/entity/Q156890",
-          "items": 50,
-          "newRecords": 8,
-          "result": "new_records"
-        },
-        {
-          "category": "sculptor",
-          "cursor": "http://www.wikidata.org/entity/Q213956",
-          "items": 50,
-          "newRecords": 11,
-          "result": "new_records"
-        },
-        {
-          "category": "sculptor",
-          "cursor": "http://www.wikidata.org/entity/Q311031",
-          "items": 50,
-          "newRecords": 15,
-          "result": "new_records"
         }
       ],
-      "pagesFetched": 89,
-      "newRecords": 3173
+      "pagesFetched": 15,
+      "newRecords": 271
     }
   }
 }
