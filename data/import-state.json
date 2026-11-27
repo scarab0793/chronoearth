@@ -2717,5 +2717,122 @@
       "pagesFetched": 49,
       "newRecords": 2416
     }
+  },
+  "locatedEvents": {
+    "activeCategory": "treaty",
+    "queue": [
+      "treaty",
+      "war",
+      "rebellion",
+      "revolution",
+      "massacre",
+      "earthquake",
+      "volcanic_eruption",
+      "epidemic",
+      "natural_disaster",
+      "conquest",
+      "offensive",
+      "terrorist_attack"
+    ],
+    "categories": {
+      "treaty": {
+        "wikidataClass": "Q131569",
+        "description": "Treaties (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "war": {
+        "wikidataClass": "Q198",
+        "description": "Wars (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "rebellion": {
+        "wikidataClass": "Q124734",
+        "description": "Rebellions (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "revolution": {
+        "wikidataClass": "Q10931",
+        "description": "Revolutions (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "massacre": {
+        "wikidataClass": "Q3199915",
+        "description": "Massacres (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "earthquake": {
+        "wikidataClass": "Q7944",
+        "description": "Earthquakes (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "volcanic_eruption": {
+        "wikidataClass": "Q7692360",
+        "description": "Volcanic eruptions (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "epidemic": {
+        "wikidataClass": "Q3241045",
+        "description": "Disease outbreaks (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "natural_disaster": {
+        "wikidataClass": "Q8065",
+        "description": "Natural disasters (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "conquest": {
+        "wikidataClass": "Q1361229",
+        "description": "Conquests (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "offensive": {
+        "wikidataClass": "Q2001676",
+        "description": "Military offensives (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "terrorist_attack": {
+        "wikidataClass": "Q2223653",
+        "description": "Terrorist attacks (direct P31) with a date (P585/P580)",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      }
+    },
+    "consecutiveFailures": 0,
+    "lastRun": null
   }
 }
