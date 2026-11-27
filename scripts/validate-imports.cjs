@@ -37,6 +37,10 @@ for(const [kind,file,key] of definitions){
    check(Number.isSafeInteger(p.birthYear)&&p.birthYear<=1900,prefix+': invalid birth year');
    check(p.deathYear===null||Number.isSafeInteger(p.deathYear)&&p.deathYear>=p.birthYear,prefix+': invalid death year');
    check(p.location===null,prefix+': unverifiable location must remain null');
+   check(p.birthYear!==0&&p.deathYear!==0,prefix+': year 0 does not exist in historical numbering');
+   const bp=p.birthPlace;
+   check(bp===undefined||bp&&/^Q[1-9]\d*$/.test(bp.id||'')&&Number.isFinite(bp.lat)&&Math.abs(bp.lat)<=90&&Number.isFinite(bp.lng)&&Math.abs(bp.lng)<=180,prefix+': invalid birthPlace');
+   check(p.occupations===undefined||Array.isArray(p.occupations)&&p.occupations.length>0,prefix+': invalid occupations');
   }else if(kind==='events'){
    check(Number.isSafeInteger(p.year)&&p.year>=-10000&&p.year<=2026,prefix+': invalid event year');
    check(p.location===null,prefix+': unverified event location must remain null');

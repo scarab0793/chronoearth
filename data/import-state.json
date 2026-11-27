@@ -2834,5 +2834,131 @@
     },
     "consecutiveFailures": 0,
     "lastRun": null
+  },
+  "people": {
+    "activeCategory": "monarch",
+    "queue": [
+      "monarch",
+      "military",
+      "explorer",
+      "philosopher",
+      "historian",
+      "mathematician",
+      "physicist",
+      "astronomer",
+      "inventor",
+      "composer",
+      "painter",
+      "sculptor",
+      "architect"
+    ],
+    "categories": {
+      "monarch": {
+        "wikidataClass": "Q116",
+        "description": "People with occupation (P106) Q116, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "military": {
+        "wikidataClass": "Q47064",
+        "description": "People with occupation (P106) Q47064, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "explorer": {
+        "wikidataClass": "Q11900058",
+        "description": "People with occupation (P106) Q11900058, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "philosopher": {
+        "wikidataClass": "Q4964182",
+        "description": "People with occupation (P106) Q4964182, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "historian": {
+        "wikidataClass": "Q201788",
+        "description": "People with occupation (P106) Q201788, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "mathematician": {
+        "wikidataClass": "Q170790",
+        "description": "People with occupation (P106) Q170790, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "physicist": {
+        "wikidataClass": "Q169470",
+        "description": "People with occupation (P106) Q169470, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "astronomer": {
+        "wikidataClass": "Q11063",
+        "description": "People with occupation (P106) Q11063, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "inventor": {
+        "wikidataClass": "Q205375",
+        "description": "People with occupation (P106) Q205375, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "composer": {
+        "wikidataClass": "Q36834",
+        "description": "People with occupation (P106) Q36834, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "painter": {
+        "wikidataClass": "Q1028181",
+        "description": "People with occupation (P106) Q1028181, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "sculptor": {
+        "wikidataClass": "Q1281618",
+        "description": "People with occupation (P106) Q1281618, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      },
+      "architect": {
+        "wikidataClass": "Q42973",
+        "description": "People with occupation (P106) Q42973, born by 1900, >=20 sitelinks, birthplace with coordinates",
+        "strategy": "keyset-v1",
+        "status": "pending",
+        "cursor": "",
+        "pagesDone": 0
+      }
+    },
+    "consecutiveFailures": 0,
+    "lastRun": null
   }
 }
