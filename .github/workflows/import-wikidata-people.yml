@@ -1,17 +1,13 @@
-name: Import Wikidata historical people
+name: Import Wikidata historical people (search catalogue, manual)
+# Name-list search; manual only. It keeps only unreviewed earlier records, so the scheduled,
+# checkpointed, occupation-based import is import-wikidata-notable-people.yml (same dataset).
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/import-wikidata-people.yml'
-      - 'scripts/fetch-wikidata-people.cjs'
   workflow_dispatch:
-  schedule:
-    - cron: '40 4 * * 2'
 permissions:
   contents: write
 concurrency:
-  group: wikidata-people-import
+  # Shared with the checkpointed imports: the occupation-based import writes the same dataset.
+  group: chronoearth-wikidata-checkpoint
   cancel-in-progress: false
 jobs:
   import:
