@@ -3178,7 +3178,7 @@
     }
   },
   "people": {
-    "activeCategory": "monarch",
+    "activeCategory": "physicist",
     "queue": [
       "monarch",
       "military",
@@ -3199,57 +3199,70 @@
         "wikidataClass": "Q116",
         "description": "People with occupation (P106) Q116, born by 1900, >=20 sitelinks, birthplace with coordinates",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q9892",
+        "pagesDone": 13,
+        "lastSuccessAt": "2026-11-27T22:23:33.153Z",
+        "exhaustedAt": "2026-11-27T22:23:36.262Z"
       },
       "military": {
         "wikidataClass": "Q47064",
         "description": "People with occupation (P106) Q47064, born by 1900, >=20 sitelinks, birthplace with coordinates",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q9916",
+        "pagesDone": 32,
+        "lastSuccessAt": "2026-11-27T22:25:39.495Z",
+        "exhaustedAt": "2026-11-27T22:25:43.132Z"
       },
       "explorer": {
         "wikidataClass": "Q11900058",
         "description": "People with occupation (P106) Q11900058, born by 1900, >=20 sitelinks, birthplace with coordinates",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q994344",
+        "pagesDone": 13,
+        "lastSuccessAt": "2026-11-27T22:26:22.116Z",
+        "exhaustedAt": "2026-11-27T22:26:25.302Z"
       },
       "philosopher": {
         "wikidataClass": "Q4964182",
         "description": "People with occupation (P106) Q4964182, born by 1900, >=20 sitelinks, birthplace with coordinates",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q991",
+        "pagesDone": 35,
+        "lastSuccessAt": "2026-11-27T22:28:43.465Z",
+        "exhaustedAt": "2026-11-27T22:28:47.041Z"
       },
       "historian": {
         "wikidataClass": "Q201788",
         "description": "People with occupation (P106) Q201788, born by 1900, >=20 sitelinks, birthplace with coordinates",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q984663",
+        "pagesDone": 24,
+        "lastSuccessAt": "2026-11-27T22:30:53.215Z",
+        "exhaustedAt": "2026-11-27T22:30:57.303Z"
       },
       "mathematician": {
         "wikidataClass": "Q170790",
         "description": "People with occupation (P106) Q170790, born by 1900, >=20 sitelinks, birthplace with coordinates",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q983574",
+        "pagesDone": 20,
+        "lastSuccessAt": "2026-11-27T22:32:07.085Z",
+        "exhaustedAt": "2026-11-27T22:32:10.688Z"
       },
       "physicist": {
         "wikidataClass": "Q169470",
         "description": "People with occupation (P106) Q169470, born by 1900, >=20 sitelinks, birthplace with coordinates",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "in_progress",
+        "cursor": "http://www.wikidata.org/entity/Q714452",
+        "pagesDone": 13,
+        "lastSuccessAt": "2026-11-27T22:32:58.635Z"
       },
       "astronomer": {
         "wikidataClass": "Q11063",
@@ -3301,6 +3314,1066 @@
       }
     },
     "consecutiveFailures": 0,
-    "lastRun": null
+    "lastRun": {
+      "startedAt": "2026-11-27T22:22:59.634Z",
+      "finishedAt": "2026-11-27T22:32:58.766Z",
+      "outcome": "exhausted",
+      "stopReason": null,
+      "error": null,
+      "pages": [
+        {
+          "category": "monarch",
+          "cursor": "http://www.wikidata.org/entity/Q365064",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "monarch",
+          "cursor": "http://www.wikidata.org/entity/Q452010",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "monarch",
+          "cursor": "http://www.wikidata.org/entity/Q51056",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "monarch",
+          "cursor": "http://www.wikidata.org/entity/Q546497",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "monarch",
+          "cursor": "http://www.wikidata.org/entity/Q704786",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "monarch",
+          "cursor": "http://www.wikidata.org/entity/Q82686",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "monarch",
+          "cursor": "http://www.wikidata.org/entity/Q9892",
+          "items": 40,
+          "newRecords": 35,
+          "result": "new_records"
+        },
+        {
+          "category": "monarch",
+          "cursor": "http://www.wikidata.org/entity/Q9892",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q1246496",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q1369084",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q151667",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q162302",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q183776",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q204375",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q2363350",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q264097",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q294862",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q311514",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q315509",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q319216",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q334861",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q353464",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q365894",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q378235",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q431200",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q444151",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q455424",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q470334",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q508659",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q540840",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q562621",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q57760",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q61023",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q62884",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q691678",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q709956",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q732892",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q80398",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q933657",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q9916",
+          "items": 42,
+          "newRecords": 42,
+          "result": "new_records"
+        },
+        {
+          "category": "military",
+          "cursor": "http://www.wikidata.org/entity/Q9916",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q147676",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q208993",
+          "items": 50,
+          "newRecords": 40,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q271974",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q316364",
+          "items": 50,
+          "newRecords": 43,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q357620",
+          "items": 50,
+          "newRecords": 37,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q425897",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q467469",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q545944",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q591807",
+          "items": 50,
+          "newRecords": 43,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q681164",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q749495",
+          "items": 50,
+          "newRecords": 38,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q93419",
+          "items": 50,
+          "newRecords": 42,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q994344",
+          "items": 28,
+          "newRecords": 22,
+          "result": "new_records"
+        },
+        {
+          "category": "explorer",
+          "cursor": "http://www.wikidata.org/entity/Q994344",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q123089",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q1332164",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q142683",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q160362",
+          "items": 50,
+          "newRecords": 42,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q178903",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q189454",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q201484",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q214816",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q235098",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q25820",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q274978",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q297420",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q312410",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q317014",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q32679",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q337311",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q355903",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q374362",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q382582",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q434550",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q452299",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q466477",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q48301",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q538767",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q561917",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q594441",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q615555",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q698177",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q720022",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q75814",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q76881",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q816903",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q929260",
+          "items": 50,
+          "newRecords": 39,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q969183",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q991",
+          "items": 22,
+          "newRecords": 22,
+          "result": "new_records"
+        },
+        {
+          "category": "philosopher",
+          "cursor": "http://www.wikidata.org/entity/Q991",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q123839",
+          "items": 50,
+          "newRecords": 34,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q13524",
+          "items": 50,
+          "newRecords": 34,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q156349",
+          "items": 50,
+          "newRecords": 38,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q184735",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q213542",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q2449920",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q2745220",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q3080648",
+          "items": 50,
+          "newRecords": 39,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q315804",
+          "items": 50,
+          "newRecords": 32,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q333651",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q354563",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q379672",
+          "items": 50,
+          "newRecords": 40,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q423600",
+          "items": 50,
+          "newRecords": 36,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q449869",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q471406",
+          "items": 50,
+          "newRecords": 32,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q520487",
+          "items": 50,
+          "newRecords": 34,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q557220",
+          "items": 50,
+          "newRecords": 40,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q60285",
+          "items": 50,
+          "newRecords": 37,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q63369",
+          "items": 50,
+          "newRecords": 32,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q703704",
+          "items": 50,
+          "newRecords": 38,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q725872",
+          "items": 50,
+          "newRecords": 35,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q7729",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q934196",
+          "items": 50,
+          "newRecords": 32,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q984663",
+          "items": 44,
+          "newRecords": 32,
+          "result": "new_records"
+        },
+        {
+          "category": "historian",
+          "cursor": "http://www.wikidata.org/entity/Q984663",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q123992",
+          "items": 50,
+          "newRecords": 34,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q153243",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q176659",
+          "items": 50,
+          "newRecords": 32,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q202703",
+          "items": 50,
+          "newRecords": 27,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q244152",
+          "items": 50,
+          "newRecords": 32,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q293608",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q313603",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q333703",
+          "items": 50,
+          "newRecords": 29,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q363914",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q41485",
+          "items": 50,
+          "newRecords": 36,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q451716",
+          "items": 50,
+          "newRecords": 36,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q522982",
+          "items": 50,
+          "newRecords": 35,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q561101",
+          "items": 50,
+          "newRecords": 38,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q60204",
+          "items": 50,
+          "newRecords": 37,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q62271",
+          "items": 50,
+          "newRecords": 38,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q70884",
+          "items": 50,
+          "newRecords": 39,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q740978",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q783253",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q9130",
+          "items": 50,
+          "newRecords": 36,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q983574",
+          "items": 48,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "mathematician",
+          "cursor": "http://www.wikidata.org/entity/Q983574",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q127944",
+          "items": 50,
+          "newRecords": 24,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q155759",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q184286",
+          "items": 50,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q230650",
+          "items": 50,
+          "newRecords": 21,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q2991836",
+          "items": 50,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q317632",
+          "items": 50,
+          "newRecords": 25,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q365463",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q441174",
+          "items": 50,
+          "newRecords": 19,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q504352",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q561478",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q60406",
+          "items": 50,
+          "newRecords": 30,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q63709",
+          "items": 50,
+          "newRecords": 31,
+          "result": "new_records"
+        },
+        {
+          "category": "physicist",
+          "cursor": "http://www.wikidata.org/entity/Q714452",
+          "items": 50,
+          "newRecords": 26,
+          "result": "new_records"
+        }
+      ],
+      "pagesFetched": 150,
+      "newRecords": 6098
+    }
   }
 }
