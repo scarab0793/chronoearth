@@ -63,7 +63,8 @@ async function processPage(category,page){
   const e=byItem.get(id),entity=entities[id];
   if(!entity||entity.missing!==undefined)continue;
   const start=timeClaim(entity,'P585')||timeClaim(entity,'P580');
-  if(!start)continue;
+  // Outside the timeline (-10000..2026): a planned future event or a deep prehistoric date.
+  if(!start||start.year<-10000||start.year>2026)continue;
   const place=e.coord||e.loc;
   if(!place)continue;
   // Labels that are just the QID mean no English/Hungarian label exists.

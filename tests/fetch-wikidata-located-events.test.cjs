@@ -54,6 +54,12 @@ test('skips undated, unplaced and unlabeled events but still advances',()=>{
  assert.equal(r.state.locatedEvents.categories.treaty.cursor,'http://www.wikidata.org/entity/Q7');
 });
 
+test('dates outside the timeline (-10000..2026) are skipped, not clamped',()=>{
+ const r=run({classes:{Q131569:[ev(20),ev(21),ev(22)]},claims:{Q20:at('+2030-01-01T00:00:00Z'),Q21:at('-12000-00-00T00:00:00Z',6),Q22:at('+1700-01-01T00:00:00Z')}});
+ assert.equal(r.code,0,r.stderr);
+ assert.deepEqual(r.data.events.map(e=>e.wikidataId),['Q22']);
+});
+
 test('an exhausted category moves on and records the next kind',()=>{
  const r=run({classes:{Q131569:[],Q7944:[ev(8,{label:'1755 Lisbon earthquake'})]},claims:{Q8:at('+1755-11-01T00:00:00Z')}});
  assert.equal(r.state.locatedEvents.categories.treaty.status,'exhausted');
