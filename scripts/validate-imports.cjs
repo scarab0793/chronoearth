@@ -10,7 +10,8 @@ const definitions=[
  ['battles','data/imports/wikidata-battles.json','battles'],
  ['capitals','data/imports/wikidata-capitals.json','capitals'],
  ['ancientSettlements','data/imports/wikidata-ancient-settlements.json','settlements'],
- ['castles','data/imports/wikidata-castles.json','castles']
+ ['castles','data/imports/wikidata-castles.json','castles'],
+ ['locatedEvents','data/imports/wikidata-located-events.json','events']
 ];
 let errors=0;
 function check(ok,message){if(!ok){console.error('ERROR: '+message);errors++}}
@@ -59,8 +60,8 @@ for(const [kind,file,key] of definitions){
    check(p.end===undefined||Number.isSafeInteger(p.end)&&p.end>p.y&&p.end<=2026,prefix+': invalid end year');
    check(['day','month','year','decade','century','millennium'].includes(p.datePrecision),prefix+': invalid date precision');
    check(Number.isFinite(p.lat)&&Math.abs(p.lat)<=90&&Number.isFinite(p.lng)&&Math.abs(p.lng)<=180&&p.precision==='exact',prefix+': needs the structure\'s own coordinates');
-  }else if(kind==='battles'){
-   check(p.kind==='battle'||p.kind==='siege',prefix+': kind must be battle or siege');
+  }else if(kind==='battles'||kind==='locatedEvents'){
+   check(kind==='battles'?p.kind==='battle'||p.kind==='siege':['treaty','war','rebellion','revolution','massacre','earthquake','volcanic-eruption','epidemic','natural-disaster','conquest','offensive','terrorist-attack'].includes(p.kind),prefix+': invalid event kind');
    check(Number.isSafeInteger(p.y)&&p.y!==0&&p.y>=-10000&&p.y<=2026,prefix+': invalid year (historical numbering, no year 0)');
    check(p.end===undefined||Number.isSafeInteger(p.end)&&p.end>p.y&&p.end<=2026,prefix+': invalid end year');
    check(['day','month','year','decade','century','millennium'].includes(p.datePrecision),prefix+': invalid date precision');
