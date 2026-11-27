@@ -326,7 +326,7 @@
     "note": "Offset-based scan, superseded on 2026-11-26 by the datedSettlements keyset import (only dated items with coordinates). Kept as a record of the scanned range."
   },
   "battles": {
-    "activeCategory": "battle",
+    "activeCategory": "siege",
     "queue": [
       "battle",
       "siege"
@@ -335,1080 +335,712 @@
       "battle": {
         "wikidataClass": "Q178561",
         "strategy": "keyset-v1",
-        "status": "in_progress",
-        "cursor": "http://www.wikidata.org/entity/Q8186936",
-        "pagesDone": 270,
-        "lastSuccessAt": "2026-11-27T03:31:50.737Z"
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q999235",
+        "pagesDone": 290,
+        "lastSuccessAt": "2026-11-27T03:32:56.763Z",
+        "exhaustedAt": "2026-11-27T03:33:00.141Z"
       },
       "siege": {
         "wikidataClass": "Q188055",
         "strategy": "keyset-v1",
-        "status": "pending",
-        "cursor": "",
-        "pagesDone": 0
+        "status": "exhausted",
+        "cursor": "http://www.wikidata.org/entity/Q997625",
+        "pagesDone": 75,
+        "lastSuccessAt": "2026-11-27T03:36:25.150Z",
+        "exhaustedAt": "2026-11-27T03:36:29.199Z"
       }
     },
     "consecutiveFailures": 0,
     "lastRun": {
-      "startedAt": "2026-11-27T03:18:05.674Z",
-      "finishedAt": "2026-11-27T03:31:50.914Z",
-      "outcome": "complete",
-      "stopReason": null,
+      "startedAt": "2026-11-27T03:32:05.716Z",
+      "finishedAt": "2026-11-27T03:36:29.447Z",
+      "outcome": "exhausted",
+      "stopReason": "All categories exhausted",
       "error": null,
       "pages": [
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2394344",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q24204942",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2450584",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2480544",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2496378",
-          "items": 50,
-          "newRecords": 39,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q25247871",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q25433631",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2557155",
-          "items": 50,
-          "newRecords": 34,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2586793",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2615801",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q263799",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2671354",
-          "items": 50,
-          "newRecords": 49,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q27185813",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q275736",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2789421",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q28163012",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q28654012",
-          "items": 50,
-          "newRecords": 41,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q28806159",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2887879",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2887988",
+          "cursor": "http://www.wikidata.org/entity/Q830626",
           "items": 50,
           "newRecords": 44,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2888129",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2888256",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2888378",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2888565",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2888833",
+          "cursor": "http://www.wikidata.org/entity/Q845845",
           "items": 50,
           "newRecords": 43,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2889077",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2889251",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2889396",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2889600",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2889774",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2889940",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2890181",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2890357",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2890541",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2890714",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2890887",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q29026635",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q29286145",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q2984762",
-          "items": 50,
-          "newRecords": 41,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3020018",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3062441",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q30915144",
-          "items": 50,
-          "newRecords": 39,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q31734610",
-          "items": 50,
-          "newRecords": 39,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q325486",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3300868",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3379073",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3401918",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3459667",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3486012",
-          "items": 50,
-          "newRecords": 50,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3541237",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3636271",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3636364",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3636509",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3636628",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q367966",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q37644827",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q384729",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q3919650",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4079386",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4087375",
-          "items": 50,
-          "newRecords": 38,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4087452",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4097857",
+          "cursor": "http://www.wikidata.org/entity/Q85745849",
           "items": 50,
           "newRecords": 37,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4166084",
+          "cursor": "http://www.wikidata.org/entity/Q85859814",
           "items": 50,
           "newRecords": 38,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q426099",
+          "cursor": "http://www.wikidata.org/entity/Q86676633",
           "items": 50,
-          "newRecords": 37,
+          "newRecords": 42,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4329623",
+          "cursor": "http://www.wikidata.org/entity/Q88664721",
           "items": 50,
-          "newRecords": 37,
+          "newRecords": 40,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4349238",
-          "items": 50,
-          "newRecords": 30,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4438390",
-          "items": 50,
-          "newRecords": 39,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4499825",
-          "items": 50,
-          "newRecords": 36,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q46003",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q47504081",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q48316856",
-          "items": 50,
-          "newRecords": 50,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4870225",
+          "cursor": "http://www.wikidata.org/entity/Q913821",
           "items": 50,
           "newRecords": 45,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4870300",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4870389",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4870471",
+          "cursor": "http://www.wikidata.org/entity/Q9172649",
           "items": 50,
           "newRecords": 38,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4870543",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4870630",
+          "cursor": "http://www.wikidata.org/entity/Q9172915",
           "items": 50,
           "newRecords": 45,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4870716",
+          "cursor": "http://www.wikidata.org/entity/Q9173149",
           "items": 50,
-          "newRecords": 47,
+          "newRecords": 43,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4870785",
+          "cursor": "http://www.wikidata.org/entity/Q9173407",
           "items": 50,
           "newRecords": 48,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4870866",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4870951",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871031",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871105",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871181",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871257",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871347",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871417",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871493",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871564",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871624",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871701",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871783",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871859",
-          "items": 50,
-          "newRecords": 49,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4871935",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872010",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872080",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872161",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872231",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872317",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872395",
+          "cursor": "http://www.wikidata.org/entity/Q9173704",
           "items": 50,
           "newRecords": 40,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872466",
+          "cursor": "http://www.wikidata.org/entity/Q9296067",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "battle",
+          "cursor": "http://www.wikidata.org/entity/Q940026",
+          "items": 50,
+          "newRecords": 40,
+          "result": "new_records"
+        },
+        {
+          "category": "battle",
+          "cursor": "http://www.wikidata.org/entity/Q95748453",
           "items": 50,
           "newRecords": 42,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872545",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872617",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872706",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872780",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4872887",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q4873012",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q48781319",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q493609",
-          "items": 50,
-          "newRecords": 40,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q5037028",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q511578",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q52260540",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q539707",
-          "items": 50,
-          "newRecords": 43,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q5452501",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q54806107",
-          "items": 50,
-          "newRecords": 47,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q554462",
-          "items": 50,
-          "newRecords": 40,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q55631090",
-          "items": 50,
-          "newRecords": 34,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q56063332",
-          "items": 50,
-          "newRecords": 40,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q56325398",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q571675",
-          "items": 50,
-          "newRecords": 38,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q5722543",
+          "cursor": "http://www.wikidata.org/entity/Q96410520",
           "items": 50,
           "newRecords": 26,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q5722924",
-          "items": 50,
-          "newRecords": 28,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q572883",
-          "items": 50,
-          "newRecords": 33,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q5778783",
-          "items": 50,
-          "newRecords": 42,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q592091",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q604993",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q6055089",
-          "items": 50,
-          "newRecords": 38,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q609030",
-          "items": 50,
-          "newRecords": 37,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q612176",
-          "items": 50,
-          "newRecords": 39,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q61410209",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q61999900",
-          "items": 50,
-          "newRecords": 39,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q63431",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q645776",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q65075857",
-          "items": 50,
-          "newRecords": 45,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q65287179",
+          "cursor": "http://www.wikidata.org/entity/Q97196090",
           "items": 50,
           "newRecords": 41,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q663435",
+          "cursor": "http://www.wikidata.org/entity/Q97945483",
           "items": 50,
-          "newRecords": 47,
+          "newRecords": 32,
           "result": "new_records"
         },
         {
           "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q675516",
+          "cursor": "http://www.wikidata.org/entity/Q99526837",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "battle",
+          "cursor": "http://www.wikidata.org/entity/Q999235",
+          "items": 8,
+          "newRecords": 6,
+          "result": "new_records"
+        },
+        {
+          "category": "battle",
+          "cursor": "http://www.wikidata.org/entity/Q999235",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q106808515",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q108540670",
           "items": 50,
           "newRecords": 43,
           "result": "new_records"
         },
         {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q687349",
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q110157421",
           "items": 50,
-          "newRecords": 44,
+          "newRecords": 47,
           "result": "new_records"
         },
         {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q693265",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q697053",
-          "items": 50,
-          "newRecords": 48,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q700866",
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q111211645",
           "items": 50,
           "newRecords": 46,
           "result": "new_records"
         },
         {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q70832430",
-          "items": 50,
-          "newRecords": 49,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q714223",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q7263080",
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q113554889",
           "items": 50,
           "newRecords": 46,
           "result": "new_records"
         },
         {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q74119",
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q11529264",
           "items": 50,
           "newRecords": 45,
           "result": "new_records"
         },
         {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q7443119",
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q117306532",
           "items": 50,
-          "newRecords": 46,
+          "newRecords": 47,
           "result": "new_records"
         },
         {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q75827070",
-          "items": 50,
-          "newRecords": 44,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q771423",
-          "items": 50,
-          "newRecords": 46,
-          "result": "new_records"
-        },
-        {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q790119",
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q118946260",
           "items": 50,
           "newRecords": 44,
           "result": "new_records"
         },
         {
-          "category": "battle",
-          "cursor": "http://www.wikidata.org/entity/Q8186936",
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q11949513",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q11960493",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q121433548",
           "items": 50,
           "newRecords": 42,
           "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q123460013",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q124966580",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q125846804",
+          "items": 50,
+          "newRecords": 42,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q127868401",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q129652381",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q131292659",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q132616761",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q134978563",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q13644774",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q137919777",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q139553061",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q140378412",
+          "items": 50,
+          "newRecords": 42,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q141404802",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q15277692",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q16127874",
+          "items": 50,
+          "newRecords": 43,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q16529026",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q16931436",
+          "items": 50,
+          "newRecords": 43,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q17627724",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q18008651",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q1872640",
+          "items": 50,
+          "newRecords": 42,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q19947679",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q20638909",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q21081573",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q21619649",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q2284174",
+          "items": 50,
+          "newRecords": 42,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q2398589",
+          "items": 50,
+          "newRecords": 43,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q25415122",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q26263215",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q27900",
+          "items": 50,
+          "newRecords": 36,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q28671211",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q3072570",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q325985",
+          "items": 50,
+          "newRecords": 43,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q3485823",
+          "items": 50,
+          "newRecords": 38,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q3485913",
+          "items": 50,
+          "newRecords": 33,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q3485993",
+          "items": 50,
+          "newRecords": 34,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q3486070",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q3625498",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q3891598",
+          "items": 50,
+          "newRecords": 43,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q4263465",
+          "items": 50,
+          "newRecords": 39,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q4337462",
+          "items": 50,
+          "newRecords": 38,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q4872573",
+          "items": 50,
+          "newRecords": 40,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q490935",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q52259637",
+          "items": 50,
+          "newRecords": 38,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q55632779",
+          "items": 50,
+          "newRecords": 43,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q5708056",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q60674922",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q6130089",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q650567",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q685062",
+          "items": 50,
+          "newRecords": 37,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q72805781",
+          "items": 50,
+          "newRecords": 41,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q7509859",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q7510006",
+          "items": 50,
+          "newRecords": 46,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q7510107",
+          "items": 50,
+          "newRecords": 50,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q7510251",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q7510380",
+          "items": 50,
+          "newRecords": 49,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q7510542",
+          "items": 50,
+          "newRecords": 48,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q774700",
+          "items": 50,
+          "newRecords": 47,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q815144",
+          "items": 50,
+          "newRecords": 42,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q815213",
+          "items": 50,
+          "newRecords": 40,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q85801105",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q91753129",
+          "items": 50,
+          "newRecords": 42,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q97166023",
+          "items": 50,
+          "newRecords": 44,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q97648778",
+          "items": 50,
+          "newRecords": 45,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q997625",
+          "items": 36,
+          "newRecords": 28,
+          "result": "new_records"
+        },
+        {
+          "category": "siege",
+          "cursor": "http://www.wikidata.org/entity/Q997625",
+          "items": 0,
+          "newRecords": 0,
+          "result": "exhausted"
         }
       ],
-      "pagesFetched": 150,
-      "newRecords": 6546
+      "pagesFetched": 95,
+      "newRecords": 4044
     }
   },
   "capitals": {
